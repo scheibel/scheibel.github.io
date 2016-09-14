@@ -9,7 +9,7 @@
       "title"     : "Interactive Revision Exploration using Small Multiples of Software Maps",
       "date"      : "2016-02-28",
       "authors"   : [ "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "In Proceedings of the 7th International Conference on Information Visualization Theory and Applications (IVAPP)",
+      "published" : "Proceedings of the 7th International Conference on Information Visualization Theory and Applications (IVAPP 2016)",
       
       "caption"   : {
         "en" : "To explore and to compare different revisions of complex software systems is a challenging task as it requires
@@ -33,7 +33,34 @@
                 Weiterhin wir die Technik im Rahmen eines High-Resolution, Multi-Touch Display gezeigt und besprochen." },
 
       "thumbnail" : "2016-ivapp-small-multiples.png"
+    },
+    { "key"       : "2016-decl3d-treemaps",
+      "bibtex"    : "lsld2016-decl3d-treemaps.bib",
+      "title"     : "Dynamic 2.5D Treemaps using Declarative 3D on the Web",
+      "date"      : "2016-07-23",
+      "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Stefan Lemme", "Jürgen Döllner" ],
+      "published" : "Proceedings of the 21st International Conference on Web3D Technology (Web3D '16)",
+      
+      "caption"   : {
+        "en" : "The 2.5D treemap represents a general purpose visualization technique to map multi-variate hierarchical data in
+                a scalable, interactive, and consistent way used in a number of application fields. In this paper, we explore
+                the capabilities of Declarative 3D for the web-based implementation of 2.5D treemap clients. Particularly, we
+                investigate how X3DOM and XML3D can be used to implement clients with equivalent features that interactively
+                display 2.5D treemaps with dynamic mapping of attributes. We also show a first step towards a glTF-based
+                implementation. These approaches are benchmarked focusing on their interaction capabilities with respect to
+                rendering and speed of dynamic data mapping. We discuss the results for our representative example of a complex
+                3D interactive visualization technique and summerize recommendations for improvements towards operational web
+                clients.",
+        "de" : "Die 2.5D Treemap stellt eine grundlegende, skalierbare und interaktive Visualisierungstechnik für multi-variate
+                hierarchische Daten dar. In dieser Ausarbeitung durchleuchten wir die Möglichkeiten von deklarativem 3D für
+                webbasierte 2.5D Treemap Clients. Besonderes Augenmerk legen wir auf X3DOM und XML3D, indem wir Clients mit
+                gleichem Featureumfang (u.a. dynamische Attributmappings) für interaktive 2.5D Treemaps vergleichen. Weiterhin
+                zeigen wir erste Ansätze für die Nutzung von glTF. Alle Ansätze wurden bezüglich ihrer Prozessierungs- und
+                Renderinggeschwindigkeit. Wir diskutieren die Ergebnisse für unser representatives Beispiel einer komplexen 3D
+                Visualisierungstechnik und fassen Verbesserungsvorschläge für produktive Web-Clients zusammen." },
+
+      "thumbnail" : "2016-web3d-decl3d-treemaps.png"
     }
-    ]
+  ]
 
 }
