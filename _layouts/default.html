@@ -22,9 +22,11 @@ layout: compress
 {% include projects.html %}
 </section>
 
+{% if site.data.talks.talks.empty? %}
 <section id="talks" class="container">
 {% include talks.html %}
 </section>
+{% endif %}
 
 <section id="teaching" class="container">
 {% include teaching.html %}

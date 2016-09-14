@@ -3,7 +3,37 @@
     "en" : "Publications",
     "de" : "Publikationen" },
 
-  "publications" : [ 
+  "publications" : [
+    { "key"       : "2016-small-multiples",
+      "bibtex"    : "std2016-small-multiples.bib",
+      "title"     : "Interactive Revision Exploration using Small Multiples of Software Maps",
+      "date"      : "2016-02-28",
+      "authors"   : [ "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
+      "published" : "In Proceedings of the 7th International Conference on Information Visualization Theory and Applications (IVAPP)",
+      
+      "caption"   : {
+        "en" : "To explore and to compare different revisions of complex software systems is a challenging task as it requires
+                to constantly switch between different revisions and the corresponding information visualization. This paper
+                proposes to combine the concept of small multiples and focus+context techniques for software maps to facilitate
+                the comparison of multiple software map themes and revisions simultaneously on a single screen. This
+                approach reduces the amount of switches and helps to preserve the mental map of the user. Given a software
+                project the small multiples are based on a common dataset but are specialized by specific revisions and themes.
+                The small multiples are arranged in a matrix where rows and columns represents different themes and revisions,
+                respectively. To ensure scalability of the visualization technique we also discuss two rendering pipelines
+                to ensure interactive frame-rates. The capabilities of the proposed visualization technique are demonstrated in
+                a collaborative exploration setting using a high-resolution, multi-touch display.",
+        "de" : "Die Exploration und der Vergleich verschiedener Revisionen eines komplexen Softwaresystems ist eine komplizierte
+                Aufgabe, da es einen ständigen Wechsel zwischen den Revisionen und den Visualisierungen erfordert. Diese
+                Ausarbeitung stellt eine Kombination von Small Multiples, Focus+Context Techniken und Software Maps vor, die den
+                Vergleich zwischen mehreren Software Map Themen und Revisionen gleichzeitig auf einem Bildschirm ermöglicht. Dieser
+                Ansatz reduziert die Anzahl der benötigten Kontextwechsel für den Nutzer und ermöglicht die Erstellung einer mentalen
+                Karte. Dabei werden die Small Multiples zu einem Softwaresystem über einen gemeinsamen Datensatz erstellt und in
+                einer Matrix angeordnet, in der Zeilen und Spalten für die unterschiedlichen Themen und Revisionen stehen. Eine
+                interaktive, skalierbare Visualierung ist über die Nutzung einer der zwei vorgestellten Renderingabläufe möglich.
+                Weiterhin wir die Technik im Rahmen eines High-Resolution, Multi-Touch Display gezeigt und besprochen." },
+
+      "thumbnail" : "2016-ivapp-small-multiples.png"
+    }
     ]
 
 }
