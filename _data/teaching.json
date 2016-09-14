@@ -4,5 +4,87 @@
     "de" : "Lehre" },
 
   "terms" : [
-    ]
+  { "term" : "2016 : Summer Term",
+    "courses" : 
+    [ { "course" : "Computergraphics II",
+        "type"   : "Lecture (BA)",
+        "role"   : "Tutor"
+      },
+      { "course" : "Methods and Techniques of Software Visualization",
+        "type"   : "Seminar (MA)",
+        "role"   : "Tutor"
+      },
+      { "course" : "Massive Information Mining for Software Analytics",
+        "type"   : "Project (BA)",
+        "role"   : "Supervisor"
+      } ]
+  },
+  { "term" : "2015/16 : Winter Term",
+    "courses" : 
+    [ { "course" : "Computergraphics I",
+        "type"   : "Lecture (BA)",
+        "role"   : "Tutor"
+      },
+      { "course" : "Systems Engineering for Software Analytics",
+        "type"   : "Seminar (MA)",
+        "role"   : "Tutor"
+      }]
+  },
+  { "term" : "2015 : Summer Term",
+    "courses" : 
+    [ { "course" : "Computergraphics I",
+        "type"   : "Lecture (BA)",
+        "role"   : "Tutor"
+      },
+      { "course" : "Visual Software Analytics",
+        "type"   : "Seminar (MA)",
+        "role"   : "Tutor"
+      },
+      { "course" : "Programming of Computer Graphics Techniques using C++ and OpenGL",
+        "type"   : "Seminar (BA)",
+        "role"   : "Tutor and Co-Lecturer"
+      },
+      { "course" : "Software Analytics",
+        "type"   : "Project (BA)",
+        "role"   : "Supervisor"
+      } ]
+  },
+  { "term" : "2014/15 : Winter Term",
+    "courses" : 
+    [ { "course" : "Computergraphics II",
+        "type"   : "Lecture (BA)",
+        "role"   : "Tutor"
+      },
+      { "course" : "Visualization for Interactive Software Analytics",
+        "type"   : "Seminar (MA)",
+        "role"   : "Tutor"
+      },
+      { "course" : "Automated Visual Software Analytics",
+        "type"   : "OpenHPI Course",
+        "role"   : "Tutor"
+      },
+      { "course" : "Software Analytics",
+        "type"   : "Project (BA)",
+        "role"   : "Supervisor"
+      } ]
+  },
+  { "term" : "2014 : Summer Term",
+    "courses" : 
+    [ { "course" : "Information Visualization",
+        "type"   : "Seminar (MA)",
+        "role"   : "Co-Tutor"
+      },
+      { "course" : "Graphics Programming using OpenGL and C++",
+        "type"   : "Seminar (BA)",
+        "role"   : "Co-Tutor and Co-Lecturer"
+      } ]
+  },
+  { "term" : "2013/14 : Winter Term",
+    "courses" : 
+    [ { "course" : "Software Analysis and Visualization",
+        "type"   : "Seminar (MA)",
+        "role"   : "Co-Tutor"
+      } ]
+  }
+  ]
 }
