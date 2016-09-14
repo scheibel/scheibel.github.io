@@ -1,0 +1,54 @@
+# Site settings
+timezone: Europe/Berlin
+
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: 'http://www.willyscheibel.de' # the base hostname & protocol for your site
+
+title: 'Willy Scheibel'
+author: 'Willy Scheibel'
+
+languages: [ 'en', 'de' ]
+
+google_font_sans_serif: 'Source+Sans+Pro:300'
+
+flickr_user: '131006004@N06'
+flickr_api_key: adb4be93419edab991522b4fa92b7029
+
+default_header_img_dimensions: 'width="1024" height="1024"'
+default_thubmnail_img_dimensions: 'width="768" height="768"'
+
+# Handling Reading
+safe: true
+encoding: utf-8
+
+# Build settings
+markdown: kramdown
+
+# Outputting
+exclude: [
+  'cibuild',
+  'Gemfile',
+  'Gemfile.lock',
+  'package.json',
+  'README.md',
+  'vendor']
+
+defaults:
+  - scope:
+      path: ''
+    values:
+      lang: en
+      description: 'Personal website of Willy Scheibel, a Graphics Systems Engineer and Visualization Researcher. It enlists his publications, projects, talks, teachings, and contact information.'
+  - scope:
+      path: 'de'
+    values:
+      lang: de
+      description: 'Persönliche Webseite von Willy Scheibel, Ingeniuer für grafische System und Forscher im Bereich Visualisierung. Die Webseite listet Veröffentlichungen, Projekte, Vorträge, Lehrtätigkeiten und Kontaktdaten.'
+  - scope:
+      path: 'en'
+    values:
+      lang: en
+
+# CSS Minification
+sass:
+  style: compressed

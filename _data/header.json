@@ -1,0 +1,19 @@
+{ 
+  "heading" : {
+  	"en" : "Hi, I'm Willy Scheibel,",
+  	"de" : "Hallo, ich bin Willy Scheibel," },
+
+  "lead" : { 
+  	"en" : "a Graphics Systems Engineer and Visualization Researcher.",
+  	"de" : "Ingenieur für computergrafische Systeme und Forscher im Bereich Visualisierung." },
+
+  "about" : {
+  	"en" : "I'm designing, developing, implementing, and maintaining mostly interactive computer graphics techniques and systems.
+  	As a PhD student in the <a href='https://hpi.de/doellner/index.html'>Computer Graphics Systems group</a> at the <a href='https://hpi.de/'>Hasso Plattner Institute</a> I study, teach, supervise, and publish in the fields of massive, multivariate data visualization, as well as programming and computer graphics fundamentals.
+  	As a co-founder of <a href='https://www.cginternals.com'>CG Internals</a>, I offer graphics engineering related products, services, and solutions to the industry.",
+  	"de" : "Ich entwerfe, entwickle, implementiere und warte vorrangig interaktive, computergrafische Verfahren und Systeme.
+  	Als Promotionsstudent am <a href='http://hpi.de/doellner/index.html'>Fachgebiet für Computergrafische Systeme</a> des <a href='https://hpi.de/'>Hasso-Plattner-Instituts</a> studiere, lehre, betreue, and veröffentliche ich in Bereichen der Visualisierung massiver, mehrdimensionaler Daten, sowie Computergrafik.
+  	Als Mitgründer der <a href='https://www.cginternals.com'>CG Internals GmbH</a> biete ich Produkte, Dienstleistungen und Lösungen für computergrafische Anwendungen." },
+
+  "picture" : "willy-scheibel-feb-2016.png"
+}
