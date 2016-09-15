@@ -60,6 +60,19 @@
                 Visualisierungstechnik und fassen Verbesserungsvorschläge für produktive Web-Clients zusammen." },
 
       "thumbnail" : "2016-web3d-decl3d-treemaps.png"
+    },
+    { "key"       : "2017-attributed-vertex-clouds",
+      "bibtex"    : "sbtd2017-attributed-vertex-clouds.bib",
+      "title"     : "Attributed Vertex Clouds",
+      "date"      : "2017-03-14",
+      "authors"   : [ "Willy Scheibel", "Stefan Buschmann", "Matthias Trapp", "Jürgen Döllner" ],
+      "published" : "GPU Zen",
+      
+      "caption"   : {
+        "en" : "",
+        "de" : "" },
+
+      "thumbnail" : "2017-gpuzen-attributed-vertex-clouds.png"
     }
   ]
 
