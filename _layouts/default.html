@@ -14,23 +14,29 @@ layout: compress
 {% include header.html %}
 </section>
 
+{% if site.data.publications.publications.size > 0 %}
 <section id="publications" class="container">
 {% include publications.html %}
 </section>
+{% endif %}
 
+{% if site.data.projects.projects.size > 0 %}
 <section id="projects" class="container">
 {% include projects.html %}
 </section>
+{% endif %}
 
-{% if site.data.talks.talks.empty? %}
+{% if site.data.talks.talks.size > 0 %}
 <section id="talks" class="container">
 {% include talks.html %}
 </section>
 {% endif %}
 
+{% if site.data.teaching.terms.size > 0 %}
 <section id="teaching" class="container">
 {% include teaching.html %}
 </section>
+{% endif %}
 
 <section id="contact" class="container">
 {% include contact.html %}
