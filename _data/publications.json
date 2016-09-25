@@ -69,8 +69,39 @@
       "published" : "GPU Zen",
       
       "caption"   : {
-        "en" : "",
-        "de" : "" },
+        "en" : "In todays computer graphics applications, large 3D scenes are rendered
+                which consist of polygonal geometries such as triangle meshes. Using state-
+                of-the-art techniques, this geometry is often represented on the GPU using
+                vertex and index buffers, as well as additional auxiliary data such as tex-
+                tures or uniform buffers. For polygonal meshes of
+                arbitrary complexity, the described approach is indispensable. However,
+                there are several types of simpler geometries (e.g., cuboids, spheres, tubes,
+                or splats) that can be generated procedurally. We present an efficient data representation and render-
+                ing concept for such geometries, denoted as attributed vertex clouds (AVCs).
+                Using this approach, geometry is generated on the GPU during execution
+                of the programmable rendering pipeline. Each
+                vertex is used as the argument for a function that procedurally generates
+                the target geometry. This function is called a transfer function, and it is
+                implemented using shader programs and therefore executed as part of the
+                rendering process.
+                This approach allows for compact geometry representation and results
+                in reduced memory footprints in comparison to traditional representations.
+                By shifting geometry generation to the GPU, the resulting
+                volatile geometry can be controlled flexibly, i.e., its position, parameteri-
+                zation, and even the type of geometry can be modified without requiring
+                state changes or uploading new data to the GPU. Performance measurements
+                suggests improved rendering times and reduced memory transmission through the rendering pipeline.",
+        "de" : "In heutigen computergrafischen Anwendungen werde zumeist große 3D Szenen gerendert, die aus polygonalen Geometrien wie Dreiecksnetze bestehen.
+                Mit State-of-the-Art Techniken wird diese Geometrie auf der GPU mittels Vertex- und Indexbuffern enkodiert.
+                For Polygonnetze beliebiger Komplexität ist dieser Ansatz unumgänglich.
+                Allerdings gibt es Geometrietypen einfacherer Struktur (z. B. Würfel, Kugeln, Röhren oder Flächen) welche prozedural generiert werden können.
+                Wir präsentieren eine effiziente Datenrepräsentation und Renderingkonzept für solche Geometrien, Attributed Vertex Cloud (AVC) genannt.
+                Mit diesem Ansatz wird die Geometrie während der Ausführung der Renderingpipeline auf der Grafikkarte berechnet.
+                Jeder Vertex der Geometrie wird als Argument an eine Funktion übergeben, welche die Zielgeometrie erzeugt.
+                Diese Funktion nennen wir Transfer-Funktion und sie ist in Shader-Programmen implementiert und wird somit als Teil des Rendering-Prozesses ausgeführt.
+                Der Ansatz ermöglicht kompakte Speicherrepräsentation der Geometrie gegenüber existierenden Verfahren.
+                Die Verschiebung der Geometrieerzeugung auf die GPU ermöglicht auch die Umsetzung von flüchtiger Geometrie, welche dynamisch konfigurierbar ist (z. B. Position oder Parameter, sogar der Typ ist änderbar).
+                Messungen der Ausführungszeiten deuten auf eine Verschnellerung der Framezeiten und eine geringere Speicher-Fußabdruck bei Datenübertragungen zwischen den Shader-Stages der Renderingpipeline." },
 
       "thumbnail" : "2017-gpuzen-attributed-vertex-clouds.png"
     }
