@@ -61,6 +61,35 @@
 
       "thumbnail" : "2016-web3d-decl3d-treemaps.png"
     },
+    { "key"       : "2017-importance-based-aggregation",
+      "bibtex"    : "lshd2017-importance-based-aggregation.bib",
+      "title"     : "Reducing Visual Complexity in Software Maps using Importance-based Aggregation of Nodes",
+      "date"      : "2017-02-27",
+      "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Sebastian Hahn", "Jürgen Döllner" ],
+      "published" : "Proceedings of the 8th International Conference on Information Visualization Theory and Applications (IVAPP 2017)",
+      
+      "caption"   : {
+        "en" : "Depicting massive software system data using software maps can result in visual clutter and increased cognitive load.
+                This paper introduces an adaptive level-of-detail (LoD) technique that uses scoring for interactive
+                aggregation on a per-node basis. The scoring approximates importance by degree-of-interest measures as well
+                as screen and user-interaction scores. The technique adheres to established aggregation guidelines and was
+                evaluated by means of two user studies. The first user study investigates task completion time in visual search.
+                The second evaluates the readability of the presented nesting level contouring for aggregates. With the adap-
+                tive LoD technique software maps allow for multi-resolution depictions of software system information. It
+                facilitates efficient identification of important nodes and allows for additional annotation.",
+        "de" : "Darstellungen massiver Softwaresystemdaten durch Softwarelagekarten können durch erhöhte kognitive Last und
+                Visual Clutter beeinträchtigend für das Verständnis der Softwaresysteme sein. Diese Ausarbeitung stellt ein
+                adaptives Level-of-Detail Verfahren vor, welches ein Bewertungssystem für interaktive Aggregation pro Knoten
+                einsetzt. Das Bewertungssystem nähert die tatsächliche Relevanz über einen Revelanzgrad an, welcher über
+                darstellungs- und nutzerbasierte Metriken ermittelt wird. Das Level-of-Detail Verfahren befolgt etablierte
+                Aggregations-Richtlinien und wurde anhand von zwei Nutzerstudien evaluiert. Die erste Nutzerstudie untersucht
+                die Bearbeitungszeiten von festgelegten Aufgaben. Die zweite wertet die Lestbarkeit der vorgestellen Nesting-
+                Level-Konturen für Aggregate aus. Mit dem adaptiven Level-of-Detail Verfahren können Softwarelagekarten für
+                Darstellungen von Softwareystemen auf unterschiedlichen Detailgraden eingesetzt werden. Es ermöglicht die
+                effiziente Lokalisierung von wichtigen Knoten unter Bereitstellung von mehr Flächen für Beschriftung von Knoten." },
+
+      "thumbnail" : "2017-importance-based-aggregation.png"
+    },
     { "key"       : "2017-attributed-vertex-clouds",
       "bibtex"    : "sbtd2017-attributed-vertex-clouds.bib",
       "title"     : "Attributed Vertex Clouds",

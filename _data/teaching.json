@@ -4,7 +4,18 @@
     "de" : "Lehre" },
 
   "terms" : [
-  { "term" : "2017 : Winter Term",
+  { "term" : "2017 : Summer Term",
+    "courses" : 
+    [ { "course" : "Advanced Programming Techniques for C++",
+        "type"   : "Lecture (MA)",
+        "role"   : "Tutor"
+      },
+      { "course" : "Advanced Information Visualization",
+        "type"   : "Seminar (MA)",
+        "role"   : "Tutor"
+      } ]
+  },
+  { "term" : "2016/17 : Winter Term",
     "courses" : 
     [ { "course" : "Advanced Programming in C++",
         "type"   : "Lecture (MA)",
