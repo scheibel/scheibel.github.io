@@ -2,7 +2,7 @@
 timezone: Europe/Berlin
 
 baseurl: '' # the subpath of your site, e.g. /blog/
-url: 'www.willyscheibel.de' # the base hostname & protocol for your site
+url: 'http://www.willyscheibel.de' # the base hostname & protocol for your site
 
 title: 'Willy Scheibel'
 author: 'Willy Scheibel'
