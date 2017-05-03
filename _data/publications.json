@@ -133,6 +133,21 @@
                 Messungen der Ausführungszeiten deuten auf eine Verschnellerung der Framezeiten und eine geringere Speicher-Fußabdruck bei Datenübertragungen zwischen den Shader-Stages der Renderingpipeline." },
 
       "thumbnail" : "2017-gpuzen-attributed-vertex-clouds.png"
+    },
+    { "key"       : "2017-mixed-projection-treemaps",
+      "bibtex"    : "lstd2017-mixed-projection-treemaps.bib",
+      "title"     : "Mixed-projection Treemaps: A novel Perspective on Treemaps",
+      "date"      : "2017-07-11",
+      "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
+      "published" : "Proceedings of the 21st International Conference on Information Visualisation (iV 2017)",
+      
+      "caption"   : {
+        "en" : "2D treemaps are a space-filling visualization technique that facilitate exploration of non-spatial, attributed, tree-structured data using the visual variables size and color. In extension thereto, 2.5D treemaps introduce height for additional information display. This extension entails challenges such as increased rendering effort, occlusion, or the need for navigation techniques that counterbalance the advantages of 2D treemaps to a certain degree.
+                This paper presents a novel technique for combining 2D and 2.5D treemaps using multi-perspective views to leverage the advantages of both treemap types. It enables a new form of overview+detail visualization for complex treemaps and contributes new concepts for real-time rendering of and interaction with mixed-projection treemaps. The technique operates by tilting up inner nodes using affine transformations and animated state transitions. The mixed use of orthogonal and perspective projections is discussed and application examples that facilitate exploration of multi-variate data and benefit from the reduced interaction overhead are demonstrated.",
+        "de" : "2D Treemaps sind eine raumfüllende Visualisierungstechnik für die Exploration von abstrakten, attribuierten Daten mit Baumstruktur. Dabei werden die visuellen Variablen Größe und Farbe benutzt. Als Erweiterung führen die 2.5D Treemaps die Höhe für zusätzliche Informationsdarstellung ein. Diese Erweiterung kommt jedoch mit Herausforderungen wie der komplexeren Bildsynthese, Verdeckung oder angepassten Navigationstechniken einher, welche den Vorteile einer reinen 2D Treemap gegenüberstehen.
+                Dieses Paper präsentiert eine neuartige Kombination von 2D und 2.5D Treemaps unter Nutzung von multiperspektiven Ansichten um die Vorteile beider Techniken zu vereinen. Es ermöglicht eine Form der Overview+Detail Visualisierung für komplexe Treemaps, welche über neue Konzepte im Echtzeitrendering und Interaktion als Mixed-Projection Treemaps dargestellt werden können. Die Visualisierungstechnik nutzt eine Drehung innerer Treemap-Knoten über affine Transformationen und animierte Übergänge. Dabei werden die gemeinsame Nutzung von orthogonaler und perspektivischer Projektion besprochen und Anwendungsbeispiele für die Exploration multivariater Daten gezeigt, die von dem geringeren Interaktions-Overhead profitieren." },
+
+      "thumbnail" : "2017-iv-mixed-projection-treemaps.png"
     }
   ]
 
