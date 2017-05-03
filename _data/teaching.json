@@ -6,11 +6,7 @@
   "terms" : [
   { "term" : "2017 : Summer Term",
     "courses" : 
-    [ { "course" : "Advanced Programming Techniques for C++",
-        "type"   : "Lecture (MA)",
-        "role"   : "Tutor"
-      },
-      { "course" : "Advanced Information Visualization",
+    [ { "course" : "Advanced Information Visualization",
         "type"   : "Seminar (MA)",
         "role"   : "Tutor"
       } ]
