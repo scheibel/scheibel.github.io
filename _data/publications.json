@@ -93,7 +93,7 @@
     { "key"       : "2017-attributed-vertex-clouds",
       "bibtex"    : "sbtd2017-attributed-vertex-clouds.bib",
       "title"     : "Attributed Vertex Clouds",
-      "date"      : "2017-03-14",
+      "date"      : "2017-05-15",
       "authors"   : [ "Willy Scheibel", "Stefan Buschmann", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "GPU Zen",
       
