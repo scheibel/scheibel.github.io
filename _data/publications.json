@@ -148,6 +148,28 @@
                 Dieses Paper präsentiert eine neuartige Kombination von 2D und 2.5D Treemaps unter Nutzung von multiperspektiven Ansichten um die Vorteile beider Techniken zu vereinen. Es ermöglicht eine Form der Overview+Detail Visualisierung für komplexe Treemaps, welche über neue Konzepte im Echtzeitrendering und Interaktion als Mixed-Projection Treemaps dargestellt werden können. Die Visualisierungstechnik nutzt eine Drehung innerer Treemap-Knoten über affine Transformationen und animierte Übergänge. Dabei werden die gemeinsame Nutzung von orthogonaler und perspektivischer Projektion besprochen und Anwendungsbeispiele für die Exploration multivariater Daten gezeigt, die von dem geringeren Interaktions-Overhead profitieren." },
 
       "thumbnail" : "2017-iv-mixed-projection-treemaps.png"
+    },
+    { "key"       : "2018-evocells",
+      "bibtex"    : "swd2018-evocells.bib",
+      "title"     : "EvoCells – A Treemap Layout Algorithm for Evolving Tree Data",
+      "date"      : "2018-01-29",
+      "authors"   : [ "Willy Scheibel", "Christopher Weyand", "Jürgen Döllner" ],
+      "published" : "Proceedings of the 9th International Conference on Information Visualization Theory and Applications (IVAPP 2018)",
+      
+      "caption"   : {
+        "en" : "We propose the rectangular treemap layout algorithm EvoCells that maps changes in tree-structured data onto
+                an initial treemap layout. Changes in topology and node weights are mapped to insertion, removal, growth, and
+                shrinkage of the layout rectangles. Thereby, rectangles displace their neighbors and stretche their enclosing
+                rectangles with a run-time complexity of O(n log n). An evaluation using layout stability metrics on the open
+                source ElasticSearch software system suggests EvoCells as a valid alternative for stable treemap layouting.",
+        "de" : "Wir stellen den rechteckigen Treemap Layout Algorithmus EvoCells vor, welcher Änderungen in baumstrukturierten
+                Daten auf ein initiales Treemap Layout anwendet. Änderungen in der Topologie und der Knotengewichte werden
+                auf Einfügen, Löschen, Vergrößern und Verkleinern von Rechtecken im Layout übertragen. Dabei verdrängen Rechtecke
+                ihre Nachbarn und vergrößern ihre umschließenden Rechtecke mit einer Laufzeitkomplexität von O(n log n). Eine
+                Evaluierung mit Layoutstabilitätsmetriken aus dem Open Source Softwaresystem ElasticSearch deutet an, dass
+                EvoCells eine valide Alternative zum stabilen Treemap Layouting ist." },
+
+      "thumbnail" : "2018-ivapp-evocells.png"
     }
   ]
 
