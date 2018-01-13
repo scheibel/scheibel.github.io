@@ -4,6 +4,13 @@
     "de" : "Lehre" },
 
   "terms" : [
+  { "term" : "2018 : Summer Term",
+    "courses" : 
+    [ { "course" : "Gameprogramming",
+        "type"   : "Project Seminar (BA)",
+        "role"   : "Lecturer and Tutor"
+      } ]
+  },
   { "term" : "2017/18 : Winter Term",
     "courses" : 
     [ { "course" : "Advanced Development in C++",

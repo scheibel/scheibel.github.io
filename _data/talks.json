@@ -4,6 +4,15 @@
     "de" : "Vorträge" },
 
   "talks" : [
-
-    ]
+    {
+      "date"      : "2018-01-28 00:00:00",
+      "title"     : "EvoCells – A Treemap Layout Algorithm for Evolving Tree Data",
+      "location"  : "IVAPP 2018, Funchal, Madeira, Portugal"
+    },
+    {
+      "date"      : "2018-03-07 00:00:00",
+      "title"     : "Einführung in die Shared-Memory-Programmierung heterogener Systeme",
+      "location"  : "parallel 2018, Heidelberg, Deutschland"
+    }
+  ]
 }
