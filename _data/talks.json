@@ -1,9 +1,14 @@
 { 
   "heading" : {
-    "en" : "Talks",
-    "de" : "Vorträge" },
+    "en" : "Talks & Presentations",
+    "de" : "Vorträge und Präsentationen" },
 
   "talks" : [
+    {
+      "date"      : "2016-02-28 00:00:00",
+      "title"     : "Interactive Revision Exploration using Small Multiples of Software Maps",
+      "location"  : "IVAPP 2016, Rome, Italy"
+    },
     {
       "date"      : "2018-01-28 00:00:00",
       "title"     : "EvoCells – A Treemap Layout Algorithm for Evolving Tree Data",
