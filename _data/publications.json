@@ -32,7 +32,17 @@
                 interaktive, skalierbare Visualierung ist über die Nutzung einer der zwei vorgestellten Renderingabläufe möglich.
                 Weiterhin wir die Technik im Rahmen eines High-Resolution, Multi-Touch Display gezeigt und besprochen." },
 
-      "thumbnail" : "2016-ivapp-small-multiples.png"
+      "thumbnail" : "2016-ivapp-small-multiples.png",
+      "downloads" : [
+        { "href"  : "https://drive.google.com/file/d/1cjIidQkL_zRm92Pl4l5BkjxWEjGMM3AX/view",
+          "desc"  : "Paper"
+        },
+        { "href"  : "https://drive.google.com/file/d/1wHn4UBU2ngHASkWhmaaCMZs7ltNpBaFK/view",
+          "desc"  : "Poster (Portrait)"
+        },
+        { "href"  : "https://drive.google.com/file/d/1Qib4z8g_RDpfP20tC-0tiJ5o44uCzdLa/view",
+          "desc"  : "Poster (Landscape)"
+        } ],
     },
     { "key"       : "2016-decl3d-treemaps",
       "bibtex"    : "lsld2016-decl3d-treemaps.bib",
@@ -59,7 +69,20 @@
                 Renderinggeschwindigkeit. Wir diskutieren die Ergebnisse für unser representatives Beispiel einer komplexen 3D
                 Visualisierungstechnik und fassen Verbesserungsvorschläge für produktive Web-Clients zusammen." },
 
-      "thumbnail" : "2016-web3d-decl3d-treemaps.png"
+      "thumbnail" : "2016-web3d-decl3d-treemaps.png",
+      "downloads" : [
+        { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAQ2JjTWJCUjgtbzA/view",
+          "desc"  : "Paper"
+        },
+        { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAUXp2SndPTktzdjQ/view",
+          "desc"  : "Slides"
+        },
+        { "href"  : "https://github.com/cgcostume/web3d-treemaps",
+          "desc"  : "Source Code"
+        },
+        { "href"  : "http://cgcostume.github.io/web3d-treemaps/",
+          "desc"  : "Demo"
+        } ],
     },
     { "key"       : "2017-importance-based-aggregation",
       "bibtex"    : "lshd2017-importance-based-aggregation.bib",
@@ -88,7 +111,14 @@
                 Darstellungen von Softwareystemen auf unterschiedlichen Detailgraden eingesetzt werden. Es ermöglicht die
                 effiziente Lokalisierung von wichtigen Knoten unter Bereitstellung von mehr Flächen für Beschriftung von Knoten." },
 
-      "thumbnail" : "2017-importance-based-aggregation.png"
+      "thumbnail" : "2017-importance-based-aggregation.png",
+      "downloads" : [
+        { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAYmN0Y09EQkplNzA/view",
+          "desc"  : "Paper"
+        },
+        { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAMTJqSnJwQTZhbnc/view",
+          "desc"  : "Slides"
+        } ],
     },
     { "key"       : "2017-attributed-vertex-clouds",
       "bibtex"    : "sbtd2017-attributed-vertex-clouds.bib",
@@ -147,7 +177,14 @@
         "de" : "2D Treemaps sind eine raumfüllende Visualisierungstechnik für die Exploration von abstrakten, attribuierten Daten mit Baumstruktur. Dabei werden die visuellen Variablen Größe und Farbe benutzt. Als Erweiterung führen die 2.5D Treemaps die Höhe für zusätzliche Informationsdarstellung ein. Diese Erweiterung kommt jedoch mit Herausforderungen wie der komplexeren Bildsynthese, Verdeckung oder angepassten Navigationstechniken einher, welche den Vorteile einer reinen 2D Treemap gegenüberstehen.
                 Dieses Paper präsentiert eine neuartige Kombination von 2D und 2.5D Treemaps unter Nutzung von multiperspektiven Ansichten um die Vorteile beider Techniken zu vereinen. Es ermöglicht eine Form der Overview+Detail Visualisierung für komplexe Treemaps, welche über neue Konzepte im Echtzeitrendering und Interaktion als Mixed-Projection Treemaps dargestellt werden können. Die Visualisierungstechnik nutzt eine Drehung innerer Treemap-Knoten über affine Transformationen und animierte Übergänge. Dabei werden die gemeinsame Nutzung von orthogonaler und perspektivischer Projektion besprochen und Anwendungsbeispiele für die Exploration multivariater Daten gezeigt, die von dem geringeren Interaktions-Overhead profitieren." },
 
-      "thumbnail" : "2017-iv-mixed-projection-treemaps.png"
+      "thumbnail" : "2017-iv-mixed-projection-treemaps.png",
+      "downloads" : [
+        { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAM0Z0N2ZoSUVxb28/view",
+          "desc"  : "Paper"
+        },
+        { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAY0FhZTBzaVByYm8/view",
+          "desc"  : "Slides"
+        } ],
     },
     { "key"       : "2018-evocells",
       "bibtex"    : "swd2018-evocells.bib",
