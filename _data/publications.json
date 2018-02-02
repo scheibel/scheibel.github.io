@@ -169,8 +169,17 @@
                 Evaluierung mit Layoutstabilitätsmetriken aus dem Open Source Softwaresystem ElasticSearch deutet an, dass
                 EvoCells eine valide Alternative zum stabilen Treemap Layouting ist." },
 
-      "thumbnail" : "2018-ivapp-evocells.png"
+      "thumbnail" : "2018-ivapp-evocells.png",
+      "downloads" : [
+        { "href"  : "https://drive.google.com/file/d/1rVVWQcI1NxhorLlO2OgF4zGtVFuIH22D/view",
+          "desc"  : "Paper"
+        },
+        { "href"  : "https://drive.google.com/file/d/1PqlQckWNTjFfUC7qCcIdAD8WdAbObQ99/view",
+          "desc"  : "Slides"
+        },
+        { "href"  : "https://drive.google.com/file/d/1sX4z3fNynYd8Vy92DVpNJcga_bnxhcvU/view",
+          "desc"  : "Handout"
+        }]
     }
   ]
-
 }
