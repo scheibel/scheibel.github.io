@@ -7,7 +7,9 @@
     {
       "title": "Interaktive Visualisierung von hierarchischen, multivariaten und zeitlich variierenden Daten",
       "date": "2014-07-24",
-      "authors": "Willy Scheibel",
+      "authors": ["Willy Scheibel"],
+      "published": "Master's Thesis at the Hasso Plattner Institute, University of Potsdam, 2014",
+      
       "caption": {
         "de": "Eine Treemap kodiert Hierarchien durch rekursive Unterteilung von zweidimensionalen Flächen und ermöglicht die Darstellung mehrerer Attribute z.B. mit der Größe der Grundfläche, der extrudierten Höhe und der Knotenfarbe. Bisherige Treemap-Layoutalgorithmen und -Darstellungstechniken sind nur bedingt zum Vergleich zweier Zustände zu verschiedenen Zeitpunkten geeignet, da (1) keinne Vergleichbarkeit der Treemap-Knoten innerhalb einer Treemap und über verschiedene Zustände hinweg ist gegeben ist und (2) Darstellungstechniken für den Größenunterschied eines Knotens über die Zeit fehlen.
             Diese Arbeit stellt die Techniken EvoCell-Layouting, Change Map und Change Hints vor. EvoCell-Layouting ist ein neuer Treemap-Algorithmus, welcher ein vorhandenes Treemap-Layout iterativ verändert. Change Maps sind Dichtekarten zum verorten von Änderungen in der Treemap, unabhängig von der Änderungs- und der Knotengröße. Change Hints stellen die Änderungen in den räumlichen Dimensionen zwischen zwei Zuständen auf den Knoten der Treemap dar. Diese drei Techniken verbessern das Verständnis von Entwicklungen in temporalen, hierarchischen Daten.
@@ -16,6 +18,7 @@
             This thesis introduces the techniques EvoCell-Layouting, Change Map, and Change Hints. EvoCell-Layouting is a novel treemap layout algorithm that iteratively changes a given treemap layout. Change Maps are density maps to locate changes in attribute values disregarding the difference and the size of the node. Change Hints visualize spatial changes between two states of a treemap. These three techniques enhance the comprehension of the evolution of temporal hierarchical data.
             A prototypical implementation, a discussion about alternatives, and performance and memory analyses demonstrate real data applicability. An additional case study reveals distinctive changes in the software system of a monitored open-source project that are hard to detect with traditional hierarchy visualizations."
       },
+      
       "thumbnail" : "2014-thesis-evocells.png",
       "downloads" : [
         { "href"  : "https://drive.google.com/file/d/1QUndM2OjVsauzwiupcdPUF27owG5t8HL/view",
