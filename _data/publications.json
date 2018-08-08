@@ -8,7 +8,7 @@
       "title": "Interaktive Visualisierung von hierarchischen, multivariaten und zeitlich variierenden Daten",
       "date": "2014-07-24",
       "authors": [ "Willy Scheibel" ],
-      "published": "Master\'s Thesis at the Hasso Plattner Institute, University of Potsdam",
+      "published": "Master's Thesis at the Hasso Plattner Institute, University of Potsdam",
       
       "caption": {
         "de": "Eine Treemap kodiert Hierarchien durch rekursive Unterteilung von zweidimensionalen Flächen und ermöglicht die Darstellung mehrerer Attribute z.B. mit der Größe der Grundfläche, der extrudierten Höhe und der Knotenfarbe. Bisherige Treemap-Layoutalgorithmen und -Darstellungstechniken sind nur bedingt zum Vergleich zweier Zustände zu verschiedenen Zeitpunkten geeignet, da (1) keinne Vergleichbarkeit der Treemap-Knoten innerhalb einer Treemap und über verschiedene Zustände hinweg ist gegeben ist und (2) Darstellungstechniken für den Größenunterschied eines Knotens über die Zeit fehlen.

@@ -14,7 +14,7 @@
   <div class="col-sm-9">
     <h4>{{ p.title | escape }}</h4>
     <p>
-        % for author in p.authors %}{% if author == p.authors.last %}and {% endif %}{{ author }}{% if p.authors.size > 2 and author != p.authors.last %},{% endif %} {% endfor %}
+        {% for author in p.authors %}{% if author == p.authors.last %}and {% endif %}{{ author }}{% if p.authors.size > 2 and author != p.authors.last %},{% endif %} {% endfor %}
         <br>
         <span class="text-muted">{{ p.published }} {{ p.date | date: '%Y' }}{% if p.lead_note %}, {{ p.lead_note }}{% endif %}</span>
     </p>
