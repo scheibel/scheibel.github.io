@@ -4,6 +4,17 @@
     "de" : "Lehre" },
 
   "terms" : [
+  { "term" : "2018/19 : Winter Term",
+    "courses" : 
+    [ { "course" : "Introduction to Software Analytics",
+        "type"   : "Lefture (BA/MA)",
+        "role"   : "Lecturer and Tutor"
+      },
+      { "course" : "Visualization Algorithms & Techniques",
+        "type"   : "Seminar (MA)",
+        "role"   : "Tutor"
+      } ]
+  },
   { "term" : "2018 : Summer Term",
     "courses" : 
     [ { "course" : "Gameprogramming",
