@@ -238,6 +238,29 @@
         { "href"  : "https://drive.google.com/file/d/1sX4z3fNynYd8Vy92DVpNJcga_bnxhcvU/view",
           "desc"  : "Handout"
         }]
+    },
+    { "key"       : "2019-hiviser",
+      "bibtex"    : "shd2019-hiviser.bib",
+      "title"     : "Design and Implementation of Web-Based Hierarchy Visualization Services",
+      "date"      : "2019-02-28",
+      "authors"   : [ "Willy Scheibel", "Judith Hartmann", "Jürgen Döllner" ],
+      "published" : "Proceedings of the 10th International Conference on Information Visualization Theory and Applications (IVAPP 2019)",
+      
+      "caption"   : {
+        "en" : "There is a rapidly growing, cross-domain demand for interactive, high-quality visualization techniques as
+                components of web-based applications and systems. In this context, a key question is how visualization
+                services can be designed, implemented, and operated based on Software-as-a-Service as software delivery
+                model. In this paper, we present concepts and design of a SaaS framework and API of visualization techniques
+                for tree-structured data, called H I V I S ER . Using representational state transfer (REST), the API supports
+                different data formats, data manipulations, visualization techniques, and output formats. In particular, the API
+                defines base resource types for all components required to create an image or a virtual scene of a hierarchy
+                visualization. We provide a treemap visualization service as prototypical implementation for which subtypes
+                of the proposed API resources have been created. The approach generally serves as a blue-print for fully
+                web-based, high-end visualization services running on thin clients in a standard browser environment..",
+        "de" : "" },
+
+      "thumbnail" : "2019-ivapp-hiviser.jpg",
+      "downloads" : []
     }
   ]
 }
