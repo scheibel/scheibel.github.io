@@ -4,6 +4,18 @@
     "de" : "Lehre" },
 
   "terms" : [
+  { "term" : "2019 : Summer Term",
+    "upcoming": true,
+    "courses" : 
+    [ { "course" : "Fundamentals of Software Analytics",
+        "type"   : "Lecture (MA)",
+        "role"   : "Lecturer and Tutor"
+      },
+      { "course" : "Visual Analytics for Multi-Variate Data",
+        "type"   : "Seminar (MA)",
+        "role"   : "Tutor"
+      } ]
+  },
   { "term" : "2018/19 : Winter Term",
     "courses" : 
     [ { "course" : "Introduction to Software Analytics",
@@ -40,7 +52,7 @@
     "courses" : 
     [ { "course" : "Advanced Programming in C++",
         "type"   : "Lecture (MA)",
-        "role"   : "Tutor"
+        "role"   : "Lecturer and Tutor"
       },
       { "course" : "Methods and Techniques of Information Visualization",
         "type"   : "Seminar (MA)",
