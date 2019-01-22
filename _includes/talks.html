@@ -4,7 +4,7 @@
 
 {% assign talks = site.data.talks.talks | sort:"date" %}
 {% for t in talks reversed %}
-<div class="row">
+<div class="row {% if t.upcoming %}text-muted{% endif %}">
   <div class="col-md-2 col-md-offset-1 text-md-right">
     {{ t.date | date : "%x" }}
   </div>

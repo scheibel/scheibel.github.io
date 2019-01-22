@@ -7,12 +7,28 @@
     {
       "date"      : "2016-02-28 00:00:00",
       "title"     : "Interactive Revision Exploration using Small Multiples of Software Maps",
-      "location"  : "IVAPP 2016, Rome, Italy"
+      "location"  : "IVAPP 2016, Rome, Italy",
+      "downloads" : [
+        { "href"  : "https://drive.google.com/file/d/1Qib4z8g_RDpfP20tC-0tiJ5o44uCzdLa/view",
+          "desc"  : "Poster (Landscape, PDF)"
+        },
+        { "href"  : "https://drive.google.com/file/d/1wHn4UBU2ngHASkWhmaaCMZs7ltNpBaFK/view",
+          "desc"  : "Poster (Portrait, PDF)"
+        }
+      ]
     },
     {
       "date"      : "2018-01-28 00:00:00",
       "title"     : "EvoCells – A Treemap Layout Algorithm for Evolving Tree Data",
-      "location"  : "IVAPP 2018, Funchal, Madeira, Portugal"
+      "location"  : "IVAPP 2018, Funchal, Madeira, Portugal",
+      "downloads" : [
+        { "href"  : "https://drive.google.com/file/d/1sX4z3fNynYd8Vy92DVpNJcga_bnxhcvU/view",
+          "desc"  : "Handout (PDF)"
+        },
+        { "href"  : "https://drive.google.com/file/d/1PqlQckWNTjFfUC7qCcIdAD8WdAbObQ99/view",
+          "desc"  : "Slides (PDF)"
+        }
+      ]
     },
     {
       "date"      : "2018-03-07 14:50:00",
@@ -25,7 +41,13 @@
         { "href"  : "https://drive.google.com/file/d/1bTT7-Fn9tPT91-WPnIhup3X3a-PH0A15/view",
           "desc"  : "Slides (PDF, 8.8 MiB)"
         }
-      ] 
-    }
+      ]
+    },
+    {
+      "date"      : "2019-02-28 00:00:00",
+      "title"     : "Design and Implementation of Web-Based Hierarchy Visualization Services",
+      "location"  : "IVAPP 2019, Prague, Czech Republic",
+      "upcoming"  : true
+    },
   ]
 }

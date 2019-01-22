@@ -16,13 +16,12 @@
     <p>
         {% for author in p.authors %}{% if author == p.authors.last %}and {% endif %}{{ author }}{% if p.authors.size > 2 and author != p.authors.last %},{% endif %} {% endfor %}
         <br>
-        <span class="text-muted">{{ p.published }} {{ p.date | date: '%Y' }}{% if p.lead_note %}, {{ p.lead_note }}{% endif %}</span>
+        <span class="text-muted">{{ p.published }} {{ p.date | date: '%Y' }}{% if p.lead_note %}, {{ p.lead_note }}{% endif %}{% if p.bibtex %}, <a data-toggle="modal" href="#bibtex-{{ p.key }}">BibTeX</a>{% endif %}</span>
     </p>
     <p>{{ p.caption.[page.lang] }}</p>
-    <p>
-      {% if p.bibtex %}<a data-toggle="modal" href="#bibtex-{{ p.key }}">BibTeX</a>{% if p.downloads.size %}, {% endif %}{% endif %}
-      {% if p.downloads %}{% for download in p.downloads %}<a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}">{{ download.desc | escape }}</a>{% if download != p.downloads.last %}, {% endif %}{% endfor %}{% endif %}
-    </p>
+    {% if p.downloads.size > 0 %}<p>
+      {% for download in p.downloads %}<a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}">{{ download.desc | escape }}</a>{% if download != p.downloads.last %}, {% endif %}{% endfor %}
+    </p>{% endif %}
     {% if p.bibtex %}
     <div class="modal fade" id="bibtex-{{ p.key }}" tabindex="-1" role="dialog" aria-labelledby="bibtex-{{ p.key }}" aria-hidden="true">
       <div class="modal-dialog"  role="document">

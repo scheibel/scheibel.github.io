@@ -256,7 +256,7 @@
                 defines base resource types for all components required to create an image or a virtual scene of a hierarchy
                 visualization. We provide a treemap visualization service as prototypical implementation for which subtypes
                 of the proposed API resources have been created. The approach generally serves as a blue-print for fully
-                web-based, high-end visualization services running on thin clients in a standard browser environment..",
+                web-based, high-end visualization services running on thin clients in a standard browser environment.",
         "de" : "" },
 
       "thumbnail" : "2019-ivapp-hiviser.jpg",
