@@ -56,7 +56,7 @@
       "thumbnail" : "2016-ivapp-small-multiples.png",
       "downloads" : [
         { "href"  : "https://drive.google.com/file/d/1cjIidQkL_zRm92Pl4l5BkjxWEjGMM3AX/view",
-          "desc"  : "Paper"
+          "desc"  : "Author Version"
         },
         { "href"  : "https://drive.google.com/file/d/1wHn4UBU2ngHASkWhmaaCMZs7ltNpBaFK/view",
           "desc"  : "Poster (Portrait)"
@@ -93,7 +93,7 @@
       "thumbnail" : "2016-web3d-decl3d-treemaps.png",
       "downloads" : [
         { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAQ2JjTWJCUjgtbzA/view",
-          "desc"  : "Paper"
+          "desc"  : "Author Version"
         },
         { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAUXp2SndPTktzdjQ/view",
           "desc"  : "Slides"
@@ -135,7 +135,7 @@
       "thumbnail" : "2017-importance-based-aggregation.png",
       "downloads" : [
         { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAYmN0Y09EQkplNzA/view",
-          "desc"  : "Paper"
+          "desc"  : "Author Version"
         },
         { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAMTJqSnJwQTZhbnc/view",
           "desc"  : "Slides"
@@ -183,7 +183,14 @@
                 Die Verschiebung der Geometrieerzeugung auf die GPU ermöglicht auch die Umsetzung von flüchtiger Geometrie, welche dynamisch konfigurierbar ist (z. B. Position oder Parameter, sogar der Typ ist änderbar).
                 Messungen der Ausführungszeiten deuten auf eine Verschnellerung der Framezeiten und eine geringere Speicher-Fußabdruck bei Datenübertragungen zwischen den Shader-Stages der Renderingpipeline." },
 
-      "thumbnail" : "2017-gpuzen-attributed-vertex-clouds.png"
+      "thumbnail" : "2017-gpuzen-attributed-vertex-clouds.png",
+      "downloads" : [
+        { "href"  : "https://drive.google.com/file/d/1c2F6M1dpYCTkXyitcebtAA2KGLr-hJv_/view",
+          "desc"  : "Author Version"
+        },
+        { "href"  : "https://github.com/hpicgs/attributedvertexclouds",
+          "desc"  : "Source Code"
+        } ]
     },
     { "key"       : "2017-mixed-projection-treemaps",
       "bibtex"    : "lstd2017-mixed-projection-treemaps.bib",
@@ -201,7 +208,7 @@
       "thumbnail" : "2017-iv-mixed-projection-treemaps.png",
       "downloads" : [
         { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAM0Z0N2ZoSUVxb28/view",
-          "desc"  : "Paper"
+          "desc"  : "Author Version"
         },
         { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAY0FhZTBzaVByYm8/view",
           "desc"  : "Slides"
@@ -230,7 +237,7 @@
       "thumbnail" : "2018-ivapp-evocells.png",
       "downloads" : [
         { "href"  : "https://drive.google.com/file/d/1rVVWQcI1NxhorLlO2OgF4zGtVFuIH22D/view",
-          "desc"  : "Paper"
+          "desc"  : "Author Version"
         },
         { "href"  : "https://drive.google.com/file/d/1PqlQckWNTjFfUC7qCcIdAD8WdAbObQ99/view",
           "desc"  : "Slides"
