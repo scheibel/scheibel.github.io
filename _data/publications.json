@@ -194,7 +194,7 @@
     },
     { "key"       : "2017-mixed-projection-treemaps",
       "bibtex"    : "lstd2017-mixed-projection-treemaps.bib",
-      "title"     : "Mixed-projection Treemaps: A novel Perspective on Treemaps",
+      "title"     : "Mixed-Projection Treemaps: A Novel Approach Mixing 2D and 2.5D Treemaps",
       "date"      : "2017-07-11",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "Proceedings of the 21st International Conference on Information Visualisation (iV 2017)",
