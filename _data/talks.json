@@ -1,4 +1,4 @@
-{ 
+{
   "heading" : {
     "en" : "Talks & Presentations",
     "de" : "Vorträge und Präsentationen" },
@@ -44,10 +44,19 @@
       ]
     },
     {
-      "date"      : "2019-02-28 00:00:00",
+      "date"      : "2019-02-26 14:30:00",
       "title"     : "Design and Implementation of Web-Based Hierarchy Visualization Services",
       "location"  : "IVAPP 2019, Prague, Czech Republic",
-      "upcoming"  : true
+      "downloads" : [
+        { "href"  : "https://drive.google.com/file/d/1J7ERhUYfVcYGgcxrf18KwVNiWd1v0Uop/view",
+          "desc"  : "Slides (PDF, 17.3 MiB)"
+        }
+      ]
+    },
+    {
+      "date"      : "2019-02-26 16:30:00",
+      "title"     : "Rendering Procedural Textures for Visualization of Thematic Data in 3D Geovirtual Environments",
+      "location"  : "IVAPP 2019, Prague, Czech Republic",
     },
   ]
 }
