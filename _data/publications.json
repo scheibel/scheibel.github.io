@@ -20,17 +20,19 @@
       },
       
       "thumbnail" : "2014-thesis-evocells.png",
+      "publication": "https://www.researchgate.net/profile/Willy_Scheibel/publication/331399809",
       "downloads" : [
-        { "href"  : "https://drive.google.com/file/d/1QUndM2OjVsauzwiupcdPUF27owG5t8HL/view",
+        { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/331399809/inline/jsViewer/5c77be7692851c695046e78a?pdfJsDownload=1",
           "desc"  : "Thesis"
         } ],
+      "doi": "10.13140/RG.2.2.33837.33763"
     },
     { "key"       : "2016-small-multiples",
       "bibtex"    : "std2016-small-multiples.bib",
       "title"     : "Interactive Revision Exploration using Small Multiples of Software Maps",
       "date"      : "2016-02-28",
       "authors"   : [ "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "Proceedings of the 7th International Conference on Information Visualization Theory and Applications (IVAPP 2016)",
+      "published" : "7th International Conference on Information Visualization Theory and Applications (IVAPP 2016)",
       
       "caption"   : {
         "en" : "To explore and to compare different revisions of complex software systems is a challenging task as it requires
@@ -70,7 +72,7 @@
       "title"     : "Dynamic 2.5D Treemaps using Declarative 3D on the Web",
       "date"      : "2016-07-23",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Stefan Lemme", "Jürgen Döllner" ],
-      "published" : "Proceedings of the 21st International Conference on Web3D Technology (Web3D '16)",
+      "published" : "21st International Conference on Web3D Technology (Web3D '16)",
       
       "caption"   : {
         "en" : "The 2.5D treemap represents a general purpose visualization technique to map multi-variate hierarchical data in
@@ -110,7 +112,7 @@
       "title"     : "Reducing Visual Complexity in Software Maps using Importance-based Aggregation of Nodes",
       "date"      : "2017-02-27",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Sebastian Hahn", "Jürgen Döllner" ],
-      "published" : "Proceedings of the 8th International Conference on Information Visualization Theory and Applications (IVAPP 2017)",
+      "published" : "8th International Conference on Information Visualization Theory and Applications (IVAPP 2017)",
       
       "caption"   : {
         "en" : "Depicting massive software system data using software maps can result in visual clutter and increased cognitive load.
@@ -197,7 +199,7 @@
       "title"     : "Mixed-Projection Treemaps: A Novel Approach Mixing 2D and 2.5D Treemaps",
       "date"      : "2017-07-11",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "Proceedings of the 21st International Conference on Information Visualisation (iV 2017)",
+      "published" : "21st International Conference on Information Visualisation (iV 2017)",
       
       "caption"   : {
         "en" : "2D treemaps are a space-filling visualization technique that facilitate exploration of non-spatial, attributed, tree-structured data using the visual variables size and color. In extension thereto, 2.5D treemaps introduce height for additional information display. This extension entails challenges such as increased rendering effort, occlusion, or the need for navigation techniques that counterbalance the advantages of 2D treemaps to a certain degree.
@@ -219,7 +221,7 @@
       "title"     : "EvoCells – A Treemap Layout Algorithm for Evolving Tree Data",
       "date"      : "2018-01-29",
       "authors"   : [ "Willy Scheibel", "Christopher Weyand", "Jürgen Döllner" ],
-      "published" : "Proceedings of the 9th International Conference on Information Visualization Theory and Applications (IVAPP 2018)",
+      "published" : "9th International Conference on Information Visualization Theory and Applications (IVAPP 2018)",
       
       "caption"   : {
         "en" : "We propose the rectangular treemap layout algorithm EvoCells that maps changes in tree-structured data onto
@@ -251,7 +253,7 @@
       "title"     : "Design and Implementation of Web-Based Hierarchy Visualization Services",
       "date"      : "2019-02-28",
       "authors"   : [ "Willy Scheibel", "Judith Hartmann", "Jürgen Döllner" ],
-      "published" : "Proceedings of the 10th International Conference on Information Visualization Theory and Applications (IVAPP 2019)",
+      "published" : "10th International Conference on Information Visualization Theory and Applications (IVAPP 2019)",
       
       "caption"   : {
         "en" : "There is a rapidly growing, cross-domain demand for interactive, high-quality visualization techniques as
@@ -267,7 +269,13 @@
         "de" : "" },
 
       "thumbnail" : "2019-ivapp-hiviser.jpg",
-      "downloads" : []
+      "downloads" : [
+        { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/330541206/inline/jsViewer/5c77b545a6fdcc4715a1c47d?pdfJsDownload=1",
+          "desc"  : "Author Version"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/331399770/inline/jsViewer/5c77b8c692851c695046e654?pdfJsDownload=1",
+          "desc"  : "Slides"
+        }]
     }
   ]
 }
