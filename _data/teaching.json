@@ -5,15 +5,10 @@
 
   "terms" : [
   { "term" : "2019 : Summer Term",
-    "upcoming": true,
     "courses" : 
     [ { "course" : "Fundamentals of Software Analytics",
         "type"   : "Lecture (MA)",
         "role"   : "Lecturer and Tutor"
-      },
-      { "course" : "Visual Analytics for Multi-Variate Data",
-        "type"   : "Seminar (MA)",
-        "role"   : "Tutor"
       } ]
   },
   { "term" : "2018/19 : Winter Term",
