@@ -17,6 +17,20 @@
         { "desc": "Homepage", "href": "https://glbinding.org" },
         { "desc": "Source Code", "href": "https://github.com/cginternals/glbinding" }
       ]
+    },
+    {
+      "title": "globjects",
+      "date": "2013-05-07",
+      "status": "ongoing",
+      "thumbnail": "logos_globjects_256.png",
+      "caption": {
+        "en": "A cross-platform C++ wrapper for OpenGL API objects.",
+        "de": "Ein cross-platform C++ Wrapper für OpenGL API Objekte."
+      },
+      "downloads": [
+        { "desc": "Homepage", "href": "https://globjects.org" },
+        { "desc": "Source Code", "href": "https://github.com/cginternals/globjects" }
+      ]
     }
   ]
 }
