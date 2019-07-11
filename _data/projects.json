@@ -31,6 +31,90 @@
         { "desc": "Homepage", "href": "https://globjects.org" },
         { "desc": "Source Code", "href": "https://github.com/cginternals/globjects" }
       ]
+    },
+    {
+      "title": "cmake-init",
+      "date": "2015-01-01",
+      "status": "ongoing",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Homepage", "href": "https://cmake-init.org" },
+        { "desc": "Source Code", "href": "https://github.com/cginternals/cmake-init" }
+      ]
+    },
+    {
+      "title": "cpplocate",
+      "date": "2015-01-01",
+      "status": "ongoing",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Homepage", "href": "https://cpplocate.org" },
+        { "desc": "Source Code", "href": "https://github.com/cginternals/cpplocate" }
+      ]
+    },
+    {
+      "title": "cppassist",
+      "date": "2015-01-01",
+      "status": "paused",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Homepage", "href": "https://cppassist.org" },
+        { "desc": "Source Code", "href": "https://github.com/cginternals/cppassist" }
+      ]
+    },
+    {
+      "title": "cppexpose",
+      "date": "2015-01-01",
+      "status": "paused",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Homepage", "href": "https://cppexpose.org" },
+        { "desc": "Source Code", "href": "https://github.com/cginternals/cppexpose" }
+      ]
+    },
+    {
+      "title": "cppfs",
+      "date": "2015-01-01",
+      "status": "ongoing",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Homepage", "href": "https://cppfilesystem.org" },
+        { "desc": "Source Code", "href": "https://github.com/cginternals/cppfs" }
+      ]
+    },
+    {
+      "title": "gloperate",
+      "date": "2015-01-01",
+      "status": "paused",
+      "thumbnail": "logos_gloperate_256.png",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Homepage", "href": "https://gloperate.org" },
+        { "desc": "Source Code", "href": "https://github.com/cginternals/gloperate" }
+      ]
     }
   ]
 }
