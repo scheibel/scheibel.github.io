@@ -7,7 +7,4 @@
   <p>{{ p.caption.[page.lang] }}</p>
   <p>{% if p.bibtex %}<a data-toggle="modal" href="#bibtex-{{ p.key }}">BibTex</a>{% if p.downloads %}, {% endif %}{% endif %}
     {% if p.downloads %}{% for download in p.downloads %}<a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}">{{ download.desc }}</a>{% if download != p.downloads.last %}, {% endif %}{% endfor %}{% endif %}&nbsp;</p>
-  {% if p.url %}
-  <p>External reference: <a href={{ p.url }}>{{ p.url }}</a><p/>
-  {% endif %}
 </div>
