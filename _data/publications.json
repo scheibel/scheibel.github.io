@@ -286,7 +286,7 @@
       "caption": {
         "en" : "This article reiterates on the recently presented hierarchy visualization service HiViSer and its API.
                 It illustrates its decomposition into modular services for data processing and visualization of tree-structured data.
-                The decomposition is aligned to the common structure of visualization pipelines [49] and, in this way,
+                The decomposition is aligned to the common structure of visualization pipelines and, in this way,
                 facilitates attribution of the services' capabilities.
                 Suitable base resource types are proposed and their structure and relations as well as a subtyping concept for specifics
                 in hierarchy visualization implementations are detailed. Moreover, state-of-the-art quality standards and techniques for
