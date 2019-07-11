@@ -43,7 +43,7 @@ defaults:
       path: 'de'
     values:
       lang: de
-      description: 'Persönliche Webseite von Willy Scheibel, Ingeniuer für grafische Systeme und Forscher im Bereich Visualisierung. Die Webseite listet Veröffentlichungen, Projekte, Vorträge, Lehrtätigkeiten und Kontaktdaten.'
+      description: 'Persönliche Webseite von Willy Scheibel, Ingenieur für computergrafische Systeme und Forscher im Bereich Visualisierung. Die Webseite listet Veröffentlichungen, Projekte, Vorträge, Lehrtätigkeiten und Kontaktdaten.'
   - scope:
       path: 'en'
     values:
