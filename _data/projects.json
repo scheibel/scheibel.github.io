@@ -8,11 +8,15 @@
       "title": "glbinding",
       "date": "2014-05-02",
       "status": "ongoing",
+      "thumbnail": "img/logos_glbinding_256.png",
       "caption": {
         "en": "A C++ binding for the OpenGL API, generated using the gl.xml specification.",
         "de": "Ein C++ binding für die OpenGL API, welche aus der gl.xml Spezifikation generiert wurde."
       },
-      "url": "https://glbinding.org"
+      "downloads": [
+        { "desc": "Homepage", "href": "https://glbinding.org" },
+        { "desc": "Source Code", "href": "https://github.com/cginternals/glbinding" }
+      ]
     }
   ]
 }
