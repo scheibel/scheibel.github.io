@@ -260,7 +260,7 @@
                 components of web-based applications and systems. In this context, a key question is how visualization
                 services can be designed, implemented, and operated based on Software-as-a-Service as software delivery
                 model. In this paper, we present concepts and design of a SaaS framework and API of visualization techniques
-                for tree-structured data, called H I V I S ER . Using representational state transfer (REST), the API supports
+                for tree-structured data, called HiViSer. Using representational state transfer (REST), the API supports
                 different data formats, data manipulations, visualization techniques, and output formats. In particular, the API
                 defines base resource types for all components required to create an image or a virtual scene of a hierarchy
                 visualization. We provide a treemap visualization service as prototypical implementation for which subtypes
@@ -276,6 +276,27 @@
         { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/331399770/inline/jsViewer/5c77b8c692851c695046e654?pdfJsDownload=1",
           "desc"  : "Slides"
         }]
+    },
+    { "key": "2019-hiviser-extended",
+      "bibtex": "shlb2019-hiviser-extended.bib",
+      "title": "Visualization of Tree-structured Data using Web Service Composition",
+      "date": "2019-10-01",
+      "authors": [ "Willy Scheibel", "Judith Hartmann", "Daniel Limberger", "Jürgen Döllner" ],
+      "published": "VISIGRAPP 2019 - Extended and revised papers",
+      "caption": {
+        "en" : "This article reiterates on the recently presented hierarchy visualization service HiViSer and its API.
+                It illustrates its decomposition into modular services for data processing and visualization of tree-structured data.
+                The decomposition is aligned to the common structure of visualization pipelines [49] and, in this way,
+                facilitates attribution of the services' capabilities.
+                Suitable base resource types are proposed and their structure and relations as well as a subtyping concept for specifics
+                in hierarchy visualization implementations are detailed. Moreover, state-of-the-art quality standards and techniques for
+                self-documentation and discovery of components are incorporated.
+                As a result, a blueprint for Web service design, architecture, modularization, and composition is presented,
+                targeting fundamental visualization tasks of tree-structured data, i.e.,
+                gathering, processing, rendering, and provisioning. Finally, the applicability of the service components and the API
+                is evaluated in the context of exemplary applications."
+        "de" : ""
+      }
     }
   ]
 }
