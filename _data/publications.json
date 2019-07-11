@@ -294,7 +294,7 @@
                 As a result, a blueprint for Web service design, architecture, modularization, and composition is presented,
                 targeting fundamental visualization tasks of tree-structured data, i.e.,
                 gathering, processing, rendering, and provisioning. Finally, the applicability of the service components and the API
-                is evaluated in the context of exemplary applications."
+                is evaluated in the context of exemplary applications.",
         "de" : ""
       }
     }
