@@ -4,7 +4,7 @@
     "de" : "Gremienarbeit"
   },
 
-  "committees" : [
+  "committees": [
     {
       "title": {
         "en": "Faculty Counsil of the Faculty of Digital Engineering (Hasso Plattner Institute and University of Potsdam)",
@@ -60,7 +60,7 @@
       },
       "since": 2018,
       "until": 2019
-    }
+    },
     {
       "title": {
         "en": "Founding Committee of the Faculty of Digital Engineering (designated; Hasso Plattner Institute and University of Potsdam)",
@@ -73,5 +73,6 @@
       
       "since": 2017,
       "until": 2017
+    }
   ]
 }
