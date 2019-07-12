@@ -1,12 +1,12 @@
 <div class="row text-xs-center">
-  <h1>{{ site.data.committees.heading.[page.lang] | escape }}</h1>
+  <h1>{{ site.data.committeework.heading.[page.lang] | escape }}</h1>
 </div>
 
 {% assign committees = site.data.committeework.committees %}
 <div class="row">
 {% for c in committees %}
   <div class="row">
-    <div class="col-md-10 col-md-offset-1">
+    <div class="col-sm-9 col-sm-offset-3">
       <h4>{{ c.title[page.lang] }}</h4>
     </div>
   </div>
