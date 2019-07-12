@@ -332,6 +332,36 @@
       ]
     },
     {
+      "title": "tasteful-server",
+      "date": "2015-01-01",
+      "status": "ongoing",
+      "priority": 1,
+      "role": "Maintainer",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Source Code", "href": "https://github.com/scheibel/tastefulserver" }
+      ]
+    },
+    {
+      "title": "tasteful-framework",
+      "date": "2015-01-01",
+      "status": "ongoing",
+      "priority": 1,
+      "role": "Maintainer",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Source Code", "href": "https://github.com/scheibel/tasteful-framework" }
+      ]
+    },
+    {
       "title": "glm",
       "date": "2015-01-01",
       "status": "ongoing",
