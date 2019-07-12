@@ -1,0 +1,20 @@
+<div class="row text-xs-center">
+  <h1>{{ site.data.committeework.heading.[page.lang] | escape }}</h1>
+</div>
+
+{% assign committees = site.data.committeework.committees %}
+<div class="row">
+{% for c in committees %}
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <p>{{ c.title[page.lang] }}<span class="text-muted">, {{ c.role[page.lang] }}</span></p>
+      <p class="text-muted">{{ c.institution[page.lang] }}</p>
+      {% if c.projects.size > 0 %}<ul class="list-group">
+        {% for p in c.projects %}
+          <li class="list-group-item">{{ p[page.lang] }}</li>
+        {% endfor %}
+      </ul>{% endif %}
+    </div>
+  </div>
+{% endfor %}
+</div>
