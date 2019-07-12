@@ -1,0 +1,77 @@
+{
+  "heading" : {
+    "en" : "Committee Work",
+    "de" : "Gremienarbeit"
+  },
+
+  "committees" : [
+    {
+      "title": {
+        "en": "Faculty Counsil of the Faculty of Digital Engineering (Hasso Plattner Institute and University of Potsdam)",
+        "de": "Fakultätsrat der Digital Engineering Fakultät (Hasso-Plattner-Institut und Universität Potsdam)"
+      },
+      "role": {
+        "en": "Voting Member",
+        "de": "Stimmberechtigtes Mitglied"
+      },
+      "since": 2017,
+    },
+    {
+      "title": {
+        "en": "Study Commission of the Faculty of Digital Engineering (Hasso Plattner Institute and University of Potsdam)",
+        "de": "Studienkommission der Digital Engineering Fakultät (Hasso-Plattner-Institut und Universität Potsdam)",
+      },
+      "role": {
+        "en": "Voting Member",
+        "de": "Stimmberechtigtes Mitglied"
+      },
+      "since": 2017,
+      "projects": [
+        {
+          "en": "IT-Systems Engineering (Bachelor's Program)",
+          "de": "IT-Systems Engineering (Bachelorstudiengang)"
+        },
+        {
+          "en": "IT-Systems Engineering (Masters's Program)",
+          "de": "IT-Systems Engineering (Masterstudiengang)"
+        },
+        {
+          "en": "Data Engineering (Masters's Program)",
+          "de": "Data Engineering (Masterstudiengang)"
+        },
+        {
+          "en": "Digital Health (Masters's Program)",
+          "de": "Digital Health (Masterstudiengang)"
+        },
+        {
+          "en": "Cybersecurity (Masters's Program)",
+          "de": "Cybersecurity (Masterstudiengang)"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Working Group for the Principles in Teaching of the University of Potsdam",
+        "de": "Arbeitskreis für den Leitfaden Lehre der Universität Potsdam"
+      },
+      "role": {
+        "en": "Voting Member",
+        "de": "Stimmberechtigtes Mitglied"
+      },
+      "since": 2018,
+      "until": 2019
+    }
+    {
+      "title": {
+        "en": "Founding Committee of the Faculty of Digital Engineering (designated; Hasso Plattner Institute and University of Potsdam)",
+        "de": "Gründungscommittee der Digital Engineering Fakultät (designiert; Hasso-Plattner-Institut und Universität Potsdam)"
+      },
+      "role": {
+        "en": "Voting Member",
+        "de": "Stimmberechtigtes Mitglied"
+      },
+      
+      "since": 2017,
+      "until": 2017
+  ]
+}

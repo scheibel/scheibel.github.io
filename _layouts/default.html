@@ -32,6 +32,12 @@ layout: compress
 </section>
 {% endif %}
 
+{% if site.data.committeework.committee.size > 0 %}
+<section id="teaching" class="container">
+{% include committee.html %}
+</section>
+{% endif %}
+
 {% if site.data.teaching.terms.size > 0 %}
 <section id="teaching" class="container">
 {% include teaching.html %}
