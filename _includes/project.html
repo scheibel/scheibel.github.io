@@ -4,9 +4,9 @@
   {% assign thumbnail_flickr = p.flickr %}
   {% include thumbnail.html %}
   <h4>{{ p.title | escape }}</h4>
+  {% if p.role %}<p>Role: {{ p.role }}</p>{% endif %}
   <p>
     {{ p.caption.[page.lang] }}
-    {% if p.role %}Role: {{ p.role }}{% endif %}
   </p>
   <p>{% if p.bibtex %}<a data-toggle="modal" href="#bibtex-{{ p.key }}">BibTex</a>{% if p.downloads %}, {% endif %}{% endif %}
     {% if p.downloads %}{% for download in p.downloads %}<a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}">{{ download.desc }}</a>{% if download != p.downloads.last %}, {% endif %}{% endfor %}{% endif %}&nbsp;</p>
