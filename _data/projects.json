@@ -115,6 +115,152 @@
         { "desc": "Homepage", "href": "https://gloperate.org" },
         { "desc": "Source Code", "href": "https://github.com/cginternals/gloperate" }
       ]
+    },
+    {
+      "title": "webgl-operate",
+      "date": "2015-01-01",
+      "status": "ongoing",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Homepage", "href": "https://webgl-operate.org" },
+        { "desc": "Source Code", "href": "https://github.com/cginternals/webgl-operate" }
+      ]
+    },
+    {
+      "title": "qmltoolbox",
+      "date": "2015-01-01",
+      "status": "ongoing",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Source Code", "href": "https://github.com/cginternals/qmltoolbox" }
+      ]
+    },
+    {
+      "title": "openll",
+      "date": "2015-01-01",
+      "status": "ongoing",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Homepage", "href": "https://openll.org" },
+        { "desc": "Source Code", "href": "https://github.com/cginternals/openll-cpp" },
+        { "desc": "API Draft", "href": "https://github.com/scheibel/openll-api" }
+      ]
+    },
+    {
+      "title": "HiViSer",
+      "date": "2015-01-01",
+      "status": "ongoing",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Homepage", "href": "https://hiviser.treemap.de" }
+      ]
+    },
+    {
+      "title": "glesbinding",
+      "date": "2015-01-01",
+      "status": "ongoing",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Source Code", "href": "https://github.com/cginternals/glesbinding" }
+      ]
+    },
+    {
+      "title": "glscbinding",
+      "date": "2015-01-01",
+      "status": "ongoing",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Source Code", "href": "https://github.com/cginternals/glscbinding" }
+      ]
+    },
+    {
+      "title": "eglbinding",
+      "date": "2015-01-01",
+      "status": "ongoing",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Source Code", "href": "https://github.com/cginternals/eglbinding" }
+      ]
+    },
+    {
+      "title": "khrbinding-generator",
+      "date": "2015-01-01",
+      "status": "ongoing",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Source Code", "href": "https://github.com/cginternals/khrbinding-generator" }
+      ]
+    },
+    {
+      "title": "Unified Memory Demo",
+      "date": "2015-01-01",
+      "status": "ongoing",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Source Code", "href": "https://github.com/cginternals/unifiedmemory-demo" }
+      ]
+    },
+    {
+      "title": "Attributed Vertex Clouds Demo",
+      "date": "2015-01-01",
+      "status": "ongoing",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Source Code", "href": "https://github.com/scheibel/attributedvertexclouds" }
+      ]
+    },
+    {
+      "title": "glkernel",
+      "date": "2015-01-01",
+      "status": "ongoing",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "Source Code", "href": "https://github.com/cginternals/glkernel" }
+      ]
     }
   ]
 }
