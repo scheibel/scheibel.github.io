@@ -7,13 +7,13 @@
 {% for c in committees %}
   <div class="row">
     <div class="col-sm-8 col-sm-offset-2">
-      <h5>{{ c.title[page.lang] }}</h5>
-      <p class="text-muted">{{ c.institution[page.lang] }}, {{ c.role[page.lang] }}</p>
-      {% if c.projects.size > 0 %}
+      <p>{{ c.title[page.lang] }} <span class="text-muted">{{ c.role[page.lang] }}</span></p>
+      <p class="text-muted">{{ c.institution[page.lang] }}</p>
+      {% if c.projects.size > 0 %}<ul class="list-group">
         {% for p in c.projects %}
-          <p>{{ p[page.lang] }}</p>
+          <li class="list-group-item">{{ p[page.lang] }}</li>
         {% endfor %}
-      {% endif %}
+      </ul>{% endif %}
     </div>
   </div>
 {% endfor %}
