@@ -361,6 +361,22 @@
       "downloads": [
         { "desc": "Homepage", "href": "https://www.widelands.org/" }
       ]
+    },
+    {
+      "title": "CG Internals PPA",
+      "date": "2015-01-01",
+      "status": "ongoing",
+      "priority": 3,
+      "role": "Maintainer",
+      "thumbnail": "",
+      "caption": {
+        "en": "",
+        "de": ""
+      },
+      "downloads": [
+        { "desc": "PPA", "href": "https://launchpad.net/~cginternals/+archive/ubuntu/ppa" },
+        { "desc": "Backports PPA", "href": "https://launchpad.net/~cginternals/+archive/ubuntu/backports-ppa" }
+      ]
     }
   ]
 }
