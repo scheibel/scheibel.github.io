@@ -1,0 +1,12 @@
+<div class="row text-xs-center">
+  <h1>{{ site.data.committee.heading.[page.lang] | escape }}</h1>
+</div>
+
+{% assign committees = site.data.committeework.committees %}
+<div class="row">
+{% for c in committees %}
+  <div class="row">
+    <h4>{{ c.title[page.lang] }}</h4>
+  </div>
+{% endfor %}
+</div>
