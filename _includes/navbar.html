@@ -29,6 +29,9 @@
       {% if site.data.talks.talks.size > 0 %}
       <a class="dropdown-item" href="#talks">{{ site.data.talks.heading.[page.lang] | escape }}</a>
       {% endif %}
+      {% if site.data.committeework.committees.size > 0 %}
+      <a class="dropdown-item" href="#committeework">{{ site.data.committeework.heading.[page.lang] | escape }}</a>
+      {% endif %}
       {% if site.data.teaching.terms.size > 0 %}
       <a class="dropdown-item" href="#teaching">{{ site.data.teaching.heading.[page.lang] | escape }}</a>
       {% endif %}
