@@ -1,7 +1,8 @@
 {
   "heading" : {
-    "en" : "Projects & References",
-    "de" : "Projekte & Referenzen" },
+    "en" : "Public Projects",
+    "de" : "Öffentliche Projekte"
+  },
 
   "projects" : [ 
     {
@@ -10,6 +11,7 @@
       "status": "ongoing",
       "thumbnail": "logos_glbinding_256.png",
       "role": "Maintainer",
+      "priority": 5,
       "caption": {
         "en": "A C++ binding for the OpenGL API, generated using the gl.xml specification.",
         "de": "Ein C++ binding für die OpenGL API, welche aus der gl.xml Spezifikation generiert wurde."
@@ -25,6 +27,7 @@
       "status": "ongoing",
       "thumbnail": "logos_globjects_256.png",
       "role": "Maintainer",
+      "priority": 5,
       "caption": {
         "en": "A cross-platform C++ wrapper for OpenGL API objects.",
         "de": "Ein cross-platform C++ Wrapper für OpenGL API Objekte."
@@ -39,6 +42,7 @@
       "date": "2015-01-01",
       "status": "ongoing",
       "role": "Maintainer",
+      "priority": 5,
       "thumbnail": "",
       "caption": {
         "en": "",
@@ -54,6 +58,7 @@
       "date": "2015-01-01",
       "status": "ongoing",
       "role": "Maintainer",
+      "priority": 4,
       "thumbnail": "",
       "caption": {
         "en": "",
@@ -69,6 +74,7 @@
       "date": "2015-01-01",
       "status": "paused",
       "role": "Maintainer",
+      "priority": 4,
       "thumbnail": "",
       "caption": {
         "en": "",
@@ -84,6 +90,7 @@
       "date": "2015-01-01",
       "status": "paused",
       "role": "Maintainer",
+      "priority": 4,
       "thumbnail": "",
       "caption": {
         "en": "",
@@ -99,6 +106,7 @@
       "date": "2015-01-01",
       "status": "ongoing",
       "role": "Contributor",
+      "priority": 3,
       "thumbnail": "",
       "caption": {
         "en": "",
@@ -114,6 +122,7 @@
       "date": "2015-01-01",
       "status": "paused",
       "role": "Maintainer",
+      "priority": 3,
       "thumbnail": "logos_gloperate_256.png",
       "caption": {
         "en": "",
@@ -128,6 +137,7 @@
       "title": "webgl-operate",
       "date": "2015-01-01",
       "status": "ongoing",
+      "priority": 2,
       "role": "Contributor",
       "thumbnail": "",
       "caption": {
@@ -143,6 +153,7 @@
       "title": "qmltoolbox",
       "date": "2015-01-01",
       "status": "ongoing",
+      "priority": 2,
       "role": "Contributor",
       "thumbnail": "",
       "caption": {
@@ -157,6 +168,7 @@
       "title": "openll",
       "date": "2015-01-01",
       "status": "ongoing",
+      "priority": 4,
       "role": "Maintainer",
       "thumbnail": "",
       "caption": {
@@ -173,6 +185,7 @@
       "title": "HiViSer",
       "date": "2015-01-01",
       "status": "ongoing",
+      "priority": 4,
       "role": "Maintainer",
       "thumbnail": "",
       "caption": {
@@ -187,6 +200,7 @@
       "title": "glesbinding",
       "date": "2015-01-01",
       "status": "ongoing",
+      "priority": 3,
       "role": "Maintainer",
       "thumbnail": "",
       "caption": {
@@ -201,6 +215,7 @@
       "title": "glscbinding",
       "date": "2015-01-01",
       "status": "ongoing",
+      "priority": 3,
       "role": "Maintainer",
       "thumbnail": "",
       "caption": {
@@ -215,6 +230,7 @@
       "title": "eglbinding",
       "date": "2015-01-01",
       "status": "ongoing",
+      "priority": 3,
       "role": "Maintainer",
       "thumbnail": "",
       "caption": {
@@ -229,6 +245,7 @@
       "title": "khrbinding-generator",
       "date": "2015-01-01",
       "status": "ongoing",
+      "priority": 3,
       "thumbnail": "",
       "role": "Maintainer",
       "caption": {
@@ -243,6 +260,7 @@
       "title": "Unified Memory Demo",
       "date": "2015-01-01",
       "status": "ongoing",
+      "priority": 4,
       "role": "Maintainer",
       "thumbnail": "",
       "caption": {
@@ -257,6 +275,7 @@
       "title": "Attributed Vertex Clouds Demo",
       "date": "2015-01-01",
       "status": "ongoing",
+      "priority": 4,
       "role": "Maintainer",
       "thumbnail": "",
       "caption": {
@@ -271,6 +290,7 @@
       "title": "glkernel",
       "date": "2015-01-01",
       "status": "ongoing",
+      "priority": 4,
       "role": "Maintainer",
       "thumbnail": "",
       "caption": {
@@ -285,6 +305,7 @@
       "title": "eglheadless-demo",
       "date": "2015-01-01",
       "status": "ongoing",
+      "priority": 1,
       "role": "Maintainer",
       "thumbnail": "",
       "caption": {
@@ -299,6 +320,7 @@
       "title": "graphics-api-test",
       "date": "2015-01-01",
       "status": "ongoing",
+      "priority": 1,
       "role": "Maintainer",
       "thumbnail": "",
       "caption": {
@@ -313,6 +335,7 @@
       "title": "glm",
       "date": "2015-01-01",
       "status": "ongoing",
+      "priority": 1,
       "role": "One-time Contributor",
       "thumbnail": "",
       "caption": {
@@ -328,6 +351,7 @@
       "title": "Widelands",
       "date": "2015-01-01",
       "status": "ongoing",
+      "priority": 1,
       "role": "One-time Contributor",
       "thumbnail": "",
       "caption": {
