@@ -19,7 +19,7 @@
             A prototypical implementation, a discussion about alternatives, and performance and memory analyses demonstrate real data applicability. An additional case study reveals distinctive changes in the software system of a monitored open-source project that are hard to detect with traditional hierarchy visualizations."
       },
       
-      "thumbnail" : "2014-thesis-evocells.png",
+      "thumbnail" : "publications/2014-thesis-evocells.png",
       "publication": "https://www.researchgate.net/profile/Willy_Scheibel/publication/331399809",
       "downloads" : [
         { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/331399809/inline/jsViewer/5c77be7692851c695046e78a?pdfJsDownload=1",
@@ -55,7 +55,7 @@
                 interaktive, skalierbare Visualierung ist über die Nutzung einer der zwei vorgestellten Renderingabläufe möglich.
                 Weiterhin wir die Technik im Rahmen eines High-Resolution, Multi-Touch Display gezeigt und besprochen." },
 
-      "thumbnail" : "2016-ivapp-small-multiples.png",
+      "thumbnail" : "publications/2016-ivapp-small-multiples.png",
       "downloads" : [
         { "href"  : "https://drive.google.com/file/d/1cjIidQkL_zRm92Pl4l5BkjxWEjGMM3AX/view",
           "desc"  : "Author Version"
@@ -92,7 +92,7 @@
                 Renderinggeschwindigkeit. Wir diskutieren die Ergebnisse für unser representatives Beispiel einer komplexen 3D
                 Visualisierungstechnik und fassen Verbesserungsvorschläge für produktive Web-Clients zusammen." },
 
-      "thumbnail" : "2016-web3d-decl3d-treemaps.png",
+      "thumbnail" : "publications/2016-web3d-decl3d-treemaps.png",
       "downloads" : [
         { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAQ2JjTWJCUjgtbzA/view",
           "desc"  : "Author Version"
@@ -134,7 +134,7 @@
                 Darstellungen von Softwareystemen auf unterschiedlichen Detailgraden eingesetzt werden. Es ermöglicht die
                 effiziente Lokalisierung von wichtigen Knoten unter Bereitstellung von mehr Flächen für Beschriftung von Knoten." },
 
-      "thumbnail" : "2017-importance-based-aggregation.png",
+      "thumbnail" : "publications/2017-importance-based-aggregation.png",
       "downloads" : [
         { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAYmN0Y09EQkplNzA/view",
           "desc"  : "Author Version"
@@ -185,7 +185,7 @@
                 Die Verschiebung der Geometrieerzeugung auf die GPU ermöglicht auch die Umsetzung von flüchtiger Geometrie, welche dynamisch konfigurierbar ist (z. B. Position oder Parameter, sogar der Typ ist änderbar).
                 Messungen der Ausführungszeiten deuten auf eine Verschnellerung der Framezeiten und eine geringere Speicher-Fußabdruck bei Datenübertragungen zwischen den Shader-Stages der Renderingpipeline." },
 
-      "thumbnail" : "2017-gpuzen-attributed-vertex-clouds.png",
+      "thumbnail" : "publications/2017-gpuzen-attributed-vertex-clouds.png",
       "downloads" : [
         { "href"  : "https://drive.google.com/file/d/1c2F6M1dpYCTkXyitcebtAA2KGLr-hJv_/view",
           "desc"  : "Author Version"
@@ -207,7 +207,7 @@
         "de" : "2D Treemaps sind eine raumfüllende Visualisierungstechnik für die Exploration von abstrakten, attribuierten Daten mit Baumstruktur. Dabei werden die visuellen Variablen Größe und Farbe benutzt. Als Erweiterung führen die 2.5D Treemaps die Höhe für zusätzliche Informationsdarstellung ein. Diese Erweiterung kommt jedoch mit Herausforderungen wie der komplexeren Bildsynthese, Verdeckung oder angepassten Navigationstechniken einher, welche den Vorteile einer reinen 2D Treemap gegenüberstehen.
                 Dieses Paper präsentiert eine neuartige Kombination von 2D und 2.5D Treemaps unter Nutzung von multiperspektiven Ansichten um die Vorteile beider Techniken zu vereinen. Es ermöglicht eine Form der Overview+Detail Visualisierung für komplexe Treemaps, welche über neue Konzepte im Echtzeitrendering und Interaktion als Mixed-Projection Treemaps dargestellt werden können. Die Visualisierungstechnik nutzt eine Drehung innerer Treemap-Knoten über affine Transformationen und animierte Übergänge. Dabei werden die gemeinsame Nutzung von orthogonaler und perspektivischer Projektion besprochen und Anwendungsbeispiele für die Exploration multivariater Daten gezeigt, die von dem geringeren Interaktions-Overhead profitieren." },
 
-      "thumbnail" : "2017-iv-mixed-projection-treemaps.png",
+      "thumbnail" : "publications/2017-iv-mixed-projection-treemaps.png",
       "downloads" : [
         { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAM0Z0N2ZoSUVxb28/view",
           "desc"  : "Author Version"
@@ -236,7 +236,7 @@
                 Evaluierung mit Layoutstabilitätsmetriken aus dem Open Source Softwaresystem ElasticSearch deutet an, dass
                 EvoCells eine valide Alternative zum stabilen Treemap Layouting ist." },
 
-      "thumbnail" : "2018-ivapp-evocells.png",
+      "thumbnail" : "publications/2018-ivapp-evocells.png",
       "downloads" : [
         { "href"  : "https://drive.google.com/file/d/1rVVWQcI1NxhorLlO2OgF4zGtVFuIH22D/view",
           "desc"  : "Author Version"
@@ -268,7 +268,7 @@
                 web-based, high-end visualization services running on thin clients in a standard browser environment.",
         "de" : "" },
 
-      "thumbnail" : "2019-ivapp-hiviser.jpg",
+      "thumbnail" : "publications/2019-ivapp-hiviser.jpg",
       "downloads" : [
         { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/330541206/inline/jsViewer/5c77b545a6fdcc4715a1c47d?pdfJsDownload=1",
           "desc"  : "Author Version"
@@ -297,7 +297,7 @@
                 is evaluated in the context of exemplary applications.",
         "de" : ""
       },
-      "thumbnail" : "2019-ivapp-hiviser-extended.jpg",
+      "thumbnail" : "publications/2019-ivapp-hiviser-extended.jpg",
     }
   ]
 }

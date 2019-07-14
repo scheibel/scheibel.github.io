@@ -9,7 +9,7 @@
       "title": "glbinding",
       "date": "2014-05-02",
       "status": "ongoing",
-      "thumbnail": "logos_glbinding_256.png",
+      "thumbnail": "projects/logos_glbinding_256.png",
       "role": "Maintainer",
       "priority": 5,
       "caption": {
@@ -25,7 +25,7 @@
       "title": "globjects",
       "date": "2013-05-07",
       "status": "ongoing",
-      "thumbnail": "logos_globjects_256.png",
+      "thumbnail": "projects/logos_globjects_256.png",
       "role": "Maintainer",
       "priority": 5,
       "caption": {
@@ -43,7 +43,7 @@
       "status": "ongoing",
       "role": "Maintainer",
       "priority": 5,
-      "thumbnail": "",
+      "thumbnail": "projects/cmake-init-logo.png",
       "caption": {
         "en": "",
         "de": ""
@@ -123,7 +123,7 @@
       "status": "paused",
       "role": "Maintainer",
       "priority": 3,
-      "thumbnail": "logos_gloperate_256.png",
+      "thumbnail": "projects/logos_gloperate_256.png",
       "caption": {
         "en": "",
         "de": ""
@@ -292,7 +292,7 @@
       "status": "ongoing",
       "priority": 4,
       "role": "Maintainer",
-      "thumbnail": "",
+      "thumbnail": "projects/logos_glkernel_256.png",
       "caption": {
         "en": "",
         "de": ""
