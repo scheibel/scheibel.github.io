@@ -14,7 +14,7 @@
       "title": "glbinding",
       "date": "2014-05-02",
       "status": "ongoing",
-      "thumbnail": "projects/logos_glbinding_256.png",
+      "thumbnail": "projects/glbinding-logo.png",
       "role": "Maintainer",
       "priority": 5,
       "caption": {
@@ -30,7 +30,7 @@
       "title": "globjects",
       "date": "2013-05-07",
       "status": "ongoing",
-      "thumbnail": "projects/logos_globjects_256.png",
+      "thumbnail": "projects/globjects-logo.png",
       "role": "Maintainer",
       "priority": 5,
       "caption": {
@@ -64,7 +64,7 @@
       "status": "ongoing",
       "role": "Maintainer",
       "priority": 4,
-      "thumbnail": "",
+      "thumbnail": "projects/cpplocate-logo.png",
       "caption": {
         "en": "",
         "de": ""
@@ -80,7 +80,7 @@
       "status": "paused",
       "role": "Maintainer",
       "priority": 4,
-      "thumbnail": "",
+      "thumbnail": "projects/cppassist-logo.png",
       "caption": {
         "en": "",
         "de": ""
@@ -96,7 +96,7 @@
       "status": "paused",
       "role": "Maintainer",
       "priority": 4,
-      "thumbnail": "",
+      "thumbnail": "projects/cppexpose-logo.png",
       "caption": {
         "en": "",
         "de": ""
@@ -112,7 +112,7 @@
       "status": "ongoing",
       "role": "Contributor",
       "priority": 3,
-      "thumbnail": "",
+      "thumbnail": "projects/cppfs-logo.png",
       "caption": {
         "en": "",
         "de": ""
@@ -128,7 +128,7 @@
       "status": "paused",
       "role": "Maintainer",
       "priority": 3,
-      "thumbnail": "projects/logos_gloperate_256.png",
+      "thumbnail": "projects/gloperate-logo.png",
       "caption": {
         "en": "",
         "de": ""
@@ -144,7 +144,7 @@
       "status": "ongoing",
       "priority": 2,
       "role": "Contributor",
-      "thumbnail": "",
+      "thumbnail": "projects/webgl-operate-logo.png",
       "caption": {
         "en": "",
         "de": ""
@@ -160,7 +160,6 @@
       "status": "ongoing",
       "priority": 2,
       "role": "Contributor",
-      "thumbnail": "",
       "caption": {
         "en": "",
         "de": ""
@@ -175,7 +174,6 @@
       "status": "ongoing",
       "priority": 4,
       "role": "Maintainer",
-      "thumbnail": "",
       "caption": {
         "en": "",
         "de": ""
@@ -192,7 +190,6 @@
       "status": "ongoing",
       "priority": 4,
       "role": "Maintainer",
-      "thumbnail": "",
       "caption": {
         "en": "",
         "de": ""
@@ -207,7 +204,6 @@
       "status": "ongoing",
       "priority": 3,
       "role": "Maintainer",
-      "thumbnail": "",
       "caption": {
         "en": "",
         "de": ""
@@ -222,7 +218,6 @@
       "status": "ongoing",
       "priority": 3,
       "role": "Maintainer",
-      "thumbnail": "",
       "caption": {
         "en": "",
         "de": ""
@@ -237,7 +232,6 @@
       "status": "ongoing",
       "priority": 3,
       "role": "Maintainer",
-      "thumbnail": "",
       "caption": {
         "en": "",
         "de": ""
@@ -251,7 +245,6 @@
       "date": "2015-01-01",
       "status": "ongoing",
       "priority": 3,
-      "thumbnail": "",
       "role": "Maintainer",
       "caption": {
         "en": "",
@@ -267,7 +260,7 @@
       "status": "ongoing",
       "priority": 4,
       "role": "Maintainer",
-      "thumbnail": "",
+      "thumbnail": "projects/unifiedmemory-logo.png",
       "caption": {
         "en": "",
         "de": ""
@@ -282,7 +275,7 @@
       "status": "ongoing",
       "priority": 4,
       "role": "Maintainer",
-      "thumbnail": "",
+      "thumbnail": "projects/attributedvertexclouds-logo.jpg",
       "caption": {
         "en": "",
         "de": ""
@@ -297,7 +290,7 @@
       "status": "ongoing",
       "priority": 4,
       "role": "Maintainer",
-      "thumbnail": "projects/logos_glkernel_256.png",
+      "thumbnail": "projects/glkernel-logo.png",
       "caption": {
         "en": "",
         "de": ""
@@ -312,7 +305,6 @@
       "status": "ongoing",
       "priority": 1,
       "role": "Maintainer",
-      "thumbnail": "",
       "caption": {
         "en": "",
         "de": ""
@@ -327,7 +319,6 @@
       "status": "ongoing",
       "priority": 1,
       "role": "Maintainer",
-      "thumbnail": "",
       "caption": {
         "en": "",
         "de": ""
@@ -342,7 +333,6 @@
       "status": "ongoing",
       "priority": 1,
       "role": "Maintainer",
-      "thumbnail": "",
       "caption": {
         "en": "",
         "de": ""
@@ -357,7 +347,6 @@
       "status": "ongoing",
       "priority": 1,
       "role": "Maintainer",
-      "thumbnail": "",
       "caption": {
         "en": "",
         "de": ""
@@ -372,7 +361,7 @@
       "status": "ongoing",
       "priority": 1,
       "role": "One-time Contributor",
-      "thumbnail": "",
+      "thumbnail": "projects/glm-logo.png",
       "caption": {
         "en": "",
         "de": ""
@@ -388,7 +377,6 @@
       "status": "ongoing",
       "priority": 1,
       "role": "One-time Contributor",
-      "thumbnail": "",
       "caption": {
         "en": "",
         "de": ""
@@ -403,7 +391,6 @@
       "status": "ongoing",
       "priority": 3,
       "role": "Maintainer",
-      "thumbnail": "",
       "caption": {
         "en": "",
         "de": ""
