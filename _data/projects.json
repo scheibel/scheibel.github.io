@@ -3,6 +3,11 @@
     "en" : "Projects",
     "de" : "Projekte"
   },
+  
+  "role" : {
+    "en" : "Role":,
+    "de" : "Rolle"
+  },
 
   "projects" : [ 
     {
