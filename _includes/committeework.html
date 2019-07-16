@@ -8,7 +8,7 @@
     <div class="col-md-2 col-md-offset-1 text-md-right">
       {% if c.until %}
         {% if c.since == c.until %}
-          {{ c.until }}
+          in {{ c.until }}
         {% else %}
           {{ c.since }}–{{ c.until }}
         {% endif %}
