@@ -3,10 +3,20 @@
 </div>
 
 {% assign committees = site.data.committeework.committees %}
-<div class="row">
 {% for c in committees %}
   <div class="row">
-    <div class="col-sm-8 col-sm-offset-2">
+    <div class="col-md-2 col-md-offset-1 text-md-right">
+      {% if c.until %}
+        {% if c.since == c.until %}
+          {{ c.until }}
+        {% else %}
+          {{ c.since }}–{{ c.until }}
+        {% endif %}
+      {% else %}
+        {{ site.data.committeework.since[page.lang] }} {{ c.since }}
+      {% endif %}
+    </div>
+    <div class="col-md-7">
       <p>{{ c.title[page.lang] }}<span class="text-muted">, {{ c.role[page.lang] }}</span></p>
       <p class="text-muted">{{ c.institution[page.lang] }}</p>
       {% if c.projects.size > 0 %}<ul class="list-group">
@@ -17,4 +27,3 @@
     </div>
   </div>
 {% endfor %}
-</div>

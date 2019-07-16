@@ -3,6 +3,16 @@
     "en" : "Committee Work",
     "de" : "Gremienarbeit"
   },
+  
+  "since" : {
+    "en" : "since",
+    "de" : "seit",
+  },
+  
+  "until" : {
+    "en" : "until",
+    "de" : "bis",
+  },
 
   "committees": [
     {
