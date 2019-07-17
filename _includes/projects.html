@@ -3,8 +3,6 @@
 </div>
 
 {% assign projects = site.data.projects.projects | sort:"priority" %}
-<div class="row">
 {% for p in projects reversed %}
   {% include project.html %}
 {% endfor %}
-</div>
