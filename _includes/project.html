@@ -7,8 +7,11 @@
   </div>
   <div class="col-sm-3">
     <h4>{{ p.title | escape }}</h4>
-    {% if p.role %}<p>{{ site.data.projects.role[page.lang] }}: {{ p.role }}</p>{% endif %}
-    {% if p.type %}<p>{{ site.data.projects.type[page.lang] }}: {{ p.type }}</p>{% endif %}
+    {% if p.role or p.type %}<p>
+      {% if p.role %}{{ site.data.projects.role[page.lang] }}: {{ p.role }}{% endif %}
+      {% if p.role and p.type %}<br />{% endif %}
+      {% if p.type %}{{ site.data.projects.type[page.lang] }}: {{ p.type }}{% endif %}
+    </p>{% endif %}
   </div>
   <div class="col-sm-6">
     <p>
