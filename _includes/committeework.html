@@ -1,11 +1,11 @@
-<div class="row text-xs-center">
+<div class="row text-center">
   <h1>{{ site.data.committeework.heading.[page.lang] | escape }}</h1>
 </div>
 
 {% assign committees = site.data.committeework.committees %}
 {% for c in committees %}
   <div class="row">
-    <div class="col-md-2 col-md-offset-1 text-md-right">
+    <div class="col-md-2 offset-md-1 text-md-right">
       {% if c.until %}
         {% if c.since == c.until %}
           in {{ c.until }}
