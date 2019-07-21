@@ -1,47 +1,49 @@
 {% capture nav_prefix %}/{{ page.lang }}/{% endcapture %}
 <nav class="navbar fixed-top navbar-dark bg-dark">
-  <a class="navbar-brand" href="#page-top">
-    <span class="hidden-sm-down">{{ site.author }}</span>
-    <span class="hidden-md-up"><img src="/img/navicon.png" class="img-rounded" width="64" height="64" alt="top-page"></span>
-  </a>
-  
-  <div id="language-chooser">
-    <ul class="navbar-nav pull-right" id="lang-select">
-      {% capture lang_lc %}{{ lang | downcase }}{% endcapture %}
-      {% for lang in site.languages %}
-      {% if lang != page.lang %}
-        {% capture page_lang %}/{{ page.lang }}/{% endcapture %}
-        {% capture lang_lo %}/{{ lang | downcase }}/{% endcapture %}
-        {% capture href %}{{ page.url | replace : page_lang, lang_lo }}{% endcapture %}
-        {% capture href %}{{ href | replace : '.html', '' }}{% endcapture %}
-      <li class="nav-item"><a class="nav-link" onclick="scrollAwareHRef($(this), '{{ href }}')" href="{{ href }}">{{ lang | upcase }}</a></li>
-      {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-  
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav pull-right">
-      {% if site.data.publications.publications.size > 0 %}
-      <li class="nav-item"><a class="nav-link" href="#publications">{{ site.data.publications.heading.[page.lang] | escape }}</a></li>
-      {% endif %}
-      {% if site.data.projects.projects.size > 0 %}
-      <li class="nav-item"><a class="nav-link" href="#projects">{{ site.data.projects.heading.[page.lang] | escape }}</a></li>
-      {% endif %}
-      {% if site.data.talks.talks.size > 0 %}
-      <li class="nav-item"><a class="nav-link" href="#talks">{{ site.data.talks.heading.[page.lang] | escape }}</a></li>
-      {% endif %}
-      {% if site.data.committeework.committees.size > 0 %}
-      <li class="nav-item"><a class="nav-link" href="#committeework">{{ site.data.committeework.heading.[page.lang] | escape }}</a></li>
-      {% endif %}
-      {% if site.data.teaching.terms.size > 0 %}
-      <li class="nav-item"><a class="nav-link" href="#teaching">{{ site.data.teaching.heading.[page.lang] | escape }}</a></li>
-      {% endif %}
-      <li class="nav-item"><a class="nav-link" href="#contact">{{ site.data.contact.heading.[page.lang] | escape }}</a></li>
-    </ul>
+  <div class="container">
+    <a class="navbar-brand" href="#page-top">
+      <span class="d-none d-md-block">{{ site.author }}</span>
+      <span class="d-block d-md-none"><img src="/img/navicon.png" class="img-rounded" width="64" height="64" alt="top-page"></span>
+    </a>
+    
+    <div id="language-chooser">
+      <ul class="navbar-nav pull-right" id="lang-select">
+        {% capture lang_lc %}{{ lang | downcase }}{% endcapture %}
+        {% for lang in site.languages %}
+        {% if lang != page.lang %}
+          {% capture page_lang %}/{{ page.lang }}/{% endcapture %}
+          {% capture lang_lo %}/{{ lang | downcase }}/{% endcapture %}
+          {% capture href %}{{ page.url | replace : page_lang, lang_lo }}{% endcapture %}
+          {% capture href %}{{ href | replace : '.html', '' }}{% endcapture %}
+        <li class="nav-item"><a class="nav-link" onclick="scrollAwareHRef($(this), '{{ href }}')" href="{{ href }}">{{ lang | upcase }}</a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav pull-right">
+        {% if site.data.publications.publications.size > 0 %}
+        <li class="nav-item"><a class="nav-link" href="#publications">{{ site.data.publications.heading.[page.lang] | escape }}</a></li>
+        {% endif %}
+        {% if site.data.projects.projects.size > 0 %}
+        <li class="nav-item"><a class="nav-link" href="#projects">{{ site.data.projects.heading.[page.lang] | escape }}</a></li>
+        {% endif %}
+        {% if site.data.talks.talks.size > 0 %}
+        <li class="nav-item"><a class="nav-link" href="#talks">{{ site.data.talks.heading.[page.lang] | escape }}</a></li>
+        {% endif %}
+        {% if site.data.committeework.committees.size > 0 %}
+        <li class="nav-item"><a class="nav-link" href="#committeework">{{ site.data.committeework.heading.[page.lang] | escape }}</a></li>
+        {% endif %}
+        {% if site.data.teaching.terms.size > 0 %}
+        <li class="nav-item"><a class="nav-link" href="#teaching">{{ site.data.teaching.heading.[page.lang] | escape }}</a></li>
+        {% endif %}
+        <li class="nav-item"><a class="nav-link" href="#contact">{{ site.data.contact.heading.[page.lang] | escape }}</a></li>
+      </ul>
+    </div>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
   </div>
 </nav>
