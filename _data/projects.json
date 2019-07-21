@@ -147,7 +147,6 @@
         "de": ""
       },
       "downloads": [
-        { "desc": "Homepage", "href": "https://gloperate.org" },
         { "desc": "Source Code", "href": "https://github.com/cginternals/gloperate" }
       ]
     },
