@@ -27,6 +27,8 @@
         } ],
       "doi": "10.13140/RG.2.2.33837.33763"
     },
+    
+    
     { "key"       : "2016-small-multiples",
       "bibtex"    : "std2016-small-multiples.bib",
       "title"     : "Interactive Revision Exploration using Small Multiples of Software Maps",
@@ -66,7 +68,10 @@
         { "href"  : "https://drive.google.com/file/d/1Qib4z8g_RDpfP20tC-0tiJ5o44uCzdLa/view",
           "desc"  : "Poster (Landscape)"
         } ],
+      "doi": "10.5220/0005694401310138"
     },
+    
+    
     { "key"       : "2016-decl3d-treemaps",
       "bibtex"    : "lsld2016-decl3d-treemaps.bib",
       "title"     : "Dynamic 2.5D Treemaps using Declarative 3D on the Web",
@@ -106,7 +111,10 @@
         { "href"  : "http://cgcostume.github.io/web3d-treemaps/",
           "desc"  : "Demo"
         } ],
+      "doi": "10.1145/2945292.2945313"
     },
+    
+    
     { "key"       : "2017-importance-based-aggregation",
       "bibtex"    : "lshd2017-importance-based-aggregation.bib",
       "title"     : "Reducing Visual Complexity in Software Maps using Importance-based Aggregation of Nodes",
@@ -142,7 +150,10 @@
         { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAMTJqSnJwQTZhbnc/view",
           "desc"  : "Slides"
         } ],
+      "doi": "10.5220/0006267501760185",
     },
+    
+    
     { "key"       : "2017-attributed-vertex-clouds",
       "bibtex"    : "sbtd2017-attributed-vertex-clouds.bib",
       "title"     : "Attributed Vertex Clouds",
@@ -194,6 +205,8 @@
           "desc"  : "Source Code"
         } ]
     },
+    
+    
     { "key"       : "2017-mixed-projection-treemaps",
       "bibtex"    : "lstd2017-mixed-projection-treemaps.bib",
       "title"     : "Mixed-Projection Treemaps: A Novel Approach Mixing 2D and 2.5D Treemaps",
@@ -215,7 +228,10 @@
         { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAY0FhZTBzaVByYm8/view",
           "desc"  : "Slides"
         } ],
+      "doi": "10.1109/iV.2017.67",
     },
+    
+    
     { "key"       : "2018-evocells",
       "bibtex"    : "swd2018-evocells.bib",
       "title"     : "EvoCells – A Treemap Layout Algorithm for Evolving Tree Data",
@@ -246,8 +262,11 @@
         },
         { "href"  : "https://drive.google.com/file/d/1sX4z3fNynYd8Vy92DVpNJcga_bnxhcvU/view",
           "desc"  : "Handout"
-        }]
+        }],
+      "doi": "10.5220/0006617102730280",
     },
+    
+    
     { "key"       : "2019-hiviser",
       "bibtex"    : "shd2019-hiviser.bib",
       "title"     : "Design and Implementation of Web-Based Hierarchy Visualization Services",
@@ -275,8 +294,31 @@
         },
         { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/331399770/inline/jsViewer/5c77b8c692851c695046e654?pdfJsDownload=1",
           "desc"  : "Slides"
-        }]
+        },
+        { "desc": "Homepage", "href": "https://hiviser.treemap.de" }
+      ],
+      "doi": "10.5220/0007693201410152",
     },
+    
+    
+    { "key": "2019-software-map-metaphors-and-techniques",
+      "bibtex": "lstd2019-software-map-metaphors-and-techniques.bib",
+      "title": "Advanced Visual Metaphors and Techniques for Software Maps",
+      "date": "2019-10-01",
+      "authors": [ "Daniel Limberger", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
+      "published": "The 12th International Symposium on Visual Information Communication and Interaction (VINCI 2019)",
+      "caption": {
+        "en" : "Software maps provide a general-purpose interactive user interface and information display for software analytics tools.
+        This paper systematically introduces and classifies software maps as a treemap-based technique for software cartography.
+        It provides an overview of advanced visual metaphors and techniques, each suitable for interactive visual analytics tasks, that can be used to enhance the expressiveness of software maps.
+        Thereto, the metaphors and techniques are briefly described, located within a visualization pipeline model, and considered within the software map design space.
+        Consequent applications and use cases w.r.t. different types of software system data and software engineering data are discussed, arguing for a versatile use of software maps in visual software analytics.",
+        "de" : ""
+      },
+      "thumbnail" : "publications/2019-vinci-software-map-metaphors-and-techniques.jpg",
+    },
+    
+    
     { "key": "2019-hiviser-extended",
       "bibtex": "shld2019-hiviser-extended.bib",
       "title": "Visualization of Tree-structured Data using Web Service Composition",
