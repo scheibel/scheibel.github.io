@@ -58,8 +58,8 @@
       "type": "Project Template",
       "thumbnail": "projects/cmake-init-logo.png",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "Template for reliable, cross-platform C++ project setup using cmake.",
+        "de": "Template für zuverlässiges cross-platform C++ Projekt Setup mit CMake."
       },
       "downloads": [
         { "desc": "Homepage", "href": "https://cmake-init.org" },
@@ -75,8 +75,8 @@
       "priority": 4,
       "thumbnail": "projects/cpplocate-logo.png",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "Cross-platform C++ library providing tools for applications to locate themselves, their data assets as well as dependent modules.",
+        "de": "Cross-platform C++ Bibliothek mit Lokalisierungsfunktionen für Anwensungen um ihre Laufzeitdaten, -assets und zusätzliche Module."
       },
       "downloads": [
         { "desc": "Homepage", "href": "https://cpplocate.org" },
@@ -92,8 +92,8 @@
       "priority": 4,
       "thumbnail": "projects/cppassist-logo.png",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "C++ sanctuary for small but powerful and frequently required, stand alone features.",
+        "de": "Sanktuarium für kleine, wichtige und oft benötigte, einzelstehende C++ Features."
       },
       "downloads": [
         { "desc": "Homepage", "href": "https://cppassist.org" },
@@ -109,8 +109,8 @@
       "priority": 4,
       "thumbnail": "projects/cppexpose-logo.png",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "C++ library for type introspection, reflection, and scripting interface.",
+        "de": "C++ Bibliothek für Typ-Introspektion, Reflection und Scripting-Interfaces."
       },
       "downloads": [
         { "desc": "Homepage", "href": "https://cppexpose.org" },
@@ -126,8 +126,8 @@
       "priority": 3,
       "thumbnail": "projects/cppfs-logo.png",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "Cross-platform C++ file system library supporting multiple backends.",
+        "de": "Cross-platform C++ Dateisystembibliothek, welche vielfältige Backends unterstützt."
       },
       "downloads": [
         { "desc": "Homepage", "href": "https://cppfilesystem.org" },
@@ -143,8 +143,8 @@
       "priority": 3,
       "thumbnail": "projects/gloperate-logo.png",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "C++ library for defining and controlling modern GPU rendering/processing operations.",
+        "de": "C++ Bibliothek für die Definition und Ausführung vom modernem GPU Rendering und moderner GPU Prozessierung."
       },
       "downloads": [
         { "desc": "Source Code", "href": "https://github.com/cginternals/gloperate" }
@@ -159,8 +159,8 @@
       "role": "Contributor",
       "thumbnail": "projects/webgl-operate-logo.png",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "A TypeScript based WebGL rendering framework.",
+        "de": "Ein TypeScript-basiertes WebGL Rendering Framework."
       },
       "downloads": [
         { "desc": "Homepage", "href": "https://webgl-operate.org" },
@@ -175,8 +175,8 @@
       "priority": 2,
       "role": "Contributor",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "QML item library for cross-platform graphics applications.",
+        "de": "QML Widget Bibliothek für GUIs von cross-platform Anwendungen."
       },
       "downloads": [
         { "desc": "Source Code", "href": "https://github.com/cginternals/qmltoolbox" }
@@ -190,8 +190,8 @@
       "role": "Maintainer",
       "type": "Research Project",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "Open Label Library – API specification and reference implementations for glyph rendering in 2D and 3D graphics environments.",
+        "de": "Open Label Library – API Spezifikation und Referenzimplementierung für Glyphrendering in 2D und 3D virtuellen Umgebungen."
       },
       "downloads": [
         { "desc": "Homepage", "href": "https://openll.org" },
@@ -207,8 +207,8 @@
       "role": "Maintainer",
       "type": "Research Project",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "A Web API specification for the management and provisioning of tree-structured data and their visualization using information visualization techniques.",
+        "de": "Eine Web API Spezifikation für Verwaltung und Bereitstellung von baumstrukturierten Daten und ihrer Visualisierung mittels Informationsvisualisierungstechniken."
       },
       "downloads": [
         { "desc": "Homepage", "href": "https://hiviser.treemap.de" }
@@ -222,8 +222,8 @@
       "role": "Maintainer",
       "type": "OpenGL ES Library",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "A C++ binding for the OpenGL ES API, generated using the gl.xml specification.",
+        "de": "Ein C++ Binding für die OpenGL ES API, welche aus der gl.xml Spezifikation generiert wurde."
       },
       "downloads": [
         { "desc": "Source Code", "href": "https://github.com/cginternals/glesbinding" }
@@ -237,8 +237,8 @@
       "role": "Maintainer",
       "type": "OpenGL SC Library",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "A C++ binding for the OpenGL SC API, generated using the gl.xml specification.",
+        "de": "Ein C++ Binding für die OpenGL SC API, welche aus der gl.xml Spezifikation generiert wurde."
       },
       "downloads": [
         { "desc": "Source Code", "href": "https://github.com/cginternals/glscbinding" }
@@ -252,8 +252,8 @@
       "priority": 3,
       "role": "Maintainer",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "A C++ binding for the EGL API, generated using the egl.xml specification.",
+        "de": "Ein C++ Binding für die EGL API, welche aus der egl.xml Spezifikation generiert wurde."
       },
       "downloads": [
         { "desc": "Source Code", "href": "https://github.com/cginternals/eglbinding" }
@@ -267,8 +267,8 @@
       "priority": 3,
       "role": "Maintainer",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "A Python generator for the Khronos APIs OpenGL, OpenGL ES, OpenGL SC, and EGL.",
+        "de": "Ein Python Generator für die Khronos APIs OpenGL, OpenGL ES, OpenGL SC und EGL."
       },
       "downloads": [
         { "desc": "Source Code", "href": "https://github.com/cginternals/khrbinding-generator" }
@@ -283,8 +283,8 @@
       "type": "Demo",
       "thumbnail": "projects/unifiedmemory-logo.png",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "Unified Memory Heterogenous Computing Showcase.",
+        "de": "Demonstrator für Unified Memory und Heterogenous Computing."
       },
       "downloads": [
         { "desc": "Source Code", "href": "https://github.com/cginternals/unifiedmemory-demo" }
@@ -299,8 +299,8 @@
       "role": "Maintainer",
       "thumbnail": "projects/attributedvertexclouds-logo.jpg",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "Demo to the Article \"Attributed Vertex Clouds\" from GPU Zen: Advanced Rendering Techniques",
+        "de": "Demonstrator für den Artikel \"Attributed Vertex Clouds\" aus GPU Zen: Advanced Rendering Techniques"
       },
       "downloads": [
         { "desc": "Source Code", "href": "https://github.com/scheibel/attributedvertexclouds" }
@@ -315,8 +315,8 @@
       "role": "Maintainer",
       "thumbnail": "projects/glkernel-logo.png",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "C++ library for pre-computing noise, and random sample kernels.",
+        "de": "C++ Bibliothek zum vorberechnen von Noise und Random Sampling Kernels."
       },
       "downloads": [
         { "desc": "Source Code", "href": "https://github.com/cginternals/glkernel" }
@@ -330,11 +330,11 @@
       "priority": 1,
       "role": "Maintainer",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "Demo and tools for headless EGL and OpenGL and OpenGL ES rendering.",
+        "de": "Demonstrator und Tools für headless EGL und OpenGL und OpenGL ES Rendering."
       },
       "downloads": [
-        { "desc": "Source Code", "href": "https://github.com/cginternals/eglheadless-demo" }
+        { "desc": "Source Code", "href": "https://github.com/scheibel/eglheadless-demo" }
       ]
     },
     {
@@ -345,38 +345,38 @@
       "priority": 1,
       "role": "Maintainer",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "Demo and introspection tools for multiple graphics API usage.",
+        "de": "Demonstrator und Tools für die Nutzung mehrerer Grafik APIs."
       },
       "downloads": [
-        { "desc": "Source Code", "href": "https://github.com/cginternals/graphics-api-test" }
+        { "desc": "Source Code", "href": "https://github.com/scheibel/graphics-api-test" }
       ]
     },
     {
-      "title": "tasteful-server",
+      "title": "Tasteful Server",
       "date": "2015-01-01",
       "status": "ongoing",
       "type": "Web Framework",
       "priority": 1,
       "role": "Maintainer",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "A multithreaded web server written in C++ (using Qt)",
+        "de": "Ein Qt-basierter multi-threaded Webserver in C++."
       },
       "downloads": [
         { "desc": "Source Code", "href": "https://github.com/scheibel/tastefulserver" }
       ]
     },
     {
-      "title": "tasteful-framework",
+      "title": "Tasteful Framework",
       "date": "2015-01-01",
       "status": "ongoing",
       "type": "Web Framework",
       "priority": 1,
       "role": "Maintainer",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "A framework to create web application servers written in C++ based on the Tasteful Server.",
+        "de": "Ein Webanwendungsframework in C++ basierend auf Tasteful Server."
       },
       "downloads": [
         { "desc": "Source Code", "href": "https://github.com/scheibel/tasteful-framework" }
@@ -391,8 +391,8 @@
       "type": "Math Library",
       "thumbnail": "projects/glm-logo.png",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "C++ library for OpenGL Mathematics.",
+        "de": "C++ Bibliothek für OpenGL Mathematik."
       },
       "downloads": [
         { "desc": "Homepage", "href": "https://glm.g-truc.net/" },
@@ -407,8 +407,8 @@
       "type": "Video Game",
       "role": "One-time Contributor",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "A free, Settlers II inspired, open source real-time strategy game with singleplayer campaigns and a multiplayer mode.",
+        "de": "Ein freies, Die Siedler II inspiriertes Open Source Echtzeitstrategiespiel mit Einzelspielerkampagnen und Mehrspielermodus."
       },
       "downloads": [
         { "desc": "Homepage", "href": "https://www.widelands.org/" }
@@ -422,8 +422,8 @@
       "type": "Binary Package Archive",
       "role": "Maintainer",
       "caption": {
-        "en": "",
-        "de": ""
+        "en": "The Ubuntu Package Archive for the Open Source software of CG Internals.",
+        "de": "Das Ubuntu Package Archive für die open source Biliotheken von CG Internals."
       },
       "downloads": [
         { "desc": "PPA", "href": "https://launchpad.net/~cginternals/+archive/ubuntu/ppa" },
