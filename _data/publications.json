@@ -2,9 +2,12 @@
   "heading" : {
     "en" : "Publications",
     "de" : "Publikationen" },
+  "abstract" : {
+    "en" : "Abstract",
+    "de" : "Zusammenfassung" },
 
   "publications" : [
-    {
+    { "key" : "2014-thesis-evocells",
       "title": "Interaktive Visualisierung von hierarchischen, multivariaten und zeitlich variierenden Daten",
       "date": "2014-07-24",
       "authors": [ "Willy Scheibel" ],
