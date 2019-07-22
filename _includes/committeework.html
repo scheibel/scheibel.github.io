@@ -16,7 +16,7 @@
         {% if c.since == c.until %}
           in {{ c.until }}
         {% else %}
-          {{ c.since }}–<wbr>{{ c.until }}
+          {{ c.since }}<wbr>–{{ c.until }}
         {% endif %}
       {% else %}
         {{ site.data.committeework.since[page.lang] }} {{ c.since }}
