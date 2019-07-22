@@ -6,9 +6,10 @@
 {% for c in committees %}
   <div class="row">
     {% if c.logo %}
-    <div class="col-8 offset-2 d-sm-none">
+    <div class="col-6 offset-3 d-sm-none mb-3">
       <img class="img-fluid center-block" src="/img/{{ c.logo }}" alt="Logo of {{ c.institution[page.lang] }}">
     </div>
+    <div class="w-100 d-sm-none"></div>
     {% endif %}
     <div class="col-2 offset-1 col-sm-2 offset-sm-0 col-md-2 offset-md-1 text-right">
       {% if c.until %}
