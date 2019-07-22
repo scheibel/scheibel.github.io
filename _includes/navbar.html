@@ -1,14 +1,16 @@
 {% capture nav_prefix %}/{{ page.lang }}/{% endcapture %}
 <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-  <div class="container clearfix">
-    <div class="col-2 offset-1">
-      <a class="navbar-brand" href="#page-top">
-        <span>{{ site.author }}</span>
-      </a>
-    </div>
+  <div class="container col-10 offset-1">
+    <a class="navbar-brand" href="#page-top">
+      <span>{{ site.author }}</span>
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav float-left">
+      <ul class="navbar-nav">
         {% if site.data.publications.publications.size > 0 %}
         <li class="nav-item"><a class="nav-link" href="#publications">{{ site.data.publications.heading.[page.lang] | escape }}</a></li>
         {% endif %}
@@ -29,7 +31,7 @@
     </div>
     
     <div id="language-chooser">
-      <ul class="navbar-nav float-right" id="lang-select">
+      <ul class="navbar-nav" id="lang-select">
         {% capture lang_lc %}{{ lang | downcase }}{% endcapture %}
         {% for lang in site.languages %}
         {% if lang != page.lang %}
@@ -42,9 +44,5 @@
         {% endfor %}
       </ul>
     </div>
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
   </div>
 </nav>
