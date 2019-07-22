@@ -10,7 +10,7 @@
       <img class="img-fluid center-block" src="/img/{{ c.logo }}" alt="Logo of {{ c.institution[page.lang] }}">
     </div>
     {% endif %}
-    <div class="col-3 offset-1 col-sm-2 offset-sm-1 text-right">
+    <div class="col-2 offset-1 col-sm-1 offset-sm-1 text-right">
       {% if c.until %}
         {% if c.since == c.until %}
           in {{ c.until }}
@@ -30,7 +30,7 @@
         {% endfor %}
       </ul>{% endif %}
     </div>
-    <div class="col-sm-2 offset-sm-0 d-none d-sm-block">
+    <div class="col-sm-3 offset-sm-0 d-none d-sm-block">
       {% if c.logo %}
       <img class="img-fluid center-block" src="/img/{{ c.logo }}" alt="Logo of {{ c.institution[page.lang] }}">
       {% endif %}
