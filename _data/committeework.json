@@ -28,7 +28,8 @@
         "en": "Voting Member",
         "de": "Stimmberechtigtes Mitglied"
       },
-      "since": 2017,
+      "since" : 2017,
+      "logo" : "logos/hpi_logo.jpg"
     },
     {
       "title": {
@@ -44,6 +45,7 @@
         "de": "Stimmberechtigtes Mitglied"
       },
       "since": 2017,
+      "logo" : "logos/hpi_logo.jpg",
       "projects": [
         {
           "en": "IT-Systems Engineering (Bachelor's Program)",
@@ -81,7 +83,8 @@
         "de": "Stimmberechtigtes Mitglied"
       },
       "since": 2018,
-      "until": 2019
+      "until": 2019,
+      "logo" : "logos/up_logo.jpg"
     },
     {
       "title": {
@@ -98,7 +101,8 @@
       },
       
       "since": 2017,
-      "until": 2017
+      "until": 2017,
+      "logo" : "logos/hpi_logo.jpg"
     }
   ]
 }

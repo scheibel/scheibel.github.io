@@ -5,7 +5,12 @@
 {% assign committees = site.data.committeework.committees %}
 {% for c in committees %}
   <div class="row">
-    <div class="col-2 offset-1 col-md-2 offset-md-1 text-md-right">
+    {% if c.logo %}
+    <div class="col-8 offset-2 d-sm-none">
+      <img class="img-fluid center-block" src="/img/{{ c.logo }}" alt="Logo of {{ c.institution[page.lang] }}">
+    </div>
+    {% endif %}
+    <div class="col-3 offset-1 col-sm-2 offset-sm-1 text-right">
       {% if c.until %}
         {% if c.since == c.until %}
           in {{ c.until }}
@@ -16,7 +21,7 @@
         {{ site.data.committeework.since[page.lang] }} {{ c.since }}
       {% endif %}
     </div>
-    <div class="col-8 offset-0 col-md-7">
+    <div class="col-8 offset-0 col-sm-5">
       <p>{{ c.title[page.lang] }}<span class="text-muted">, {{ c.role[page.lang] }}</span></p>
       <p class="text-muted">{{ c.institution[page.lang] }}</p>
       {% if c.projects.size > 0 %}<ul class="list-unstyled">
@@ -24,6 +29,11 @@
           <li>{{ p[page.lang] }}</li>
         {% endfor %}
       </ul>{% endif %}
+    </div>
+    <div class="col-sm-2 offset-sm-0 d-none d-sm-block">
+      {% if c.logo %}
+      <img class="img-fluid center-block" src="/img/{{ c.logo }}" alt="Logo of {{ c.institution[page.lang] }}">
+      {% endif %}
     </div>
   </div>
 {% endfor %}
