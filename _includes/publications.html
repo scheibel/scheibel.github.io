@@ -5,13 +5,13 @@
 {% assign publications = site.data.publications.publications | sort:"date" %}
 {% for p in publications reversed %}
 <div class="row{% if p != publications.first %} not-last{% endif %}">
-  <div class="col-sm-3">
+  <div class="col-sm-3 offset-sm-0 col-10 offset-1">
     {% assign thumbnail_src = p.thumbnail %}
     {% assign thumbnail_alt = p.title %}
     {% assign thumbnail_flickr = p.flickr %}
     {% include thumbnail.html %}
   </div>
-  <div class="col-sm-9">
+  <div class="col-10 offset-1 col-sm-9 offset-sm-0">
     <h4>{{ p.title | escape }}</h4>
     <p>
         {% for author in p.authors %}{% if p.authors.size >= 2 and author == p.authors.last %}and {% endif %}{{ author }}{% if p.authors.size > 2 and author != p.authors.last %},{% endif %} {% endfor %}
