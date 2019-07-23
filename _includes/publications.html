@@ -3,7 +3,17 @@
 </div>
 
 {% assign publications = site.data.publications.publications | sort:"date" %}
+{% assign previous_year = "" %}
 {% for p in publications reversed %}
+{% assign date = p.date | split: '-' %}
+{% if date[0] != previous_year %}
+  <div class="row">
+    <div class="col-10 col-sm-12 offset-1 offset-sm-0">
+      <h2>{{ date[0] }}</h2>
+    </div>
+  </div>
+  {% assign previous_year = date[0] %}
+{% endif %}
 <div class="row{% if p != publications.first %} not-last{% endif %}">
   <div class="col-sm-3 offset-sm-0 col-10 offset-1">
     {% assign thumbnail_src = p.thumbnail %}
