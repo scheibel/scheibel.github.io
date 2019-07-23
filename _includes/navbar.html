@@ -1,7 +1,7 @@
 {% capture nav_prefix %}/{{ page.lang }}/{% endcapture %}
 <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
   <div class="container">
-    <a class="navbar-brand ml-sm-1" href="#page-top">
+    <a class="navbar-brand ml-1" href="#page-top">
       <span>{{ site.author }}</span>
     </a>
     
@@ -30,7 +30,7 @@
       </ul>
     </div>
     
-    <ul id="lang-select" class="navbar-nav ml-auto justify-content-end mr-sm-1">
+    <ul id="lang-select" class="navbar-nav ml-auto justify-content-end mr-1">
       {% capture lang_lc %}{{ lang | downcase }}{% endcapture %}
       {% for lang in site.languages %}
       {% if lang != page.lang %}
