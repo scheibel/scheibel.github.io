@@ -34,7 +34,7 @@
       </ul>
     </div>
     
-    <div id="language-chooser col-4 offset-0 col-lg-2">
+    <div id="language-chooser" class="col-4 offset-0 col-lg-2 text-right">
       <ul class="navbar-nav" id="lang-select">
         {% capture lang_lc %}{{ lang | downcase }}{% endcapture %}
         {% for lang in site.languages %}
