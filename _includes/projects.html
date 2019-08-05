@@ -5,13 +5,13 @@
 {% assign projects = site.data.projects.projects | sort:"priority" %}
 {% for p in projects reversed %}
   <div class="row project">
-    <div class="col-sm-3 offset-sm-0 col-8 offset-2">
+    <div class="col-6 offset-3 col-sm-3 offset-sm-0">
       {% assign thumbnail_src = p.thumbnail %}
       {% assign thumbnail_alt = p.title %}
       {% assign thumbnail_flickr = p.flickr %}
       {% if p.thumbnail %}{% include thumbnail.html %}{% endif %}
     </div>
-    <div class="col-sm-3 offset-sm-0 col-10 offset-1">
+    <div class="col-6 offset-0 col-sm-3">
       <h4>{{ p.title | escape }}</h4>
       {% if p.role or p.type %}<p>
         {% if p.role %}{{ site.data.projects.role[page.lang] }}: {{ p.role }}{% endif %}
@@ -19,16 +19,22 @@
         {% if p.type %}{{ site.data.projects.type[page.lang] }}: {{ p.type }}{% endif %}
       </p>{% endif %}
     </div>
-    <div class="col-sm-6 offset-sm-0 col-10 offset-1">
+    <div class="col-6 offset-0 col-sm-6">
       <p>
         {{ p.caption.[page.lang] }}
       </p>
-      <p>
+      <p class="d-none dm-sm-inline">
         {% for download in p.downloads %}
           <a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}">{{ download.desc }}</a>
           {% if download != p.downloads.last %}, {% endif %}
         {% endfor %}
       </p>
     </div>
+    <div class="d-block col-10 offset-1 d-sm-none">
+    {% for download in p.downloads %}
+        <a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}">{{ download.desc }}</a>
+        {% if download != p.downloads.last %}, {% endif %}
+    {% endfor %}
+    </p>
   </div>
 {% endfor %}
