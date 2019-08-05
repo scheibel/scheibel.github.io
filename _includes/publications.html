@@ -8,20 +8,20 @@
 {% assign date = p.date | split: '-' %}
 {% if date[0] != previous_year %}
   <div class="row">
-    <div class="col-10 col-sm-12 offset-1 offset-sm-0">
+    <div class="col-12 offset-0">
       <h2>{{ date[0] }}</h2>
     </div>
   </div>
   {% assign previous_year = date[0] %}
 {% endif %}
 <div class="row{% if p != publications.first %} not-last{% endif %}">
-  <div class="col-sm-3 offset-sm-0 col-10 offset-1">
+  <div class="col-12 offset-0 col-sm-3">
     {% assign thumbnail_src = p.thumbnail %}
     {% assign thumbnail_alt = p.title %}
     {% assign thumbnail_flickr = p.flickr %}
     {% include thumbnail.html %}
   </div>
-  <div class="col-10 offset-1 col-sm-9 offset-sm-0">
+  <div class="col-120 col-sm-90">
     <h4>{{ p.title | escape }}</h4>
     <p>
         {% for author in p.authors %}{% if p.authors.size >= 2 and author == p.authors.last %}and {% endif %}{{ author }}{% if p.authors.size > 2 and author != p.authors.last %},{% endif %} {% endfor %}
