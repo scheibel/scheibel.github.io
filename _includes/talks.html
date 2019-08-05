@@ -5,10 +5,10 @@
 {% assign talks = site.data.talks.talks | sort:"date" %}
 {% for t in talks reversed %}
 <div class="row {% if t.upcoming %}text-muted{% endif %}">
-  <div class="col-2 offset-1 col-md-2 offset-md-1 text-md-right">
+  <div class="col-3 offset-0 col-md-2 offset-md-1 text-md-right">
     {{ t.date | date : "%x" }}
   </div>
-  <div class="col-8 offset-0 col-md-7">
+  <div class="col-9 offset-0 col-md-8">
     <p>{{ t.title | escape }}<br><span class="text-muted">{{ t.location | escape }}</span></p>
     {% if t.downloads %}
     <p>{% for download in t.downloads %}
