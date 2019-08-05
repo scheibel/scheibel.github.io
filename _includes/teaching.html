@@ -8,7 +8,7 @@
   {% capture i %}{% cycle 0, 1 %}{% endcapture %}
   {% if i == '0' %}<div class="row">{% endif %}
 
-  <div class="col-md-6 {% cycle 'offset-0 text-right', 'offset-0 text-left' %}{% if t.upcoming %} text-muted{% endif %} col-8 offset-2 text-center">
+  <div class="col-8 offset-2 text-center col-md-6 offset-md-0 {% cycle 'text-md-right', 'text-md-left' %}{% if t.upcoming %} text-muted{% endif %}">
     <h4>{{ t.term | escape }}</h4>
     {% for c in t.courses %}
     <p>{{ c.course | escape }}<br><span class="text-muted">{{ c.type | escape }}, {{ c.role | escape }}</span></p>
