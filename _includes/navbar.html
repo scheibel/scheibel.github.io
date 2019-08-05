@@ -1,7 +1,8 @@
 {% capture nav_prefix %}/{{ page.lang }}/{% endcapture %}
+{% capture lang_lc %}{{ lang | downcase }}{% endcapture %}
 <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
   <div class="container">
-    <a class="navbar-brand ml-1" href="#page-top">
+    <a class="navbar-brand ml-2" href="#page-top">
       <span>{{ site.author }}</span>
     </a>
     
@@ -9,7 +10,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     
-    <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse w-100 mr-2" id="navbarSupportedContent">
       <ul class="navbar-nav w-100 justify-content-center">
         {% if site.data.publications.publications.size > 0 %}
         <li class="nav-item"><a class="nav-link" href="#publications">{{ site.data.publications.heading.[page.lang] | escape }}</a></li>
@@ -28,20 +29,18 @@
         {% endif %}
         <li class="nav-item"><a class="nav-link" href="#contact">{{ site.data.contact.heading.[page.lang] | escape }}</a></li>
       </ul>
+      <ul id="lang-select" class="navbar-nav">
+        {% for lang in site.languages %}
+          {% if lang != page.lang %}
+            {% capture page_lang %}/{{ page.lang }}/{% endcapture %}
+            {% capture lang_lo %}/{{ lang | downcase }}/{% endcapture %}
+            {% capture href %}{{ page.url | replace : page_lang, lang_lo }}{% endcapture %}
+            {% capture href %}{{ href | replace : '.html', '' }}{% endcapture %}
+          <li class="nav-item"><a class="nav-link" onclick="scrollAwareHRef($(this), '{{ href }}')" href="{{ href }}">{{ lang | upcase }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
     </div>
-    
-    <ul id="lang-select" class="navbar-nav ml-auto justify-content-end mr-1">
-      {% capture lang_lc %}{{ lang | downcase }}{% endcapture %}
-      {% for lang in site.languages %}
-      {% if lang != page.lang %}
-        {% capture page_lang %}/{{ page.lang }}/{% endcapture %}
-        {% capture lang_lo %}/{{ lang | downcase }}/{% endcapture %}
-        {% capture href %}{{ page.url | replace : page_lang, lang_lo }}{% endcapture %}
-        {% capture href %}{{ href | replace : '.html', '' }}{% endcapture %}
-      <li class="nav-item"><a class="nav-link" onclick="scrollAwareHRef($(this), '{{ href }}')" href="{{ href }}">{{ lang | upcase }}</a></li>
-      {% endif %}
-      {% endfor %}
-    </ul>
   </div>
   </div>
 </nav>
