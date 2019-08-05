@@ -35,6 +35,6 @@
         <a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}">{{ download.desc }}</a>
         {% if download != p.downloads.last %}, {% endif %}
     {% endfor %}
-    </p>
+    </div>
   </div>
 {% endfor %}
