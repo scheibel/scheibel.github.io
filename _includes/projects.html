@@ -5,7 +5,7 @@
 {% assign projects = site.data.projects.projects | sort:"priority" %}
 {% for p in projects reversed %}
   <div class="row project">
-    <div class="col-10 offset-1 col-sm-3 offset-sm-0">
+    <div class="col-12 offset-0 col-sm-3 offset-sm-0">
       {% assign thumbnail_src = p.thumbnail %}
       {% assign thumbnail_alt = p.title %}
       {% assign thumbnail_flickr = p.flickr %}
