@@ -4,6 +4,22 @@
     "de" : "Lehre" },
 
   "terms" : [
+  { "term" : "2019/20 : Winter Term",
+    "courses" : 
+    [ { "course" : "Game Programming",
+        "type"   : "Seminar (BA)",
+        "role"   : "Tutor"
+      },
+      { "course" : "Selected Topics in Visual Analytics",
+        "type"   : "Seminar (MA)",
+        "role"   : "Tutor"
+      },
+      { "course" : "Selected Topics in Data Analytics",
+        "type"   : "Seminar (MA)",
+        "role"   : "Tutor"
+      } ],
+    "upcoming": true
+  },
   { "term" : "2019 : Summer Term",
     "courses" : 
     [ { "course" : "Fundamentals of Software Analytics",
