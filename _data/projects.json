@@ -429,6 +429,22 @@
         { "desc": "PPA", "href": "https://launchpad.net/~cginternals/+archive/ubuntu/ppa" },
         { "desc": "Backports PPA", "href": "https://launchpad.net/~cginternals/+archive/ubuntu/backports-ppa" }
       ]
+    },
+    {
+      "title": "HPI Schul-Cloud",
+      "date": "2019-07-01",
+      "status": "ongoing",
+      "thumbnail": "projects/schulcloud-logo.png",
+      "priority": 3,
+      "type": "Service",
+      "role": "Contributor",
+      "caption": {
+        "en": "HPI Schul-Cloud Core Server.",
+        "de": "HPI Schul-Cloud Core Server."
+      },
+      "downloads": [
+        { "desc": "Source Code", "href": "https://github.com/schul-cloud/schulcloud-server" }
+      ]
     }
   ]
 }
