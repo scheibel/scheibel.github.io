@@ -348,7 +348,7 @@
     
     
     { "key"       : "2020-treemap-taxonomy",
-      "bibtex"    : "stld2019-treemap-taxonomy.bib",
+      "bibtex"    : "stld2020-treemap-taxonomy.bib",
       "title"     : "A Taxonomy of Treemap Visualization Techniques",
       "date"      : "2020-02-27",
       "authors"   : [ "Willy Scheibel", "Matthias Trapp", "Daniel Limberger", "Jürgen Döllner" ],
