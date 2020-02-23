@@ -4,6 +4,22 @@
     "de" : "Lehre" },
 
   "terms" : [
+  { "term" : "2020 : Summer Term",
+    "courses" : 
+    [ { "course" : "Computer Graphics II",
+        "type"   : "Lecture (BA)",
+        "role"   : "Lecturer"
+      },
+      { "course" : "Visual Analytics for high-dimensional Data",
+        "type"   : "Seminar (MA)",
+        "role"   : "Tutor"
+      },
+      { "course" : "Analysis and Visualization of Software Data",
+        "type"   : "Seminar (MA)",
+        "role"   : "Tutor"
+      } ],
+    "upcoming": true
+  },
   { "term" : "2019/20 : Winter Term",
     "courses" : 
     [ { "course" : "Game Programming",
@@ -17,8 +33,7 @@
       { "course" : "Selected Topics in Data Analytics",
         "type"   : "Seminar (MA)",
         "role"   : "Tutor"
-      } ],
-    "upcoming": true
+      } ]
   },
   { "term" : "2019 : Summer Term",
     "courses" : 
