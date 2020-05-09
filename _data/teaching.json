@@ -5,12 +5,12 @@
 
   "terms" : [
   { "term" : "2020 : Winter Term",
-    "courses" : 
+    "courses" :
     [
       { "course" : "Computer Graphics I",
         "type"   : "Lecture (BA)",
         "role"   : "Lecturer"
-      } ],
+      },
       { "course" : "Computer Graphics III",
         "type"   : "Seminar (MA)",
         "role"   : "Lecturer and Tutor"
