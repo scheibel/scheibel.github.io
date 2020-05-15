@@ -13,7 +13,17 @@
     "en" : "Type",
     "de" : "Typ"
   },
-
+  
+  "homepage" : {
+    "en" : "Homepage",
+    "de" : "Homepage"
+  },
+  
+  "sourcecode" : {
+    "en" : "Source Code",
+    "de" : "Source Code"
+  },
+  
   "projects" : [ 
     {
       "title": "glbinding",
@@ -27,10 +37,9 @@
         "en": "A C++ binding for the OpenGL API, generated using the gl.xml specification.",
         "de": "Ein C++ Binding für die OpenGL API, welche aus der gl.xml Spezifikation generiert wurde."
       },
-      "downloads": [
-        { "desc": "Homepage", "href": "https://glbinding.org" },
-        { "desc": "Source Code", "href": "https://github.com/cginternals/glbinding" }
-      ]
+      "homepage": "https://glbinding.org",
+      "sourcecode": "https://github.com/cginternals/glbinding",
+      "downloads": []
     },
     {
       "title": "globjects",
@@ -44,10 +53,9 @@
         "en": "A cross-platform C++ wrapper for OpenGL API objects.",
         "de": "Ein cross-platform C++ Wrapper für OpenGL API Objekte."
       },
-      "downloads": [
-        { "desc": "Homepage", "href": "https://globjects.org" },
-        { "desc": "Source Code", "href": "https://github.com/cginternals/globjects" }
-      ]
+      "homepage": "https://globjects.org",
+      "sourcecode": "https://github.com/cginternals/globjects",
+      "downloads": []
     },
     {
       "title": "cmake-init",
@@ -61,10 +69,9 @@
         "en": "Template for reliable, cross-platform C++ project setup using cmake.",
         "de": "Template für zuverlässiges cross-platform C++ Projekt Setup mit CMake."
       },
-      "downloads": [
-        { "desc": "Homepage", "href": "https://cmake-init.org" },
-        { "desc": "Source Code", "href": "https://github.com/cginternals/cmake-init" }
-      ]
+      "homepage": "https://cmake-init.org",
+      "sourcecode": "https://github.com/cginternals/cmake-init",
+      "downloads": []
     },
     {
       "title": "cpplocate",
@@ -78,10 +85,9 @@
         "en": "Cross-platform C++ library providing tools for applications to locate themselves, their data assets as well as dependent modules.",
         "de": "Cross-platform C++ Bibliothek mit Lokalisierungsfunktionen für Anwensungen um ihre Laufzeitdaten, -assets und zusätzliche Module."
       },
-      "downloads": [
-        { "desc": "Homepage", "href": "https://cpplocate.org" },
-        { "desc": "Source Code", "href": "https://github.com/cginternals/cpplocate" }
-      ]
+      "homepage": "https://cpplocate.org",
+      "sourcecode": "https://github.com/cginternals/cpplocate",
+      "downloads": []
     },
     {
       "title": "cppassist",
@@ -95,10 +101,9 @@
         "en": "C++ sanctuary for small but powerful and frequently required, stand alone features.",
         "de": "Sanktuarium für kleine, wichtige und oft benötigte, einzelstehende C++ Features."
       },
-      "downloads": [
-        { "desc": "Homepage", "href": "https://cppassist.org" },
-        { "desc": "Source Code", "href": "https://github.com/cginternals/cppassist" }
-      ]
+      "homepage": "https://cppassist.org",
+      "sourcecode": "https://github.com/cginternals/cppassist",
+      "downloads": []
     },
     {
       "title": "cppexpose",
@@ -112,10 +117,9 @@
         "en": "C++ library for type introspection, reflection, and scripting interface.",
         "de": "C++ Bibliothek für Typ-Introspektion, Reflection und Scripting-Interfaces."
       },
-      "downloads": [
-        { "desc": "Homepage", "href": "https://cppexpose.org" },
-        { "desc": "Source Code", "href": "https://github.com/cginternals/cppexpose" }
-      ]
+      "homepage": "https://cppexpose.org",
+      "sourcecode": "https://github.com/cginternals/cppexpose",
+      "downloads": []
     },
     {
       "title": "cppfs",
@@ -129,10 +133,9 @@
         "en": "Cross-platform C++ file system library supporting multiple backends.",
         "de": "Cross-platform C++ Dateisystembibliothek, welche vielfältige Backends unterstützt."
       },
-      "downloads": [
-        { "desc": "Homepage", "href": "https://cppfilesystem.org" },
-        { "desc": "Source Code", "href": "https://github.com/cginternals/cppfs" }
-      ]
+      "homepage": "https://cppfilesystem.org",
+      "sourcecode": "https://github.com/cginternals/cppfs",
+      "downloads": []
     },
     {
       "title": "gloperate",
@@ -146,9 +149,8 @@
         "en": "C++ library for defining and controlling modern GPU rendering/processing operations.",
         "de": "C++ Bibliothek für die Definition und Ausführung vom modernem GPU Rendering und moderner GPU Prozessierung."
       },
-      "downloads": [
-        { "desc": "Source Code", "href": "https://github.com/cginternals/gloperate" }
-      ]
+      "sourcecode": "https://github.com/cginternals/gloperate",
+      "downloads": []
     },
     {
       "title": "webgl-operate",
@@ -162,10 +164,9 @@
         "en": "A TypeScript based WebGL rendering framework.",
         "de": "Ein TypeScript-basiertes WebGL Rendering Framework."
       },
-      "downloads": [
-        { "desc": "Homepage", "href": "https://webgl-operate.org" },
-        { "desc": "Source Code", "href": "https://github.com/cginternals/webgl-operate" }
-      ]
+      "homepage": "https://webgl-operate.org",
+      "sourcecode": "https://github.com/cginternals/webgl-operate",
+      "downloads": []
     },
     {
       "title": "qmltoolbox",
@@ -178,9 +179,8 @@
         "en": "QML item library for cross-platform graphics applications.",
         "de": "QML Widget Bibliothek für GUIs von cross-platform Anwendungen."
       },
-      "downloads": [
-        { "desc": "Source Code", "href": "https://github.com/cginternals/qmltoolbox" }
-      ]
+      "sourcecode": "https://github.com/cginternals/qmltoolbox",
+      "downloads": []
     },
     {
       "title": "openll",
@@ -193,9 +193,9 @@
         "en": "Open Label Library – API specification and reference implementations for glyph rendering in 2D and 3D graphics environments.",
         "de": "Open Label Library – API Spezifikation und Referenzimplementierung für Glyphrendering in 2D und 3D virtuellen Umgebungen."
       },
+      "homepage": "https://openll.org",
+      "sourcecode": "https://github.com/cginternals/openll-cpp",
       "downloads": [
-        { "desc": "Homepage", "href": "https://openll.org" },
-        { "desc": "Source Code", "href": "https://github.com/cginternals/openll-cpp" },
         { "desc": "API Draft", "href": "https://github.com/scheibel/openll-api" }
       ]
     },
@@ -210,9 +210,8 @@
         "en": "A Web API specification for the management and provisioning of tree-structured data and their visualization using information visualization techniques.",
         "de": "Eine Web API Spezifikation für Verwaltung und Bereitstellung von baumstrukturierten Daten und ihrer Visualisierung mittels Informationsvisualisierungstechniken."
       },
-      "downloads": [
-        { "desc": "Homepage", "href": "https://hiviser.treemap.de" }
-      ]
+      "homepage": "https://hiviser.treemap.de",
+      "downloads": []
     },
     {
       "title": "glesbinding",
@@ -225,9 +224,9 @@
         "en": "A C++ binding for the OpenGL ES API, generated using the gl.xml specification.",
         "de": "Ein C++ Binding für die OpenGL ES API, welche aus der gl.xml Spezifikation generiert wurde."
       },
-      "downloads": [
-        { "desc": "Source Code", "href": "https://github.com/cginternals/glesbinding" }
-      ]
+      "homepage": "https://globjects.org",
+      "sourcecode": "https://github.com/cginternals/glesbinding",
+      "downloads": []
     },
     {
       "title": "glscbinding",
@@ -240,9 +239,8 @@
         "en": "A C++ binding for the OpenGL SC API, generated using the gl.xml specification.",
         "de": "Ein C++ Binding für die OpenGL SC API, welche aus der gl.xml Spezifikation generiert wurde."
       },
-      "downloads": [
-        { "desc": "Source Code", "href": "https://github.com/cginternals/glscbinding" }
-      ]
+      "sourcecode": "https://github.com/cginternals/glscbinding",
+      "downloads": []
     },
     {
       "title": "eglbinding",
@@ -255,9 +253,8 @@
         "en": "A C++ binding for the EGL API, generated using the egl.xml specification.",
         "de": "Ein C++ Binding für die EGL API, welche aus der egl.xml Spezifikation generiert wurde."
       },
-      "downloads": [
-        { "desc": "Source Code", "href": "https://github.com/cginternals/eglbinding" }
-      ]
+      "sourcecode": "https://github.com/cginternals/eglbinding",
+      "downloads": []
     },
     {
       "title": "khrbinding-generator",
@@ -270,9 +267,8 @@
         "en": "A Python generator for the Khronos APIs OpenGL, OpenGL ES, OpenGL SC, and EGL.",
         "de": "Ein Python Generator für die Khronos APIs OpenGL, OpenGL ES, OpenGL SC und EGL."
       },
-      "downloads": [
-        { "desc": "Source Code", "href": "https://github.com/cginternals/khrbinding-generator" }
-      ]
+      "sourcecode": "https://github.com/cginternals/khrbinding-generator",
+      "downloads": []
     },
     {
       "title": "Unified Memory Demo",
@@ -286,9 +282,8 @@
         "en": "Unified Memory Heterogenous Computing Showcase.",
         "de": "Demonstrator für Unified Memory und Heterogenous Computing."
       },
-      "downloads": [
-        { "desc": "Source Code", "href": "https://github.com/cginternals/unifiedmemory-demo" }
-      ]
+      "sourcecode": "https://github.com/cginternals/unifiedmemory-demo",
+      "downloads": []
     },
     {
       "title": "Attributed Vertex Clouds Demo",
@@ -302,9 +297,8 @@
         "en": "Demo to the Article \"Attributed Vertex Clouds\" from GPU Zen: Advanced Rendering Techniques",
         "de": "Demonstrator für den Artikel \"Attributed Vertex Clouds\" aus GPU Zen: Advanced Rendering Techniques"
       },
-      "downloads": [
-        { "desc": "Source Code", "href": "https://github.com/scheibel/attributedvertexclouds" }
-      ]
+      "sourcecode": "https://github.com/scheibel/attributedvertexclouds",
+      "downloads": []
     },
     {
       "title": "glkernel",
@@ -318,9 +312,8 @@
         "en": "C++ library for pre-computing noise, and random sample kernels.",
         "de": "C++ Bibliothek zum vorberechnen von Noise und Random Sampling Kernels."
       },
-      "downloads": [
-        { "desc": "Source Code", "href": "https://github.com/cginternals/glkernel" }
-      ]
+      "sourcecode": "https://github.com/cginternals/glkernel",
+      "downloads": []
     },
     {
       "title": "eglheadless-demo",
@@ -333,9 +326,8 @@
         "en": "Demo and tools for headless EGL and OpenGL and OpenGL ES rendering.",
         "de": "Demonstrator und Tools für headless EGL und OpenGL und OpenGL ES Rendering."
       },
-      "downloads": [
-        { "desc": "Source Code", "href": "https://github.com/scheibel/eglheadless-demo" }
-      ]
+      "sourcecode": "https://github.com/scheibel/eglheadless-demo",
+      "downloads": []
     },
     {
       "title": "graphics-api-test",
@@ -348,9 +340,8 @@
         "en": "Demo and introspection tools for multiple graphics API usage.",
         "de": "Demonstrator und Tools für die Nutzung mehrerer Grafik APIs."
       },
-      "downloads": [
-        { "desc": "Source Code", "href": "https://github.com/scheibel/graphics-api-test" }
-      ]
+      "sourcecode": "https://github.com/scheibel/graphics-api-test",
+      "downloads": []
     },
     {
       "title": "Tasteful Server",
@@ -363,9 +354,8 @@
         "en": "A multithreaded web server written in C++ (using Qt)",
         "de": "Ein Qt-basierter multi-threaded Webserver in C++."
       },
-      "downloads": [
-        { "desc": "Source Code", "href": "https://github.com/scheibel/tastefulserver" }
-      ]
+      "sourcecode": "https://github.com/scheibel/tastefulserver",
+      "downloads": []
     },
     {
       "title": "Tasteful Framework",
@@ -378,9 +368,8 @@
         "en": "A framework to create web application servers written in C++ based on the Tasteful Server.",
         "de": "Ein Webanwendungsframework in C++ basierend auf Tasteful Server."
       },
-      "downloads": [
-        { "desc": "Source Code", "href": "https://github.com/scheibel/tasteful-framework" }
-      ]
+      "sourcecode": "https://github.com/scheibel/tasteful-framework",
+      "downloads": []
     },
     {
       "title": "glm",
@@ -394,10 +383,9 @@
         "en": "C++ library for OpenGL Mathematics.",
         "de": "C++ Bibliothek für OpenGL Mathematik."
       },
-      "downloads": [
-        { "desc": "Homepage", "href": "https://glm.g-truc.net/" },
-        { "desc": "Source Code", "href": "https://github.com/g-truc/glm" }
-      ]
+      "homepage": "https://glm.g-truc.net/",
+      "sourcecode": "https://github.com/g-truc/glm",
+      "downloads": []
     },
     {
       "title": "Widelands",
@@ -410,9 +398,8 @@
         "en": "A free, Settlers II inspired, open source real-time strategy game with singleplayer campaigns and a multiplayer mode.",
         "de": "Ein freies, Die Siedler II inspiriertes Open Source Echtzeitstrategiespiel mit Einzelspielerkampagnen und Mehrspielermodus."
       },
-      "downloads": [
-        { "desc": "Homepage", "href": "https://www.widelands.org/" }
-      ]
+      "homepage": "https://www.widelands.org/",
+      "downloads": []
     },
     {
       "title": "CG Internals PPA",
@@ -425,8 +412,8 @@
         "en": "The Ubuntu Package Archive for the Open Source software of CG Internals.",
         "de": "Das Ubuntu Package Archive für die open source Biliotheken von CG Internals."
       },
+      "homepage": "https://launchpad.net/~cginternals/+archive/ubuntu/ppa",
       "downloads": [
-        { "desc": "PPA", "href": "https://launchpad.net/~cginternals/+archive/ubuntu/ppa" },
         { "desc": "Backports PPA", "href": "https://launchpad.net/~cginternals/+archive/ubuntu/backports-ppa" }
       ]
     },
@@ -442,9 +429,8 @@
         "en": "HPI Schul-Cloud Core Server.",
         "de": "HPI Schul-Cloud Core Server."
       },
-      "downloads": [
-        { "desc": "Source Code", "href": "https://github.com/schul-cloud/schulcloud-server" }
-      ]
+      "sourcecode": "https://github.com/schul-cloud/schulcloud-server",
+      "downloads": []
     }
   ]
 }
