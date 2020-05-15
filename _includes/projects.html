@@ -17,7 +17,7 @@
         {% if p.role %}{{ site.data.projects.role[page.lang] }}: {{ p.role }}{% endif %}
         {% if p.role and p.type %}<br />{% endif %}
         {% if p.type %}{{ site.data.projects.type[page.lang] }}: {{ p.type }}{% endif %}
-        {% if (p.role or p.type) and p.homepage %}<br />{% endif %}
+        {% if (p.role or p.type) and (p.homepage or p.sourcecode) %}<br />{% endif %}
         {% if p.homepage %}<a href="{{ p.homepage }}">{{ site.data.projects.homepage[page.lang] }}</a>{% endif %}
         {% if p.homepage and p.sourcecode %}, {% endif %}
         {% if p.sourcecode %}<a href="{{ p.sourcecode }}">{{ site.data.projects.sourcecode[page.lang] }}</a>{% endif %}
