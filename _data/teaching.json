@@ -4,27 +4,39 @@
     "de" : "Lehre" },
 
   "terms" : [
+  { "term" : "2020/21 : Winter Term",
+    "courses" :
+    [
+      { "course" : "Computer Graphics I",
+        "type"   : "Lecture (BA)",
+        "role"   : "Lecturer"
+      },
+      { "course" : "Computer Graphics III",
+        "type"   : "Seminar (MA)",
+        "role"   : "Lecturer and Tutor"
+      },
+      { "course" : "Advanced Programming in C++",
+        "type"   : "Lecture (MA)",
+        "role"   : "Lecturer and Tutor"
+      } ],
+    "upcoming": true
+  },
   { "term" : "2020 : Summer Term",
     "courses" : 
     [ { "course" : "Computer Graphics II",
         "type"   : "Lecture (BA)",
         "role"   : "Lecturer"
       },
-      { "course" : "Visual Analytics for high-dimensional Data",
-        "type"   : "Seminar (MA)",
-        "role"   : "Tutor"
-      },
       { "course" : "Analysis and Visualization of Software Data",
         "type"   : "Seminar (MA)",
-        "role"   : "Tutor"
-      } ],
-    "upcoming": true
+        "role"   : "Lecturer and Tutor"
+      } ]
   },
   { "term" : "2019/20 : Winter Term",
     "courses" : 
     [ { "course" : "Game Programming",
         "type"   : "Seminar (BA)",
-        "role"   : "Tutor"
+        "role"   : "Lecturer and Tutor"
       },
       { "course" : "Selected Topics in Visual Analytics",
         "type"   : "Seminar (MA)",

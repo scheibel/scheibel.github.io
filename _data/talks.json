@@ -9,10 +9,10 @@
       "title"     : "Interactive Revision Exploration using Small Multiples of Software Maps",
       "location"  : "IVAPP 2016, Rome, Italy",
       "downloads" : [
-        { "href"  : "https://drive.google.com/file/d/1Qib4z8g_RDpfP20tC-0tiJ5o44uCzdLa/view",
+        { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/331399594/inline/jsViewer/5c77b9d0458515831f75e227?pdfJsDownload=1",
           "desc"  : "Poster (Landscape, PDF)"
         },
-        { "href"  : "https://drive.google.com/file/d/1wHn4UBU2ngHASkWhmaaCMZs7ltNpBaFK/view",
+        { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/331399816/inline/jsViewer/5c77ba33458515831f75e23b?pdfJsDownload=1",
           "desc"  : "Poster (Portrait, PDF)"
         }
       ]
@@ -22,10 +22,7 @@
       "title"     : "EvoCells – A Treemap Layout Algorithm for Evolving Tree Data",
       "location"  : "IVAPP 2018, Funchal, Madeira, Portugal",
       "downloads" : [
-        { "href"  : "https://drive.google.com/file/d/1sX4z3fNynYd8Vy92DVpNJcga_bnxhcvU/view",
-          "desc"  : "Handout (PDF)"
-        },
-        { "href"  : "https://drive.google.com/file/d/1PqlQckWNTjFfUC7qCcIdAD8WdAbObQ99/view",
+        { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/331399914/inline/jsViewer/5c77bc00299bf1268d2b8178?pdfJsDownload=1",
           "desc"  : "Slides (PDF)"
         }
       ]
@@ -39,7 +36,7 @@
           "desc"  : "Handout (PDF, 5.1 MiB)"
         },
         { "href"  : "https://drive.google.com/file/d/1bTT7-Fn9tPT91-WPnIhup3X3a-PH0A15/view",
-          "desc"  : "Slides (PDF, 8.8 MiB)"
+          "desc"  : "Slides (PDF)"
         }
       ]
     },
@@ -48,8 +45,8 @@
       "title"     : "Design and Implementation of Web-Based Hierarchy Visualization Services",
       "location"  : "IVAPP 2019, Prague, Czech Republic",
       "downloads" : [
-        { "href"  : "https://drive.google.com/file/d/1J7ERhUYfVcYGgcxrf18KwVNiWd1v0Uop/view",
-          "desc"  : "Slides (PDF, 17.3 MiB)"
+        { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/331399770/inline/jsViewer/5c77b8c692851c695046e654?pdfJsDownload=1",
+          "desc"  : "Slides (PDF)"
         }
       ]
     },
@@ -62,6 +59,11 @@
       "date"      : "2020-02-29 14:00:00",
       "title"     : "A Taxonomy on Treemap Visualization Techniques",
       "location"  : "IVAPP 2020, Valletta, Malta",
+      "downloads" : [
+        { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/339617725/inline/jsViewer/5e5cd13ba6fdccbeba12bfea?pdfJsDownload=1",
+          "desc"  : "Slides (PDF)"
+        }
+      ]
     },
   ]
 }
