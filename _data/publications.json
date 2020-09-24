@@ -420,7 +420,7 @@
     },
     
     
-    { "key"       : "2020-treemap-evaluation",
+    { "key"       : "2020-treemap-layouts",
       "bibtex"    : "sld2020-treemap-layouts.bib",
       "title"     : "Survey of Treemap Layout Algorithms",
       "date"      : "2020-12-03",
