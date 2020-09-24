@@ -393,7 +393,7 @@
       "title"     : "A Framework for Interactive Exploration of Clusters in Massive Data using 3D Scatter Plots and WebGL",
       "date"      : "2020-12-01",
       "authors"   : [ "Lukas Wagner", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "ACM Web3D 2020",
+      "published" : "ACM Web3D",
       
       "caption"   : {
         "en" : "",
@@ -409,7 +409,7 @@
       "title"     : "Survey on User Studies on the Effectiveness of Treemaps",
       "date"      : "2020-12-02",
       "authors"   : [ "Carolin Fiedler", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "ACM VINCI 2020",
+      "published" : "ACM VINCI",
       
       "caption"   : {
         "en" : "",
@@ -425,7 +425,7 @@
       "title"     : "Survey of Treemap Layout Algorithms",
       "date"      : "2020-12-03",
       "authors"   : [ "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner" ],
-      "published" : "ACM VINCI 2020",
+      "published" : "ACM VINCI",
       
       "caption"   : {
         "en" : "",
