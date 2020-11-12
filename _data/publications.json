@@ -396,7 +396,7 @@
       "published" : "ACM Web3D",
       
       "caption"   : {
-        "en" : "",
+        "en" : "This paper presents a rendering framework for the visualization of massive point datasets in the web. It includes highly interactive point rendering, cluster visualization, basic interaction methods, and importance-based labeling, while being available for both mobile and desktop browsers. The rendering style is customizable, as shown in figure 1. Our evaluation indicates that the framework facilitates interactive visualization of tens of millions of raw data points even without dynamic filtering or aggregation.",
         "de" : "" },
 
       "thumbnail" : "publications/2020-web3d-scatterplot-renderer.png",
@@ -412,7 +412,7 @@
       "published" : "ACM VINCI",
       
       "caption"   : {
-        "en" : "",
+        "en" : "Treemaps are a commonly used tool for the visual display and communication of tree-structured, multi-variate data. In order to confidently know when and how treemaps can best be applied, the research community uses usability studies and controlled experiments to \"understand the potential and limitations of our tools\" (Plaisant, 2004). To support the communities' understanding and usage of treemaps, this survey provides a comprehensive review and detailed overview of 69 user studies related to treemaps. However, due to pitfalls and shortcomings in design, conduct, and reporting of the user studies, there is little that can be reliably derived or accepted as a generalized statement. Fundamental open questions include configuration, compatible tasks, use cases, and perceptional characteristics of treemaps. The reliability of findings and statements is discussed and common pitfalls of treemap user studies are identified.",
         "de" : "" },
 
       "thumbnail" : "publications/2020-vinci-treemap-evaluation.png",
@@ -428,7 +428,7 @@
       "published" : "ACM VINCI",
       
       "caption"   : {
-        "en" : "",
+        "en" : "This paper provides an overview of published treemap layout algorithms from 1991 to 2019 that were used for information visualization and computational geometry. First, a terminology is outlined for the precise communication of tree-structured data and layouting processes. Second, an overview and classification of layout algorithms is presented and application areas are discussed. Third, the use-case-specific adaption process is outlined and discussed. This overview targets practitioners and researchers by providing a starting point for own research, visualization design, and applications.",
         "de" : "" },
 
       "thumbnail" : "publications/2020-vinci-treemap-layouts.png",
