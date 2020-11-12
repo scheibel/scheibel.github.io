@@ -11,15 +11,11 @@
         "type"   : "Lecture (BA)",
         "role"   : "Lecturer"
       },
-      { "course" : "Computer Graphics III",
-        "type"   : "Seminar (MA)",
-        "role"   : "Lecturer and Tutor"
-      },
-      { "course" : "Advanced Programming in C++",
-        "type"   : "Lecture (MA)",
-        "role"   : "Lecturer and Tutor"
+      { "course" : "Programing User Interfaces",
+        "type"   : "Lecture (BA)",
+        "role"   : "Tutor"
       } ],
-    "upcoming": true
+    "upcoming": false
   },
   { "term" : "2020 : Summer Term",
     "courses" : 
