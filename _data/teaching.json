@@ -4,6 +4,19 @@
     "de" : "Lehre" },
 
   "terms" : [
+  { "term" : "2021 : Summer Term",
+    "courses" :
+    [
+      { "course" : "Systems Engineering and Data Processing with C++",
+        "type"   : "Lecture (MA)",
+        "role"   : "Lecturer and Tutor"
+      },
+      { "course" : "Software Mining and Applications",
+        "type"   : "Seminar (MA)",
+        "role"   : "Tutor"
+      } ],
+    "upcoming": true
+  },
   { "term" : "2020/21 : Winter Term",
     "courses" :
     [
