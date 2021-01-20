@@ -65,5 +65,12 @@
         }
       ]
     },
+    {
+      "date"      : "2020-12-08 11:00:00",
+      "title"     : "A Survey of Treemap Visualization Techniques",
+      "location"  : "VINCI 2020, Virtual Attendance at Eindhoven, The Netherlands",
+      "downloads" : [
+      ]
+    },
   ]
 }
