@@ -393,14 +393,24 @@
       "title"     : "A Framework for Interactive Exploration of Clusters in Massive Data using 3D Scatter Plots and WebGL",
       "date"      : "2020-12-01",
       "authors"   : [ "Lukas Wagner", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "ACM Web3D",
+      "published" : "The 25th International Conference on 3D Web Technology (Web3D 2020)",
       
       "caption"   : {
         "en" : "This paper presents a rendering framework for the visualization of massive point datasets in the web. It includes highly interactive point rendering, cluster visualization, basic interaction methods, and importance-based labeling, while being available for both mobile and desktop browsers. The rendering style is customizable, as shown in figure 1. Our evaluation indicates that the framework facilitates interactive visualization of tens of millions of raw data points even without dynamic filtering or aggregation.",
         "de" : "" },
 
       "thumbnail" : "publications/2020-web3d-scatterplot-renderer.png",
-      "downloads" : [],
+      "downloads" : [
+        { "href": "https://www.researchgate.net/profile/Lukas_Wagner18/publication/345770726/inline/jsViewer/5fbe75cb299bf104cf770132?pdfJsDownload=1",
+          "desc": "Author Version"
+        },
+        { "href": "https://www.researchgate.net/profile/Lukas_Wagner18/publication/345770755/inline/jsViewer/5fad60e5299bf18c5b6aacb0?pdfJsDownload=1",
+          "desc": "Slides"
+        },
+        { "href": "https://varg.dev/web3d2020/",
+          "desc": "Demo"
+        },
+      ],
     },
     
     
@@ -409,7 +419,7 @@
       "title"     : "Survey on User Studies on the Effectiveness of Treemaps",
       "date"      : "2020-12-02",
       "authors"   : [ "Carolin Fiedler", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "ACM VINCI",
+      "published" : "The 13th International Symposium on Visual Information Communication and Interaction (VINCI 2020)",
       
       "caption"   : {
         "en" : "Treemaps are a commonly used tool for the visual display and communication of tree-structured, multi-variate data. In order to confidently know when and how treemaps can best be applied, the research community uses usability studies and controlled experiments to \"understand the potential and limitations of our tools\" (Plaisant, 2004). To support the communities' understanding and usage of treemaps, this survey provides a comprehensive review and detailed overview of 69 user studies related to treemaps. However, due to pitfalls and shortcomings in design, conduct, and reporting of the user studies, there is little that can be reliably derived or accepted as a generalized statement. Fundamental open questions include configuration, compatible tasks, use cases, and perceptional characteristics of treemaps. The reliability of findings and statements is discussed and common pitfalls of treemap user studies are identified.",
@@ -432,7 +442,7 @@
       "title"     : "Survey of Treemap Layout Algorithms",
       "date"      : "2020-12-03",
       "authors"   : [ "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner" ],
-      "published" : "ACM VINCI",
+      "published" : "The 13th International Symposium on Visual Information Communication and Interaction (VINCI 2020)",
       
       "caption"   : {
         "en" : "This paper provides an overview of published treemap layout algorithms from 1991 to 2019 that were used for information visualization and computational geometry. First, a terminology is outlined for the precise communication of tree-structured data and layouting processes. Second, an overview and classification of layout algorithms is presented and application areas are discussed. Third, the use-case-specific adaption process is outlined and discussed. This overview targets practitioners and researchers by providing a starting point for own research, visualization design, and applications.",
