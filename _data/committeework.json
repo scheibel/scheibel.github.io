@@ -71,6 +71,23 @@
     },
     {
       "title": {
+        "en": "Organization Committee",
+        "de": "Organisationskomitee"
+      },
+      "institution": {
+        "en": "International Symposium on Visual Information Communication and Interaction: VINCI 2021",
+        "de": "Internationales Symposium über Visual Information Communication und Interaction: VINCI 2021"
+      },
+      "role": {
+        "en": "Publication Chair",
+        "de": "Publication Chair"
+      },
+      "since" : 2021,
+      "until" : 2021,
+      "logo" : "logos/vinci_logo.png"
+    },
+    {
+      "title": {
         "en": "Working Group for the Principles in Teaching",
         "de": "Arbeitskreis für den Leitfaden Lehre"
       },
