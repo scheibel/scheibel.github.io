@@ -4,7 +4,9 @@
   <div class="col-9 col-sm-8">
     <p class="form-control-static">
     {% for ref in contact.refs %}
-    <a href="{{ ref.href }}">{{ ref.name }}</a>{% if ref != contact.refs.last %}, {% endif %}
+    <a href="{{ ref.href }}">
+      {% if ref.icon %}<div class="flaticon-{{ref.icon}}" />{% endif %}
+      {{ ref.name }}</a>{% if ref != contact.refs.last %}, {% endif %}
     {% endfor %}
     </p>
   </div>
