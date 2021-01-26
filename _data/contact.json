@@ -40,13 +40,17 @@
     "de" : "Telefon" },
 
   "refs" : [ 
-  	{ "name" : "LinkedIn", "href" : "https://www.linkedin.com/in/willyscheibel" },
   	{ "name" : "GitHub", "href" : "https://github.com/scheibel" },
+  	{ "name" : "ResearchGate", "href" : "https://www.researchgate.net/profile/Willy_Scheibel" },
+  	{ "name" : "ORCID", "href" : "https://orcid.org/0000-0002-7885-9857" },
+  	{ "name" : "LinkedIn", "href" : "https://www.linkedin.com/in/willyscheibel" },
+  	{ "name" : "Google Scholar", "href" : "https://scholar.google.com/citations?user=SBLqi_QAAAAJ&hl=en" },
+  	{ "name" : "Twitter", "href" : "https://twitter.com/willyscheibel" },
   	],
 
   "refs_label" : {
-    "en" : "More",
-    "de" : "Weitere" },
+    "en" : "Social Profiles",
+    "de" : "Profile" },
 
   "formspree" : "willy.scheibel@cginternals.com",
 

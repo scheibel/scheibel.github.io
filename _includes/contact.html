@@ -21,16 +21,6 @@
       <p class="form-control-static"><a href="tel:{{ contact.phone[page.lang] | replace : ' ', '' }}">{{ contact.phone[page.lang] }}</a></p>
     </div>
   </div>
-  <div class="form-group row">
-    <span class="col-3 offset-0 col-sm-2 offset-sm-1 form-control-label text-sm-right text-left">{{ contact.refs_label.[page.lang] }}:</span>
-    <div class="col-9 col-sm-8">
-      <p class="form-control-static">
-      {% for ref in contact.refs %}
-      <a href="{{ ref.href }}">{{ ref.name }}</a>{% if ref != contact.refs.last %}, {% endif %}
-      {% endfor %}
-      </p>
-    </div>
-  </div>
   {% if contact.vcard %}
   {% assign vcard = contact.vcard %}
   <div class="form-group row">
