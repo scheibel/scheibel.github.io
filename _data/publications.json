@@ -449,7 +449,14 @@
         "de" : "" },
 
       "thumbnail" : "publications/2020-vinci-treemap-layouts.png",
-      "downloads" : [],
+      "downloads" : [
+	{ "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/346565429/inline/jsViewer/6008e5e9a6fdccdcb86bb8d0?pdfJsDownload=1",
+          "desc"  : "Author Version"
+        },
+	{ "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/348647547/inline/jsViewer/6008e45f299bf14088adae8b?pdfJsDownload=1",
+          "desc"  : "Slides"
+        }
+      ],
     },
     
     
