@@ -88,6 +88,23 @@
     },
     {
       "title": {
+        "en": "IEEE Computer Society",
+        "de": "IEEE Computer Society"
+      },
+      "institution": {
+        "en": "Transactions for Visualization and Computer Graphics",
+        "de": "Transactions for Visualization and Computer Graphics"
+      },
+      "role": {
+        "en": "Reviewer",
+        "de": "Gutachter"
+      },
+      "since" : 2021,
+      "until" : 2021,
+      "logo" : "logos/ieee_cs_logo.png"
+    },
+    {
+      "title": {
         "en": "Working Group for the Principles in Teaching",
         "de": "Arbeitskreis für den Leitfaden Lehre"
       },
