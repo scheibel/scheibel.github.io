@@ -88,19 +88,24 @@
     },
     {
       "title": {
-        "en": "IEEE Computer Society",
-        "de": "IEEE Computer Society"
+        "en": "Reviewer",
+        "de": "Gutachter"
       },
       "institution": {
-        "en": "Transactions for Visualization and Computer Graphics",
-        "de": "Transactions for Visualization and Computer Graphics"
+        "en": "IEEE Computer Society",
+        "de": "IEEE Computer Society"
       },
       "role": {
         "en": "Reviewer",
         "de": "Gutachter"
       },
+      "projects": [
+	{
+	  "en": "Transactions for Visualization and Computer Graphics (TVCG)",
+	  "de": "Transactions for Visualization and Computer Graphics (TVCG)"
+	},
+      ],
       "since" : 2021,
-      "until" : 2021,
       "logo" : "logos/ieee_cs_logo.jpeg"
     },
     {

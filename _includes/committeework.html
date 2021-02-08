@@ -23,7 +23,7 @@
       {% endif %}
     </div>
     <div class="col-10 col-sm-7">
-      <p>{{ c.title[page.lang] }}<span class="text-muted">, {{ c.role[page.lang] }}</span></p>
+      <p>{{ c.title[page.lang] }}{% if c.role %}<span class="text-muted">, {{ c.role[page.lang] }}</span>{% endif %}</p>
       <p class="text-muted">{{ c.institution[page.lang] }}</p>
       {% if c.projects.size > 0 %}<ul class="list-unstyled">
         {% for p in c.projects %}
