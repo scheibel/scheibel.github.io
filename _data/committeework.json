@@ -95,10 +95,6 @@
         "en": "IEEE Computer Society",
         "de": "IEEE Computer Society"
       },
-      "role": {
-        "en": "Reviewer",
-        "de": "Gutachter"
-      },
       "projects": [
 	{
 	  "en": "Transactions for Visualization and Computer Graphics (TVCG)",
