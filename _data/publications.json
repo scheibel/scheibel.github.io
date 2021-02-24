@@ -469,14 +469,17 @@
       "title"     : "Software Forest: A Visualization of Semantic Similarities in Source Code using a Tree Metaphor",
       "date"      : "2021-02-08",
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Merlin de la Haye", "Maximilian Söchting", "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner" ],
-      "published" : "SciTePress IVAPP",
+      "published" : "12th International Conference on Information Visualization Theory and Applications (IVAPP 2021)",
       
       "caption"   : {
         "en" : "Software visualization techniques provide effective means for program comprehension tasks as they allow developers to interactively explore large code bases. A frequently encountered task during software development is the detection of source code files of similar semantic. To assist this task we present Software Forest, a novel 2.5D software visualization that enables interactive exploration of semantic similarities within a software system, illustrated as a forest. The underlying layout results from the analysis of the vocabulary of the software documents using Latent Dirichlet Allocation and Multidimensional Scaling and therefore reflects the semantic similarity between source code files. By mapping properties of a software entity, e.g., size metrics or trend data, to visual variables encoded by various, figurative tree meshes, aspects of a software system can be displayed. This concept is complemented with implementation details as well as a discussion on applications.",
         "de" : "" },
 
       "thumbnail" : "publications/2021-ivapp-software-forest.png",
-      "downloads" : [],
+      "downloads" : [
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/349382985/inline/jsViewer/60366de5a6fdcc37a84d8507?pdfJsDownload=1",
+          "desc"  : "Author Version"
+        },],
       "doi": "10.5220/0010267601120122",
     }
   ]
