@@ -27,6 +27,10 @@
       { "course" : "Programing User Interfaces",
         "type"   : "Lecture (BA)",
         "role"   : "Tutor"
+      },
+      { "course" : "Analysis and Visualization of Similarities of Software Systems",
+        "type"   : "Project (MA)",
+        "role"   : "Supervisor"
       } ],
     "upcoming": false
   },
@@ -39,6 +43,10 @@
       { "course" : "Analysis and Visualization of Software Data",
         "type"   : "Seminar (MA)",
         "role"   : "Lecturer and Tutor"
+      },
+      { "course" : "Visual Analytics on Multi-dimensional Datausing Topic Maps",
+        "type"   : "Project (MA)",
+        "role"   : "Supervisor"
       } ]
   },
   { "term" : "2019/20 : Winter Term",
