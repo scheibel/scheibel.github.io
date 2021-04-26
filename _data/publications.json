@@ -481,6 +481,22 @@
           "desc"  : "Author Version"
         },],
       "doi": "10.5220/0010267601120122",
+    },
+    
+    
+    { "key"       : "2021-hilbert-moore-performance",
+      "bibtex"    : "swbd2021-hilbertmooreperformance.bib",
+      "title"     : "Algorithmic Improvements on Hilbert and Moore Treemaps for Visualization of Large Tree-structured Datasets",
+      "date"      : "2021-06-14",
+      "authors"   : [ "Willy Scheibel", "Christopher Weyand", "Joseph Bethge", "Jürgen Döllner" ],
+      "published" : "23rd EG Conference on Visualization (EuroVis 2021)",
+      
+      "caption"   : {
+        "en" : "Hilbert and Moore treemaps are based on the same named space-filling curves to lay out tree-structured data for visualization. One main component of them is a partitioning subroutine, whose algorithmic complexity poses problems when scaling to industry-sized datasets. Further, the subroutine allows for different optimization criteria that result in different layout decisions. This paper proposes conceptual and algorithmic improvements to this partitioning subroutine. Two measures for the quality of partitioning are proposed, resulting in the min-max and min-variance optimization tasks. For both tasks, linear-time algorithms are presented that find an optimal solution. The implementation variants are evaluated with respect to layout metrics and run-time performance against a previously available greedy approach. The results show significantly improved run time and no deterioration in layout metrics, suggesting effective use of Hilbert and Moore treemaps for datasets with millions of nodes.",
+        "de" : "" },
+
+      "thumbnail" : "publications/2021-eurovis-hilbert-moore-treemaps.png",
+      "downloads" : [],
     }
   ]
 }
