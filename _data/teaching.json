@@ -13,9 +13,9 @@
       },
       { "course" : "Software Mining and Applications",
         "type"   : "Seminar (MA)",
-        "role"   : "Tutor"
+        "role"   : "Lecturer and Tutor"
       } ],
-    "upcoming": true
+    "upcoming": false
   },
   { "term" : "2020/21 : Winter Term",
     "courses" :
