@@ -479,7 +479,11 @@
       "downloads" : [
         { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/349382985/inline/jsViewer/6047926192851c077f2981ce?pdfJsDownload=1",
           "desc"  : "Author Version"
-        },],
+        },
+        { "href"  : "https://varg.dev/trees/",
+          "desc"  : "Demo"
+        }
+      ],
       "doi": "10.5220/0010267601120122",
     },
     
