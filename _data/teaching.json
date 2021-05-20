@@ -5,8 +5,7 @@
 
   "terms" : [
   { "term" : "2021 : Summer Term",
-    "courses" :
-    [
+    "courses" : [
       { "course" : "Systems Engineering and Data Processing with C++",
         "type"   : "Lecture (MA)",
         "role"   : "Lecturer and Tutor"
@@ -14,12 +13,15 @@
       { "course" : "Software Mining and Applications",
         "type"   : "Seminar (MA)",
         "role"   : "Lecturer and Tutor"
+      },
+      { "course" : "Visualization and Analysis of Mulitidimensional Data",
+        "type"   : "Seminar (MA)",
+        "role"   : "Tutor"
       } ],
     "upcoming": false
   },
   { "term" : "2020/21 : Winter Term",
-    "courses" :
-    [
+    "courses" : [
       { "course" : "Computer Graphics I",
         "type"   : "Lecture (BA)",
         "role"   : "Lecturer"
@@ -31,12 +33,10 @@
       { "course" : "Analysis and Visualization of Similarities of Software Systems",
         "type"   : "Project (MA)",
         "role"   : "Supervisor"
-      } ],
-    "upcoming": false
+      } ]
   },
   { "term" : "2020 : Summer Term",
-    "courses" : 
-    [ { "course" : "Computer Graphics II",
+    "courses" : [ { "course" : "Computer Graphics II",
         "type"   : "Lecture (BA)",
         "role"   : "Lecturer"
       },
@@ -50,8 +50,7 @@
       } ]
   },
   { "term" : "2019/20 : Winter Term",
-    "courses" : 
-    [ { "course" : "Game Programming",
+    "courses" : [ { "course" : "Game Programming",
         "type"   : "Seminar (BA)",
         "role"   : "Lecturer and Tutor"
       },
@@ -65,15 +64,13 @@
       } ]
   },
   { "term" : "2019 : Summer Term",
-    "courses" : 
-    [ { "course" : "Fundamentals of Software Analytics",
+    "courses" : [ { "course" : "Fundamentals of Software Analytics",
         "type"   : "Lecture (MA)",
         "role"   : "Lecturer and Tutor"
       } ]
   },
   { "term" : "2018/19 : Winter Term",
-    "courses" : 
-    [ { "course" : "Introduction to Software Analytics",
+    "courses" : [ { "course" : "Introduction to Software Analytics",
         "type"   : "Lecture (BA/MA)",
         "role"   : "Lecturer and Tutor"
       },
@@ -83,29 +80,25 @@
       } ]
   },
   { "term" : "2018 : Summer Term",
-    "courses" : 
-    [ { "course" : "Gameprogramming",
+    "courses" : [ { "course" : "Gameprogramming",
         "type"   : "Project Seminar (BA)",
         "role"   : "Lecturer and Tutor"
       } ]
   },
   { "term" : "2017/18 : Winter Term",
-    "courses" : 
-    [ { "course" : "Advanced Development in C++",
+    "courses" : [ { "course" : "Advanced Development in C++",
         "type"   : "Project Seminar (MA)",
         "role"   : "Lecturer and Tutor"
       } ]
   },
   { "term" : "2017 : Summer Term",
-    "courses" : 
-    [ { "course" : "Advanced Information Visualization",
+    "courses" : [ { "course" : "Advanced Information Visualization",
         "type"   : "Seminar (MA)",
         "role"   : "Tutor"
       } ]
   },
   { "term" : "2016/17 : Winter Term",
-    "courses" : 
-    [ { "course" : "Advanced Programming in C++",
+    "courses" : [ { "course" : "Advanced Programming in C++",
         "type"   : "Lecture (MA)",
         "role"   : "Lecturer and Tutor"
       },
@@ -119,8 +112,7 @@
       } ]
   },
   { "term" : "2016 : Summer Term",
-    "courses" : 
-    [ { "course" : "Computergraphics II",
+    "courses" : [ { "course" : "Computergraphics II",
         "type"   : "Lecture (BA)",
         "role"   : "Tutor"
       },
@@ -134,8 +126,7 @@
       } ]
   },
   { "term" : "2015/16 : Winter Term",
-    "courses" : 
-    [ { "course" : "Computergraphics I",
+    "courses" : [ { "course" : "Computergraphics I",
         "type"   : "Lecture (BA)",
         "role"   : "Tutor"
       },
@@ -145,8 +136,7 @@
       }]
   },
   { "term" : "2015 : Summer Term",
-    "courses" : 
-    [ { "course" : "Computergraphics I",
+    "courses" : [ { "course" : "Computergraphics I",
         "type"   : "Lecture (BA)",
         "role"   : "Tutor"
       },
@@ -164,8 +154,7 @@
       } ]
   },
   { "term" : "2014/15 : Winter Term",
-    "courses" : 
-    [ { "course" : "Computergraphics II",
+    "courses" : [ { "course" : "Computergraphics II",
         "type"   : "Lecture (BA)",
         "role"   : "Tutor"
       },
@@ -183,8 +172,7 @@
       } ]
   },
   { "term" : "2014 : Summer Term",
-    "courses" : 
-    [ { "course" : "Information Visualization",
+    "courses" : [ { "course" : "Information Visualization",
         "type"   : "Seminar (MA)",
         "role"   : "Co-Tutor"
       },
@@ -194,8 +182,7 @@
       } ]
   },
   { "term" : "2013/14 : Winter Term",
-    "courses" : 
-    [ { "course" : "Software Analysis and Visualization",
+    "courses" : [ { "course" : "Software Analysis and Visualization",
         "type"   : "Seminar (MA)",
         "role"   : "Co-Tutor"
       } ]
