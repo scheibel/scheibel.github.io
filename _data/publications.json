@@ -496,7 +496,11 @@
         "de" : "" },
 
       "thumbnail" : "publications/2021-eurovis-hilbert-moore-treemaps.png",
-      "downloads" : [],
+      "downloads" : [
+	{ "href": "https://www.researchgate.net/profile/Willy-Scheibel/publication/351103336/inline/jsViewer/60a393a8a6fdccb8dc632568?pdfJsDownload=1",
+	  "desc": "Author Version"
+	}
+      ],
     }
   ]
 }
