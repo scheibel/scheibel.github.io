@@ -501,13 +501,14 @@
 
       "thumbnail" : "publications/2021-eurovis-hilbert-moore-treemaps.png",
       "downloads" : [
-	{ "href": "https://www.researchgate.net/profile/Willy-Scheibel/publication/351103336/inline/jsViewer/60a393a8a6fdccb8dc632568?pdfJsDownload=1",
-	  "desc": "Author Version"
-	},
+	    { "href": "https://www.researchgate.net/profile/Willy-Scheibel/publication/351103336/inline/jsViewer/60a393a8a6fdccb8dc632568?pdfJsDownload=1",
+	      "desc": "Author Version"
+	    },
         { "href"  : "https://github.com/varg-dev/hilbert-moore-treemap-layouts-prototype",
           "desc"  : "Source Code"
         }
       ],
+      "doi": "10.2312/evs.20211065",
     }
   ]
 }
