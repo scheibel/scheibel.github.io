@@ -38,7 +38,7 @@
       "title"     : "Interactive Revision Exploration using Small Multiples of Software Maps",
       "date"      : "2016-02-28",
       "authors"   : [ "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "7th International Conference on Information Visualization Theory and Applications (IVAPP 2016)",
+      "published" : "7th International Conference on Information Visualization Theory and Applications (IVAPP)",
       
       "caption"   : {
         "en" : "To explore and to compare different revisions of complex software systems is a challenging task as it requires
@@ -81,7 +81,7 @@
       "title"     : "Dynamic 2.5D Treemaps using Declarative 3D on the Web",
       "date"      : "2016-07-23",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Stefan Lemme", "Jürgen Döllner" ],
-      "published" : "21st International Conference on Web3D Technology (Web3D '16)",
+      "published" : "21st International Conference on Web3D Technology (Web3D)",
       
       "caption"   : {
         "en" : "The 2.5D treemap represents a general purpose visualization technique to map multi-variate hierarchical data in
@@ -124,7 +124,7 @@
       "title"     : "Reducing Visual Complexity in Software Maps using Importance-based Aggregation of Nodes",
       "date"      : "2017-02-27",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Sebastian Hahn", "Jürgen Döllner" ],
-      "published" : "8th International Conference on Information Visualization Theory and Applications (IVAPP 2017)",
+      "published" : "8th International Conference on Information Visualization Theory and Applications (IVAPP)",
       
       "caption"   : {
         "en" : "Depicting massive software system data using software maps can result in visual clutter and increased cognitive load.
@@ -216,7 +216,7 @@
       "title"     : "Mixed-Projection Treemaps: A Novel Approach Mixing 2D and 2.5D Treemaps",
       "date"      : "2017-07-11",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "21st International Conference on Information Visualisation (iV 2017)",
+      "published" : "21st International Conference on Information Visualisation (iV)",
       
       "caption"   : {
         "en" : "2D treemaps are a space-filling visualization technique that facilitate exploration of non-spatial, attributed, tree-structured data using the visual variables size and color. In extension thereto, 2.5D treemaps introduce height for additional information display. This extension entails challenges such as increased rendering effort, occlusion, or the need for navigation techniques that counterbalance the advantages of 2D treemaps to a certain degree.
@@ -241,7 +241,7 @@
       "title"     : "EvoCells – A Treemap Layout Algorithm for Evolving Tree Data",
       "date"      : "2018-01-29",
       "authors"   : [ "Willy Scheibel", "Christopher Weyand", "Jürgen Döllner" ],
-      "published" : "9th International Conference on Information Visualization Theory and Applications (IVAPP 2018)",
+      "published" : "9th International Conference on Information Visualization Theory and Applications (IVAPP)",
       
       "caption"   : {
         "en" : "We propose the rectangular treemap layout algorithm EvoCells that maps changes in tree-structured data onto
@@ -273,7 +273,7 @@
       "title"     : "Design and Implementation of Web-Based Hierarchy Visualization Services",
       "date"      : "2019-02-28",
       "authors"   : [ "Willy Scheibel", "Judith Hartmann", "Jürgen Döllner" ],
-      "published" : "10th International Conference on Information Visualization Theory and Applications (IVAPP 2019)",
+      "published" : "10th International Conference on Information Visualization Theory and Applications (IVAPP)",
       
       "caption"   : {
         "en" : "There is a rapidly growing, cross-domain demand for interactive, high-quality visualization techniques as
@@ -307,7 +307,7 @@
       "title": "Advanced Visual Metaphors and Techniques for Software Maps",
       "date": "2019-10-01",
       "authors": [ "Daniel Limberger", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
-      "published": "The 12th International Symposium on Visual Information Communication and Interaction (VINCI 2019)",
+      "published": "12th International Symposium on Visual Information Communication and Interaction (VINCI)",
       "caption": {
         "en" : "Software maps provide a general-purpose interactive user interface and information display for software analytics tools.
         This paper systematically introduces and classifies software maps as a treemap-based technique for software cartography.
@@ -361,7 +361,7 @@
       "title"     : "A Taxonomy of Treemap Visualization Techniques",
       "date"      : "2020-02-27",
       "authors"   : [ "Willy Scheibel", "Matthias Trapp", "Daniel Limberger", "Jürgen Döllner" ],
-      "published" : "11th International Conference on Information Visualization Theory and Applications (IVAPP 2020)",
+      "published" : "11th International Conference on Information Visualization Theory and Applications (IVAPP)",
       
       "caption"   : {
         "en" : "A treemap is a visualization that has been specifically designed to facilitate the exploration of tree-structured
@@ -394,7 +394,7 @@
       "title"     : "A Framework for Interactive Exploration of Clusters in Massive Data using 3D Scatter Plots and WebGL",
       "date"      : "2020-12-01",
       "authors"   : [ "Lukas Wagner", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "The 25th International Conference on 3D Web Technology (Web3D 2020)",
+      "published" : "25th International Conference on 3D Web Technology (Web3D)",
       
       "caption"   : {
         "en" : "This paper presents a rendering framework for the visualization of massive point datasets in the web. It includes highly interactive point rendering, cluster visualization, basic interaction methods, and importance-based labeling, while being available for both mobile and desktop browsers. The rendering style is customizable, as shown in figure 1. Our evaluation indicates that the framework facilitates interactive visualization of tens of millions of raw data points even without dynamic filtering or aggregation.",
@@ -421,7 +421,7 @@
       "title"     : "Survey on User Studies on the Effectiveness of Treemaps",
       "date"      : "2020-12-02",
       "authors"   : [ "Carolin Fiedler", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "The 13th International Symposium on Visual Information Communication and Interaction (VINCI 2020)",
+      "published" : "13th International Symposium on Visual Information Communication and Interaction (VINCI)",
       
       "caption"   : {
         "en" : "Treemaps are a commonly used tool for the visual display and communication of tree-structured, multi-variate data. In order to confidently know when and how treemaps can best be applied, the research community uses usability studies and controlled experiments to \"understand the potential and limitations of our tools\" (Plaisant, 2004). To support the communities' understanding and usage of treemaps, this survey provides a comprehensive review and detailed overview of 69 user studies related to treemaps. However, due to pitfalls and shortcomings in design, conduct, and reporting of the user studies, there is little that can be reliably derived or accepted as a generalized statement. Fundamental open questions include configuration, compatible tasks, use cases, and perceptional characteristics of treemaps. The reliability of findings and statements is discussed and common pitfalls of treemap user studies are identified.",
@@ -445,7 +445,7 @@
       "title"     : "Survey of Treemap Layout Algorithms",
       "date"      : "2020-12-03",
       "authors"   : [ "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner" ],
-      "published" : "The 13th International Symposium on Visual Information Communication and Interaction (VINCI 2020)",
+      "published" : "13th International Symposium on Visual Information Communication and Interaction (VINCI)",
       
       "caption"   : {
         "en" : "This paper provides an overview of published treemap layout algorithms from 1991 to 2019 that were used for information visualization and computational geometry. First, a terminology is outlined for the precise communication of tree-structured data and layouting processes. Second, an overview and classification of layout algorithms is presented and application areas are discussed. Third, the use-case-specific adaption process is outlined and discussed. This overview targets practitioners and researchers by providing a starting point for own research, visualization design, and applications.",
@@ -469,7 +469,7 @@
       "title"     : "Software Forest: A Visualization of Semantic Similarities in Source Code using a Tree Metaphor",
       "date"      : "2021-02-08",
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Merlin de la Haye", "Maximilian Söchting", "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner" ],
-      "published" : "12th International Conference on Information Visualization Theory and Applications (IVAPP 2021)",
+      "published" : "12th International Conference on Information Visualization Theory and Applications (IVAPP)",
       
       "caption"   : {
         "en" : "Software visualization techniques provide effective means for program comprehension tasks as they allow developers to interactively explore large code bases. A frequently encountered task during software development is the detection of source code files of similar semantic. To assist this task we present Software Forest, a novel 2.5D software visualization that enables interactive exploration of semantic similarities within a software system, illustrated as a forest. The underlying layout results from the analysis of the vocabulary of the software documents using Latent Dirichlet Allocation and Multidimensional Scaling and therefore reflects the semantic similarity between source code files. By mapping properties of a software entity, e.g., size metrics or trend data, to visual variables encoded by various, figurative tree meshes, aspects of a software system can be displayed. This concept is complemented with implementation details as well as a discussion on applications.",
@@ -493,7 +493,7 @@
       "title"     : "Algorithmic Improvements on Hilbert and Moore Treemaps for Visualization of Large Tree-structured Datasets",
       "date"      : "2021-06-14",
       "authors"   : [ "Willy Scheibel", "Christopher Weyand", "Joseph Bethge", "Jürgen Döllner" ],
-      "published" : "23rd EG Conference on Visualization (EuroVis 2021)",
+      "published" : "23rd EG Conference on Visualization (EuroVis)",
       
       "caption"   : {
         "en" : "Hilbert and Moore treemaps are based on the same named space-filling curves to lay out tree-structured data for visualization. One main component of them is a partitioning subroutine, whose algorithmic complexity poses problems when scaling to industry-sized datasets. Further, the subroutine allows for different optimization criteria that result in different layout decisions. This paper proposes conceptual and algorithmic improvements to this partitioning subroutine. Two measures for the quality of partitioning are proposed, resulting in the min-max and min-variance optimization tasks. For both tasks, linear-time algorithms are presented that find an optimal solution. The implementation variants are evaluated with respect to layout metrics and run-time performance against a previously available greedy approach. The results show significantly improved run time and no deterioration in layout metrics, suggesting effective use of Hilbert and Moore treemaps for datasets with millions of nodes.",
@@ -509,6 +509,38 @@
         }
       ],
       "doi": "10.2312/evs.20211065",
+    },
+    
+    
+    { "key"       : "2021-procedural-textures",
+      "bibtex"    : "lsdd2021-procedural-textures.bib",
+      "title"     : "Visualization of Data Changes in 2.5D Treemaps using Procedural Textures and Animated Transitions",
+      "date"      : "2021-09-08",
+      "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Jan van Dieken", "Jürgen Döllner" ],
+      "published" : "14th International Symposium on Visual Information Communication and Interaction (VINCI)",
+      
+      "caption"   : {
+        "en" : "This work investigates the extent to which animated procedural texture patterns can be used to support the representation of changes in 2.5D treemaps. Changes in height, color, and area of individual nodes can easily be visualized using animated transitions. Especially for changes in the color attribute, plain animated transitions are not able to directly communicate the direction of change itself. We show how procedural texture patterns can be superimposed to the color mapping and support transitions. To this end, we discuss qualitative properties of each pattern, demonstrate their ability to communicate change direction both with and without animation, and conclude which of the patterns are more likely to increase effectiveness and correctness of the change mapping in 2.5D treemaps.",
+        "de" : "" },
+
+      "thumbnail" : "publications/2021-vinci-procedural-textures.png",
+      "downloads" : [],
+    },
+    
+    
+    { "key"       : "2021-etf-visualization",
+      "bibtex"    : "blsd2021-etf-visualization.bib",
+      "title"     : "Interactive Simulation and Visualization of Long-Term, ETF-based Investment Strategies",
+      "date"      : "2021-09-08",
+      "authors"   : [ "Martin Büßemeyer", "Daniel Limberger", "Willy Scheibel", "Jürgen Döllner" ],
+      "published" : "14th International Symposium on Visual Information Communication and Interaction (VINCI)",
+      
+      "caption"   : {
+        "en" : "Personal, long-term investment products, especially ones for retirement savings, require thorough understanding to use them profitably. Even simple savings plans based on exchange-traded funds(ETFs) are subject to many variables and uncertainties to be considered for expected and planned-upon returns. We present aninteractive simulation of an ETF-based savings plan that combinesforecasts, risk awareness, taxes and costs, inflation, and dynamicinflows and outflows into a single visualization. The visualizationconsists of four parts: a form-fill interface for configuration, a savings and payout simulation, a cash flow chart, and a savings chart. Based on a specific use case, we discuss how private investors canbenefit from using our visualization after a short training period.",
+        "de" : "" },
+
+      "thumbnail" : "publications/2021-vinci-etf-visualization.png",
+      "downloads" : [],
     }
   ]
 }
