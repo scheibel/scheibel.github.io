@@ -540,7 +540,10 @@
         "de" : "" },
 
       "thumbnail" : "publications/2021-vinci-etf-visualization.png",
-      "downloads" : [],
+      "downloads" : [
+        { "href"  : "https://etf-vis.net",
+          "desc"  : "Demo"
+        }],
     }
   ]
 }
