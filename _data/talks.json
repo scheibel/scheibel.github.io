@@ -75,5 +75,15 @@
         }
       ]
     },
+    {
+      "date"      : "2021-06-18 11:00:00",
+      "title"     : "Algorithmic Improvements on Hilbert and Moore Treemaps for Visualization of Large Tree-structured Datasets",
+      "location"  : "EuroVis 2021, Virtual Attendance at Zürich, Switzerland",
+      "downloads" : [
+        { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/351659477/inline/jsViewer/60a3952c458515952dd44930?pdfJsDownload=1",
+          "desc"  : "Slides (PDF)"
+        }
+      ]
+    }
   ]
 }
