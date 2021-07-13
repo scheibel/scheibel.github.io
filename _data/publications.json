@@ -505,7 +505,7 @@
 	      "desc": "Author Version"
 	    },
 	    { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/351659477/inline/jsViewer/60a3952c458515952dd44930?pdfJsDownload=1",
-              "desc"  : "Slides (PDF)"
+              "desc"  : "Slides"
             },
             { "href"  : "https://github.com/varg-dev/hilbert-moore-treemap-layouts-prototype",
               "desc"  : "Source Code"
