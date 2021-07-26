@@ -108,7 +108,8 @@
 	  "de": "Transactions for Visualization and Computer Graphics (TVCG)"
 	},
       ],
-      "in" : 2021,
+      "since" : 2021,
+      "until" : 2021,
       "logo" : "logos/ieee_cs_logo.jpeg"
     },
     {
@@ -126,7 +127,8 @@
 	  "de": "Information Sciences (INS)"
 	},
       ],
-      "in" : 2021,
+      "since" : 2021,
+      "until" : 2021,
       "logo" : "logos/elsevier_logo.png"
     },
     {
