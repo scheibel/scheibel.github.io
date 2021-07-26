@@ -108,8 +108,26 @@
 	  "de": "Transactions for Visualization and Computer Graphics (TVCG)"
 	},
       ],
-      "since" : 2021,
+      "in" : 2021,
       "logo" : "logos/ieee_cs_logo.jpeg"
+    },
+    {
+      "title": {
+        "en": "Reviewer",
+        "de": "Gutachter"
+      },
+      "institution": {
+        "en": "Elsevier",
+        "de": "Elsevier"
+      },
+      "projects": [
+	{
+	  "en": "Information Sciences (INS)",
+	  "de": "Information Sciences (INS)"
+	},
+      ],
+      "in" : 2021,
+      "logo" : "logos/elsevier_logo.png"
     },
     {
       "title": {
