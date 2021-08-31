@@ -544,7 +544,7 @@
 
       "thumbnail" : "publications/2021-vinci-etf-visualization.png",
       "downloads" : [
-        { "href"  : "https://etf-vis.net",
+        { "href"  : "https://etf-vis.net/?apiKey=ew5r345z43",
           "desc"  : "Demo"
         }],
     },
