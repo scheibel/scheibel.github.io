@@ -518,7 +518,7 @@
     { "key"       : "2021-procedural-textures",
       "bibtex"    : "lsdd2021-procedural-textures.bib",
       "title"     : "Visualization of Data Changes in 2.5D Treemaps using Procedural Textures and Animated Transitions",
-      "date"      : "2021-09-08",
+      "date"      : "2021-09-06",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Jan van Dieken", "Jürgen Döllner" ],
       "published" : "14th International Symposium on Visual Information Communication and Interaction (VINCI)",
       
@@ -528,13 +528,14 @@
 
       "thumbnail" : "publications/2021-vinci-procedural-textures.png",
       "downloads" : [],
+      "doi": "10.1145/3481549.3481570",
     },
     
     
     { "key"       : "2021-etf-visualization",
       "bibtex"    : "blsd2021-etf-visualization.bib",
       "title"     : "Interactive Simulation and Visualization of Long-Term, ETF-based Investment Strategies",
-      "date"      : "2021-09-08",
+      "date"      : "2021-09-06",
       "authors"   : [ "Martin Büßemeyer", "Daniel Limberger", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "14th International Symposium on Visual Information Communication and Interaction (VINCI)",
       
@@ -547,13 +548,14 @@
         { "href"  : "https://etf-vis.net/?apiKey=ew5r345z43",
           "desc"  : "Demo"
         }],
+      "doi": "10.1145/3481549.3481568",
     },
     
     
     { "key"       : "2021-softwaregalaxy",
       "bibtex"    : "asld2021-softwaregalaxy.bib",
       "title"     : "Software Galaxies: Displaying Coding Activities using a Galaxy Metaphor",
-      "date"      : "2021-09-08",
+      "date"      : "2021-09-07",
       "authors"   : [ "Daniel Atzberger", "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner" ],
       "published" : "14th International Symposium on Visual Information Communication and Interaction (VINCI)",
       
@@ -563,6 +565,7 @@
 
       "thumbnail" : "publications/2021-vinci-softwaregalaxy.png",
       "downloads" : [],
+      "doi": "10.1145/3481549.3481573",
     }
   ]
 }
