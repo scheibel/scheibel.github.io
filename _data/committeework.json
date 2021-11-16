@@ -146,7 +146,17 @@
       },
       "since" : 2021,
       "until" : 2021,
-      "logo" : "logos/vinci_logo.png"
+      "logo" : "logos/vinci_logo.png",
+      "projects": [
+        {
+          "en": "Proceedings VINCI 2021",
+          "de": "Proceedings VINCI 2021",
+	  "url": {
+	    "en": "https://dl.acm.org/doi/proceedings/10.1145/3481549",
+	    "de": "https://dl.acm.org/doi/proceedings/10.1145/3481549",
+	  }
+        }
+      ]
     },
     {
       "title": {
@@ -163,7 +173,17 @@
       },
       "since": 2018,
       "until": 2019,
-      "logo" : "logos/up_logo.jpg"
+      "logo" : "logos/up_logo.jpg",
+      "projects": [
+        {
+          "en": "Mission Statement for Teaching and Learning",
+          "de": "Leitbild Lehre",
+	  "url": {
+	    "en": "https://www.uni-potsdam.de/en/zfq/ueber-das-zfq/mission-statement-for-teaching-and-learning-at-the-university-of-potsdam",
+	    "de": "https://www.uni-potsdam.de/de/zfq/leitbildlehre",
+	  }
+        }
+      ]
     },
     {
       "title": {
