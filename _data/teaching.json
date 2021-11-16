@@ -6,19 +6,23 @@
   "terms" : [
   { "term" : "2021/22 : Winter Term",
     "courses" : [
-      { "course" : "Introduction to Visualization",
+      { "course" : "Introduction to Data Visualization",
         "type"   : "Lecture (M.Sc.)",
-        "role"   : "Co-Lecturer"
+        "role"   : "Tutor"
       },
       { "course" : "Computer Graphics I",
         "type"   : "Lecture (B.Sc.)",
         "role"   : "Co-Lecturer"
       },
-      { "course" : "Dark Mirror: AI and Society",
+      { "course" : "Advanced Techniques for Visual Analytics of Highdimensional Data",
+        "type"   : "Project Seminar (M.Sc.)",
+        "role"   : "Tutor"
+      },
+      { "course" : "Design and Construction of AI-based Interactive Systems with a 'Dark Side of AI'",
         "type"   : "Project Seminar (B.Sc.)",
         "role"   : "Seminar Lead and Tutor"
       } ],
-    "upcoming": true
+    "upcoming": false
   },
   { "term" : "2021 : Summer Term",
     "courses" : [
