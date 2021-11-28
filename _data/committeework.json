@@ -99,13 +99,17 @@
         "de": "Gutachter"
       },
       "institution": {
-        "en": "IEEE Computer Society",
-        "de": "IEEE Computer Society"
+        "en": "IEEE Computer Society / VGTC",
+        "de": "IEEE Computer Society / VGTC"
       },
       "projects": [
 	{
 	  "en": "Transactions for Visualization and Computer Graphics (TVCG)",
 	  "de": "Transactions for Visualization and Computer Graphics (TVCG)"
+	},
+	{
+	  "en": "Pacific Visualization Symposium (PacificVis)",
+	  "de": "Pacific Visualization Symposium (PacificVis)"
 	},
       ],
       "since" : 2021,
