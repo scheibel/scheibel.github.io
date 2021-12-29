@@ -572,7 +572,7 @@
     { "key"       : "2022-knowhowmap",
       "bibtex"    : "acjsltd2022-knowhowmap.bib",
       "title"     : "Visualization of Knowledge Distribution across Development Teams using 2.5D Semantic Software Maps",
-      "date"      : "2021-02-06",
+      "date"      : "2022-02-06",
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Adrian Jobst", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "13th International Conference on Information Visualization Theory and Applications (IVAPP)",
       
