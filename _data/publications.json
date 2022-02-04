@@ -582,6 +582,21 @@
 
       "thumbnail" : "publications/2022-ivapp-knowhowmap.png",
       "downloads" : []
+    },
+    
+    
+    { "key"       : "2022-authortopicmodel",
+      "bibtex"    : "assltd2022-authortopicmodel.bib",
+      "title"     : "Mining Developer Expertise from Bug Tracking Systems using the Author-Topic Model",
+      "date"      : "2022-04-25",
+      "authors"   : [ "Daniel Atzberger", "Jonathan Schneider", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
+      "published" : "17th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE)",
+      
+      "caption"   : {
+        "en" : "During software development processes, software defects, so-called bugs, are captured in a semi-structured manner in bug tracking systems using textual components and categorical features. It is the task of the triage owner to assign open bugs to developers with the required skills and expertise. This task, known as bug triaging, requires an in-depth knowledge about a developer’s skills. Various machine learning techniques have been proposed to automate this task, most of these approaches apply topic models, especially Latent Dirichlet Allocation (LDA), for mining the textual components of bug reports. However none of the proposed approaches explicitly models a developers expertise. In most cases these algorithms are treated as black box, as they allow no explanation about their recommendation. In this work, we show how the Author-Topic Model (ATM), a variant of LDA, can be used to capture a developer’s expertise in the latent topics of a corpus of bug reports from the model itself. Furthermore, we present three novel bug triaging techniques based on the ATM. We compare our approach against a baesline model, that is based on LDA, on a dataset of 18269 bug reports from the Mozilla Firefox project collected between July 1999 to June 2016. The results show that the ATM can outperform the LDA-based approach in terms of the Mean Reciprocal Rank (MRR)",
+        "de" : "" },
+
+      "downloads" : []
     }
   ]
 }
