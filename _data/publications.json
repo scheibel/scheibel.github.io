@@ -581,7 +581,8 @@
         "de" : "" },
 
       "thumbnail" : "publications/2022-ivapp-knowhowmap.png",
-      "downloads" : []
+      "downloads" : [],
+      "doi": "10.5220/0010991100003124",
     },
     
     
