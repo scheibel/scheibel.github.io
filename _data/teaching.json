@@ -8,23 +8,35 @@
     "courses" : [
       { "course" : "Computer Graphics II",
         "type"   : "Lecture (B.Sc.)",
-        "role"   : "Lecturer"
+        "role"   : "Co-Lecturer"
+      },
+      { "course" : "Advanced Techniques for Analysis and Visualization of Software Data",
+        "type"   : "Project Seminar (M.Sc.)",
+        "role"   : "Tutor"
+      },
+      { "course" : "Algorithms for Analysis and Visualization of High-Dimensional Data",
+        "type"   : "Project Seminar (M.Sc.)",
+        "role"   : "Tutor"
       } ],
-    "upcoming": true
+    "upcoming": false
   },
   { "term" : "2021/22 : Winter Term",
     "courses" : [
-      { "course" : "Introduction to Data Visualization",
-        "type"   : "Lecture (M.Sc.)",
-        "role"   : "Tutor"
-      },
       { "course" : "Computer Graphics I",
         "type"   : "Lecture (B.Sc.)",
         "role"   : "Co-Lecturer"
       },
+      { "course" : "Introduction to Data Visualization",
+        "type"   : "Lecture (M.Sc.)",
+        "role"   : "Tutor"
+      },
       { "course" : "Design and Construction of AI-based Interactive Systems with a 'Dark Side of AI'",
         "type"   : "Project Seminar (B.Sc.)",
         "role"   : "Seminar Lead and Tutor"
+      },
+      { "course" : "Advanced Techniques for Visual Analytics of Highdimensional Data",
+        "type"   : "Project Seminar (M.Sc.)",
+        "role"   : "Tutor"
       } ],
     "upcoming": false
   },
