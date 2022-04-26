@@ -510,7 +510,7 @@
               "desc"  : "Slides"
             },
             { "href"  : "https://github.com/varg-dev/hilbert-moore-treemap-layouts-prototype",
-              "desc"  : "Source Code"
+              "desc"  : "Github Project"
             }
       ],
       "doi": "10.2312/evs.20211065",
@@ -618,7 +618,14 @@
         "de" : "" },
 
       "thumbnail" : "publications/2022-enase-downstream-mining.png",
-      "downloads" : []
+      "downloads" : [
+        { "href": "https://github.com/LinqLover/downstream-repository-mining",
+          "desc": "Github Project"
+        },
+        { "href": "https://doi.org/10.5281/zenodo.6338060",
+          "desc": "Source Code Archive"
+        }
+      ]
     },
     
     
@@ -627,14 +634,21 @@
       "title"     : "Tooling for Time- and Space-efficient git Repository Mining",
       "date"      : "2022-05-23",
       "authors"   : [ "Fabian Heseding", "Willy Scheibel", "Jürgen Döllner" ],
-      "published" : "19th International Conference on Mining Software Repositories - Data and Tool Showcase Track (MSR)",
+      "published" : "19th International Conference on Mining Software Repositories – Data and Tool Showcase Track (MSR)",
       
       "caption"   : {
         "en" : "Software projects under version control grow with each commit, accumulating up to hundreds of thousands of commits per repository. Especially for such large projects, the traversal of a repository and data extraction for static source code analysis poses a trade-off between granularity and speed. We showcase the command-line tool pyrepositoryminer that combines a set of optimization approaches for efficient traversal and data extraction from git repositories while being adaptable to third-party and custom software metrics and data extractions. The tool is written in Python and combines bare repository access, in-memory storage, parallelization, caching, change-based analysis, and optimized communication between the traversal and custom data extraction components. The tool allows for both metrics written in Python and external programs for data extraction. A single-thread performance evaluation based on a basic mining use case shows a mean speedup of 15.6×to other freely available tools across four mid-sized open source projects. A multi-threaded execution allows for load distribution among cores and, thus, a mean speedup up to 86.9×using 12 threads.",
         "de" : "" },
 
       "thumbnail" : "publications/2022-msr-git-mining.png",
-      "downloads" : []
+      "downloads" : [
+        { "href": "https://github.com/fabianhe/pyrepositoryminer",
+          "desc": "Github Project"
+        },
+        { "href": "https://doi.org/10.5281/zenodo.5918480",
+          "desc": "Source Code Archive"
+        }
+      ]
     }
   ]
 }
