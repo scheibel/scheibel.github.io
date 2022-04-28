@@ -601,7 +601,8 @@
         "de" : "" },
 
       "thumbnail" : "publications/2022-enase-authortopicmodel.png",
-      "downloads" : []
+      "downloads" : [],
+      "doi": "10.5220/0011045100003176"
     },
     
     
@@ -625,7 +626,8 @@
         { "href": "https://doi.org/10.5281/zenodo.6338060",
           "desc": "Source Code Archive"
         }
-      ]
+      ],
+      "doi": "10.5220/0011093700003176",
     },
     
     
