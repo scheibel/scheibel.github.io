@@ -12,11 +12,7 @@
       },
       { "course" : "Advanced Techniques for Analysis and Visualization of Software Data",
         "type"   : "Project Seminar (M.Sc.)",
-        "role"   : "Tutor"
-      },
-      { "course" : "Algorithms for Analysis and Visualization of High-Dimensional Data",
-        "type"   : "Project Seminar (M.Sc.)",
-        "role"   : "Tutor"
+        "role"   : "Seminar Lead and Tutor"
       } ],
     "upcoming": false
   },
