@@ -139,6 +139,24 @@
     },
     {
       "title": {
+        "en": "Reviewer",
+        "de": "Gutachter"
+      },
+      "institution": {
+        "en": "International Symposium on Visual Information Communication and Interaction",
+        "de": "Internationales Symposium über Visual Information Communication und Interaction"
+      },
+      "since" : 2022,
+      "logo" : "logos/vinci_logo.png",
+      "projects": [
+        {
+          "en": "VINCI",
+          "de": "VINCI"
+        }
+      ]
+    },
+    {
+      "title": {
         "en": "Organization Committee",
         "de": "Organisationskomitee"
       },
@@ -161,24 +179,6 @@
 	    "en": "https://dl.acm.org/doi/proceedings/10.1145/3481549",
 	    "de": "https://dl.acm.org/doi/proceedings/10.1145/3481549",
 	  }
-        }
-      ]
-    },
-    {
-      "title": {
-        "en": "Reviewer",
-        "de": "Gutachter"
-      },
-      "institution": {
-        "en": "International Symposium on Visual Information Communication and Interaction",
-        "de": "Internationales Symposium über Visual Information Communication und Interaction"
-      },
-      "since" : 2022,
-      "logo" : "logos/vinci_logo.png",
-      "projects": [
-        {
-          "en": "VINCI",
-          "de": "VINCI"
         }
       ]
     },
