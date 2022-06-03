@@ -210,7 +210,7 @@
         "en": "A Web API specification for the management and provisioning of tree-structured data and their visualization using information visualization techniques.",
         "de": "Eine Web API Spezifikation für Verwaltung und Bereitstellung von baumstrukturierten Daten und ihrer Visualisierung mittels Informationsvisualisierungstechniken."
       },
-      "homepage": "https://hiviser.treemap.de",
+      "homepage": "https://hiviser.varg.dev",
       "downloads": []
     },
     {
@@ -313,34 +313,6 @@
         "de": "C++ Bibliothek zum vorberechnen von Noise und Random Sampling Kernels."
       },
       "sourcecode": "https://github.com/cginternals/glkernel",
-      "downloads": []
-    },
-    {
-      "title": "eglheadless-demo",
-      "date": "2015-01-01",
-      "status": "ongoing",
-      "type": "Demo",
-      "priority": 1,
-      "role": "Maintainer",
-      "caption": {
-        "en": "Demo and tools for headless EGL and OpenGL and OpenGL ES rendering.",
-        "de": "Demonstrator und Tools für headless EGL und OpenGL und OpenGL ES Rendering."
-      },
-      "sourcecode": "https://github.com/scheibel/eglheadless-demo",
-      "downloads": []
-    },
-    {
-      "title": "graphics-api-test",
-      "date": "2015-01-01",
-      "status": "ongoing",
-      "type": "Demo",
-      "priority": 1,
-      "role": "Maintainer",
-      "caption": {
-        "en": "Demo and introspection tools for multiple graphics API usage.",
-        "de": "Demonstrator und Tools für die Nutzung mehrerer Grafik APIs."
-      },
-      "sourcecode": "https://github.com/scheibel/graphics-api-test",
       "downloads": []
     },
     {
