@@ -297,7 +297,7 @@
         { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/331399770/inline/jsViewer/5c77b8c692851c695046e654?pdfJsDownload=1",
           "desc"  : "Slides"
         },
-        { "desc": "Homepage", "href": "https://hiviser.treemap.de" }
+        { "desc": "Homepage", "href": "https://hiviser.varg.dev" }
       ],
       "doi": "10.5220/0007693201410152",
     },
