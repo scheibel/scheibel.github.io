@@ -650,7 +650,8 @@
         { "href": "https://doi.org/10.5281/zenodo.5918480",
           "desc": "Source Code Archive"
         }
-      ]
+      ],
+      "doi": "10.1145/3524842.3528503"
     },
     
     
