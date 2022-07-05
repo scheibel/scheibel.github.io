@@ -682,7 +682,7 @@
         "en" : "Software maps provide a general-purpose interactive user interface and information display in software analytics. This paper classifies software maps as a containment-based treemap embedded into a 3D attribute space and introduces respective terminology. It provides a comprehensive overview of advanced visual metaphors and techniques, each suitable for interactive visual analytics tasks. The metaphors and techniques are briefly described, located within a visualization pipeline model, and considered within a software map design space. The general expressiveness and applicability of visual variables are detailed and discussed. Consequent applications and use cases w.r.t. different types of software system data and software engineering data are discussed, arguing for versatile use of software maps in visual software analytics.",
         "de" : "" },
 
-      "thumbnail" : "publications/2022-configurationsoftwaremaps.png",
+      "thumbnail" : "publications/2022-jov-configurationsoftwaremaps.png",
       "downloads" : []
     }
   ]
