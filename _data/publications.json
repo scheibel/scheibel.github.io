@@ -671,6 +671,22 @@
     },
     
     
+    { "key"       : "2022-topicmodel-benchmark",
+      "bibtex"    : "acsldt2022-topicmodel-benchmark.bib",
+      "title"     : "A Benchmark for the Use of Topic Models for Text Visualization Tasks",
+      "date"      : "2022-08-16",
+      "authors"   : [ "Daniel Atzberger", "Tim Cech", "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner", "Matthias Trapp" ],
+      "published" : "15th International Symposium on Visual Information Communication and Interaction (VINCI)",
+      
+      "caption"   : {
+        "en" : "",
+        "de" : "" },
+
+      "thumbnail" : "publications/2022-vinci-topicmodel-benchmark.png",
+      "downloads" : []
+    },
+    
+    
     { "key"       : "2022-configurationsoftwaremaps",
       "bibtex"    : "lsdt2022-configurationsoftwaremaps.bib",
       "title"     : "Visual Variables and Configuration of Software Maps",
