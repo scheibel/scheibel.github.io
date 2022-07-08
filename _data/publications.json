@@ -672,7 +672,7 @@
     
     
     { "key"       : "2022-topicmodel-benchmark",
-      "bibtex"    : "acsldt2022-topicmodel-benchmark.bib",
+      "bibtex"    : "acsldt2022-topicmap-benchmark.bib",
       "title"     : "A Benchmark for the Use of Topic Models for Text Visualization Tasks",
       "date"      : "2022-08-16",
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner", "Matthias Trapp" ],
