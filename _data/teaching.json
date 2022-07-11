@@ -13,6 +13,10 @@
       { "course" : "Advanced Techniques for Analysis and Visualization of Software Data",
         "type"   : "Project Seminar (M.Sc.)",
         "role"   : "Seminar Lead and Tutor"
+      },
+      { "course" : "Programming Techniques II",
+        "type"   : "Lecture (B.Sc.)",
+        "role"   : "Co-Lecturer"
       } ],
     "upcoming": false
   },
