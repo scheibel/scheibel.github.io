@@ -163,6 +163,23 @@
         }
       ]
     },
+      "title": {
+        "en": "Reviewer",
+        "de": "Gutachter"
+      },
+      "institution": {
+        "en": "Working Conference on Software Visualization",
+        "de": "Working Conference on Software Visualization"
+      },
+      "since" : 2022,
+      "logo" : "logos/vissoft_logo.png",
+      "projects": [
+        {
+          "en": "VISSOFT",
+          "de": "VISSOFT"
+        }
+      ]
+    },
     {
       "title": {
         "en": "Organization Committee",
