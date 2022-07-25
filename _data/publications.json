@@ -667,7 +667,8 @@
         "de" : "" },
 
       "thumbnail" : "publications/2022-iccsa-prometheus.png",
-      "downloads" : []
+      "downloads" : [],
+      "doi": "10.1007/978-3-031-10548-7_48"
     },
     
     
