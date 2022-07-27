@@ -678,6 +678,7 @@
       "date"      : "2022-08-16",
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner", "Matthias Trapp" ],
       "published" : "15th International Symposium on Visual Information Communication and Interaction (VINCI)",
+      "pending": true,
       
       "caption"   : {
         "en" : "",
@@ -693,7 +694,8 @@
       "title"     : "Visual Variables and Configuration of Software Maps",
       "date"      : "2022-07-05",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Jürgen Döllner", "Matthias Trapp" ],
-      "published" : "Journal of Visualization (in press)",
+      "published" : "Journal of Visualization",
+      "pending": true,
       
       "caption"   : {
         "en" : "Software maps provide a general-purpose interactive user interface and information display in software analytics. This paper classifies software maps as a containment-based treemap embedded into a 3D attribute space and introduces respective terminology. It provides a comprehensive overview of advanced visual metaphors and techniques, each suitable for interactive visual analytics tasks. The metaphors and techniques are briefly described, located within a visualization pipeline model, and considered within a software map design space. The general expressiveness and applicability of visual variables are detailed and discussed. Consequent applications and use cases w.r.t. different types of software system data and software engineering data are discussed, arguing for versatile use of software maps in visual software analytics.",
@@ -707,9 +709,10 @@
     { "key"       : "2022-codecv",
       "bibtex"    : "ascstd2022-codecv.bib",
       "title"     : "CodeCV: Mining Expertise of GitHub Users from Coding Activities",
-      "date"      : "2022-07-27",
+      "date"      : "2022-10-03",
       "authors"   : [ "Daniel Atzberger", "Nico Scordialo", "Tim Cech", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "22nd International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+      "pending": true,
       
       "caption"   : {
         "en" : "The number of software projects developed collaboratively on social coding platforms is steadily increasing. One of the motivations for developers to participate in open-source software development is to make their development activities easier accessible to potential employers, e.g., in the form of a resume for their interests and skills. However, manual review of source code activities is time-consuming and requires detailed knowledge of the technologies used. Existing approaches are limited to a small subset of actual source code activity and metadata and do not provide explanations for their results. In this work, we present CodeCV, an approach to analyzing the commit activities of a GitHub user concerning the use of programming languages, software libraries, and higher-level concepts, e.g., Machine Learning or Cryptocurrency. Skills in using software libraries and programming languages are analyzed based on syntactic structures in the source code. Based on Labeled Latent Dirichlet Allocation, an automatically generated corpus of GitHub projects is used to learn the concept-specific vocabulary in identifier names and comments. This enables the capture of expertise on abstract concepts from a user's commit history. CodeCV further explains the results through links to the relevant commits in an interactive web dashboard. We tested our system on selected GitHub users who mainly contribute to popular projects to demonstrate that our approach is able to capture developers' expertise effectively.",

@@ -21,7 +21,7 @@
     {% assign thumbnail_flickr = p.flickr %}
     {% include thumbnail.html %}
   </div>
-  <div class="col-12 col-sm-9">
+  <div class="col-12 col-sm-9{% if p.pending %} text-muted{% endif %}">
     <h4>{{ p.title | escape }}</h4>
     <p>
         {% for author in p.authors %}{% if p.authors.size >= 2 and author == p.authors.last %}and {% endif %}{{ author }}{% if p.authors.size > 2 and author != p.authors.last %},{% endif %} {% endfor %}
