@@ -32,6 +32,7 @@
     <p class="collapse" id="abstract-{{ p.key }}">
       {{ p.caption.[page.lang] }}
     </p>
+    {% if p.pending %}<p>In press</p>{% endif %}
     {% if p.downloads.size > 0 %}<p>
       {% for download in p.downloads %}<a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}">{{ download.desc | escape }}</a>{% if download != p.downloads.last %}, {% endif %}{% endfor %}
     </p>{% endif %}
