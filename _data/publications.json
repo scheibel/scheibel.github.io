@@ -685,7 +685,8 @@
         "de" : "" },
 
       "thumbnail" : "publications/2022-vinci-topicmodel-benchmark.png",
-      "downloads" : []
+      "downloads" : [],
+      "doi": "10.1145/3554944.3554961"
     },
     
     
@@ -702,7 +703,8 @@
         "de" : "" },
 
       "thumbnail" : "publications/2022-jov-configurationsoftwaremaps.png",
-      "downloads" : []
+      "downloads" : [],
+      "doi": "10.1007/s12650-022-00868-1"
     },
     
     
