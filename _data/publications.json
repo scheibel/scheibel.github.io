@@ -739,6 +739,23 @@
 
       "thumbnail" : "publications/2022-ivapp-software-forest-extended.png",
       "downloads" : []
+    },
+    
+    
+    { "key"       : "2022-procedural-texture-patterns",
+      "bibtex"    : "lsdd2022-procedural-texture-patterns.bib",
+      "title"     : "Procedural Texture Patterns for Encoding Changes in Color in 2.5D Treemap Visualizations",
+      "date"      : "2022-08-20",
+      "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Jan van Diecken", "Jürgen Döllner" ],
+      "published" : "Journal of Visualization",
+      "pending": true,
+      
+      "caption"   : {
+        "en" : "Treemaps depict tree-structured data while maintaining flexibility in mapping data to different visual variables. This work explores how changes in data mapped to color can be represented with rectangular 2.5D treemaps using procedural texture patterns. The patterns are designed to function for both static images and interactive visualizations with animated transitions. During rendering, the procedural texture patterns are superimposed onto the existing color mapping. We present a pattern catalog with seven exemplary patterns having different characteristics in representing the mapped data. This pattern catalog is implemented in a WebGL-based treemap rendering prototype and is evaluated using performance measurements and case studies on two software projects. As a result, this work extends the toolset of visual encodings for 2.5D treemaps by procedural texture patterns to represent changes in color. It serves as a starting point for user-centered evaluation.",
+        "de" : "" },
+
+      "thumbnail" : "publications/2022-jov-procedural-texture-patterns.png",
+      "downloads" : []
     }
   ]
 }
