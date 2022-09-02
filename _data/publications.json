@@ -15,12 +15,8 @@
       "published": "Master's Thesis at the Hasso Plattner Institute, University of Potsdam",
       
       "caption": {
-        "de": "Eine Treemap kodiert Hierarchien durch rekursive Unterteilung von zweidimensionalen Flächen und ermöglicht die Darstellung mehrerer Attribute z.B. mit der Größe der Grundfläche, der extrudierten Höhe und der Knotenfarbe. Bisherige Treemap-Layoutalgorithmen und -Darstellungstechniken sind nur bedingt zum Vergleich zweier Zustände zu verschiedenen Zeitpunkten geeignet, da (1) keinne Vergleichbarkeit der Treemap-Knoten innerhalb einer Treemap und über verschiedene Zustände hinweg ist gegeben ist und (2) Darstellungstechniken für den Größenunterschied eines Knotens über die Zeit fehlen.
-            Diese Arbeit stellt die Techniken EvoCell-Layouting, Change Map und Change Hints vor. EvoCell-Layouting ist ein neuer Treemap-Algorithmus, welcher ein vorhandenes Treemap-Layout iterativ verändert. Change Maps sind Dichtekarten zum verorten von Änderungen in der Treemap, unabhängig von der Änderungs- und der Knotengröße. Change Hints stellen die Änderungen in den räumlichen Dimensionen zwischen zwei Zuständen auf den Knoten der Treemap dar. Diese drei Techniken verbessern das Verständnis von Entwicklungen in temporalen, hierarchischen Daten.
-            Neben einer prototypischen Implementierung und einer Diskussion über Alternativen, wird durch Performanz- und Speicherverbrauchsanalysen gezeigt, dass die Techniken auf Echtdaten anwendbar sind. Eine abschließende Fallstudie beleuchtet die Entwicklung eines Open-Source Projektes und zeigt markante Punkte in der Entwicklung, die durch vorhandene Hierarchievisualisierungen nur schwer ersichtlich sind.",
-        "en": "A treemap recursively subdivides a two-dimensional area in order to encode a hierarchy and enables the visualization of multiple attributes e.g. with the size, the extruded height or the color of a node. Traditional treemap layout algorithms and rendering techniques can only be used for the comparison of two data sets at different points in time to some extent, as (1) no comparison between nodes in a treemap and between different states is possible and (2) there are no rendering techniques for the size differences of a node over time.
-            This thesis introduces the techniques EvoCell-Layouting, Change Map, and Change Hints. EvoCell-Layouting is a novel treemap layout algorithm that iteratively changes a given treemap layout. Change Maps are density maps to locate changes in attribute values disregarding the difference and the size of the node. Change Hints visualize spatial changes between two states of a treemap. These three techniques enhance the comprehension of the evolution of temporal hierarchical data.
-            A prototypical implementation, a discussion about alternatives, and performance and memory analyses demonstrate real data applicability. An additional case study reveals distinctive changes in the software system of a monitored open-source project that are hard to detect with traditional hierarchy visualizations."
+        "de": "Eine Treemap kodiert Hierarchien durch rekursive Unterteilung von zweidimensionalen Flächen und ermöglicht die Darstellung mehrerer Attribute z.B. mit der Größe der Grundfläche, der extrudierten Höhe und der Knotenfarbe. Bisherige Treemap-Layoutalgorithmen und -Darstellungstechniken sind nur bedingt zum Vergleich zweier Zustände zu verschiedenen Zeitpunkten geeignet, da (1) keinne Vergleichbarkeit der Treemap-Knoten innerhalb einer Treemap und über verschiedene Zustände hinweg ist gegeben ist und (2) Darstellungstechniken für den Größenunterschied eines Knotens über die Zeit fehlen. Diese Arbeit stellt die Techniken EvoCell-Layouting, Change Map und Change Hints vor. EvoCell-Layouting ist ein neuer Treemap-Algorithmus, welcher ein vorhandenes Treemap-Layout iterativ verändert. Change Maps sind Dichtekarten zum verorten von Änderungen in der Treemap, unabhängig von der Änderungs- und der Knotengröße. Change Hints stellen die Änderungen in den räumlichen Dimensionen zwischen zwei Zuständen auf den Knoten der Treemap dar. Diese drei Techniken verbessern das Verständnis von Entwicklungen in temporalen, hierarchischen Daten. Neben einer prototypischen Implementierung und einer Diskussion über Alternativen, wird durch Performanz- und Speicherverbrauchsanalysen gezeigt, dass die Techniken auf Echtdaten anwendbar sind. Eine abschließende Fallstudie beleuchtet die Entwicklung eines Open-Source Projektes und zeigt markante Punkte in der Entwicklung, die durch vorhandene Hierarchievisualisierungen nur schwer ersichtlich sind.",
+        "en": "A treemap recursively subdivides a two-dimensional area in order to encode a hierarchy and enables the visualization of multiple attributes e.g. with the size, the extruded height or the color of a node. Traditional treemap layout algorithms and rendering techniques can only be used for the comparison of two data sets at different points in time to some extent, as (1) no comparison between nodes in a treemap and between different states is possible and (2) there are no rendering techniques for the size differences of a node over time. This thesis introduces the techniques EvoCell-Layouting, Change Map, and Change Hints. EvoCell-Layouting is a novel treemap layout algorithm that iteratively changes a given treemap layout. Change Maps are density maps to locate changes in attribute values disregarding the difference and the size of the node. Change Hints visualize spatial changes between two states of a treemap. These three techniques enhance the comprehension of the evolution of temporal hierarchical data. A prototypical implementation, a discussion about alternatives, and performance and memory analyses demonstrate real data applicability. An additional case study reveals distinctive changes in the software system of a monitored open-source project that are hard to detect with traditional hierarchy visualizations."
       },
       
       "thumbnail" : "publications/2014-thesis-evocells.png",
@@ -41,25 +37,8 @@
       "published" : "7th International Conference on Information Visualization Theory and Applications (IVAPP)",
       
       "caption"   : {
-        "en" : "To explore and to compare different revisions of complex software systems is a challenging task as it requires
-                to constantly switch between different revisions and the corresponding information visualization. This paper
-                proposes to combine the concept of small multiples and focus+context techniques for software maps to facilitate
-                the comparison of multiple software map themes and revisions simultaneously on a single screen. This
-                approach reduces the amount of switches and helps to preserve the mental map of the user. Given a software
-                project the small multiples are based on a common dataset but are specialized by specific revisions and themes.
-                The small multiples are arranged in a matrix where rows and columns represents different themes and revisions,
-                respectively. To ensure scalability of the visualization technique we also discuss two rendering pipelines
-                to ensure interactive frame-rates. The capabilities of the proposed visualization technique are demonstrated in
-                a collaborative exploration setting using a high-resolution, multi-touch display.",
-        "de" : "Die Exploration und der Vergleich verschiedener Revisionen eines komplexen Softwaresystems ist eine komplizierte
-                Aufgabe, da es einen ständigen Wechsel zwischen den Revisionen und den Visualisierungen erfordert. Diese
-                Ausarbeitung stellt eine Kombination von Small Multiples, Focus+Context Techniken und Software Maps vor, die den
-                Vergleich zwischen mehreren Software Map Themen und Revisionen gleichzeitig auf einem Bildschirm ermöglicht. Dieser
-                Ansatz reduziert die Anzahl der benötigten Kontextwechsel für den Nutzer und ermöglicht die Erstellung einer mentalen
-                Karte. Dabei werden die Small Multiples zu einem Softwaresystem über einen gemeinsamen Datensatz erstellt und in
-                einer Matrix angeordnet, in der Zeilen und Spalten für die unterschiedlichen Themen und Revisionen stehen. Eine
-                interaktive, skalierbare Visualierung ist über die Nutzung einer der zwei vorgestellten Renderingabläufe möglich.
-                Weiterhin wir die Technik im Rahmen eines High-Resolution, Multi-Touch Display gezeigt und besprochen." },
+        "en" : "To explore and to compare different revisions of complex software systems is a challenging task as it requires to constantly switch between different revisions and the corresponding information visualization. This paper proposes to combine the concept of small multiples and focus+context techniques for software maps to facilitate the comparison of multiple software map themes and revisions simultaneously on a single screen. This approach reduces the amount of switches and helps to preserve the mental map of the user. Given a software project the small multiples are based on a common dataset but are specialized by specific revisions and themes. The small multiples are arranged in a matrix where rows and columns represents different themes and revisions, respectively. To ensure scalability of the visualization technique we also discuss two rendering pipelines to ensure interactive frame-rates. The capabilities of the proposed visualization technique are demonstrated in a collaborative exploration setting using a high-resolution, multi-touch display.",
+        "de" : "Die Exploration und der Vergleich verschiedener Revisionen eines komplexen Softwaresystems ist eine komplizierte Aufgabe, da es einen ständigen Wechsel zwischen den Revisionen und den Visualisierungen erfordert. Diese Ausarbeitung stellt eine Kombination von Small Multiples, Focus+Context Techniken und Software Maps vor, die den Vergleich zwischen mehreren Software Map Themen und Revisionen gleichzeitig auf einem Bildschirm ermöglicht. Dieser Ansatz reduziert die Anzahl der benötigten Kontextwechsel für den Nutzer und ermöglicht die Erstellung einer mentalen Karte. Dabei werden die Small Multiples zu einem Softwaresystem über einen gemeinsamen Datensatz erstellt und in einer Matrix angeordnet, in der Zeilen und Spalten für die unterschiedlichen Themen und Revisionen stehen. Eine interaktive, skalierbare Visualierung ist über die Nutzung einer der zwei vorgestellten Renderingabläufe möglich. Weiterhin wir die Technik im Rahmen eines High-Resolution, Multi-Touch Display gezeigt und besprochen." },
 
       "thumbnail" : "publications/2016-ivapp-small-multiples.png",
       "downloads" : [
@@ -84,22 +63,8 @@
       "published" : "21st International Conference on Web3D Technology (Web3D)",
       
       "caption"   : {
-        "en" : "The 2.5D treemap represents a general purpose visualization technique to map multi-variate hierarchical data in
-                a scalable, interactive, and consistent way used in a number of application fields. In this paper, we explore
-                the capabilities of Declarative 3D for the web-based implementation of 2.5D treemap clients. Particularly, we
-                investigate how X3DOM and XML3D can be used to implement clients with equivalent features that interactively
-                display 2.5D treemaps with dynamic mapping of attributes. We also show a first step towards a glTF-based
-                implementation. These approaches are benchmarked focusing on their interaction capabilities with respect to
-                rendering and speed of dynamic data mapping. We discuss the results for our representative example of a complex
-                3D interactive visualization technique and summerize recommendations for improvements towards operational web
-                clients.",
-        "de" : "Die 2.5D Treemap stellt eine grundlegende, skalierbare und interaktive Visualisierungstechnik für multi-variate
-                hierarchische Daten dar. In dieser Ausarbeitung durchleuchten wir die Möglichkeiten von deklarativem 3D für
-                webbasierte 2.5D Treemap Clients. Besonderes Augenmerk legen wir auf X3DOM und XML3D, indem wir Clients mit
-                gleichem Featureumfang (u.a. dynamische Attributmappings) für interaktive 2.5D Treemaps vergleichen. Weiterhin
-                zeigen wir erste Ansätze für die Nutzung von glTF. Alle Ansätze wurden bezüglich ihrer Prozessierungs- und
-                Renderinggeschwindigkeit. Wir diskutieren die Ergebnisse für unser representatives Beispiel einer komplexen 3D
-                Visualisierungstechnik und fassen Verbesserungsvorschläge für produktive Web-Clients zusammen." },
+        "en" : "The 2.5D treemap represents a general purpose visualization technique to map multi-variate hierarchical data in a scalable, interactive, and consistent way used in a number of application fields. In this paper, we explore the capabilities of Declarative 3D for the web-based implementation of 2.5D treemap clients. Particularly, we investigate how X3DOM and XML3D can be used to implement clients with equivalent features that interactively display 2.5D treemaps with dynamic mapping of attributes. We also show a first step towards a glTF-based implementation. These approaches are benchmarked focusing on their interaction capabilities with respect to rendering and speed of dynamic data mapping. We discuss the results for our representative example of a complex 3D interactive visualization technique and summerize recommendations for improvements towards operational web clients.",
+        "de" : "Die 2.5D Treemap stellt eine grundlegende, skalierbare und interaktive Visualisierungstechnik für multi-variate hierarchische Daten dar. In dieser Ausarbeitung durchleuchten wir die Möglichkeiten von deklarativem 3D für webbasierte 2.5D Treemap Clients. Besonderes Augenmerk legen wir auf X3DOM und XML3D, indem wir Clients mit gleichem Featureumfang (u.a. dynamische Attributmappings) für interaktive 2.5D Treemaps vergleichen. Weiterhin zeigen wir erste Ansätze für die Nutzung von glTF. Alle Ansätze wurden bezüglich ihrer Prozessierungs- und Renderinggeschwindigkeit. Wir diskutieren die Ergebnisse für unser representatives Beispiel einer komplexen 3D Visualisierungstechnik und fassen Verbesserungsvorschläge für produktive Web-Clients zusammen." },
 
       "thumbnail" : "publications/2016-web3d-decl3d-treemaps.png",
       "downloads" : [
@@ -127,24 +92,8 @@
       "published" : "8th International Conference on Information Visualization Theory and Applications (IVAPP)",
       
       "caption"   : {
-        "en" : "Depicting massive software system data using software maps can result in visual clutter and increased cognitive load.
-                This paper introduces an adaptive level-of-detail (LoD) technique that uses scoring for interactive
-                aggregation on a per-node basis. The scoring approximates importance by degree-of-interest measures as well
-                as screen and user-interaction scores. The technique adheres to established aggregation guidelines and was
-                evaluated by means of two user studies. The first user study investigates task completion time in visual search.
-                The second evaluates the readability of the presented nesting level contouring for aggregates. With the adap-
-                tive LoD technique software maps allow for multi-resolution depictions of software system information. It
-                facilitates efficient identification of important nodes and allows for additional annotation.",
-        "de" : "Darstellungen massiver Softwaresystemdaten durch Softwarelagekarten können durch erhöhte kognitive Last und
-                Visual Clutter beeinträchtigend für das Verständnis der Softwaresysteme sein. Diese Ausarbeitung stellt ein
-                adaptives Level-of-Detail Verfahren vor, welches ein Bewertungssystem für interaktive Aggregation pro Knoten
-                einsetzt. Das Bewertungssystem nähert die tatsächliche Relevanz über einen Revelanzgrad an, welcher über
-                darstellungs- und nutzerbasierte Metriken ermittelt wird. Das Level-of-Detail Verfahren befolgt etablierte
-                Aggregations-Richtlinien und wurde anhand von zwei Nutzerstudien evaluiert. Die erste Nutzerstudie untersucht
-                die Bearbeitungszeiten von festgelegten Aufgaben. Die zweite wertet die Lestbarkeit der vorgestellen Nesting-
-                Level-Konturen für Aggregate aus. Mit dem adaptiven Level-of-Detail Verfahren können Softwarelagekarten für
-                Darstellungen von Softwareystemen auf unterschiedlichen Detailgraden eingesetzt werden. Es ermöglicht die
-                effiziente Lokalisierung von wichtigen Knoten unter Bereitstellung von mehr Flächen für Beschriftung von Knoten." },
+        "en" : "Depicting massive software system data using software maps can result in visual clutter and increased cognitive load. This paper introduces an adaptive level-of-detail (LoD) technique that uses scoring for interactive aggregation on a per-node basis. The scoring approximates importance by degree-of-interest measures as well as screen and user-interaction scores. The technique adheres to established aggregation guidelines and was evaluated by means of two user studies. The first user study investigates task completion time in visual search. The second evaluates the readability of the presented nesting level contouring for aggregates. With the adap- tive LoD technique software maps allow for multi-resolution depictions of software system information. It facilitates efficient identification of important nodes and allows for additional annotation.",
+        "de" : "Darstellungen massiver Softwaresystemdaten durch Softwarelagekarten können durch erhöhte kognitive Last und Visual Clutter beeinträchtigend für das Verständnis der Softwaresysteme sein. Diese Ausarbeitung stellt ein adaptives Level-of-Detail Verfahren vor, welches ein Bewertungssystem für interaktive Aggregation pro Knoten einsetzt. Das Bewertungssystem nähert die tatsächliche Relevanz über einen Revelanzgrad an, welcher über darstellungs- und nutzerbasierte Metriken ermittelt wird. Das Level-of-Detail Verfahren befolgt etablierte Aggregations-Richtlinien und wurde anhand von zwei Nutzerstudien evaluiert. Die erste Nutzerstudie untersucht die Bearbeitungszeiten von festgelegten Aufgaben. Die zweite wertet die Lestbarkeit der vorgestellen Nesting- Level-Konturen für Aggregate aus. Mit dem adaptiven Level-of-Detail Verfahren können Softwarelagekarten für Darstellungen von Softwareystemen auf unterschiedlichen Detailgraden eingesetzt werden. Es ermöglicht die effiziente Lokalisierung von wichtigen Knoten unter Bereitstellung von mehr Flächen für Beschriftung von Knoten." },
 
       "thumbnail" : "publications/2017-importance-based-aggregation.png",
       "downloads" : [
@@ -154,7 +103,7 @@
         { "href"  : "https://www.researchgate.net/profile/Daniel_Limberger/publication/331407406/inline/jsViewer/5c77deb8299bf1268d2c7c7b?pdfJsDownload=1",
           "desc"  : "Slides"
         } ],
-      "doi": "10.5220/0006267501760185",
+      "doi": "10.5220/0006267501760185"
     },
     
     
@@ -166,39 +115,8 @@
       "published" : "GPU Zen",
       
       "caption"   : {
-        "en" : "In todays computer graphics applications, large 3D scenes are rendered
-                which consist of polygonal geometries such as triangle meshes. Using state-
-                of-the-art techniques, this geometry is often represented on the GPU using
-                vertex and index buffers, as well as additional auxiliary data such as tex-
-                tures or uniform buffers. For polygonal meshes of
-                arbitrary complexity, the described approach is indispensable. However,
-                there are several types of simpler geometries (e.g., cuboids, spheres, tubes,
-                or splats) that can be generated procedurally. We present an efficient data representation and render-
-                ing concept for such geometries, denoted as attributed vertex clouds (AVCs).
-                Using this approach, geometry is generated on the GPU during execution
-                of the programmable rendering pipeline. Each
-                vertex is used as the argument for a function that procedurally generates
-                the target geometry. This function is called a transfer function, and it is
-                implemented using shader programs and therefore executed as part of the
-                rendering process.
-                This approach allows for compact geometry representation and results
-                in reduced memory footprints in comparison to traditional representations.
-                By shifting geometry generation to the GPU, the resulting
-                volatile geometry can be controlled flexibly, i.e., its position, parameteri-
-                zation, and even the type of geometry can be modified without requiring
-                state changes or uploading new data to the GPU. Performance measurements
-                suggests improved rendering times and reduced memory transmission through the rendering pipeline.",
-        "de" : "In heutigen computergrafischen Anwendungen werde zumeist große 3D Szenen gerendert, die aus polygonalen Geometrien wie Dreiecksnetze bestehen.
-                Mit State-of-the-Art Techniken wird diese Geometrie auf der GPU mittels Vertex- und Indexbuffern enkodiert.
-                For Polygonnetze beliebiger Komplexität ist dieser Ansatz unumgänglich.
-                Allerdings gibt es Geometrietypen einfacherer Struktur (z. B. Würfel, Kugeln, Röhren oder Flächen) welche prozedural generiert werden können.
-                Wir präsentieren eine effiziente Datenrepräsentation und Renderingkonzept für solche Geometrien, Attributed Vertex Cloud (AVC) genannt.
-                Mit diesem Ansatz wird die Geometrie während der Ausführung der Renderingpipeline auf der Grafikkarte berechnet.
-                Jeder Vertex der Geometrie wird als Argument an eine Funktion übergeben, welche die Zielgeometrie erzeugt.
-                Diese Funktion nennen wir Transfer-Funktion und sie ist in Shader-Programmen implementiert und wird somit als Teil des Rendering-Prozesses ausgeführt.
-                Der Ansatz ermöglicht kompakte Speicherrepräsentation der Geometrie gegenüber existierenden Verfahren.
-                Die Verschiebung der Geometrieerzeugung auf die GPU ermöglicht auch die Umsetzung von flüchtiger Geometrie, welche dynamisch konfigurierbar ist (z. B. Position oder Parameter, sogar der Typ ist änderbar).
-                Messungen der Ausführungszeiten deuten auf eine Verschnellerung der Framezeiten und eine geringere Speicher-Fußabdruck bei Datenübertragungen zwischen den Shader-Stages der Renderingpipeline." },
+        "en" : "In todays computer graphics applications, large 3D scenes are rendered which consist of polygonal geometries such as triangle meshes. Using state-of-the-art techniques, this geometry is often represented on the GPU using vertex and index buffers, as well as additional auxiliary data such as textures or uniform buffers. For polygonal meshes of arbitrary complexity, the described approach is indispensable. However, there are several types of simpler geometries (e.g., cuboids, spheres, tubes, or splats) that can be generated procedurally. We present an efficient data representation and rendering concept for such geometries, denoted as attributed vertex clouds (AVCs). Using this approach, geometry is generated on the GPU during execution of the programmable rendering pipeline. Each vertex is used as the argument for a function that procedurally generates the target geometry. This function is called a transfer function, and it is implemented using shader programs and therefore executed as part of the rendering process. This approach allows for compact geometry representation and results in reduced memory footprints in comparison to traditional representations. By shifting geometry generation to the GPU, the resulting volatile geometry can be controlled flexibly, i.e., its position, parameterization, and even the type of geometry can be modified without requiring state changes or uploading new data to the GPU. Performance measurements suggests improved rendering times and reduced memory transmission through the rendering pipeline.",
+        "de" : "In heutigen computergrafischen Anwendungen werde zumeist große 3D Szenen gerendert, die aus polygonalen Geometrien wie Dreiecksnetze bestehen. Mit State-of-the-Art Techniken wird diese Geometrie auf der GPU mittels Vertex- und Indexbuffern enkodiert. For Polygonnetze beliebiger Komplexität ist dieser Ansatz unumgänglich. Allerdings gibt es Geometrietypen einfacherer Struktur (z. B. Würfel, Kugeln, Röhren oder Flächen) welche prozedural generiert werden können. Wir präsentieren eine effiziente Datenrepräsentation und Renderingkonzept für solche Geometrien, Attributed Vertex Cloud (AVC) genannt. Mit diesem Ansatz wird die Geometrie während der Ausführung der Renderingpipeline auf der Grafikkarte berechnet. Jeder Vertex der Geometrie wird als Argument an eine Funktion übergeben, welche die Zielgeometrie erzeugt. Diese Funktion nennen wir Transfer-Funktion und sie ist in Shader-Programmen implementiert und wird somit als Teil des Rendering-Prozesses ausgeführt. Der Ansatz ermöglicht kompakte Speicherrepräsentation der Geometrie gegenüber existierenden Verfahren. Die Verschiebung der Geometrieerzeugung auf die GPU ermöglicht auch die Umsetzung von flüchtiger Geometrie, welche dynamisch konfigurierbar ist (z. B. Position oder Parameter, sogar der Typ ist änderbar). Messungen der Ausführungszeiten deuten auf eine Verschnellerung der Framezeiten und eine geringere Speicher-Fußabdruck bei Datenübertragungen zwischen den Shader-Stages der Renderingpipeline." },
 
       "thumbnail" : "publications/2017-gpuzen-attributed-vertex-clouds.png",
       "downloads" : [
@@ -219,10 +137,8 @@
       "published" : "21st International Conference on Information Visualisation (iV)",
       
       "caption"   : {
-        "en" : "2D treemaps are a space-filling visualization technique that facilitate exploration of non-spatial, attributed, tree-structured data using the visual variables size and color. In extension thereto, 2.5D treemaps introduce height for additional information display. This extension entails challenges such as increased rendering effort, occlusion, or the need for navigation techniques that counterbalance the advantages of 2D treemaps to a certain degree.
-                This paper presents a novel technique for combining 2D and 2.5D treemaps using multi-perspective views to leverage the advantages of both treemap types. It enables a new form of overview+detail visualization for complex treemaps and contributes new concepts for real-time rendering of and interaction with mixed-projection treemaps. The technique operates by tilting up inner nodes using affine transformations and animated state transitions. The mixed use of orthogonal and perspective projections is discussed and application examples that facilitate exploration of multi-variate data and benefit from the reduced interaction overhead are demonstrated.",
-        "de" : "2D Treemaps sind eine raumfüllende Visualisierungstechnik für die Exploration von abstrakten, attribuierten Daten mit Baumstruktur. Dabei werden die visuellen Variablen Größe und Farbe benutzt. Als Erweiterung führen die 2.5D Treemaps die Höhe für zusätzliche Informationsdarstellung ein. Diese Erweiterung kommt jedoch mit Herausforderungen wie der komplexeren Bildsynthese, Verdeckung oder angepassten Navigationstechniken einher, welche den Vorteile einer reinen 2D Treemap gegenüberstehen.
-                Dieses Paper präsentiert eine neuartige Kombination von 2D und 2.5D Treemaps unter Nutzung von multiperspektiven Ansichten um die Vorteile beider Techniken zu vereinen. Es ermöglicht eine Form der Overview+Detail Visualisierung für komplexe Treemaps, welche über neue Konzepte im Echtzeitrendering und Interaktion als Mixed-Projection Treemaps dargestellt werden können. Die Visualisierungstechnik nutzt eine Drehung innerer Treemap-Knoten über affine Transformationen und animierte Übergänge. Dabei werden die gemeinsame Nutzung von orthogonaler und perspektivischer Projektion besprochen und Anwendungsbeispiele für die Exploration multivariater Daten gezeigt, die von dem geringeren Interaktions-Overhead profitieren." },
+        "en" : "2D treemaps are a space-filling visualization technique that facilitate exploration of non-spatial, attributed, tree-structured data using the visual variables size and color. In extension thereto, 2.5D treemaps introduce height for additional information display. This extension entails challenges such as increased rendering effort, occlusion, or the need for navigation techniques that counterbalance the advantages of 2D treemaps to a certain degree. This paper presents a novel technique for combining 2D and 2.5D treemaps using multi-perspective views to leverage the advantages of both treemap types. It enables a new form of overview+detail visualization for complex treemaps and contributes new concepts for real-time rendering of and interaction with mixed-projection treemaps. The technique operates by tilting up inner nodes using affine transformations and animated state transitions. The mixed use of orthogonal and perspective projections is discussed and application examples that facilitate exploration of multi-variate data and benefit from the reduced interaction overhead are demonstrated.",
+        "de" : "2D Treemaps sind eine raumfüllende Visualisierungstechnik für die Exploration von abstrakten, attribuierten Daten mit Baumstruktur. Dabei werden die visuellen Variablen Größe und Farbe benutzt. Als Erweiterung führen die 2.5D Treemaps die Höhe für zusätzliche Informationsdarstellung ein. Diese Erweiterung kommt jedoch mit Herausforderungen wie der komplexeren Bildsynthese, Verdeckung oder angepassten Navigationstechniken einher, welche den Vorteile einer reinen 2D Treemap gegenüberstehen. Dieses Paper präsentiert eine neuartige Kombination von 2D und 2.5D Treemaps unter Nutzung von multiperspektiven Ansichten um die Vorteile beider Techniken zu vereinen. Es ermöglicht eine Form der Overview+Detail Visualisierung für komplexe Treemaps, welche über neue Konzepte im Echtzeitrendering und Interaktion als Mixed-Projection Treemaps dargestellt werden können. Die Visualisierungstechnik nutzt eine Drehung innerer Treemap-Knoten über affine Transformationen und animierte Übergänge. Dabei werden die gemeinsame Nutzung von orthogonaler und perspektivischer Projektion besprochen und Anwendungsbeispiele für die Exploration multivariater Daten gezeigt, die von dem geringeren Interaktions-Overhead profitieren." },
 
       "thumbnail" : "publications/2017-iv-mixed-projection-treemaps.png",
       "downloads" : [
@@ -232,7 +148,7 @@
         { "href"  : "https://www.researchgate.net/profile/Daniel_Limberger/publication/330106367/inline/jsViewer/5c77be80458515831f75e32b?pdfJsDownload=1",
           "desc"  : "Slides"
         } ],
-      "doi": "10.1109/iV.2017.67",
+      "doi": "10.1109/iV.2017.67"
     },
     
     
@@ -244,17 +160,8 @@
       "published" : "9th International Conference on Information Visualization Theory and Applications (IVAPP)",
       
       "caption"   : {
-        "en" : "We propose the rectangular treemap layout algorithm EvoCells that maps changes in tree-structured data onto
-                an initial treemap layout. Changes in topology and node weights are mapped to insertion, removal, growth, and
-                shrinkage of the layout rectangles. Thereby, rectangles displace their neighbors and stretche their enclosing
-                rectangles with a run-time complexity of O(n log n). An evaluation using layout stability metrics on the open
-                source ElasticSearch software system suggests EvoCells as a valid alternative for stable treemap layouting.",
-        "de" : "Wir stellen den rechteckigen Treemap Layout Algorithmus EvoCells vor, welcher Änderungen in baumstrukturierten
-                Daten auf ein initiales Treemap Layout anwendet. Änderungen in der Topologie und der Knotengewichte werden
-                auf Einfügen, Löschen, Vergrößern und Verkleinern von Rechtecken im Layout übertragen. Dabei verdrängen Rechtecke
-                ihre Nachbarn und vergrößern ihre umschließenden Rechtecke mit einer Laufzeitkomplexität von O(n log n). Eine
-                Evaluierung mit Layoutstabilitätsmetriken aus dem Open Source Softwaresystem ElasticSearch deutet an, dass
-                EvoCells eine valide Alternative zum stabilen Treemap Layouting ist." },
+        "en" : "We propose the rectangular treemap layout algorithm EvoCells that maps changes in tree-structured data onto an initial treemap layout. Changes in topology and node weights are mapped to insertion, removal, growth, and shrinkage of the layout rectangles. Thereby, rectangles displace their neighbors and stretche their enclosing rectangles with a run-time complexity of O(n log n). An evaluation using layout stability metrics on the open source ElasticSearch software system suggests EvoCells as a valid alternative for stable treemap layouting.",
+        "de" : "Wir stellen den rechteckigen Treemap Layout Algorithmus EvoCells vor, welcher Änderungen in baumstrukturierten Daten auf ein initiales Treemap Layout anwendet. Änderungen in der Topologie und der Knotengewichte werden auf Einfügen, Löschen, Vergrößern und Verkleinern von Rechtecken im Layout übertragen. Dabei verdrängen Rechtecke ihre Nachbarn und vergrößern ihre umschließenden Rechtecke mit einer Laufzeitkomplexität von O(n log n). Eine Evaluierung mit Layoutstabilitätsmetriken aus dem Open Source Softwaresystem ElasticSearch deutet an, dass EvoCells eine valide Alternative zum stabilen Treemap Layouting ist." },
 
       "thumbnail" : "publications/2018-ivapp-evocells.png",
       "downloads" : [
@@ -264,7 +171,7 @@
         { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/331399914/inline/jsViewer/5c77bc00299bf1268d2b8178?pdfJsDownload=1",
           "desc"  : "Slides"
         }],
-      "doi": "10.5220/0006617102730280",
+      "doi": "10.5220/0006617102730280"
     },
     
     
@@ -277,16 +184,7 @@
       "note": "Candidate for Best Paper",
       
       "caption"   : {
-        "en" : "There is a rapidly growing, cross-domain demand for interactive, high-quality visualization techniques as
-                components of web-based applications and systems. In this context, a key question is how visualization
-                services can be designed, implemented, and operated based on Software-as-a-Service as software delivery
-                model. In this paper, we present concepts and design of a SaaS framework and API of visualization techniques
-                for tree-structured data, called HiViSer. Using representational state transfer (REST), the API supports
-                different data formats, data manipulations, visualization techniques, and output formats. In particular, the API
-                defines base resource types for all components required to create an image or a virtual scene of a hierarchy
-                visualization. We provide a treemap visualization service as prototypical implementation for which subtypes
-                of the proposed API resources have been created. The approach generally serves as a blue-print for fully
-                web-based, high-end visualization services running on thin clients in a standard browser environment.",
+        "en" : "There is a rapidly growing, cross-domain demand for interactive, high-quality visualization techniques as components of web-based applications and systems. In this context, a key question is how visualization services can be designed, implemented, and operated based on Software-as-a-Service as software delivery model. In this paper, we present concepts and design of a SaaS framework and API of visualization techniques for tree-structured data, called HiViSer. Using representational state transfer (REST), the API supports different data formats, data manipulations, visualization techniques, and output formats. In particular, the API defines base resource types for all components required to create an image or a virtual scene of a hierarchy visualization. We provide a treemap visualization service as prototypical implementation for which subtypes of the proposed API resources have been created. The approach generally serves as a blue-print for fully web-based, high-end visualization services running on thin clients in a standard browser environment.",
         "de" : "" },
 
       "thumbnail" : "publications/2019-ivapp-hiviser.jpg",
@@ -299,7 +197,7 @@
         },
         { "desc": "Homepage", "href": "https://hiviser.varg.dev" }
       ],
-      "doi": "10.5220/0007693201410152",
+      "doi": "10.5220/0007693201410152"
     },
     
     
@@ -310,11 +208,7 @@
       "authors": [ "Daniel Limberger", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
       "published": "12th International Symposium on Visual Information Communication and Interaction (VINCI)",
       "caption": {
-        "en" : "Software maps provide a general-purpose interactive user interface and information display for software analytics tools.
-        This paper systematically introduces and classifies software maps as a treemap-based technique for software cartography.
-        It provides an overview of advanced visual metaphors and techniques, each suitable for interactive visual analytics tasks, that can be used to enhance the expressiveness of software maps.
-        Thereto, the metaphors and techniques are briefly described, located within a visualization pipeline model, and considered within the software map design space.
-        Consequent applications and use cases w.r.t. different types of software system data and software engineering data are discussed, arguing for a versatile use of software maps in visual software analytics.",
+        "en" : "Software maps provide a general-purpose interactive user interface and information display for software analytics tools. This paper systematically introduces and classifies software maps as a treemap-based technique for software cartography. It provides an overview of advanced visual metaphors and techniques, each suitable for interactive visual analytics tasks, that can be used to enhance the expressiveness of software maps. Thereto, the metaphors and techniques are briefly described, located within a visualization pipeline model, and considered within the software map design space. Consequent applications and use cases w.r.t. different types of software system data and software engineering data are discussed, arguing for a versatile use of software maps in visual software analytics.",
         "de" : ""
       },
       "thumbnail" : "publications/2019-vinci-software-map-metaphors-and-techniques.jpg",
@@ -323,7 +217,7 @@
           "desc"  : "Author Version"
         }
       ],
-      "doi": "10.1145/3356422.3356444",
+      "doi": "10.1145/3356422.3356444"
     },
     
     
@@ -334,17 +228,7 @@
       "authors": [ "Willy Scheibel", "Judith Hartmann", "Daniel Limberger", "Jürgen Döllner" ],
       "published": "VISIGRAPP 2019: Computer Vision, Imaging and Computer Graphics Theory and Applications",
       "caption": {
-        "en" : "This article reiterates on the recently presented hierarchy visualization service HiViSer and its API.
-                It illustrates its decomposition into modular services for data processing and visualization of tree-structured data.
-                The decomposition is aligned to the common structure of visualization pipelines and, in this way,
-                facilitates attribution of the services' capabilities.
-                Suitable base resource types are proposed and their structure and relations as well as a subtyping concept for specifics
-                in hierarchy visualization implementations are detailed. Moreover, state-of-the-art quality standards and techniques for
-                self-documentation and discovery of components are incorporated.
-                As a result, a blueprint for Web service design, architecture, modularization, and composition is presented,
-                targeting fundamental visualization tasks of tree-structured data, i.e.,
-                gathering, processing, rendering, and provisioning. Finally, the applicability of the service components and the API
-                is evaluated in the context of exemplary applications.",
+        "en" : "This article reiterates on the recently presented hierarchy visualization service HiViSer and its API. It illustrates its decomposition into modular services for data processing and visualization of tree-structured data. The decomposition is aligned to the common structure of visualization pipelines and, in this way, facilitates attribution of the services' capabilities. Suitable base resource types are proposed and their structure and relations as well as a subtyping concept for specifics in hierarchy visualization implementations are detailed. Moreover, state-of-the-art quality standards and techniques for self-documentation and discovery of components are incorporated. As a result, a blueprint for Web service design, architecture, modularization, and composition is presented, targeting fundamental visualization tasks of tree-structured data, i.e., gathering, processing, rendering, and provisioning. Finally, the applicability of the service components and the API is evaluated in the context of exemplary applications.",
         "de" : ""
       },
       "thumbnail" : "publications/2019-ivapp-hiviser-extended.jpg",
@@ -353,7 +237,7 @@
           "desc"  : "Author Version"
         }
       ],
-      "doi": "10.1007/978-3-030-41590-7_10",
+      "doi": "10.1007/978-3-030-41590-7_10"
     },
     
     
@@ -365,16 +249,7 @@
       "published" : "11th International Conference on Information Visualization Theory and Applications (IVAPP)",
       
       "caption"   : {
-        "en" : "A treemap is a visualization that has been specifically designed to facilitate the exploration of tree-structured
-                data and, more general, hierarchically structured data. The family of visualization techniques that use a
-                visual metaphor for parent-child relationships based “on the property of containment” (Johnson, 1993) is
-                commonly referred to as treemaps. However, as the number of variations of treemaps grows, it becomes
-                increasingly important to distinguish clearly between techniques and their specific characteristics. This paper
-                proposes to discern between Space-filling Treemap, Containment Treemap, Implicit Edge Representation
-                Tree, and Mapped Tree for classification of hierarchy visualization techniques and highlights their
-                respective properties. This taxonomy is created as a hyponymy, i.e., its classes have an is-a relationship to one
-                another. With this proposal, we intend to stimulate a discussion on a more unambiguous
-                classification of treemaps and, furthermore, broaden what is understood by the concept of treemap itself.",
+        "en" : "A treemap is a visualization that has been specifically designed to facilitate the exploration of tree-structured data and, more general, hierarchically structured data. The family of visualization techniques that use a visual metaphor for parent-child relationships based “on the property of containment” (Johnson, 1993) is commonly referred to as treemaps. However, as the number of variations of treemaps grows, it becomes increasingly important to distinguish clearly between techniques and their specific characteristics. This paper proposes to discern between Space-filling Treemap, Containment Treemap, Implicit Edge Representation Tree, and Mapped Tree for classification of hierarchy visualization techniques and highlights their respective properties. This taxonomy is created as a hyponymy, i.e., its classes have an is-a relationship to one another. With this proposal, we intend to stimulate a discussion on a more unambiguous classification of treemaps and, furthermore, broaden what is understood by the concept of treemap itself.",
         "de" : "" },
 
       "thumbnail" : "publications/2020-ivapp-treemap-taxonomy.png",
@@ -384,9 +259,9 @@
         },
         { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/339617725/inline/jsViewer/5e5cd13ba6fdccbeba12bfea?pdfJsDownload=1",
           "desc"  : "Slides"
-        },
+        }
       ],
-      "doi": "10.5220/0009153902730280",
+      "doi": "10.5220/0009153902730280"
     },
     
     
@@ -411,9 +286,9 @@
         },
         { "href": "https://varg.dev/web3d2020/",
           "desc": "Demo"
-        },
+        }
       ],
-      "doi": "10.1145/3424616.3424730",
+      "doi": "10.1145/3424616.3424730"
     },
     
     
@@ -435,9 +310,9 @@
         },
         { "href"  : "https://varg-dev.github.io/treemap-studies",
           "desc"  : "Companion Website"
-        },
+        }
       ],
-      "doi": "10.1145/3430036.3430054",
+      "doi": "10.1145/3430036.3430054"
     },
     
     
@@ -454,14 +329,14 @@
 
       "thumbnail" : "publications/2020-vinci-treemap-layouts.png",
       "downloads" : [
-	{ "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/346565429/inline/jsViewer/6008e5e9a6fdccdcb86bb8d0?pdfJsDownload=1",
+	      { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/346565429/inline/jsViewer/6008e5e9a6fdccdcb86bb8d0?pdfJsDownload=1",
           "desc"  : "Author Version"
         },
-	{ "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/348647547/inline/jsViewer/6008e45f299bf14088adae8b?pdfJsDownload=1",
+	      { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/348647547/inline/jsViewer/6008e45f299bf14088adae8b?pdfJsDownload=1",
           "desc"  : "Slides"
         }
       ],
-      "doi": "10.1145/3430036.3430041",
+      "doi": "10.1145/3430036.3430041"
     },
     
     
@@ -486,7 +361,7 @@
           "desc"  : "Demo"
         }
       ],
-      "doi": "10.5220/0010267601120122",
+      "doi": "10.5220/0010267601120122"
     },
     
     
@@ -503,17 +378,17 @@
 
       "thumbnail" : "publications/2021-eurovis-hilbert-moore-treemaps.png",
       "downloads" : [
-	    { "href": "https://www.researchgate.net/profile/Willy-Scheibel/publication/351103336/inline/jsViewer/60a393a8a6fdccb8dc632568?pdfJsDownload=1",
-	      "desc": "Author Version"
-	    },
-	    { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/351659477/inline/jsViewer/60a3952c458515952dd44930?pdfJsDownload=1",
-              "desc"  : "Slides"
-            },
-            { "href"  : "https://github.com/varg-dev/hilbert-moore-treemap-layouts-prototype",
-              "desc"  : "Github Project"
-            }
+        { "href": "https://www.researchgate.net/profile/Willy-Scheibel/publication/351103336/inline/jsViewer/60a393a8a6fdccb8dc632568?pdfJsDownload=1",
+          "desc": "Author Version"
+        },
+	      { "href"  : "https://www.researchgate.net/profile/Willy_Scheibel/publication/351659477/inline/jsViewer/60a3952c458515952dd44930?pdfJsDownload=1",
+          "desc"  : "Slides"
+        },
+        { "href"  : "https://github.com/varg-dev/hilbert-moore-treemap-layouts-prototype",
+          "desc"  : "Github Project"
+        }
       ],
-      "doi": "10.2312/evs.20211065",
+      "doi": "10.2312/evs.20211065"
     },
     
     
@@ -530,7 +405,7 @@
 
       "thumbnail" : "publications/2021-vinci-procedural-textures.png",
       "downloads" : [],
-      "doi": "10.1145/3481549.3481570",
+      "doi": "10.1145/3481549.3481570"
     },
     
     
@@ -550,7 +425,7 @@
         { "href"  : "https://etf-vis.net/?apiKey=ew5r345z43",
           "desc"  : "Demo"
         }],
-      "doi": "10.1145/3481549.3481568",
+      "doi": "10.1145/3481549.3481568"
     },
     
     
@@ -567,7 +442,7 @@
 
       "thumbnail" : "publications/2021-vinci-softwaregalaxy.png",
       "downloads" : [],
-      "doi": "10.1145/3481549.3481573",
+      "doi": "10.1145/3481549.3481573"
     },
     
     
@@ -584,7 +459,7 @@
 
       "thumbnail" : "publications/2022-ivapp-knowhowmap.png",
       "downloads" : [],
-      "doi": "10.5220/0010991100003124",
+      "doi": "10.5220/0010991100003124"
     },
     
     
@@ -627,7 +502,7 @@
           "desc": "Source Code Archive"
         }
       ],
-      "doi": "10.5220/0011093700003176",
+      "doi": "10.5220/0011093700003176"
     },
     
     
