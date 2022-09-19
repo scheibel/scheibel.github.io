@@ -634,6 +634,31 @@
       "thumbnail" : "publications/2022-jov-procedural-texture-patterns.png",
       "downloads" : [],
       "doi": "10.1007/s12650-022-00874-3"
+    },
+    
+    
+    { "key"       : "2022-scatterplot-projections",
+      "bibtex"    : "wsld2022-scatterplot-projections.bib",
+      "title"     : "Hardware-accelerated Rendering of Web-based 3D Scatter Plots with Projected Density Fields and Embedded Controls",
+      "date"      : "2022-11-02",
+      "authors"   : [ "Lukas Wagner", "Daniel Limberger", "Willy Scheibel", "Jürgen Döllner" ],
+      "published" : "27th International Conference on 3D Web Technology (Web3D)",
+      "pending": true,
+      
+      "caption"   : {
+        "en" : "3D scatter plots depicting massive data suffer from occlusion, which makes it difficult to get an overview and perceive structure.  This paper presents a technique that facilitates the comprehension of heavily occluded 3D scatter plots. Data points are projected to axial planes, creating x-ray-like 2D views that support the user in analyzing the data's density and layout. We showcase our open-source web application with a hardware-accelerated rendering component written in WebGL. It allows for interactive interaction, filtering, and navigation with datasets up to hundreds of thousands of nodes. The implementation is detailed and discussed with respect to challenges posed by API and performance limitations.",
+        "de" : "" },
+
+      "thumbnail" : "publications/2022-web3d-scatterplot-projections.png",
+      "downloads" : [
+        { "href": "https://demo.varg.dev/vidi/web3d-2022",
+          "desc": "Demo"
+        },
+        { "href"  : "https://github.com/lukaswagner/vidi",
+          "desc"  : "Source Code"
+        }
+      ],
+      "doi": "10.1145/3424616.3424730"
     }
   ]
 }
