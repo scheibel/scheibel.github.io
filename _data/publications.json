@@ -657,7 +657,8 @@
         { "href"  : "https://github.com/lukaswagner/vidi",
           "desc"  : "Source Code"
         }
-      ]
+      ],
+      "doi": "10.1145/3564533.3564566"
     }
   ]
 }
