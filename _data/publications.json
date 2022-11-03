@@ -553,7 +553,6 @@
       "date"      : "2022-08-16",
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner", "Matthias Trapp" ],
       "published" : "15th International Symposium on Visual Information Communication and Interaction (VINCI)",
-      "pending": true,
       
       "caption"   : {
         "en" : "",
@@ -642,7 +641,6 @@
       "date"      : "2022-11-02",
       "authors"   : [ "Lukas Wagner", "Daniel Limberger", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "27th International Conference on 3D Web Technology (Web3D)",
-      "pending": true,
       
       "caption"   : {
         "en" : "3D scatter plots depicting massive data suffer from occlusion, which makes it difficult to get an overview and perceive structure.  This paper presents a technique that facilitates the comprehension of heavily occluded 3D scatter plots. Data points are projected to axial planes, creating x-ray-like 2D views that support the user in analyzing the data's density and layout. We showcase our open-source web application with a hardware-accelerated rendering component written in WebGL. It allows for interactive interaction, filtering, and navigation with datasets up to hundreds of thousands of nodes. The implementation is detailed and discussed with respect to challenges posed by API and performance limitations.",
