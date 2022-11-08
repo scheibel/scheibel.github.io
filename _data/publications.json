@@ -665,7 +665,7 @@
       "title"     : "Evaluating Probabilistic Topic Models for Bug Triaging Tasks",
       "date"      : "2023-03-01",
       "authors"   : [ "Daniel Atzberger", "Jonathan Schneider", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "17th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE)",
+      "published" : "ENASE 2022: Revised Selected Papers",
       "pending": true,
       
       "caption"   : {
