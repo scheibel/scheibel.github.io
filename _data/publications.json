@@ -658,5 +658,22 @@
       "thumbnail" : "publications/2023-ivapp-software-forest-extended.png",
       "downloads" : []
     },
+    
+    
+    { "key"       : "2023-probabilistic-models",
+      "bibtex"    : "assdt2023-probabilistic-models.bib",
+      "title"     : "Evaluating Probabilistic Topic Models for Bug Triaging Tasks",
+      "date"      : "2023-03-01",
+      "authors"   : [ "Daniel Atzberger", "Jonathan Schneider", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
+      "published" : "17th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE)",
+      "pending": true,
+      
+      "caption"   : {
+        "en" : "",
+        "de" : "" },
+
+      "thumbnail" : "publications/2023-enase-probabilistic-models-extended.png",
+      "downloads" : [],
+    }
   ]
 }
