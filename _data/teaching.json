@@ -13,12 +13,8 @@
       { "course" : "Explainable AI by Visual Analytics",
         "type"   : "Project Seminar (M.Sc.)",
         "role"   : "Tutor"
-      },
-      { "course" : "Visual Analytics Techniques for high-dimensional Data",
-        "type"   : "Project Seminar (M.Sc.)",
-        "role"   : "Tutor"
       } ],
-    "upcoming": true
+    "upcoming": false
   },
   { "term" : "2022 : Summer Term",
     "courses" : [
