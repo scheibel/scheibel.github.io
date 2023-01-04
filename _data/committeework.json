@@ -29,7 +29,7 @@
         "de": "Stimmberechtigtes Mitglied"
       },
       "since" : 2017,
-      "logo" : "logos/def_logo.jpg"
+      "logo" : "logos/def_logo.png"
     },
     {
       "title": {
@@ -45,7 +45,7 @@
         "de": "Stimmberechtigtes Mitglied"
       },
       "since": 2017,
-      "logo" : "logos/def_logo.jpg",
+      "logo" : "logos/def_logo.png",
       "projects": [
         {
           "en": "IT-Systems Engineering (Bachelor's Program)",
