@@ -34,7 +34,7 @@
       "title"     : "Interactive Revision Exploration using Small Multiples of Software Maps",
       "date"      : "2016-02-28",
       "authors"   : [ "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "7th International Conference on Information Visualization Theory and Applications (IVAPP)",
+      "published" : "7th International Conference on Information Visualization Theory and Applications (IVAPP '16)",
       
       "caption"   : {
         "en" : "To explore and to compare different revisions of complex software systems is a challenging task as it requires to constantly switch between different revisions and the corresponding information visualization. This paper proposes to combine the concept of small multiples and focus+context techniques for software maps to facilitate the comparison of multiple software map themes and revisions simultaneously on a single screen. This approach reduces the amount of switches and helps to preserve the mental map of the user. Given a software project the small multiples are based on a common dataset but are specialized by specific revisions and themes. The small multiples are arranged in a matrix where rows and columns represents different themes and revisions, respectively. To ensure scalability of the visualization technique we also discuss two rendering pipelines to ensure interactive frame-rates. The capabilities of the proposed visualization technique are demonstrated in a collaborative exploration setting using a high-resolution, multi-touch display.",
@@ -63,7 +63,7 @@
       "title"     : "Dynamic 2.5D Treemaps using Declarative 3D on the Web",
       "date"      : "2016-07-23",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Stefan Lemme", "Jürgen Döllner" ],
-      "published" : "21st International Conference on Web3D Technology (Web3D)",
+      "published" : "21st International Conference on Web3D Technology (Web3D '16)",
       
       "caption"   : {
         "en" : "The 2.5D treemap represents a general purpose visualization technique to map multi-variate hierarchical data in a scalable, interactive, and consistent way used in a number of application fields. In this paper, we explore the capabilities of Declarative 3D for the web-based implementation of 2.5D treemap clients. Particularly, we investigate how X3DOM and XML3D can be used to implement clients with equivalent features that interactively display 2.5D treemaps with dynamic mapping of attributes. We also show a first step towards a glTF-based implementation. These approaches are benchmarked focusing on their interaction capabilities with respect to rendering and speed of dynamic data mapping. We discuss the results for our representative example of a complex 3D interactive visualization technique and summerize recommendations for improvements towards operational web clients.",
@@ -143,7 +143,7 @@
       "title"     : "Mixed-Projection Treemaps: A Novel Approach Mixing 2D and 2.5D Treemaps",
       "date"      : "2017-07-11",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "21st International Conference on Information Visualisation (iV)",
+      "published" : "21st International Conference on Information Visualisation (iV '17)",
       
       "caption"   : {
         "en" : "2D treemaps are a space-filling visualization technique that facilitate exploration of non-spatial, attributed, tree-structured data using the visual variables size and color. In extension thereto, 2.5D treemaps introduce height for additional information display. This extension entails challenges such as increased rendering effort, occlusion, or the need for navigation techniques that counterbalance the advantages of 2D treemaps to a certain degree. This paper presents a novel technique for combining 2D and 2.5D treemaps using multi-perspective views to leverage the advantages of both treemap types. It enables a new form of overview+detail visualization for complex treemaps and contributes new concepts for real-time rendering of and interaction with mixed-projection treemaps. The technique operates by tilting up inner nodes using affine transformations and animated state transitions. The mixed use of orthogonal and perspective projections is discussed and application examples that facilitate exploration of multi-variate data and benefit from the reduced interaction overhead are demonstrated.",
@@ -169,7 +169,7 @@
       "title"     : "EvoCells – A Treemap Layout Algorithm for Evolving Tree Data",
       "date"      : "2018-01-29",
       "authors"   : [ "Willy Scheibel", "Christopher Weyand", "Jürgen Döllner" ],
-      "published" : "9th International Conference on Information Visualization Theory and Applications (IVAPP)",
+      "published" : "9th International Conference on Information Visualization Theory and Applications (IVAPP '17)",
       
       "caption"   : {
         "en" : "We propose the rectangular treemap layout algorithm EvoCells that maps changes in tree-structured data onto an initial treemap layout. Changes in topology and node weights are mapped to insertion, removal, growth, and shrinkage of the layout rectangles. Thereby, rectangles displace their neighbors and stretche their enclosing rectangles with a run-time complexity of O(n log n). An evaluation using layout stability metrics on the open source ElasticSearch software system suggests EvoCells as a valid alternative for stable treemap layouting.",
@@ -195,7 +195,7 @@
       "title"     : "Design and Implementation of Web-Based Hierarchy Visualization Services",
       "date"      : "2019-02-28",
       "authors"   : [ "Willy Scheibel", "Judith Hartmann", "Jürgen Döllner" ],
-      "published" : "10th International Conference on Information Visualization Theory and Applications (IVAPP)",
+      "published" : "10th International Conference on Information Visualization Theory and Applications (IVAPP '18)",
       "note": "Candidate for Best Paper",
       
       "caption"   : {
@@ -224,7 +224,7 @@
       "title": "Advanced Visual Metaphors and Techniques for Software Maps",
       "date": "2019-10-01",
       "authors": [ "Daniel Limberger", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
-      "published": "12th International Symposium on Visual Information Communication and Interaction (VINCI)",
+      "published": "12th International Symposium on Visual Information Communication and Interaction (VINCI '19)",
       "caption": {
         "en" : "Software maps provide a general-purpose interactive user interface and information display for software analytics tools. This paper systematically introduces and classifies software maps as a treemap-based technique for software cartography. It provides an overview of advanced visual metaphors and techniques, each suitable for interactive visual analytics tasks, that can be used to enhance the expressiveness of software maps. Thereto, the metaphors and techniques are briefly described, located within a visualization pipeline model, and considered within the software map design space. Consequent applications and use cases w.r.t. different types of software system data and software engineering data are discussed, arguing for a versatile use of software maps in visual software analytics.",
         "de" : ""
@@ -270,7 +270,7 @@
       "title"     : "A Taxonomy of Treemap Visualization Techniques",
       "date"      : "2020-02-27",
       "authors"   : [ "Willy Scheibel", "Matthias Trapp", "Daniel Limberger", "Jürgen Döllner" ],
-      "published" : "11th International Conference on Information Visualization Theory and Applications (IVAPP)",
+      "published" : "11th International Conference on Information Visualization Theory and Applications (IVAPP '20)",
       
       "caption"   : {
         "en" : "A treemap is a visualization that has been specifically designed to facilitate the exploration of tree-structured data and, more general, hierarchically structured data. The family of visualization techniques that use a visual metaphor for parent-child relationships based “on the property of containment” (Johnson, 1993) is commonly referred to as treemaps. However, as the number of variations of treemaps grows, it becomes increasingly important to distinguish clearly between techniques and their specific characteristics. This paper proposes to discern between Space-filling Treemap, Containment Treemap, Implicit Edge Representation Tree, and Mapped Tree for classification of hierarchy visualization techniques and highlights their respective properties. This taxonomy is created as a hyponymy, i.e., its classes have an is-a relationship to one another. With this proposal, we intend to stimulate a discussion on a more unambiguous classification of treemaps and, furthermore, broaden what is understood by the concept of treemap itself.",
@@ -297,7 +297,7 @@
       "title"     : "A Framework for Interactive Exploration of Clusters in Massive Data using 3D Scatter Plots and WebGL",
       "date"      : "2020-12-01",
       "authors"   : [ "Lukas Wagner", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "25th International Conference on 3D Web Technology (Web3D)",
+      "published" : "25th International Conference on 3D Web Technology (Web3D '20)",
       
       "caption"   : {
         "en" : "This paper presents a rendering framework for the visualization of massive point datasets in the web. It includes highly interactive point rendering, cluster visualization, basic interaction methods, and importance-based labeling, while being available for both mobile and desktop browsers. The rendering style is customizable, as shown in figure 1. Our evaluation indicates that the framework facilitates interactive visualization of tens of millions of raw data points even without dynamic filtering or aggregation.",
@@ -327,7 +327,7 @@
       "title"     : "Survey on User Studies on the Effectiveness of Treemaps",
       "date"      : "2020-12-02",
       "authors"   : [ "Carolin Fiedler", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "13th International Symposium on Visual Information Communication and Interaction (VINCI)",
+      "published" : "13th International Symposium on Visual Information Communication and Interaction (VINCI '20)",
       
       "caption"   : {
         "en" : "Treemaps are a commonly used tool for the visual display and communication of tree-structured, multi-variate data. In order to confidently know when and how treemaps can best be applied, the research community uses usability studies and controlled experiments to \"understand the potential and limitations of our tools\" (Plaisant, 2004). To support the communities' understanding and usage of treemaps, this survey provides a comprehensive review and detailed overview of 69 user studies related to treemaps. However, due to pitfalls and shortcomings in design, conduct, and reporting of the user studies, there is little that can be reliably derived or accepted as a generalized statement. Fundamental open questions include configuration, compatible tasks, use cases, and perceptional characteristics of treemaps. The reliability of findings and statements is discussed and common pitfalls of treemap user studies are identified.",
@@ -354,7 +354,7 @@
       "title"     : "Survey of Treemap Layout Algorithms",
       "date"      : "2020-12-03",
       "authors"   : [ "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner" ],
-      "published" : "13th International Symposium on Visual Information Communication and Interaction (VINCI)",
+      "published" : "13th International Symposium on Visual Information Communication and Interaction (VINCI '20)",
       
       "caption"   : {
         "en" : "This paper provides an overview of published treemap layout algorithms from 1991 to 2019 that were used for information visualization and computational geometry. First, a terminology is outlined for the precise communication of tree-structured data and layouting processes. Second, an overview and classification of layout algorithms is presented and application areas are discussed. Third, the use-case-specific adaption process is outlined and discussed. This overview targets practitioners and researchers by providing a starting point for own research, visualization design, and applications.",
@@ -381,7 +381,7 @@
       "title"     : "Software Forest: A Visualization of Semantic Similarities in Source Code using a Tree Metaphor",
       "date"      : "2021-02-08",
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Merlin de la Haye", "Maximilian Söchting", "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner" ],
-      "published" : "12th International Conference on Information Visualization Theory and Applications (IVAPP)",
+      "published" : "12th International Conference on Information Visualization Theory and Applications (IVAPP '21)",
       "note": "Candidate for Best Student Paper",
       
       "caption"   : {
@@ -409,7 +409,7 @@
       "title"     : "Algorithmic Improvements on Hilbert and Moore Treemaps for Visualization of Large Tree-structured Datasets",
       "date"      : "2021-06-14",
       "authors"   : [ "Willy Scheibel", "Christopher Weyand", "Joseph Bethge", "Jürgen Döllner" ],
-      "published" : "23rd EG Conference on Visualization (EuroVis)",
+      "published" : "23rd EG Conference on Visualization (EuroVis '21)",
       
       "caption"   : {
         "en" : "Hilbert and Moore treemaps are based on the same named space-filling curves to lay out tree-structured data for visualization. One main component of them is a partitioning subroutine, whose algorithmic complexity poses problems when scaling to industry-sized datasets. Further, the subroutine allows for different optimization criteria that result in different layout decisions. This paper proposes conceptual and algorithmic improvements to this partitioning subroutine. Two measures for the quality of partitioning are proposed, resulting in the min-max and min-variance optimization tasks. For both tasks, linear-time algorithms are presented that find an optimal solution. The implementation variants are evaluated with respect to layout metrics and run-time performance against a previously available greedy approach. The results show significantly improved run time and no deterioration in layout metrics, suggesting effective use of Hilbert and Moore treemaps for datasets with millions of nodes.",
@@ -439,7 +439,7 @@
       "title"     : "Visualization of Data Changes in 2.5D Treemaps using Procedural Textures and Animated Transitions",
       "date"      : "2021-09-06",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Jan van Dieken", "Jürgen Döllner" ],
-      "published" : "14th International Symposium on Visual Information Communication and Interaction (VINCI)",
+      "published" : "14th International Symposium on Visual Information Communication and Interaction (VINCI '21)",
       
       "caption"   : {
         "en" : "This work investigates the extent to which animated procedural texture patterns can be used to support the representation of changes in 2.5D treemaps. Changes in height, color, and area of individual nodes can easily be visualized using animated transitions. Especially for changes in the color attribute, plain animated transitions are not able to directly communicate the direction of change itself. We show how procedural texture patterns can be superimposed to the color mapping and support transitions. To this end, we discuss qualitative properties of each pattern, demonstrate their ability to communicate change direction both with and without animation, and conclude which of the patterns are more likely to increase effectiveness and correctness of the change mapping in 2.5D treemaps.",
@@ -462,7 +462,7 @@
       "title"     : "Interactive Simulation and Visualization of Long-Term, ETF-based Investment Strategies",
       "date"      : "2021-09-06",
       "authors"   : [ "Martin Büßemeyer", "Daniel Limberger", "Willy Scheibel", "Jürgen Döllner" ],
-      "published" : "14th International Symposium on Visual Information Communication and Interaction (VINCI)",
+      "published" : "14th International Symposium on Visual Information Communication and Interaction (VINCI '21)",
       
       "caption"   : {
         "en" : "Personal, long-term investment products, especially ones for retirement savings, require thorough understanding to use them profitably. Even simple savings plans based on exchange-traded funds(ETFs) are subject to many variables and uncertainties to be considered for expected and planned-upon returns. We present aninteractive simulation of an ETF-based savings plan that combinesforecasts, risk awareness, taxes and costs, inflation, and dynamicinflows and outflows into a single visualization. The visualizationconsists of four parts: a form-fill interface for configuration, a savings and payout simulation, a cash flow chart, and a savings chart. Based on a specific use case, we discuss how private investors canbenefit from using our visualization after a short training period.",
@@ -488,7 +488,7 @@
       "title"     : "Software Galaxies: Displaying Coding Activities using a Galaxy Metaphor",
       "date"      : "2021-09-07",
       "authors"   : [ "Daniel Atzberger", "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner" ],
-      "published" : "14th International Symposium on Visual Information Communication and Interaction (VINCI)",
+      "published" : "14th International Symposium on Visual Information Communication and Interaction (VINCI '21)",
       
       "caption"   : {
         "en" : "Software visualization uses metaphors to depict software and software development data that usually has no gestalt. The choice of a metaphor and visual depiction is researched broadly, but deriving a layout based on similarity is still challenging. We present a novel approach to 3D software visualization called Software Galaxy. Our layout is based on applying Latent Dirichlet Allocation on source code. We utilize a metaphor inspired from astronomy for depicting software metrics for single files and clusters. Our first experiments indicate that a 3D visualization capturing semantic relatedness can be beneficial for standard program comprehension tasks.",
@@ -511,7 +511,7 @@
       "title"     : "Visualization of Knowledge Distribution across Development Teams using 2.5D Semantic Software Maps",
       "date"      : "2022-02-06",
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Adrian Jobst", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "13th International Conference on Information Visualization Theory and Applications (IVAPP)",
+      "published" : "13th International Conference on Information Visualization Theory and Applications (IVAPP '22)",
       
       "caption"   : {
         "en" : "In order to detect software risks at an early stage, various software visualization techniques have been developed for monitoring the structure, behaviour, or the underlying development process of software. One of greatest risks for any IT organization consists in an inappropriate distribution of knowledge among its developers, as a projects’ success mainly depends on assigning tasks to developers with the required skills and expertise. In this work, we address this problem by proposing a novel Visual Analytics framework for mining and visualizing the expertise of developers based on their source code activities. Under the assumption that a developer’s knowledge about code is represented directly through comments and the choice of identifier names, we generate a 2D layout using Latent Dirichlet Allocation together with Multidimensional Scaling on the commit history, thus displaying the semantic relatedness between developers. In order to capture a developer’s expertise in a concept, we utilize Labeled LDA trained on a corpus of Open Source projects. By mapping aspects related to skills onto the visual variables of 3D glyphs, we generate a 2.5D Visualization, we call KnowhowMap. We exemplify this approach with an interactive prototype that enables users to analyze the distribution of skills and expertise in an explorative way.",
@@ -534,7 +534,7 @@
       "title"     : "Mining Developer Expertise from Bug Tracking Systems using the Author-Topic Model",
       "date"      : "2022-04-25",
       "authors"   : [ "Daniel Atzberger", "Jonathan Schneider", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "17th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE)",
+      "published" : "17th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE '22)",
       "note": "Best Student Paper Award",
       
       "caption"   : {
@@ -558,7 +558,7 @@
       "title"     : "Augmenting Library Development by Mining Usage Data from Downstream Dependencies",
       "date"      : "2022-04-25",
       "authors"   : [ "Christoph Thiede", "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner" ],
-      "published" : "17th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE)",
+      "published" : "17th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE '22)",
       "note": "Candidate for Best Student Paper",
       
       "caption"   : {
@@ -589,7 +589,7 @@
       "title"     : "Tooling for Time- and Space-efficient git Repository Mining",
       "date"      : "2022-05-23",
       "authors"   : [ "Fabian Heseding", "Willy Scheibel", "Jürgen Döllner" ],
-      "published" : "19th International Conference on Mining Software Repositories – Data and Tool Showcase Track (MSR)",
+      "published" : "19th International Conference on Mining Software Repositories – Data and Tool Showcase Track (MSR '22)",
       
       "caption"   : {
         "en" : "Software projects under version control grow with each commit, accumulating up to hundreds of thousands of commits per repository. Especially for such large projects, the traversal of a repository and data extraction for static source code analysis poses a trade-off between granularity and speed. We showcase the command-line tool pyrepositoryminer that combines a set of optimization approaches for efficient traversal and data extraction from git repositories while being adaptable to third-party and custom software metrics and data extractions. The tool is written in Python and combines bare repository access, in-memory storage, parallelization, caching, change-based analysis, and optimized communication between the traversal and custom data extraction components. The tool allows for both metrics written in Python and external programs for data extraction. A single-thread performance evaluation based on a basic mining use case shows a mean speedup of 15.6×to other freely available tools across four mid-sized open source projects. A multi-threaded execution allows for load distribution among cores and, thus, a mean speedup up to 86.9×using 12 threads.",
@@ -619,7 +619,7 @@
       "title"     : "Efficient GitHub Crawling using the GraphQL API",
       "date"      : "2022-07-04",
       "authors"   : [ "Adrian Jobst", "Daniel Atzberger", "Tim Cech", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "22th International Conference on Computational Science and Its Applications (ICCSA)",
+      "published" : "22th International Conference on Computational Science and Its Applications (ICCSA '22)",
       
       "caption"   : {
         "en" : "The number of publicly accessible software repositories on online platforms is growing rapidly. With more than 128 million public repositories (as of March 2020), GitHub is the world’s largest platform for hosting and managing software projects. Where it used to be necessary to merge various data sources, it is now possible to access a wealth of data using the GitHub API alone. However, collecting and analyzing this data is not an easy endeavor. In this paper, we present Prometheus, a system for crawling and storing software repositories from GitHub. Compared to existing frameworks, Prometheus follows an event-driven microservice architecture. By separating functionality on the service level, there is no need to understand implementation details or use existing frameworks to extend or customize the system, only data. Prometheus consists of two components, one for fetching GitHub data and one for data storage which serves as a basis for future functionality. Unlike most existing crawling approaches, the Prometheus fetching service uses the GitHub GraphQL API. As a result, Prometheus can significantly outperform alternatives in terms of throughput in some scenarios.",
@@ -639,7 +639,7 @@
       "title"     : "A Benchmark for the Use of Topic Models for Text Visualization Tasks",
       "date"      : "2022-08-16",
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "15th International Symposium on Visual Information Communication and Interaction (VINCI)",
+      "published" : "15th International Symposium on Visual Information Communication and Interaction (VINCI '22)",
       
       "caption"   : {
         "en" : "",
@@ -685,7 +685,7 @@
       "title"     : "CodeCV: Mining Expertise of GitHub Users from Coding Activities",
       "date"      : "2022-10-03",
       "authors"   : [ "Daniel Atzberger", "Nico Scordialo", "Tim Cech", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "22nd International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+      "published" : "22nd International Working Conference on Source Code Analysis and Manipulation (SCAM '22)",
       
       "caption"   : {
         "en" : "The number of software projects developed collaboratively on social coding platforms is steadily increasing. One of the motivations for developers to participate in open-source software development is to make their development activities easier accessible to potential employers, e.g., in the form of a resume for their interests and skills. However, manual review of source code activities is time-consuming and requires detailed knowledge of the technologies used. Existing approaches are limited to a small subset of actual source code activity and metadata and do not provide explanations for their results. In this work, we present CodeCV, an approach to analyzing the commit activities of a GitHub user concerning the use of programming languages, software libraries, and higher-level concepts, e.g., Machine Learning or Cryptocurrency. Skills in using software libraries and programming languages are analyzed based on syntactic structures in the source code. Based on Labeled Latent Dirichlet Allocation, an automatically generated corpus of GitHub projects is used to learn the concept-specific vocabulary in identifier names and comments. This enables the capture of expertise on abstract concepts from a user's commit history. CodeCV further explains the results through links to the relevant commits in an interactive web dashboard. We tested our system on selected GitHub users who mainly contribute to popular projects to demonstrate that our approach is able to capture developers' expertise effectively.",
@@ -727,7 +727,7 @@
       "title"     : "Hardware-accelerated Rendering of Web-based 3D Scatter Plots with Projected Density Fields and Embedded Controls",
       "date"      : "2022-11-02",
       "authors"   : [ "Lukas Wagner", "Daniel Limberger", "Willy Scheibel", "Jürgen Döllner" ],
-      "published" : "27th International Conference on 3D Web Technology (Web3D)",
+      "published" : "27th International Conference on 3D Web Technology (Web3D '22)",
       "note"      : "Best Paper Award",
       
       "caption"   : {
@@ -792,7 +792,7 @@
       "date"      : "2023-02-19",
       "title"     : "Evaluating Architectures and Hyperparameters of Self-supervised Network Projections",
       "authors"   : [ "Tim Cech", "Daniel Atzberger", "Willy Scheibel", "Rico Richter", "Jürgen Döllner" ],
-      "published" : "14th International Conference on Information Visualization Theory and Applications (IVAPP)",
+      "published" : "14th International Conference on Information Visualization Theory and Applications (IVAPP '23)",
       "pending": true,
       
       "caption"   : {

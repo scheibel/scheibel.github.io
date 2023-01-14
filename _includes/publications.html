@@ -27,7 +27,7 @@
         {% for author in p.authors %}{% if p.authors.size >= 2 and author == p.authors.last %}and {% endif %}{{ author }}{% if p.authors.size > 2 and author != p.authors.last %},{% endif %} {% endfor %}
         <br>
 	{% if p.note %}<span class="text-muted">{{ p.note }}</span><br>{% endif %}
-        <span class="text-muted">{{ p.published }} {{ p.date | date: '%Y' }}{% if p.lead_note %}, {{ p.lead_note }}{% endif %}{% if p.bibtex %}, <a data-toggle="modal" href="#bibtex-{{ p.key }}">BibTeX</a>{% endif %}{% if p.caption[page.lang] %}, <a data-toggle="collapse" href="#abstract-{{ p.key }}" role="button">{{ site.data.publications.abstract.[page.lang] }}</a>{% endif %}{% if p.doi %}, <a href="https://doi.org/{{ p.doi }}">DOI:{{ p.doi }}</a>{% endif %}</span>
+        <span class="text-muted">{{ p.published }}{% if p.lead_note %}, {{ p.lead_note }}{% endif %}{% if p.bibtex %}, <a data-toggle="modal" href="#bibtex-{{ p.key }}">BibTeX</a>{% endif %}{% if p.caption[page.lang] %}, <a data-toggle="collapse" href="#abstract-{{ p.key }}" role="button">{{ site.data.publications.abstract.[page.lang] }}</a>{% endif %}{% if p.doi %}, <a href="https://doi.org/{{ p.doi }}">DOI:{{ p.doi }}</a>{% endif %}</span>
     </p>
     <p class="collapse" id="abstract-{{ p.key }}">
       {{ p.caption.[page.lang] }}
