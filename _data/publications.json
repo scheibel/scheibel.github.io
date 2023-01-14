@@ -686,14 +686,16 @@
       "date"      : "2022-10-03",
       "authors"   : [ "Daniel Atzberger", "Nico Scordialo", "Tim Cech", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "22nd International Working Conference on Source Code Analysis and Manipulation (SCAM)",
-      "pending": true,
       
       "caption"   : {
         "en" : "The number of software projects developed collaboratively on social coding platforms is steadily increasing. One of the motivations for developers to participate in open-source software development is to make their development activities easier accessible to potential employers, e.g., in the form of a resume for their interests and skills. However, manual review of source code activities is time-consuming and requires detailed knowledge of the technologies used. Existing approaches are limited to a small subset of actual source code activity and metadata and do not provide explanations for their results. In this work, we present CodeCV, an approach to analyzing the commit activities of a GitHub user concerning the use of programming languages, software libraries, and higher-level concepts, e.g., Machine Learning or Cryptocurrency. Skills in using software libraries and programming languages are analyzed based on syntactic structures in the source code. Based on Labeled Latent Dirichlet Allocation, an automatically generated corpus of GitHub projects is used to learn the concept-specific vocabulary in identifier names and comments. This enables the capture of expertise on abstract concepts from a user's commit history. CodeCV further explains the results through links to the relevant commits in an interactive web dashboard. We tested our system on selected GitHub users who mainly contribute to popular projects to demonstrate that our approach is able to capture developers' expertise effectively.",
         "de" : "" },
 
       "thumbnail" : "publications/2022-scam-codecv.png",
-      "downloads" : []
+      "downloads" : [{ "href"  : "https://doi.org/10.1109/SCAM55253.2022.00021",
+          "desc"  : "Publisher Record"
+        } ],
+      "doi": "10.1109/SCAM55253.2022.00021",
     },
     
     
