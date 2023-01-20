@@ -695,7 +695,7 @@
       "downloads" : [{ "href"  : "https://doi.org/10.1109/SCAM55253.2022.00021",
           "desc"  : "Publisher Record"
         } ],
-      "doi": "10.1109/SCAM55253.2022.00021",
+      "doi": "10.1109/SCAM55253.2022.00021"
     },
     
     
@@ -804,6 +804,23 @@
         { "href"  : "https://github.com/Oluwoye/DimensionReduction",
           "desc"  : "Github Project"
         }]
+    },
+    
+    
+    { "key"       : "2023-defect-prediction",
+      "bibtex"    : "casmd2023-defect-prediction.bib",
+      "date"      : "2023-05-23",
+      "title"     : "Outlier Mining Techniques for Software Defect Prediction",
+      "authors"   : [ "Tim Cech", "Daniel Atzberger", "Willy Scheibel", "Sanjay Misra", "Jürgen Döllner" ],
+      "published" : "Software Quality Days (SWQD '23)",
+      "pending": true,
+      
+      "caption"   : {
+        "en" : "Software metrics measure aspects related to the quality of software. Using software metrics as a method of quantification of software, various approaches were proposed for locating defect-prone source code units within software projects. Most of these approaches rely on supervised learning algorithms, which require labeled data for adjusting their parameters during the learning phase. Usually, such labeled training data is not available. Unsupervised algorithms do not require training data and can therefore help to overcome this limitation. In this work, we evaluate the effect of unsupervised learning - especially outlier mining algorithms - for the task of defect prediction, i.e., locating defect-prone source code units. We investigate the effect of various class balancing and feature compressing techniques as preprocessing steps and show how sliding windows can be used to capture time series of source code metrics. We evaluate the Isolation Forest and Local Outlier Factor, as representants of outlier mining techniques. Our experiments on three publicly available datasets, containing a total of 11 software projects, indicate that the consideration of time series can improve static examinations by up to 3%. The results further show that supervised algorithms can outperform unsupervised approaches on all projects. Among all unsupervised approaches, the Isolation Forest achieves the best accuracy on 10 out of 11 projects.",
+        "de" : "" },
+
+      "thumbnail" : "publications/2023-swqd-defect-prediction.png",
+      "downloads" : []
     }
   ]
 }
