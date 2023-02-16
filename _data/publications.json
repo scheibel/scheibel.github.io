@@ -832,7 +832,7 @@
       "bibtex"    : "acsd2023-log-outlier.bib",
       "date"      : "2023-04-24",
       "title"     : "Detecting Outliers in CI/CD Pipeline Logs using Latent Dirichlet Allocation",
-      "authors"   : [ "Daniel Atzberger", "Tim Cech", "Willy Scheibel", "Jürgen Döllner" ],
+      "authors"   : [ "Daniel Atzberger", "Tim Cech", "Willy Scheibel", "Rico Richter", "Jürgen Döllner" ],
       "published" : "18th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE '23)",
       "pending": true,
       
