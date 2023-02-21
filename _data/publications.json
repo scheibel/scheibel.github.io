@@ -742,6 +742,9 @@
         { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/364806579/inline/jsViewer/636d0b912f4bca7fd04bb4a0?pdfJsDownload=1",
           "desc"  : "Author Version"
         },
+        { "href"  : "https://www.researchgate.net/profile/Lukas-Wagner-17/publication/365319445/inline/jsViewer/636ed5e937878b3e87a30f62?pdfJsDownload=1",
+          "desc"  : "Slides"
+        },
         { "href"  : "https://demo.varg.dev/vidi/web3d-2022",
           "desc"  : "Demo"
         },
@@ -805,6 +808,9 @@
 
       "thumbnail" : "publications/2023-ivapp-evaluating-ssnp.png",
       "downloads" : [
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/368567010/inline/jsViewer/63ee4afc2958d64a5cd5e389?pdfJsDownload=1",
+          "desc"  : "Slides"
+        },
         { "href"  : "https://github.com/Oluwoye/DimensionReduction",
           "desc"  : "Github Project"
         }]
