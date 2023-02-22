@@ -396,6 +396,9 @@
         { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/349382985/inline/jsViewer/6047926192851c077f2981ce?pdfJsDownload=1",
           "desc"  : "Author Version"
         },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/365824554/inline/jsViewer/63f5c80a0d98a97717ab5b9a?pdfJsDownload=1",
+          "desc"  : "Slides"
+        },
         { "href"  : "https://varg.dev/trees/",
           "desc"  : "Demo"
         }
@@ -501,6 +504,9 @@
         },
         { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/354332172/inline/jsViewer/61486d33519a1a381f70268d&pdfJsDownload=1",
           "desc"  : "Author Version"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/365824584/inline/jsViewer/63f5c8dc0d98a97717ab6258?pdfJsDownload=1",
+          "desc"  : "Author Version"
         } ],
       "doi": "10.1145/3481549.3481573"
     },
@@ -548,6 +554,9 @@
         },
         { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/360230384/inline/jsViewer/626ba74705d79a3968aa8968?pdfJsDownload=1",
           "desc"  : "Author Version"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/365824562/inline/jsViewer/63f5c98f574950594534bad7?pdfJsDownload=1",
+          "desc"  : "Slides"
         } ],
       "doi": "10.5220/0011045100003176"
     },
@@ -629,6 +638,12 @@
       "downloads" : [
         { "href"  : "https://doi.org/10.1007/978-3-031-10548-7_48",
           "desc"  : "Publisher Record"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/361810170/inline/jsViewer/63f5c6200cf1030a5641799f?pdfJsDownload=1",
+          "desc"  : "Author Version"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/365824474/inline/jsViewer/63f5c66bb1704f343f72aad0?pdfJsDownload=1",
+          "desc"  : "Slides"
         } ],
       "doi": "10.1007/978-3-031-10548-7_48"
     },
@@ -652,6 +667,9 @@
         },
         { "href"  : "https://www.researchgate.net/profile/Matthias-Trapp-2/publication/363174697/inline/jsViewer/63452011ff870c55ce17f64d?pdfJsDownload=1",
           "desc"  : "Author Version"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/365824462/inline/jsViewer/63f5c6ba0cf1030a56417ef5?pdfJsDownload=1",
+          "desc"  : "Slides"
         } ],
       "doi": "10.1145/3554944.3554961"
     },
@@ -694,6 +712,9 @@
       "thumbnail" : "publications/2022-scam-codecv.png",
       "downloads" : [{ "href"  : "https://doi.org/10.1109/SCAM55253.2022.00021",
           "desc"  : "Publisher Record"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/365824568/inline/jsViewer/63f5c7100d98a97717ab52bf?pdfJsDownload=1",
+          "desc"  : "Slides"
         } ],
       "doi": "10.1109/SCAM55253.2022.00021"
     },
@@ -771,6 +792,9 @@
       "downloads" : [
         { "href"  : "https://doi.org/10.1007/978-3-031-25477-2_8",
           "desc"  : "Publisher Record"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/363175014/inline/jsViewer/63f5c7c4574950594534ab35?pdfJsDownload=1",
+          "desc"  : "Author Version"
         }
       ],
       "doi": "10.1007/978-3-031-25477-2_8"
