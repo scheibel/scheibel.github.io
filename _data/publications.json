@@ -455,6 +455,9 @@
         },
         { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/354331984/inline/jsViewer/61486d013c6cb310697e65f0&pdfJsDownload=1",
           "desc"  : "Author Version"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/368690808/inline/jsViewer/63f5d26db1704f343f72e931?pdfJsDownload=1",
+          "desc"  : "Slides"
         } ],
       "doi": "10.1145/3481549.3481570"
     },
@@ -506,7 +509,7 @@
           "desc"  : "Author Version"
         },
         { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/365824584/inline/jsViewer/63f5c8dc0d98a97717ab6258?pdfJsDownload=1",
-          "desc"  : "Author Version"
+          "desc"  : "Slides"
         } ],
       "doi": "10.1145/3481549.3481573"
     },
@@ -530,6 +533,9 @@
         },
         { "href"  : "https://www.researchgate.net/profile/Matthias-Trapp-2/publication/358523984/inline/jsViewer/62061c62afa8884cabd8675c?pdfJsDownload=1",
           "desc"  : "Author Version"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Matthias-Trapp-2/publication/361585105/inline/jsViewer/62badc31056dae24e8e97d65?pdfJsDownload=1",
+          "desc"  : "Slides"
         } ],
       "doi": "10.5220/0010991100003124"
     },
