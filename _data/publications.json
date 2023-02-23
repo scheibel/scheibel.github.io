@@ -780,8 +780,7 @@
         },
         { "href"  : "https://github.com/lukaswagner/vidi",
           "desc"  : "Github Project"
-        }
-      ],
+        } ],
       "doi": "10.1145/3564533.3564566"
     },
     
@@ -841,12 +840,15 @@
 
       "thumbnail" : "publications/2023-ivapp-evaluating-ssnp.png",
       "downloads" : [
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/367351449/inline/jsViewer/63f7946257495059453920bf?pdfJsDownload=1",
+          "desc"  : "Author Version"
+        },
         { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/368567010/inline/jsViewer/63ee4afc2958d64a5cd5e389?pdfJsDownload=1",
           "desc"  : "Slides"
         },
         { "href"  : "https://github.com/Oluwoye/DimensionReduction",
           "desc"  : "Github Project"
-        }]
+        } ]
     },
     
     
