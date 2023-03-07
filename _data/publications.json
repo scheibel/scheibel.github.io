@@ -832,7 +832,8 @@
       "title"     : "Evaluating Architectures and Hyperparameters of Self-supervised Network Projections",
       "authors"   : [ "Tim Cech", "Daniel Atzberger", "Willy Scheibel", "Rico Richter", "Jürgen Döllner" ],
       "published" : "14th International Conference on Information Visualization Theory and Applications (IVAPP '23)",
-      "pending": true,
+      "pending": false,
+      "doi"       : "10.5220/0011699700003417",
       
       "caption"   : {
         "en" : "Self-Supervised Network Projections (SSNP) are dimensionality reduction algorithms that produce low-dimensional layouts from high-dimensional data. By combining an autoencoder architecture with neighborhood information from a clustering algorithm, SSNP intend to learn an embedding that generates visually separated clusters. In this work, we extend an approach that uses cluster information as pseudo-labels for SSNP by taking outlier information into account. Furthermore, we investigate the influence of different autoencoders on the quality of the generated two-dimensional layouts. We report on two experiments on the autoencoder's architecture and hyperparameters, respectively, measuring nine metrics on eight labeled datasets from different domains, e.g., Natural Language Processing. The results indicate that the model's architecture and the choice of hyperparameter values can influence the layout with statistical significance, but none achieves the best result over all metrics. In addition, we found out that using outlier information for the pseudo-labeling approach can maintain global properties of the two-dimensional layout while trading-off local properties.",
@@ -840,6 +841,9 @@
 
       "thumbnail" : "publications/2023-ivapp-evaluating-ssnp.png",
       "downloads" : [
+        { "href"  : "https://doi.org/10.5220/0011699700003417",
+          "desc"  : "Publisher Record"
+        },
         { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/367351449/inline/jsViewer/63f7946257495059453920bf?pdfJsDownload=1",
           "desc"  : "Author Version"
         },
