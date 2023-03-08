@@ -911,7 +911,7 @@
       "bibtex"    : "havsd2023-hephaistos.bib",
       "date"      : "2023-05-01",
       "title"     : "Hephaistos: A Management System for Massive Order Book Data from Multiple Centralized Crypto Exchanges with an Internal Unified Order Book",
-      "authors"   : [ "Robert Henker", "Daniel Atzberger", "Willy Scheibel", "Jürgen Döllner" ],
+      "authors"   : [ "Robert Henker", "Daniel Atzberger", "Jan Ole Vollmer", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "1st International Workshop on Cryptocurrency Exchanges (CryptoEx '23)",
       "pending": true,
       
@@ -925,10 +925,10 @@
     
     
     { "key"       : "2023-orderbookvis",
-      "bibtex"    : "jasd2023-orderbookvis.bib",
+      "bibtex"    : "jahsd2023-orderbookvis.bib",
       "date"      : "2023-05-01",
       "title"     : "OrderBookVis: A Visualization Approach for Comparing Order Books from Centralized Crypto Exchanges",
-      "authors"   : [ "Adrian Jobst", "Daniel Atzberger", "Willy Scheibel", "Jürgen Döllner" ],
+      "authors"   : [ "Adrian Jobst", "Daniel Atzberger", "Robert Henker", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "1st International Workshop on Cryptocurrency Exchanges (CryptoEx '23)",
       "pending": true,
       
@@ -942,10 +942,10 @@
     
     
     { "key"       : "2023-liquidityanalysis",
-      "bibtex"    : "jasd2023-liquidityanalysis.bib",
+      "bibtex"    : "jahvsd2023-liquidityanalysis.bib",
       "date"      : "2023-05-01",
       "title"     : "Examining Liquidity of Exchanges and Assets and the Impact of External Events in Centralized Crypto Markets: A 2022 Study",
-      "authors"   : [ "Adrian Jobst", "Daniel Atzberger", "Willy Scheibel", "Jürgen Döllner" ],
+      "authors"   : [ "Adrian Jobst", "Daniel Atzberger", "Robert Henker", "Jan Ole Vollmer", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "1st International Workshop on Cryptocurrency Exchanges (CryptoEx '23)",
       "pending": true,
       
