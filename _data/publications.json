@@ -908,10 +908,10 @@
     
     
     { "key"       : "2023-hephaistos",
-      "bibtex"    : "havsd2023-hephaistos.bib",
+      "bibtex"    : "havsdb2023-hephaistos.bib",
       "date"      : "2023-05-01",
       "title"     : "Hephaistos: A Management System for Massive Order Book Data from Multiple Centralized Crypto Exchanges with an Internal Unified Order Book",
-      "authors"   : [ "Robert Henker", "Daniel Atzberger", "Jan Ole Vollmer", "Willy Scheibel", "Jürgen Döllner" ],
+      "authors"   : [ "Robert Henker", "Daniel Atzberger", "Jan Ole Vollmer", "Willy Scheibel", "Jürgen Döllner", "Markus Bick" ],
       "published" : "1st International Workshop on Cryptocurrency Exchanges (CryptoEx '23)",
       "pending": true,
       
