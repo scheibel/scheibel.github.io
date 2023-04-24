@@ -1,0 +1,148 @@
+{
+  "heading" : {
+    "en" : "Reviewertätigkeiten",
+    "de" : "Akademischer Dienst"
+  },
+  
+  "since" : {
+    "en" : "since",
+    "de" : "seit",
+  },
+  
+  "until" : {
+    "en" : "until",
+    "de" : "bis",
+  },
+
+  "committees": [
+    {
+      "title": {
+        "en": "Reviewer",
+        "de": "Gutachter"
+      },
+      "institution": {
+        "en": "IEEE Computer Society / VGTC",
+        "de": "IEEE Computer Society / VGTC"
+      },
+      "projects": [
+	{
+	  "en": "Transactions for Visualization and Computer Graphics (TVCG)",
+	  "de": "Transactions for Visualization and Computer Graphics (TVCG)"
+	},
+	{
+	  "en": "Visualization Conference (VIS)",
+	  "de": "Visualization Conference (VIS)"
+	},
+	{
+	  "en": "Pacific Visualization Symposium (PacificVis)",
+	  "de": "Pacific Visualization Symposium (PacificVis)"
+	},
+      ],
+      "since" : 2021,
+      "logo" : "logos/ieee_cs_logo.jpeg"
+    },
+    {
+      "title": {
+        "en": "Reviewer",
+        "de": "Gutachter"
+      },
+      "institution": {
+        "en": "Elsevier",
+        "de": "Elsevier"
+      },
+      "projects": [
+	{
+	  "en": "Information Sciences (INS)",
+	  "de": "Information Sciences (INS)"
+	},
+      ],
+      "since" : 2021,
+      "until" : 2021,
+      "logo" : "logos/elsevier_logo.png"
+    },
+    {
+      "title": {
+        "en": "Reviewer",
+        "de": "Gutachter"
+      },
+      "institution": {
+        "en": "International Symposium on Visual Information Communication and Interaction",
+        "de": "Internationales Symposium über Visual Information Communication und Interaction"
+      },
+      "since" : 2022,
+      "until" : 2022,
+      "logo" : "logos/vinci_logo.png",
+      "projects": [
+        {
+          "en": "VINCI",
+          "de": "VINCI"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Reviewer",
+        "de": "Gutachter"
+      },
+      "institution": {
+        "en": "IEEE Working Conference on Software Visualization",
+        "de": "IEEE Working Conference on Software Visualization"
+      },
+      "since" : 2022,
+      "until" : 2022,
+      "logo" : "logos/vissoft_logo.png",
+      "projects": [
+        {
+          "en": "VISSOFT",
+          "de": "VISSOFT"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Reviewer",
+        "de": "Gutachter"
+      },
+      "institution": {
+        "en": "EG",
+        "de": "EG"
+      },
+      "since" : 2023,
+      "until" : 2023,
+      "logo" : "logos/eg_logo.png",
+      "projects": [
+        {
+          "en": "European Conference on Visualization (EuroVis)",
+          "de": "European Conference on Visualization (EuroVis)"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Organization Committee",
+        "de": "Organisationskomitee"
+      },
+      "institution": {
+        "en": "International Symposium on Visual Information Communication and Interaction: VINCI 2021",
+        "de": "Internationales Symposium über Visual Information Communication und Interaction: VINCI 2021"
+      },
+      "role": {
+        "en": "Publication Chair",
+        "de": "Publication Chair"
+      },
+      "since" : 2021,
+      "until" : 2021,
+      "logo" : "logos/vinci_logo.png",
+      "projects": [
+        {
+          "en": "Proceedings VINCI 2021",
+          "de": "Proceedings VINCI 2021",
+	  "url": {
+	    "en": "https://dl.acm.org/doi/proceedings/10.1145/3481549",
+	    "de": "https://dl.acm.org/doi/proceedings/10.1145/3481549",
+	  }
+        }
+      ]
+    },
+  ]
+}

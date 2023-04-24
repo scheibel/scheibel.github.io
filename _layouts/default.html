@@ -21,6 +21,12 @@ layout: compress
 </section>
 {% endif %}
 
+{% if site.data.academicservice.committees.size > 0 %}
+<section id="academicservice" class="container">
+{% include academicservice.html %}
+</section>
+{% endif %}
+
 {% if site.data.committeework.committees.size > 0 %}
 <section id="committeework" class="container">
 {% include committeework.html %}
