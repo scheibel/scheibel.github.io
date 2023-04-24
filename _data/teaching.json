@@ -18,7 +18,7 @@
         "type"   : "Project Seminar (M.Sc.)",
         "role"   : "Seminar Lead and Tutor"
       } ],
-    "upcoming": true
+    "upcoming": false
   },
   { "term" : "2022/23 : Winter Term",
     "courses" : [
