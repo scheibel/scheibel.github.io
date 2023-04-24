@@ -1,9 +1,9 @@
 <div class="row justify-content-center">
-  <h1>{{ site.data.committeework.heading.[page.lang] | escape }}</h1>
+  <h1>{{ site.data.academicservice.heading.[page.lang] | escape }}</h1>
 </div>
 
-{% assign committees = site.data.committeework.committees %}
-{% for c in committees %}
+{% assign services = site.data.academicservice.services %}
+{% for c in services %}
   <div class="row">
     {% if c.logo %}
     <div class="col-8 offset-2 d-sm-none mb-3">
@@ -19,7 +19,7 @@
           {{ c.since }}<wbr>–{{ c.until }}
         {% endif %}
       {% else %}
-        {{ site.data.committeework.since[page.lang] }} {{ c.since }}
+        {{ site.data.academicservice.since[page.lang] }} {{ c.since }}
       {% endif %}
     </div>
     <div class="col-10 col-sm-7">
