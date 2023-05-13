@@ -24,7 +24,7 @@
     <div class="col-10 col-sm-7">
       <p>{{ g.title[page.lang] }}</p>
       {% if g.note.en %}<p class="text-muted">{{ g.note[page.lang] }}</p>{% endif %}
-      {% if g.url.href %}<a href="{{ g.url.href }}">{% endif %}{{ g.url.title.[page.lang] }}</a>{% endif %}
+      {% if g.url.href %}<a href="{{ g.url.href }}">{{ g.url.title.[page.lang] }}</a>{% endif %}
     </div>
     <div class="d-none d-sm-block col-sm-3">
       {% if g.logo %}
