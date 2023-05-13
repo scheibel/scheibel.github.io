@@ -4,7 +4,7 @@
 
 {% assign grants = site.data.grants.grants %}
 {% for g in grants reversed %}
-  {% if not g.ignore %}
+  {% if !g.ignore %}
     <div class="row grant">{% if g.logo %}
       <div class="col-8 offset-2 d-sm-none mb-3">
         <img class="img-fluid center-block" src="/img/{{ g.logo }}" alt="Logo">
