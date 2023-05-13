@@ -1,0 +1,66 @@
+{
+  "heading" : {
+    "en" : "Grants",
+    "de" : "Stipendien"
+  },
+  
+  "grants" : [
+    {
+      "title": {
+        "en": "HPI Best Master Graduate 2014",
+        "de": "HPI Bester Masterabsolvent 2014",
+      },
+      "note": {
+        "en": "Awarded for graduation with top grades and subsequent doctoral studies at HPI.",
+        "de": "Verliehen für einen Abschluss mit Bestnote und anschließenden Promotionsstudium am HPI.",
+      },
+      "urls": [
+      	{
+      	  "title": {
+            "en": "Press Release",
+            "de": "Pressemitteilung",
+          },
+          "href": "https://hpi.de/en/press-releases/2014/traumnote-10-fuer-17-hpi-absolventen-glueckwuensche-von-festredner-doepfner.html"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "HPI Scholarship",
+        "de": "HPI Promotionsstipendium",
+      },
+      "note": {
+        "en": "2014",
+        "de": "2014",
+      },
+      "urls": [
+      	{
+      	  "title": {
+            "en": "",
+            "de": "",
+          },
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "DDSA Scholarship for the VCG '23 Workshop",
+        "de": "DDSA Stipendium für den VCG '23 Workshop",
+      },
+      "note": {
+        "en": "2nd International Workshop on Visualization and Visual Computing, Aarhus, DK",
+        "de": "2nd International Workshop on Visualization and Visual Computing, Aarhus, DK",
+      },
+      "urls": [
+      	{
+      	  "title": {
+            "en": "Workshop Website",
+            "de": "Workshop Webseite",
+          },
+          "href": "https://vis-au.github.io/workshops/"
+        }
+      ]
+    },
+  ]
+}

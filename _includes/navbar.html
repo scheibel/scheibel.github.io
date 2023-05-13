@@ -21,6 +21,9 @@
         {% if site.data.committeework.committees.size > 0 %}
         <li class="nav-item"><a class="nav-link" href="#committeework">{{ site.data.committeework.heading.[page.lang] | escape }}</a></li>
         {% endif %}
+        {% if site.data.grants.grants.size > 0 %}
+        <li class="nav-item"><a class="nav-link" href="#grants">{{ site.data.grants.heading.[page.lang] | escape }}</a></li>
+        {% endif %}
         {% if site.data.projects.projects.size > 0 %}
         <li class="nav-item"><a class="nav-link" href="#projects">{{ site.data.projects.heading.[page.lang] | escape }}</a></li>
         {% endif %}

@@ -1,0 +1,18 @@
+<div class="row justify-content-center">
+  <h1>{{ site.data.grants.heading.[page.lang] | escape }}</h1>
+</div>
+
+{% assign grants = site.data.grants.grants %}
+{% for g in grants reversed %}
+  <div class="row grant">
+    <div class="col-12 offset-0 col-sm-12">
+      <h4>{{ p.title.[page.lang] | escape }}</h4>
+      {% if g.note %}<p class="text-muted">
+        {{ p.note.[page.lang] | escape }}
+      </p>{% endif %}
+      {% if g.urls.size > 0 %}<p>
+        {% for url in g.urls %}<a href="{{ url.href }}">{{ url.title.[page.lang] | escape }}</a>{% if url != g.url.last %}, {% endif %}{% endfor %}
+      </p>{% endif %}
+    </div>
+  </div>
+{% endfor %}
