@@ -16,6 +16,7 @@
   
   "grants" : [
     {
+      "ignore": true,
       "title": {
         "en": "HPI Best Master Graduate 2014",
         "de": "HPI Bester Masterabsolvent 2014",
@@ -33,7 +34,7 @@
       },
       "since" : 2014,
       "until" : 2014,
-      "logo" : "logos/hpi_logo.png"
+      "logo" : "logos/hpi_logo.jpg"
     },
     {
       "title": {
@@ -42,7 +43,7 @@
       },
       "since" : 2014,
       "until" : 2014,
-      "logo" : "logos/hpi_logo.png"
+      "logo" : "logos/hpi_logo.jpg"
     },
     {
       "title": {
