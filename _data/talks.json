@@ -84,6 +84,16 @@
           "desc"  : "Slides (PDF)"
         }
       ]
+    },
+    {
+      "date"      : "2023-06-12 11:00:00",
+      "title"     : "Constructing Hierarchical Continuity in Hilbert & Moore Treemaps",
+      "location"  : "EuroVis 2023, Leipzig, Germany",
+      "downloads" : [
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/370769813/inline/jsViewer/64624808fbaf5b27a4cb4366?pdfJsDownload=1",
+          "desc"  : "Poster (Landscape, PDF)"
+        }
+      ]
     }
   ]
 }

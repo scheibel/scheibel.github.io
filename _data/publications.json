@@ -1025,7 +1025,23 @@
         "de" : "" },
 
       "thumbnail" : "publications/2023-eurovis-hilbertmoorecontinuous.png",
-      "downloads" : []
+      "downloads" : [
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/370769807/inline/jsViewer/646246fe434e26474feb0bcd?pdfJsDownload=1",
+          "desc"  : "Author Version"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/370770050_Scheibel_-_EuroVis_2023_-_Constructing_Hierarchical_Continuity_in_Hilbert_Moore_Treemaps_-_Supplemental_Materialpdf/data/6462477e434e26474feb0bdb/Scheibel-EuroVis-2023-Constructing-Hierarchical-Continuity-in-Hilbert-Moore-Treemaps-Supplemental-Material.pdf",
+          "desc"  : "Supplemental Material"
+        },
+	      { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/370769813/inline/jsViewer/64624808fbaf5b27a4cb4366?pdfJsDownload=1",
+          "desc"  : "Poster"
+        },
+        { "href"  : "https://doi.org/10.5281/zenodo.7934497",
+          "desc"  : "Source Code"
+        },
+        { "href"  : "https://github.com/varg-dev/hilbert-moore-treemap-layouts-prototype",
+          "desc"  : "Github Project"
+        }
+      ]
     }
   ]
 }
