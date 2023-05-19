@@ -1,7 +1,10 @@
 {
   "heading" : {
     "en" : "Teaching",
-    "de" : "Lehre" },
+    "de" : "Lehre",
+    "en-short" : "Teaching",
+    "de-short" : "Lehre"
+  },
 
   "terms" : [
   { "term" : "2023 : Summer Term",

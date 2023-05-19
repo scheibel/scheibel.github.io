@@ -1,7 +1,10 @@
 {
   "heading" : {
     "en" : "Presentations",
-    "de" : "Präsentationen" },
+    "de" : "Präsentationen",
+    "en-short" : "Presentations",
+    "de-short" : "Präsentationen"
+  },
 
   "talks" : [
     {

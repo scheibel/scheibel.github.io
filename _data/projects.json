@@ -1,7 +1,9 @@
 {
   "heading" : {
     "en" : "Projects",
-    "de" : "Projekte"
+    "de" : "Projekte",
+    "en-short" : "Projects",
+    "de-short" : "Projekte"
   },
   
   "role" : {

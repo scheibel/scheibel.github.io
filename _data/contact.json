@@ -1,7 +1,10 @@
 { 
   "heading" : {
     "en" : "Contact",
-  	"de" : "Kontakt" },
+  	"de" : "Kontakt",
+    "en-short" : "Contact",
+  	"de-short" : "Kontakt"
+  },
 
   "vcard" : {
     "file" : "/vcard.vcf"},
