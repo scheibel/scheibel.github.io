@@ -149,6 +149,22 @@
       "since": 2017,
       "until": 2017,
       "logo" : "logos/hpi_logo.jpg"
+    },
+    {
+      "title": {
+        "en": "School Conference",
+        "de": "Schulkonferenz"
+      },
+      "institution": {
+        "en": "Zweite Neue Grundschule Ludwigsfelde",
+        "de": "Zweite Neue Grundschule Ludwigsfelde"
+      },
+      "role": {
+        "en": "Chairman",
+        "de": "Vorsitzender"
+      },
+      "since" : 2021,
+      "logo" : "logos/2ngs_logo.jpg"
     }
   ]
 }
