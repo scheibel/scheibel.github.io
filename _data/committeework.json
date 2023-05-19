@@ -2,8 +2,10 @@
   "heading" : {
     "en" : "Committee Work",
     "de" : "Gremienarbeit",
-    "en-short" : "Committee",
-    "de-short" : "Gremien"
+    "short": {
+      "en": "Committee",
+      "de": "Gremien"
+    }
   },
   
   "since" : {

@@ -2,8 +2,10 @@
   "heading" : {
     "en" : "Academic Service",
     "de" : "Akademischer Dienst",
-    "en-short": "Academic Service",
-    "de-short": "Akademischer Dienst"
+    "short": {
+      "en": "Academic Service",
+      "de": "Akademischer Dienst"
+    }
   },
   
   "since" : {

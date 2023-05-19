@@ -2,8 +2,10 @@
   "heading" : {
     "en" : "Contact",
   	"de" : "Kontakt",
-    "en-short" : "Contact",
-  	"de-short" : "Kontakt"
+    "short": {
+      "en": "Contact",
+      "de": "Kontakt"
+    }
   },
 
   "vcard" : {

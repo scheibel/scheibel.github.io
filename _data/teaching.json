@@ -2,8 +2,10 @@
   "heading" : {
     "en" : "Teaching",
     "de" : "Lehre",
-    "en-short" : "Teaching",
-    "de-short" : "Lehre"
+    "short": {
+      "en": "Teaching",
+      "de": "Lehre"
+    }
   },
 
   "terms" : [

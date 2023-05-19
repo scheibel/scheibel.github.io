@@ -2,8 +2,10 @@
   "heading" : {
     "en" : "Publications",
     "de" : "Publikationen",
-    "en-short" : "Publications",
-    "de-short" : "Publikationen"
+    "short": {
+      "en": "Publications",
+      "de": "Publikationen"
+    }
   },
   
   "abstract" : {

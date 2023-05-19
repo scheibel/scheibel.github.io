@@ -13,27 +13,27 @@
     <div class="collapse navbar-collapse w-100 mr-2" id="navbarSupportedContent">
       <ul class="navbar-nav w-100 justify-content-center">
         {% if site.data.publications.publications.size > 0 %}
-        <li class="nav-item"><a class="nav-link" href="#publications">{{ site.data.publications.heading.[page.lang+"-short"] | escape }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="#publications">{{ site.data.publications.heading.short[page.lang] | escape }}</a></li>
         {% endif %}
         {% if site.data.academicservice.services.size > 0 %}
-        <li class="nav-item"><a class="nav-link" href="#academicservice">{{ site.data.academicservice.heading.[page.lang+"-short"] | escape }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="#academicservice">{{ site.data.academicservice.heading.short.[page.lang] | escape }}</a></li>
         {% endif %}
         {% if site.data.committeework.committees.size > 0 %}
-        <li class="nav-item"><a class="nav-link" href="#committeework">{{ site.data.committeework.heading.[page.lang+"-short"] | escape }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="#committeework">{{ site.data.committeework.heading.short.[page.lang] | escape }}</a></li>
         {% endif %}
         {% if site.data.grants.grants.size > 0 %}
-        <li class="nav-item"><a class="nav-link" href="#grants">{{ site.data.grants.heading.[page.lang+"-short"] | escape }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="#grants">{{ site.data.grants.heading.short.[page.lang] | escape }}</a></li>
         {% endif %}
         {% if site.data.projects.projects.size > 0 %}
-        <li class="nav-item"><a class="nav-link" href="#projects">{{ site.data.projects.heading.[page.lang+"-short"] | escape }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">{{ site.data.projects.heading.short.[page.lang] | escape }}</a></li>
         {% endif %}
         {% if site.data.talks.talks.size > 0 %}
-        <li class="nav-item"><a class="nav-link" href="#talks">{{ site.data.talks.heading.[page.lang+"-short"] | escape }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="#talks">{{ site.data.talks.heading.short.[page.lang] | escape }}</a></li>
         {% endif %}
         {% if site.data.teaching.terms.size > 0 %}
-        <li class="nav-item"><a class="nav-link" href="#teaching">{{ site.data.teaching.heading.[page.lang+"-short"] | escape }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="#teaching">{{ site.data.teaching.heading.short.[page.lang] | escape }}</a></li>
         {% endif %}
-        <li class="nav-item"><a class="nav-link" href="#contact">{{ site.data.contact.heading.[page.lang+"-short"] | escape }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">{{ site.data.contact.heading.short.[page.lang] | escape }}</a></li>
       </ul>
       <ul id="lang-select" class="navbar-nav">
         {% for lang in site.languages %}

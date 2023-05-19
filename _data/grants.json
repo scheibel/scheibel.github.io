@@ -2,8 +2,10 @@
   "heading" : {
     "en" : "Scholarships & Grants",
     "de" : "Stipendien",
-    "en-short" : "Scholarships",
-    "de-short" : "Stipendien"
+    "short": {
+      "en": "Scholarships",
+      "de": "Stipendien"
+    }
   },
   
   "since" : {
