@@ -1,6 +1,6 @@
 {
   "heading" : {
-    "en" : "Grants",
+    "en" : "Scholarships &amp; Grants",
     "de" : "Stipendien"
   },
   
@@ -16,10 +16,9 @@
   
   "grants" : [
     {
-      "ignore": true,
       "title": {
-        "en": "HPI Best Master Graduate 2014",
-        "de": "HPI Bester Masterabsolvent 2014",
+        "en": "HPI Award Best Master Graduate 2014",
+        "de": "HPI Auszeichnung Bester Masterabsolvent 2014",
       },
       "note": {
         "en": "Awarded for graduation with top grades and subsequent doctoral studies at HPI.",
