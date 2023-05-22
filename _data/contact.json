@@ -47,7 +47,7 @@
   "refs" : [ 
     { "name" : "GitHub", "href" : "https://github.com/scheibel", "icon": "github" },
     { "name" : "ResearchGate", "href" : "https://www.researchgate.net/profile/Willy_Scheibel" },
-    { "name" : "ORCID", "href" : "https://orcid.org/0000-0002-7885-9857", "nativeCode" : "<img src=\"/img/logos/ORCID_logo.png\" />" },
+    { "name" : "ORCID", "href" : "https://orcid.org/0000-0002-7885-9857", "nativeCode" : "<img src=\"/img/logos/ORCID_logo.png\" style=\"height: 1.1rem;\" />" },
 	  { "name" : "Publons", "href": "https://publons.com/researcher/4237998/willy-scheibel/", "nativeCode" : "<span id=\"badgeCont200\"></span>" },
     { "name" : "LinkedIn", "href" : "https://www.linkedin.com/in/willyscheibel", "icon": "linkedin" },
     { "name" : "Google Scholar", "href" : "https://scholar.google.com/citations?user=SBLqi_QAAAAJ&hl=en" },
