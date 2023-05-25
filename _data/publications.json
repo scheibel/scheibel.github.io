@@ -887,14 +887,17 @@
       "title"     : "Detecting Outliers in CI/CD Pipeline Logs using Latent Dirichlet Allocation",
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Willy Scheibel", "Rico Richter", "Jürgen Döllner" ],
       "published" : "18th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE '23)",
-      "pending": true,
+      "doi"       : "10.5220/0011858500003464",
       
       "caption"   : {
         "en" : "Continuous Integration and Continuous Delivery are best practices used during the DevOps phase. By using automated pipelines for building and testing small software changes, possible risks are intended to be detected early. Those pipelines continuously generate log events that are collected in semi-structured log files. In an industry context, these log files can amass 100,000 events and more. However, the relevant sections in these log files must be manually tagged by the user. This paper presents an online-learning approach for detecting relevant log events using Latent Dirichlet Allocation. After grouping a fixed number of log events in a document, our approach prunes the vocabulary to eliminate words without semantic meaning. A sequence of documents is then described as a discrete sequence by applying Latent Dirichlet Allocation, which allows the detection of outliers within the sequence. Our approach provides an explanation of the results by integrating the latent variables of the model. The approach is tested on log files that originate from a CI/CD pipeline of a large German company. Our results indicate that whether or not a log event is marked as an outlier heavily depends on the chosen hyperparameters of our model.",
         "de" : "" },
 
       "thumbnail" : "publications/2023-enase-log-outlier.png",
-      "downloads" : []
+      "downloads" : [
+        { "href"  : "https://doi.org/10.5220/0011858500003464",
+          "desc"  : "Publisher Record"
+        } ]
     },
     
     
