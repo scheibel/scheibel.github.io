@@ -1009,14 +1009,18 @@
       "title"     : "A Dashboard for Interactive Convolutional Neural Network Training And Validation Through Saliency Maps",
       "authors"   : [ "Tim Cech", "Furkan Simsek", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "25th EG Conference on Visualization (EuroVis '23)",
-      "pending": true,
+      "pending"   : false,
+      "doi"       : "10.2312/evp20231054",
       
       "caption"   : {
         "en" : "",
         "de" : "" },
 
       "thumbnail" : "publications/2023-eurovis-saliencnn.png",
-      "downloads" : []
+      "downloads" : [
+        { "href"  : "https://doi.org/10.2312/evp20231054",
+          "desc"  : "Publisher Record"
+        } ]
     },
     
     
@@ -1026,7 +1030,8 @@
       "title"     : "Constructing Hierarchical Continuity in Hilbert & Moore Treemaps",
       "authors"   : [ "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "25th EG Conference on Visualization (EuroVis '23)",
-      "pending": true,
+      "pending"   : false,
+      "doi"       : "10.2312/evp20231060",
       
       "caption"   : {
         "en" : "",
@@ -1034,6 +1039,9 @@
 
       "thumbnail" : "publications/2023-eurovis-hilbertmoorecontinuous.png",
       "downloads" : [
+        { "href"  : "https://doi.org/10.2312/evp20231060",
+          "desc"  : "Publisher Record"
+        },
         { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/370769807/inline/jsViewer/646246fe434e26474feb0bcd?pdfJsDownload=1",
           "desc"  : "Author Version"
         },
