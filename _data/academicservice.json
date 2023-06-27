@@ -29,40 +29,21 @@
         "de": "IEEE Computer Society / VGTC"
       },
       "projects": [
-	{
-	  "en": "Transactions for Visualization and Computer Graphics (TVCG)",
-	  "de": "Transactions for Visualization and Computer Graphics (TVCG)"
-	},
-	{
-	  "en": "Visualization Conference (VIS)",
-	  "de": "Visualization Conference (VIS)"
-	},
-	{
-	  "en": "Pacific Visualization Symposium (PacificVis)",
-	  "de": "Pacific Visualization Symposium (PacificVis)"
-	},
+        {
+          "en": "Transactions for Visualization and Computer Graphics (TVCG)",
+          "de": "Transactions for Visualization and Computer Graphics (TVCG)"
+        },
+        {
+          "en": "Visualization Conference (VIS)",
+          "de": "Visualization Conference (VIS)"
+        },
+        {
+          "en": "Pacific Visualization Symposium (PacificVis)",
+          "de": "Pacific Visualization Symposium (PacificVis)"
+        },
       ],
       "since" : 2021,
       "logo" : "logos/ieee_cs_logo.jpeg"
-    },
-    {
-      "title": {
-        "en": "Reviewer",
-        "de": "Gutachter"
-      },
-      "institution": {
-        "en": "Elsevier",
-        "de": "Elsevier"
-      },
-      "projects": [
-	{
-	  "en": "Information Sciences (INS)",
-	  "de": "Information Sciences (INS)"
-	},
-      ],
-      "since" : 2021,
-      "until" : 2021,
-      "logo" : "logos/elsevier_logo.png"
     },
     {
       "title": {
@@ -119,6 +100,25 @@
           "de": "European Conference on Visualization (EuroVis)"
         }
       ]
+    },
+    {
+      "title": {
+        "en": "Reviewer",
+        "de": "Gutachter"
+      },
+      "institution": {
+        "en": "Elsevier",
+        "de": "Elsevier"
+      },
+      "projects": [
+        {
+          "en": "Information Sciences (INS)",
+          "de": "Information Sciences (INS)"
+        },
+      ],
+      "since" : 2021,
+      "until" : 2021,
+      "logo" : "logos/elsevier_logo.png"
     },
     {
       "title": {
