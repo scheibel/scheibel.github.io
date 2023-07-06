@@ -9,15 +9,19 @@
   },
 
   "terms" : [
+  { "term" : "2023/24 : Winter Term",
+    "courses" : [
+      { "course" : "Computer Graphics I",
+        "type"   : "Lecture (B.Sc.)",
+        "role"   : "Co-Lecturer"
+      } ],
+    "upcoming": true
+  },
   { "term" : "2023 : Summer Term",
     "courses" : [
       { "course" : "Computer Graphics II",
         "type"   : "Lecture (B.Sc.)",
         "role"   : "Co-Lecturer"
-      },
-      { "course" : "Explainable Artificial Intelligence: Methods, Perspectives, and Risks",
-        "type"   : "Project Seminar (B.Sc.)",
-        "role"   : "Tutor"
       },
       { "course" : "Methods & Techniques for Visual Analytics ",
         "type"   : "Project Seminar (M.Sc.)",
