@@ -18,6 +18,7 @@
       "date": "2014-07-24",
       "authors": [ "Willy Scheibel" ],
       "published": "Master's Thesis at the Hasso Plattner Institute, University of Potsdam",
+      "articletype" : "Thesis",
       
       "caption": {
         "de": "Eine Treemap kodiert Hierarchien durch rekursive Unterteilung von zweidimensionalen Flächen und ermöglicht die Darstellung mehrerer Attribute z.B. mit der Größe der Grundfläche, der extrudierten Höhe und der Knotenfarbe. Bisherige Treemap-Layoutalgorithmen und -Darstellungstechniken sind nur bedingt zum Vergleich zweier Zustände zu verschiedenen Zeitpunkten geeignet, da (1) keinne Vergleichbarkeit der Treemap-Knoten innerhalb einer Treemap und über verschiedene Zustände hinweg ist gegeben ist und (2) Darstellungstechniken für den Größenunterschied eines Knotens über die Zeit fehlen. Diese Arbeit stellt die Techniken EvoCell-Layouting, Change Map und Change Hints vor. EvoCell-Layouting ist ein neuer Treemap-Algorithmus, welcher ein vorhandenes Treemap-Layout iterativ verändert. Change Maps sind Dichtekarten zum verorten von Änderungen in der Treemap, unabhängig von der Änderungs- und der Knotengröße. Change Hints stellen die Änderungen in den räumlichen Dimensionen zwischen zwei Zuständen auf den Knoten der Treemap dar. Diese drei Techniken verbessern das Verständnis von Entwicklungen in temporalen, hierarchischen Daten. Neben einer prototypischen Implementierung und einer Diskussion über Alternativen, wird durch Performanz- und Speicherverbrauchsanalysen gezeigt, dass die Techniken auf Echtdaten anwendbar sind. Eine abschließende Fallstudie beleuchtet die Entwicklung eines Open-Source Projektes und zeigt markante Punkte in der Entwicklung, die durch vorhandene Hierarchievisualisierungen nur schwer ersichtlich sind.",
@@ -40,6 +41,7 @@
       "date"      : "2016-02-28",
       "authors"   : [ "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "7th International Conference on Information Visualization Theory and Applications (IVAPP '16)",
+      "articletype" : "Short Paper",
       
       "caption"   : {
         "en" : "To explore and to compare different revisions of complex software systems is a challenging task as it requires to constantly switch between different revisions and the corresponding information visualization. This paper proposes to combine the concept of small multiples and focus+context techniques for software maps to facilitate the comparison of multiple software map themes and revisions simultaneously on a single screen. This approach reduces the amount of switches and helps to preserve the mental map of the user. Given a software project the small multiples are based on a common dataset but are specialized by specific revisions and themes. The small multiples are arranged in a matrix where rows and columns represents different themes and revisions, respectively. To ensure scalability of the visualization technique we also discuss two rendering pipelines to ensure interactive frame-rates. The capabilities of the proposed visualization technique are demonstrated in a collaborative exploration setting using a high-resolution, multi-touch display.",
@@ -69,6 +71,7 @@
       "date"      : "2016-07-23",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Stefan Lemme", "Jürgen Döllner" ],
       "published" : "21st International Conference on Web3D Technology (Web3D '16)",
+      "articletype" : "Short Paper",
       
       "caption"   : {
         "en" : "The 2.5D treemap represents a general purpose visualization technique to map multi-variate hierarchical data in a scalable, interactive, and consistent way used in a number of application fields. In this paper, we explore the capabilities of Declarative 3D for the web-based implementation of 2.5D treemap clients. Particularly, we investigate how X3DOM and XML3D can be used to implement clients with equivalent features that interactively display 2.5D treemaps with dynamic mapping of attributes. We also show a first step towards a glTF-based implementation. These approaches are benchmarked focusing on their interaction capabilities with respect to rendering and speed of dynamic data mapping. We discuss the results for our representative example of a complex 3D interactive visualization technique and summerize recommendations for improvements towards operational web clients.",
@@ -101,6 +104,7 @@
       "date"      : "2017-02-27",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Sebastian Hahn", "Jürgen Döllner" ],
       "published" : "8th International Conference on Information Visualization Theory and Applications (IVAPP)",
+      "articletype" : "Full Paper",
       
       "caption"   : {
         "en" : "Depicting massive software system data using software maps can result in visual clutter and increased cognitive load. This paper introduces an adaptive level-of-detail (LoD) technique that uses scoring for interactive aggregation on a per-node basis. The scoring approximates importance by degree-of-interest measures as well as screen and user-interaction scores. The technique adheres to established aggregation guidelines and was evaluated by means of two user studies. The first user study investigates task completion time in visual search. The second evaluates the readability of the presented nesting level contouring for aggregates. With the adap- tive LoD technique software maps allow for multi-resolution depictions of software system information. It facilitates efficient identification of important nodes and allows for additional annotation.",
@@ -127,6 +131,7 @@
       "date"      : "2017-05-15",
       "authors"   : [ "Willy Scheibel", "Stefan Buschmann", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "GPU Zen",
+      "articletype" : "Chapter",
       
       "caption"   : {
         "en" : "In todays computer graphics applications, large 3D scenes are rendered which consist of polygonal geometries such as triangle meshes. Using state-of-the-art techniques, this geometry is often represented on the GPU using vertex and index buffers, as well as additional auxiliary data such as textures or uniform buffers. For polygonal meshes of arbitrary complexity, the described approach is indispensable. However, there are several types of simpler geometries (e.g., cuboids, spheres, tubes, or splats) that can be generated procedurally. We present an efficient data representation and rendering concept for such geometries, denoted as attributed vertex clouds (AVCs). Using this approach, geometry is generated on the GPU during execution of the programmable rendering pipeline. Each vertex is used as the argument for a function that procedurally generates the target geometry. This function is called a transfer function, and it is implemented using shader programs and therefore executed as part of the rendering process. This approach allows for compact geometry representation and results in reduced memory footprints in comparison to traditional representations. By shifting geometry generation to the GPU, the resulting volatile geometry can be controlled flexibly, i.e., its position, parameterization, and even the type of geometry can be modified without requiring state changes or uploading new data to the GPU. Performance measurements suggests improved rendering times and reduced memory transmission through the rendering pipeline.",
@@ -175,6 +180,7 @@
       "date"      : "2018-01-29",
       "authors"   : [ "Willy Scheibel", "Christopher Weyand", "Jürgen Döllner" ],
       "published" : "9th International Conference on Information Visualization Theory and Applications (IVAPP '17)",
+      "articletype" : "Full Paper",
       
       "caption"   : {
         "en" : "We propose the rectangular treemap layout algorithm EvoCells that maps changes in tree-structured data onto an initial treemap layout. Changes in topology and node weights are mapped to insertion, removal, growth, and shrinkage of the layout rectangles. Thereby, rectangles displace their neighbors and stretche their enclosing rectangles with a run-time complexity of O(n log n). An evaluation using layout stability metrics on the open source ElasticSearch software system suggests EvoCells as a valid alternative for stable treemap layouting.",
@@ -202,6 +208,7 @@
       "authors"   : [ "Willy Scheibel", "Judith Hartmann", "Jürgen Döllner" ],
       "published" : "10th International Conference on Information Visualization Theory and Applications (IVAPP '18)",
       "note"      : "Candidate for Best Paper",
+      "articletype" : "Full Paper",
       
       "caption"   : {
         "en" : "There is a rapidly growing, cross-domain demand for interactive, high-quality visualization techniques as components of web-based applications and systems. In this context, a key question is how visualization services can be designed, implemented, and operated based on Software-as-a-Service as software delivery model. In this paper, we present concepts and design of a SaaS framework and API of visualization techniques for tree-structured data, called HiViSer. Using representational state transfer (REST), the API supports different data formats, data manipulations, visualization techniques, and output formats. In particular, the API defines base resource types for all components required to create an image or a virtual scene of a hierarchy visualization. We provide a treemap visualization service as prototypical implementation for which subtypes of the proposed API resources have been created. The approach generally serves as a blue-print for fully web-based, high-end visualization services running on thin clients in a standard browser environment.",
@@ -230,6 +237,8 @@
       "date": "2019-10-01",
       "authors": [ "Daniel Limberger", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
       "published": "12th International Symposium on Visual Information Communication and Interaction (VINCI '19)",
+      "articletype" : "Full Paper",
+
       "caption": {
         "en" : "Software maps provide a general-purpose interactive user interface and information display for software analytics tools. This paper systematically introduces and classifies software maps as a treemap-based technique for software cartography. It provides an overview of advanced visual metaphors and techniques, each suitable for interactive visual analytics tasks, that can be used to enhance the expressiveness of software maps. Thereto, the metaphors and techniques are briefly described, located within a visualization pipeline model, and considered within the software map design space. Consequent applications and use cases w.r.t. different types of software system data and software engineering data are discussed, arguing for a versatile use of software maps in visual software analytics.",
         "de" : ""
@@ -253,6 +262,8 @@
       "date": "2020-02-20",
       "authors": [ "Willy Scheibel", "Judith Hartmann", "Daniel Limberger", "Jürgen Döllner" ],
       "published": "VISIGRAPP 2019: Computer Vision, Imaging and Computer Graphics Theory and Applications",
+      "articletype" : "Chapter",
+
       "caption": {
         "en" : "This article reiterates on the recently presented hierarchy visualization service HiViSer and its API. It illustrates its decomposition into modular services for data processing and visualization of tree-structured data. The decomposition is aligned to the common structure of visualization pipelines and, in this way, facilitates attribution of the services' capabilities. Suitable base resource types are proposed and their structure and relations as well as a subtyping concept for specifics in hierarchy visualization implementations are detailed. Moreover, state-of-the-art quality standards and techniques for self-documentation and discovery of components are incorporated. As a result, a blueprint for Web service design, architecture, modularization, and composition is presented, targeting fundamental visualization tasks of tree-structured data, i.e., gathering, processing, rendering, and provisioning. Finally, the applicability of the service components and the API is evaluated in the context of exemplary applications.",
         "de" : ""
@@ -276,6 +287,7 @@
       "date"      : "2020-02-27",
       "authors"   : [ "Willy Scheibel", "Matthias Trapp", "Daniel Limberger", "Jürgen Döllner" ],
       "published" : "11th International Conference on Information Visualization Theory and Applications (IVAPP '20)",
+      "articletype" : "Position Paper",
       
       "caption"   : {
         "en" : "A treemap is a visualization that has been specifically designed to facilitate the exploration of tree-structured data and, more general, hierarchically structured data. The family of visualization techniques that use a visual metaphor for parent-child relationships based “on the property of containment” (Johnson, 1993) is commonly referred to as treemaps. However, as the number of variations of treemaps grows, it becomes increasingly important to distinguish clearly between techniques and their specific characteristics. This paper proposes to discern between Space-filling Treemap, Containment Treemap, Implicit Edge Representation Tree, and Mapped Tree for classification of hierarchy visualization techniques and highlights their respective properties. This taxonomy is created as a hyponymy, i.e., its classes have an is-a relationship to one another. With this proposal, we intend to stimulate a discussion on a more unambiguous classification of treemaps and, furthermore, broaden what is understood by the concept of treemap itself.",
@@ -303,6 +315,7 @@
       "date"      : "2020-12-01",
       "authors"   : [ "Lukas Wagner", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "25th International Conference on 3D Web Technology (Web3D '20)",
+      "articletype" : "Extended Abstract",
       
       "caption"   : {
         "en" : "This paper presents a rendering framework for the visualization of massive point datasets in the web. It includes highly interactive point rendering, cluster visualization, basic interaction methods, and importance-based labeling, while being available for both mobile and desktop browsers. The rendering style is customizable, as shown in figure 1. Our evaluation indicates that the framework facilitates interactive visualization of tens of millions of raw data points even without dynamic filtering or aggregation.",
@@ -333,6 +346,7 @@
       "date"      : "2020-12-02",
       "authors"   : [ "Carolin Fiedler", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "13th International Symposium on Visual Information Communication and Interaction (VINCI '20)",
+      "articletype" : "Full Paper",
       
       "caption"   : {
         "en" : "Treemaps are a commonly used tool for the visual display and communication of tree-structured, multi-variate data. In order to confidently know when and how treemaps can best be applied, the research community uses usability studies and controlled experiments to \"understand the potential and limitations of our tools\" (Plaisant, 2004). To support the communities' understanding and usage of treemaps, this survey provides a comprehensive review and detailed overview of 69 user studies related to treemaps. However, due to pitfalls and shortcomings in design, conduct, and reporting of the user studies, there is little that can be reliably derived or accepted as a generalized statement. Fundamental open questions include configuration, compatible tasks, use cases, and perceptional characteristics of treemaps. The reliability of findings and statements is discussed and common pitfalls of treemap user studies are identified.",
@@ -360,6 +374,7 @@
       "date"      : "2020-12-03",
       "authors"   : [ "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner" ],
       "published" : "13th International Symposium on Visual Information Communication and Interaction (VINCI '20)",
+      "articletype" : "Full Paper",
       
       "caption"   : {
         "en" : "This paper provides an overview of published treemap layout algorithms from 1991 to 2019 that were used for information visualization and computational geometry. First, a terminology is outlined for the precise communication of tree-structured data and layouting processes. Second, an overview and classification of layout algorithms is presented and application areas are discussed. Third, the use-case-specific adaption process is outlined and discussed. This overview targets practitioners and researchers by providing a starting point for own research, visualization design, and applications.",
@@ -388,6 +403,7 @@
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Merlin de la Haye", "Maximilian Söchting", "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner" ],
       "published" : "12th International Conference on Information Visualization Theory and Applications (IVAPP '21)",
       "note"      : "Candidate for Best Student Paper",
+      "articletype" : "Full Paper",
       
       "caption"   : {
         "en" : "Software visualization techniques provide effective means for program comprehension tasks as they allow developers to interactively explore large code bases. A frequently encountered task during software development is the detection of source code files of similar semantic. To assist this task we present Software Forest, a novel 2.5D software visualization that enables interactive exploration of semantic similarities within a software system, illustrated as a forest. The underlying layout results from the analysis of the vocabulary of the software documents using Latent Dirichlet Allocation and Multidimensional Scaling and therefore reflects the semantic similarity between source code files. By mapping properties of a software entity, e.g., size metrics or trend data, to visual variables encoded by various, figurative tree meshes, aspects of a software system can be displayed. This concept is complemented with implementation details as well as a discussion on applications.",
@@ -418,6 +434,7 @@
       "date"      : "2021-06-14",
       "authors"   : [ "Willy Scheibel", "Christopher Weyand", "Joseph Bethge", "Jürgen Döllner" ],
       "published" : "23rd EG Conference on Visualization (EuroVis '21)",
+      "articletype" : "Short Paper",
       
       "caption"   : {
         "en" : "Hilbert and Moore treemaps are based on the same named space-filling curves to lay out tree-structured data for visualization. One main component of them is a partitioning subroutine, whose algorithmic complexity poses problems when scaling to industry-sized datasets. Further, the subroutine allows for different optimization criteria that result in different layout decisions. This paper proposes conceptual and algorithmic improvements to this partitioning subroutine. Two measures for the quality of partitioning are proposed, resulting in the min-max and min-variance optimization tasks. For both tasks, linear-time algorithms are presented that find an optimal solution. The implementation variants are evaluated with respect to layout metrics and run-time performance against a previously available greedy approach. The results show significantly improved run time and no deterioration in layout metrics, suggesting effective use of Hilbert and Moore treemaps for datasets with millions of nodes.",
@@ -448,6 +465,7 @@
       "date"      : "2021-09-06",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Jan van Dieken", "Jürgen Döllner" ],
       "published" : "14th International Symposium on Visual Information Communication and Interaction (VINCI '21)",
+      "articletype" : "Short Paper",
       
       "caption"   : {
         "en" : "This work investigates the extent to which animated procedural texture patterns can be used to support the representation of changes in 2.5D treemaps. Changes in height, color, and area of individual nodes can easily be visualized using animated transitions. Especially for changes in the color attribute, plain animated transitions are not able to directly communicate the direction of change itself. We show how procedural texture patterns can be superimposed to the color mapping and support transitions. To this end, we discuss qualitative properties of each pattern, demonstrate their ability to communicate change direction both with and without animation, and conclude which of the patterns are more likely to increase effectiveness and correctness of the change mapping in 2.5D treemaps.",
@@ -474,6 +492,7 @@
       "date"      : "2021-09-06",
       "authors"   : [ "Martin Büßemeyer", "Daniel Limberger", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "14th International Symposium on Visual Information Communication and Interaction (VINCI '21)",
+      "articletype" : "Short Paper",
       
       "caption"   : {
         "en" : "Personal, long-term investment products, especially ones for retirement savings, require thorough understanding to use them profitably. Even simple savings plans based on exchange-traded funds(ETFs) are subject to many variables and uncertainties to be considered for expected and planned-upon returns. We present aninteractive simulation of an ETF-based savings plan that combinesforecasts, risk awareness, taxes and costs, inflation, and dynamicinflows and outflows into a single visualization. The visualizationconsists of four parts: a form-fill interface for configuration, a savings and payout simulation, a cash flow chart, and a savings chart. Based on a specific use case, we discuss how private investors canbenefit from using our visualization after a short training period.",
@@ -500,6 +519,7 @@
       "date"      : "2021-09-07",
       "authors"   : [ "Daniel Atzberger", "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner" ],
       "published" : "14th International Symposium on Visual Information Communication and Interaction (VINCI '21)",
+      "articletype" : "Extended Abstract",
       
       "caption"   : {
         "en" : "Software visualization uses metaphors to depict software and software development data that usually has no gestalt. The choice of a metaphor and visual depiction is researched broadly, but deriving a layout based on similarity is still challenging. We present a novel approach to 3D software visualization called Software Galaxy. Our layout is based on applying Latent Dirichlet Allocation on source code. We utilize a metaphor inspired from astronomy for depicting software metrics for single files and clusters. Our first experiments indicate that a 3D visualization capturing semantic relatedness can be beneficial for standard program comprehension tasks.",
@@ -526,6 +546,7 @@
       "date"      : "2022-02-06",
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Adrian Jobst", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "13th International Conference on Information Visualization Theory and Applications (IVAPP '22)",
+      "articletype" : "Short Paper",
       
       "caption"   : {
         "en" : "In order to detect software risks at an early stage, various software visualization techniques have been developed for monitoring the structure, behaviour, or the underlying development process of software. One of greatest risks for any IT organization consists in an inappropriate distribution of knowledge among its developers, as a projects’ success mainly depends on assigning tasks to developers with the required skills and expertise. In this work, we address this problem by proposing a novel Visual Analytics framework for mining and visualizing the expertise of developers based on their source code activities. Under the assumption that a developer’s knowledge about code is represented directly through comments and the choice of identifier names, we generate a 2D layout using Latent Dirichlet Allocation together with Multidimensional Scaling on the commit history, thus displaying the semantic relatedness between developers. In order to capture a developer’s expertise in a concept, we utilize Labeled LDA trained on a corpus of Open Source projects. By mapping aspects related to skills onto the visual variables of 3D glyphs, we generate a 2.5D Visualization, we call KnowhowMap. We exemplify this approach with an interactive prototype that enables users to analyze the distribution of skills and expertise in an explorative way.",
@@ -553,6 +574,7 @@
       "authors"   : [ "Daniel Atzberger", "Jonathan Schneider", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "17th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE '22)",
       "note"      : "Best Student Paper Award",
+      "articletype" : "Full Paper",
       
       "caption"   : {
         "en" : "During software development processes, software defects, so-called bugs, are captured in a semi-structured manner in bug tracking systems using textual components and categorical features. It is the task of the triage owner to assign open bugs to developers with the required skills and expertise. This task, known as bug triaging, requires an in-depth knowledge about a developer’s skills. Various machine learning techniques have been proposed to automate this task, most of these approaches apply topic models, especially Latent Dirichlet Allocation (LDA), for mining the textual components of bug reports. However none of the proposed approaches explicitly models a developers expertise. In most cases these algorithms are treated as black box, as they allow no explanation about their recommendation. In this work, we show how the Author-Topic Model (ATM), a variant of LDA, can be used to capture a developer’s expertise in the latent topics of a corpus of bug reports from the model itself. Furthermore, we present three novel bug triaging techniques based on the ATM. We compare our approach against a baesline model, that is based on LDA, on a dataset of 18269 bug reports from the Mozilla Firefox project collected between July 1999 to June 2016. The results show that the ATM can outperform the LDA-based approach in terms of the Mean Reciprocal Rank (MRR).",
@@ -580,6 +602,7 @@
       "authors"   : [ "Christoph Thiede", "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner" ],
       "published" : "17th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE '22)",
       "note"      : "Candidate for Best Student Paper",
+      "articletype" : "Full Paper",
       
       "caption"   : {
         "en" : "In the dependency graph of a software ecosystem, downstream dependencies are the nodes that depend on a package. Apart from end-user APIs, these dependencies make up the bulk of a library’s usage for most packages. Other than for upstream dependencies, tools that provide individual package developers with this kind of information rarely exist to date. This paper makes two contributions: (i) We propose an approach for gathering downstream dependencies of a single package efficiently and extracting usage samples from them using a static type analyzer. (ii) We present a tool that allows npm package developers to survey the aggregated usage data directly in their IDE in an interactive and context-sensitive way and that further supports them in understanding which packages use specific package members and why and how they use these members. This can help prioritize and steer development and uncover unexpected usage patterns, inappropriate member signatures, or misleading interface design. Our methods return over 8 000 dependencies for popular packages and process about 12 dependencies per minute while requiring about 500 MB memory in total and less than 30 MB storage per package, but tend to exclude unpopular dependencies. Usage sample extraction is very precise but not easily available for repositories with complex build configurations or metaprogramming patterns. We show that usage data from downstream dependency repositories is a promising and diverse source of information for mining software repositories and that our approach supports package developers in maintaining their APIs.",
@@ -610,6 +633,7 @@
       "date"      : "2022-05-23",
       "authors"   : [ "Fabian Heseding", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "19th International Conference on Mining Software Repositories – Data and Tool Showcase Track (MSR '22)",
+      "articletype" : "Short Paper",
       
       "caption"   : {
         "en" : "Software projects under version control grow with each commit, accumulating up to hundreds of thousands of commits per repository. Especially for such large projects, the traversal of a repository and data extraction for static source code analysis poses a trade-off between granularity and speed. We showcase the command-line tool pyrepositoryminer that combines a set of optimization approaches for efficient traversal and data extraction from git repositories while being adaptable to third-party and custom software metrics and data extractions. The tool is written in Python and combines bare repository access, in-memory storage, parallelization, caching, change-based analysis, and optimized communication between the traversal and custom data extraction components. The tool allows for both metrics written in Python and external programs for data extraction. A single-thread performance evaluation based on a basic mining use case shows a mean speedup of 15.6×to other freely available tools across four mid-sized open source projects. A multi-threaded execution allows for load distribution among cores and, thus, a mean speedup up to 86.9×using 12 threads.",
@@ -640,6 +664,7 @@
       "date"      : "2022-07-04",
       "authors"   : [ "Adrian Jobst", "Daniel Atzberger", "Tim Cech", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "22th International Conference on Computational Science and Its Applications (ICCSA '22)",
+      "articletype" : "Short Paper",
       
       "caption"   : {
         "en" : "The number of publicly accessible software repositories on online platforms is growing rapidly. With more than 128 million public repositories (as of March 2020), GitHub is the world’s largest platform for hosting and managing software projects. Where it used to be necessary to merge various data sources, it is now possible to access a wealth of data using the GitHub API alone. However, collecting and analyzing this data is not an easy endeavor. In this paper, we present Prometheus, a system for crawling and storing software repositories from GitHub. Compared to existing frameworks, Prometheus follows an event-driven microservice architecture. By separating functionality on the service level, there is no need to understand implementation details or use existing frameworks to extend or customize the system, only data. Prometheus consists of two components, one for fetching GitHub data and one for data storage which serves as a basis for future functionality. Unlike most existing crawling approaches, the Prometheus fetching service uses the GitHub GraphQL API. As a result, Prometheus can significantly outperform alternatives in terms of throughput in some scenarios.",
@@ -666,6 +691,7 @@
       "date"      : "2022-08-16",
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "15th International Symposium on Visual Information Communication and Interaction (VINCI '22)",
+      "articletype" : "Extended Abstract",
       
       "caption"   : {
         "en" : "",
@@ -692,6 +718,7 @@
       "date"      : "2022-09-16",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Jürgen Döllner", "Matthias Trapp" ],
       "published" : "Journal of Visualization",
+      "articletype" : "Article",
       
       "caption"   : {
         "en" : "Software maps provide a general-purpose interactive user interface and information display in software analytics. This paper classifies software maps as a containment-based treemap embedded into a 3D attribute space and introduces respective terminology. It provides a comprehensive overview of advanced visual metaphors and techniques, each suitable for interactive visual analytics tasks. The metaphors and techniques are briefly described, located within a visualization pipeline model, and considered within a software map design space. The general expressiveness and applicability of visual variables are detailed and discussed. Consequent applications and use cases w.r.t. different types of software system data and software engineering data are discussed, arguing for versatile use of software maps in visual software analytics.",
@@ -715,6 +742,7 @@
       "date"      : "2022-10-03",
       "authors"   : [ "Daniel Atzberger", "Nico Scordialo", "Tim Cech", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "22nd International Working Conference on Source Code Analysis and Manipulation (SCAM '22)",
+      "articletype" : "Short Paper",
       
       "caption"   : {
         "en" : "The number of software projects developed collaboratively on social coding platforms is steadily increasing. One of the motivations for developers to participate in open-source software development is to make their development activities easier accessible to potential employers, e.g., in the form of a resume for their interests and skills. However, manual review of source code activities is time-consuming and requires detailed knowledge of the technologies used. Existing approaches are limited to a small subset of actual source code activity and metadata and do not provide explanations for their results. In this work, we present CodeCV, an approach to analyzing the commit activities of a GitHub user concerning the use of programming languages, software libraries, and higher-level concepts, e.g., Machine Learning or Cryptocurrency. Skills in using software libraries and programming languages are analyzed based on syntactic structures in the source code. Based on Labeled Latent Dirichlet Allocation, an automatically generated corpus of GitHub projects is used to learn the concept-specific vocabulary in identifier names and comments. This enables the capture of expertise on abstract concepts from a user's commit history. CodeCV further explains the results through links to the relevant commits in an interactive web dashboard. We tested our system on selected GitHub users who mainly contribute to popular projects to demonstrate that our approach is able to capture developers' expertise effectively.",
@@ -740,6 +768,7 @@
       "date"      : "2022-10-03",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Jan van Diecken", "Jürgen Döllner" ],
       "published" : "Journal of Visualization",
+      "articletype" : "Article",
       
       "caption"   : {
         "en" : "Treemaps depict tree-structured data while maintaining flexibility in mapping data to different visual variables. This work explores how changes in data mapped to color can be represented with rectangular 2.5D treemaps using procedural texture patterns. The patterns are designed to function for both static images and interactive visualizations with animated transitions. During rendering, the procedural texture patterns are superimposed onto the existing color mapping. We present a pattern catalog with seven exemplary patterns having different characteristics in representing the mapped data. This pattern catalog is implemented in a WebGL-based treemap rendering prototype and is evaluated using performance measurements and case studies on two software projects. As a result, this work extends the toolset of visual encodings for 2.5D treemaps by procedural texture patterns to represent changes in color. It serves as a starting point for user-centered evaluation.",
@@ -764,6 +793,7 @@
       "authors"   : [ "Lukas Wagner", "Daniel Limberger", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "27th International Conference on 3D Web Technology (Web3D '22)",
       "note"      : "Best Paper Award",
+      "articletype" : "Full Paper",
       
       "caption"   : {
         "en" : "3D scatter plots depicting massive data suffer from occlusion, which makes it difficult to get an overview and perceive structure.  This paper presents a technique that facilitates the comprehension of heavily occluded 3D scatter plots. Data points are projected to axial planes, creating x-ray-like 2D views that support the user in analyzing the data's density and layout. We showcase our open-source web application with a hardware-accelerated rendering component written in WebGL. It allows for interactive interaction, filtering, and navigation with datasets up to hundreds of thousands of nodes. The implementation is detailed and discussed with respect to challenges posed by API and performance limitations.",
@@ -796,6 +826,7 @@
       "date"      : "2023-02-02",
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner" ],
       "published" : "VISIGRAPP 2021: Computer Vision, Imaging and Computer Graphics Theory and Applications",
+      "articletype" : "Chapter",
       
       "caption"   : {
         "en" : "For various program comprehension tasks, software visualization techniques can be beneficial by displaying aspects related to the behavior, structure, or evolution of software. In many cases, the question is related to the semantics of the source code files, e.g., the localization of files that implement specific features or the detection of files with similar semantics. This work presents a general software visualization technique for source code documents, which uses 3D glyphs placed on a two-dimensional reference plane. The relative positions of the glyphs captures their semantic relatedness. Our layout originates from applying Latent Dirichlet Allocation and Multidimensional Scaling on the comments and identifier names found in the source code files. Though different variants for 3D glyphs can be applied, we focus on cylinders, trees, and avatars. We discuss various mappings of data associated with source code documents to the visual variables of 3D glyphs for selected use cases and provide details on our visualization system.",
@@ -820,6 +851,7 @@
       "date"      : "2023-03-01",
       "authors"   : [ "Daniel Atzberger", "Jonathan Schneider", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "ENASE 2022: Evaluation of Novel Approaches to Software Engineering",
+      "articletype" : "Chapter",
       
       "caption"   : {
         "en" : "During the software development process, occurring problems are collected and managed as bug reports using bug tracking systems. Usually, a bug report is specified by a title, a more detailed description, and additional categorical information, e.g., the affected component or the reporter. It is the task of the triage owner to assign open bug reports to developers with the required skills to fix them. However, the bug assignment task is time-consuming, especially in large software projects with many involved developers. This observation motivates using (semi-)automatic algorithms for assigning bugs to developers. Various approaches have been developed that rely on a machine learning model trained on historical bug reports. Thereby, the modeling of the textual components is mainly done using topic models, mainly Latent Dirichlet Allocation (LDA). Although different variants, inference techniques, and libraries for LDA exist and various hyperparameters can be specified, most works treat topic models as a black box without exploring them in detail. In this work, we extend a study of Atzberger and Schneider et al. on the use of the Author-Topic Model (ATM) for bug triaging tasks. We demonstrate the influence of the underlying topic model, the used library and inference techniques, and the hyperparameters on the bug triaging results. The results of our conducted experiments on a dataset from the Mozilla Firefox project provide guidelines for applying LDA for bug triaging tasks effectively.",
@@ -842,6 +874,7 @@
       "authors"   : [ "Tim Cech", "Daniel Atzberger", "Willy Scheibel", "Rico Richter", "Jürgen Döllner" ],
       "published" : "14th International Conference on Information Visualization Theory and Applications (IVAPP '23)",
       "doi"       : "10.5220/0011699700003417",
+      "articletype" : "Short Paper",
       
       "caption"   : {
         "en" : "Self-Supervised Network Projections (SSNP) are dimensionality reduction algorithms that produce low-dimensional layouts from high-dimensional data. By combining an autoencoder architecture with neighborhood information from a clustering algorithm, SSNP intend to learn an embedding that generates visually separated clusters. In this work, we extend an approach that uses cluster information as pseudo-labels for SSNP by taking outlier information into account. Furthermore, we investigate the influence of different autoencoders on the quality of the generated two-dimensional layouts. We report on two experiments on the autoencoder's architecture and hyperparameters, respectively, measuring nine metrics on eight labeled datasets from different domains, e.g., Natural Language Processing. The results indicate that the model's architecture and the choice of hyperparameter values can influence the layout with statistical significance, but none achieves the best result over all metrics. In addition, we found out that using outlier information for the pseudo-labeling approach can maintain global properties of the two-dimensional layout while trading-off local properties.",
@@ -871,6 +904,7 @@
       "authors"   : [ "Tim Cech", "Daniel Atzberger", "Willy Scheibel", "Sanjay Misra", "Jürgen Döllner" ],
       "published" : "15th International Conference on Software Quality (SWQD '23)",
       "doi"       : "10.1007/978-3-031-31488-9_3",
+      "articletype" : "Full Paper",
       
       "caption"   : {
         "en" : "Software metrics measure aspects related to the quality of software. Using software metrics as a method of quantification of software, various approaches were proposed for locating defect-prone source code units within software projects. Most of these approaches rely on supervised learning algorithms, which require labeled data for adjusting their parameters during the learning phase. Usually, such labeled training data is not available. Unsupervised algorithms do not require training data and can therefore help to overcome this limitation. In this work, we evaluate the effect of unsupervised learning - especially outlier mining algorithms - for the task of defect prediction, i.e., locating defect-prone source code units. We investigate the effect of various class balancing and feature compressing techniques as preprocessing steps and show how sliding windows can be used to capture time series of source code metrics. We evaluate the Isolation Forest and Local Outlier Factor, as representants of outlier mining techniques. Our experiments on three publicly available datasets, containing a total of 11 software projects, indicate that the consideration of time series can improve static examinations by up to 3%. The results further show that supervised algorithms can outperform unsupervised approaches on all projects. Among all unsupervised approaches, the Isolation Forest achieves the best accuracy on 10 out of 11 projects.",
@@ -891,6 +925,7 @@
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Willy Scheibel", "Rico Richter", "Jürgen Döllner" ],
       "published" : "18th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE '23)",
       "doi"       : "10.5220/0011858500003464",
+      "articletype" : "Short Paper",
       
       "caption"   : {
         "en" : "Continuous Integration and Continuous Delivery are best practices used during the DevOps phase. By using automated pipelines for building and testing small software changes, possible risks are intended to be detected early. Those pipelines continuously generate log events that are collected in semi-structured log files. In an industry context, these log files can amass 100,000 events and more. However, the relevant sections in these log files must be manually tagged by the user. This paper presents an online-learning approach for detecting relevant log events using Latent Dirichlet Allocation. After grouping a fixed number of log events in a document, our approach prunes the vocabulary to eliminate words without semantic meaning. A sequence of documents is then described as a discrete sequence by applying Latent Dirichlet Allocation, which allows the detection of outliers within the sequence. Our approach provides an explanation of the results by integrating the latent variables of the model. The approach is tested on log files that originate from a CI/CD pipeline of a large German company. Our results indicate that whether or not a log event is marked as an outlier heavily depends on the chosen hyperparameters of our model.",
@@ -910,6 +945,7 @@
       "title"     : "Real Estate Tokenization in Germany: Market Analysis and Concept of a Regulatory and Technical Solution",
       "authors"   : [ "Robert Henker", "Daniel Atzberger", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "5th International Conference on Blockchain and Cryptocurrency (ICBC '23)",
+      "articletype" : "Short Paper",
       "pending": true,
       
       "caption"   : {
@@ -927,6 +963,7 @@
       "title"     : "Hephaistos: A Management System for Massive Order Book Data from Multiple Centralized Crypto Exchanges with an Internal Unified Order Book",
       "authors"   : [ "Robert Henker", "Daniel Atzberger", "Jan Ole Vollmer", "Willy Scheibel", "Jürgen Döllner", "Markus Bick" ],
       "published" : "1st International Workshop on Cryptocurrency Exchanges (CryptoEx '23)",
+      "articletype" : "Full Paper",
       "pending": true,
       
       "caption"   : {
@@ -944,6 +981,7 @@
       "title"     : "OrderBookVis: A Visualization Approach for Comparing Order Books from Centralized Crypto Exchanges",
       "authors"   : [ "Adrian Jobst", "Daniel Atzberger", "Robert Henker", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "1st International Workshop on Cryptocurrency Exchanges (CryptoEx '23)",
+      "articletype" : "Short Paper",
       "pending": true,
       
       "caption"   : {
@@ -961,6 +999,7 @@
       "title"     : "Examining Liquidity of Exchanges and Assets and the Impact of External Events in Centralized Crypto Markets: A 2022 Study",
       "authors"   : [ "Adrian Jobst", "Daniel Atzberger", "Robert Henker", "Jan Ole Vollmer", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "1st International Workshop on Cryptocurrency Exchanges (CryptoEx '23)",
+      "articletype" : "Full Paper",
       "pending": true,
       
       "caption"   : {
@@ -978,6 +1017,7 @@
       "title"     : "Insights from Attention: New Approaches to Visualizing Transformer Model Output",
       "authors"   : [ "Raphael Kunert", "Adrian Jobst", "Andreas Fricke", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "23rd International Conference on Computational Science and its Applications (ICCSA '23)",
+      "articletype" : "Short Paper",
       "pending": true,
       
       "caption"   : {
@@ -995,6 +1035,7 @@
       "title"     : "Embedding Visual Software Analytics on the GitHub Platform on the Example of Static Source Code Metrics and Software Maps",
       "authors"   : [ "Willy Scheibel", "Jasper Blum", "Franziska Lauterbach", "Daniel Atzberger", "Jürgen Döllner" ],
       "published" : "23rd International Conference on Computational Science and its Applications (ICCSA '23)",
+      "articletype" : "Full Paper",
       "pending": true,
       
       "caption"   : {
@@ -1013,6 +1054,7 @@
       "authors"   : [ "Tim Cech", "Furkan Simsek", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "25th EG Conference on Visualization (EuroVis '23)",
       "doi"       : "10.2312/evp20231054",
+      "articletype" : "Extended Abstract",
       
       "caption"   : {
         "en" : "",
@@ -1033,6 +1075,7 @@
       "authors"   : [ "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "25th EG Conference on Visualization (EuroVis '23)",
       "doi"       : "10.2312/evp20231060",
+      "articletype" : "Extended Abstract",
       
       "caption"   : {
         "en" : "",
