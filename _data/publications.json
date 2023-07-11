@@ -201,7 +201,7 @@
       "date"      : "2019-02-28",
       "authors"   : [ "Willy Scheibel", "Judith Hartmann", "Jürgen Döllner" ],
       "published" : "10th International Conference on Information Visualization Theory and Applications (IVAPP '18)",
-      "note": "Candidate for Best Paper",
+      "note"      : "Candidate for Best Paper",
       
       "caption"   : {
         "en" : "There is a rapidly growing, cross-domain demand for interactive, high-quality visualization techniques as components of web-based applications and systems. In this context, a key question is how visualization services can be designed, implemented, and operated based on Software-as-a-Service as software delivery model. In this paper, we present concepts and design of a SaaS framework and API of visualization techniques for tree-structured data, called HiViSer. Using representational state transfer (REST), the API supports different data formats, data manipulations, visualization techniques, and output formats. In particular, the API defines base resource types for all components required to create an image or a virtual scene of a hierarchy visualization. We provide a treemap visualization service as prototypical implementation for which subtypes of the proposed API resources have been created. The approach generally serves as a blue-print for fully web-based, high-end visualization services running on thin clients in a standard browser environment.",
@@ -387,7 +387,7 @@
       "date"      : "2021-02-08",
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Merlin de la Haye", "Maximilian Söchting", "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner" ],
       "published" : "12th International Conference on Information Visualization Theory and Applications (IVAPP '21)",
-      "note": "Candidate for Best Student Paper",
+      "note"      : "Candidate for Best Student Paper",
       
       "caption"   : {
         "en" : "Software visualization techniques provide effective means for program comprehension tasks as they allow developers to interactively explore large code bases. A frequently encountered task during software development is the detection of source code files of similar semantic. To assist this task we present Software Forest, a novel 2.5D software visualization that enables interactive exploration of semantic similarities within a software system, illustrated as a forest. The underlying layout results from the analysis of the vocabulary of the software documents using Latent Dirichlet Allocation and Multidimensional Scaling and therefore reflects the semantic similarity between source code files. By mapping properties of a software entity, e.g., size metrics or trend data, to visual variables encoded by various, figurative tree meshes, aspects of a software system can be displayed. This concept is complemented with implementation details as well as a discussion on applications.",
@@ -552,7 +552,7 @@
       "date"      : "2022-04-25",
       "authors"   : [ "Daniel Atzberger", "Jonathan Schneider", "Willy Scheibel", "Daniel Limberger", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "17th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE '22)",
-      "note": "Best Student Paper Award",
+      "note"      : "Best Student Paper Award",
       
       "caption"   : {
         "en" : "During software development processes, software defects, so-called bugs, are captured in a semi-structured manner in bug tracking systems using textual components and categorical features. It is the task of the triage owner to assign open bugs to developers with the required skills and expertise. This task, known as bug triaging, requires an in-depth knowledge about a developer’s skills. Various machine learning techniques have been proposed to automate this task, most of these approaches apply topic models, especially Latent Dirichlet Allocation (LDA), for mining the textual components of bug reports. However none of the proposed approaches explicitly models a developers expertise. In most cases these algorithms are treated as black box, as they allow no explanation about their recommendation. In this work, we show how the Author-Topic Model (ATM), a variant of LDA, can be used to capture a developer’s expertise in the latent topics of a corpus of bug reports from the model itself. Furthermore, we present three novel bug triaging techniques based on the ATM. We compare our approach against a baesline model, that is based on LDA, on a dataset of 18269 bug reports from the Mozilla Firefox project collected between July 1999 to June 2016. The results show that the ATM can outperform the LDA-based approach in terms of the Mean Reciprocal Rank (MRR).",
@@ -579,7 +579,7 @@
       "date"      : "2022-04-25",
       "authors"   : [ "Christoph Thiede", "Willy Scheibel", "Daniel Limberger", "Jürgen Döllner" ],
       "published" : "17th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE '22)",
-      "note": "Candidate for Best Student Paper",
+      "note"      : "Candidate for Best Student Paper",
       
       "caption"   : {
         "en" : "In the dependency graph of a software ecosystem, downstream dependencies are the nodes that depend on a package. Apart from end-user APIs, these dependencies make up the bulk of a library’s usage for most packages. Other than for upstream dependencies, tools that provide individual package developers with this kind of information rarely exist to date. This paper makes two contributions: (i) We propose an approach for gathering downstream dependencies of a single package efficiently and extracting usage samples from them using a static type analyzer. (ii) We present a tool that allows npm package developers to survey the aggregated usage data directly in their IDE in an interactive and context-sensitive way and that further supports them in understanding which packages use specific package members and why and how they use these members. This can help prioritize and steer development and uncover unexpected usage patterns, inappropriate member signatures, or misleading interface design. Our methods return over 8 000 dependencies for popular packages and process about 12 dependencies per minute while requiring about 500 MB memory in total and less than 30 MB storage per package, but tend to exclude unpopular dependencies. Usage sample extraction is very precise but not easily available for repositories with complex build configurations or metaprogramming patterns. We show that usage data from downstream dependency repositories is a promising and diverse source of information for mining software repositories and that our approach supports package developers in maintaining their APIs.",
@@ -819,15 +819,19 @@
       "title"     : "Evaluating Probabilistic Topic Models for Bug Triaging Tasks",
       "date"      : "2023-03-01",
       "authors"   : [ "Daniel Atzberger", "Jonathan Schneider", "Willy Scheibel", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "ENASE 2022: Revised Selected Papers",
-      "pending": true,
+      "published" : "ENASE 2022: Evaluation of Novel Approaches to Software Engineering",
       
       "caption"   : {
-        "en" : "",
+        "en" : "During the software development process, occurring problems are collected and managed as bug reports using bug tracking systems. Usually, a bug report is specified by a title, a more detailed description, and additional categorical information, e.g., the affected component or the reporter. It is the task of the triage owner to assign open bug reports to developers with the required skills to fix them. However, the bug assignment task is time-consuming, especially in large software projects with many involved developers. This observation motivates using (semi-)automatic algorithms for assigning bugs to developers. Various approaches have been developed that rely on a machine learning model trained on historical bug reports. Thereby, the modeling of the textual components is mainly done using topic models, mainly Latent Dirichlet Allocation (LDA). Although different variants, inference techniques, and libraries for LDA exist and various hyperparameters can be specified, most works treat topic models as a black box without exploring them in detail. In this work, we extend a study of Atzberger and Schneider et al. on the use of the Author-Topic Model (ATM) for bug triaging tasks. We demonstrate the influence of the underlying topic model, the used library and inference techniques, and the hyperparameters on the bug triaging results. The results of our conducted experiments on a dataset from the Mozilla Firefox project provide guidelines for applying LDA for bug triaging tasks effectively.",
         "de" : "" },
 
       "thumbnail" : "publications/2023-enase-probabilistic-models-extended.png",
-      "downloads" : []
+      "downloads" : [
+        { "href"  : "https://doi.org/10.1007/978-3-031-36597-3_3",
+          "desc"  : "Publisher Record"
+        }
+      ],
+      "doi": "10.1007/978-3-031-36597-3_3"
     },
     
     
@@ -837,7 +841,6 @@
       "title"     : "Evaluating Architectures and Hyperparameters of Self-supervised Network Projections",
       "authors"   : [ "Tim Cech", "Daniel Atzberger", "Willy Scheibel", "Rico Richter", "Jürgen Döllner" ],
       "published" : "14th International Conference on Information Visualization Theory and Applications (IVAPP '23)",
-      "pending": false,
       "doi"       : "10.5220/0011699700003417",
       
       "caption"   : {
@@ -866,7 +869,7 @@
       "date"      : "2023-05-23",
       "title"     : "Outlier Mining Techniques for Software Defect Prediction",
       "authors"   : [ "Tim Cech", "Daniel Atzberger", "Willy Scheibel", "Sanjay Misra", "Jürgen Döllner" ],
-      "published" : "Software Quality Days (SWQD '23)",
+      "published" : "15th International Conference on Software Quality (SWQD '23)",
       "doi"       : "10.1007/978-3-031-31488-9_3",
       
       "caption"   : {
@@ -1009,7 +1012,6 @@
       "title"     : "A Dashboard for Interactive Convolutional Neural Network Training And Validation Through Saliency Maps",
       "authors"   : [ "Tim Cech", "Furkan Simsek", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "25th EG Conference on Visualization (EuroVis '23)",
-      "pending"   : false,
       "doi"       : "10.2312/evp20231054",
       
       "caption"   : {
@@ -1030,7 +1032,6 @@
       "title"     : "Constructing Hierarchical Continuity in Hilbert & Moore Treemaps",
       "authors"   : [ "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "25th EG Conference on Visualization (EuroVis '23)",
-      "pending"   : false,
       "doi"       : "10.2312/evp20231060",
       
       "caption"   : {
