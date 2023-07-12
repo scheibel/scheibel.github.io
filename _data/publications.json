@@ -863,8 +863,10 @@
       "downloads" : [
         { "href"  : "https://doi.org/10.1007/978-3-031-36597-3_3",
           "desc"  : "Publisher Record"
-        }
-      ],
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/367351366/inline/jsViewer/64aeb3b4c41fb852dd6c5249?pdfJsDownload=1",
+          "desc"  : "Author Version"
+        } ],
       "doi": "10.1007/978-3-031-36597-3_3"
     },
     
@@ -916,6 +918,9 @@
       "downloads" : [
         { "href"  : "https://doi.org/10.1007/978-3-031-31488-9_3",
           "desc"  : "Publisher Record"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/370746953/inline/jsViewer/64aeb537c41fb852dd6c5365?pdfJsDownload=1",
+          "desc"  : "Author Version"
         } ]
     },
     
@@ -937,6 +942,9 @@
       "downloads" : [
         { "href"  : "https://doi.org/10.5220/0011858500003464",
           "desc"  : "Publisher Record"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/368566654/inline/jsViewer/6446ab29d749e4340e34c51d?pdfJsDownload=1",
+          "desc"  : "Author Version"
         } ]
     },
     
@@ -1066,6 +1074,15 @@
       "downloads" : [
         { "href"  : "https://doi.org/10.2312/evp20231054",
           "desc"  : "Publisher Record"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/370772987/inline/jsViewer/64aeb586b9ed6874a5153869?pdfJsDownload=1",
+          "desc"  : "Author Version"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/370773056_Cech_-_EuroVis_2023_Poster_-_A_Dashboard_for_Interactive_Convolutional_Neural_Network_Training_And_Validation_Through_Saliency_Maps_-_Supplemental_Materialpdf/data/6462a5b0fbaf5b27a4cb5399/Cech-EuroVis-2023-Poster-A-Dashboard-for-Interactive-Convolutional-Neural-Network-Training-And-Validation-Through-Saliency-Maps-Supplemental-Material.pdf",
+          "desc"  : "Supplemental Material"
+        },
+	      { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/372307685/inline/jsViewer/64aeb850c41fb852dd6c5641?pdfJsDownload=1",
+          "desc"  : "Poster"
         } ]
     },
     
