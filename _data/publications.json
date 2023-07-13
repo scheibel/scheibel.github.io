@@ -956,14 +956,20 @@
       "authors"   : [ "Robert Henker", "Daniel Atzberger", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "5th International Conference on Blockchain and Cryptocurrency (ICBC '23)",
       "articletype" : "Short Paper",
-      "pending": true,
+      "doi"       : "10.1109/ICBC56567.2023.10174954",
       
       "caption"   : {
         "en" : "Real estate is the largest asset class and is equally popular with professional and retail investors. However, this asset class has the disadvantage that it is very illiquid, and investments have a high entry barrier in terms of equity. The adoption of the Electronic Securities Act in 2021 by the German Bundestag has created the legal framework for tokenizing real estate assets and their management using digital ledger technology in Germany. In this paper we describe a business concept for managing ownership and business transactions for real estate in Germany using blockchain technology. Besides its possibilities, we present a market analysis that comprises existing approaches and discusses legal limitations specific to Germany.",
         "de" : "" },
 
       "thumbnail" : "publications/2023-icbc-realestatetokenization.png",
-      "downloads" : []
+      "downloads" : [
+        { "href"  : "https://doi.org/10.1109/ICBC56567.2023.10174954",
+          "desc"  : "Publisher Record"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/369588396/inline/jsViewer/6450f90197449a0e1a7038fa?pdfJsDownload=1",
+          "desc"  : "Author Version"
+        } ]
     },
     
     
@@ -974,14 +980,20 @@
       "authors"   : [ "Robert Henker", "Daniel Atzberger", "Jan Ole Vollmer", "Willy Scheibel", "Jürgen Döllner", "Markus Bick" ],
       "published" : "1st International Workshop on Cryptocurrency Exchanges (CryptoEx '23)",
       "articletype" : "Full Paper",
-      "pending": true,
+      "doi"       : "10.1109/ICBC56567.2023.10174923",
       
       "caption"   : {
         "en" : "Offers to buy and sell cryptocurrencies on exchanges are collected in an order book as pairs of amount and price provided with a timestamp. Contrary to tick data, which only reflects the last transaction price on an exchange, the order book reflects the market’s actual price information and the available volume. Until now, no system has been presented that can capture many different order books across several markets. This paper presents Hephaistos, a system for processing, harmonizing, and storing massive spot order book data from 22 centralized crypto exchanges and 55 currency pairs. After collecting the data, Hephaistos aggregates several order books in a so-called Unified Order Book, which is the foundation for a Smart Order Routing algorithm. As a result an order is splitted across several exchanges, which results in a better execution price. As component of a high-frequency trading system, Hephaistos captures 32 % of the total daily spot trading volume. We provide examples with data from two exchanges that show that the Smart Order Routing algorithm significantly reduces the slippage.",
         "de" : "" },
 
       "thumbnail" : "publications/2023-cryptoex-hephaistos.png",
-      "downloads" : []
+      "downloads" : [
+        { "href"  : "https://doi.org/10.1109/ICBC56567.2023.10174923",
+          "desc"  : "Publisher Record"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/369588402/inline/jsViewer/645504735762c95ac37645b2?pdfJsDownload=1",
+          "desc"  : "Author Version"
+        } ]
     },
     
     
@@ -992,14 +1004,20 @@
       "authors"   : [ "Adrian Jobst", "Daniel Atzberger", "Robert Henker", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "1st International Workshop on Cryptocurrency Exchanges (CryptoEx '23)",
       "articletype" : "Short Paper",
-      "pending": true,
+      "doi"       : "10.1109/ICBC56567.2023.10174944",
       
       "caption"   : {
         "en" : "Trading for a currency pair on centralized crypto exchanges is organized via an order book, which collects all open buy and sell orders at any given time and thus forms the basis for price formation. Usually, the exchanges provide basic visualizations, which show the accumulated buy and sell volume in an animated 2D representation. However, this visualization does not allow the user to compare different order books, e.g., several order book snapshots. In this work, we present OrderBookVis, a 2.5D representation that shows a discrete set of order books comparatively. For this purpose, the individual snapshots are displayed as a 2D representation as usual and placed one after the other on a 2D reference plane. As possible use cases, we discuss the analysis of the temporal evolution of the order book for a fixed market and the comparison of different order books across multiple markets.",
         "de" : "" },
 
       "thumbnail" : "publications/2023-cryptoex-orderbookvis.png",
-      "downloads" : []
+      "downloads" : [
+        { "href"  : "https://doi.org/10.1109/ICBC56567.2023.10174944",
+          "desc"  : "Publisher Record"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/369588558/inline/jsViewer/645504b297449a0e1a7da052?pdfJsDownload=1",
+          "desc"  : "Author Version"
+        } ]
     },
     
     
@@ -1010,14 +1028,20 @@
       "authors"   : [ "Adrian Jobst", "Daniel Atzberger", "Robert Henker", "Jan Ole Vollmer", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "1st International Workshop on Cryptocurrency Exchanges (CryptoEx '23)",
       "articletype" : "Full Paper",
-      "pending": true,
+      "doi"       : "10.1109/ICBC56567.2023.10174905",
       
       "caption"   : {
         "en" : "Most cryptocurrencies are bought and sold on centralized exchanges that manage supply and demand via an order book. Besides trading fees, the high liquidity of a market is the most relevant reason for choosing one exchange over the other. However, as the different liquidity measures rely on the order book, external events that cause people to sell or buy a cryptocurrency can significantly impact a market's liquidity. To investigate the effect of external events on liquidity, we measure various liquidity measures for nine different order books comprising three currency pairs across three exchanges covering the entire year 2022. The resulting multivariate time series is then analyzed using different correlations. From the results, we can infer that as a cryptocurrency's market capitalization and the exchange's trading volume increases, so does its liquidity. At the same time, only a moderate correlation of liquidity between exchanges can be observed. Furthermore, our statistical observations show that external events, particularly the events around FTX and the Terra Luna crash, caused significant changes in liquidity. However, depending on the exchange's size and the cryptocurrency's market cap, the liquidity took a shorter or longer time to recover.",
         "de" : "" },
 
       "thumbnail" : "publications/2023-cryptoex-liquidityanalysis.png",
-      "downloads" : []
+      "downloads" : [
+        { "href"  : "https://doi.org/10.1109/ICBC56567.2023.10174905",
+          "desc"  : "Publisher Record"
+        },
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/369588456/inline/jsViewer/6455049a97449a0e1a7da04c?pdfJsDownload=1",
+          "desc"  : "Author Version"
+        } ]
     },
     
     
