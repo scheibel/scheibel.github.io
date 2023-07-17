@@ -1153,7 +1153,7 @@
       "date"      : "2023-10-22",
       "title"     : "Large-Scale Evaluation of Topic Models and Dimensionality Reduction Methods for 2D Text Spatialization",
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Willy Scheibel", "Matthias Trapp", "Rico Richter", "Jürgen Döllner", "Tobias Schreck" ],
-      "published" : "28th IEEE Conference on Visualization (VIS '23)",
+      "published" : "Transactions on Visualization and Computer Graphics, 28th Conference on Visualization (VIS '23)",
       "articletype" : "Article",
       "pending"   : true,
       
