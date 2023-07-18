@@ -654,6 +654,9 @@
         },
         { "href": "https://doi.org/10.5281/zenodo.5918480",
           "desc": "Source Code Archive"
+        },
+        { "href": "https://doi.org/10.48550/arXiv.2205.01351",
+          "desc": "Preprint"
         }
       ],
       "doi": "10.1145/3524842.3528503"
@@ -1162,7 +1165,16 @@
         "de" : "" },
 
       "thumbnail" : "publications/2023-vis-evaluation-tm-dr.png",
-      "downloads" : []
+      "downloads" : [
+        { "href": "https://github.com/hpicgs/Topic-Models-and-Dimensionality-Reduction-Benchmark",
+          "desc": "Github Project"
+        },
+        { "href": "https://zenodo.org/record/8113828",
+          "desc": "Pre-trained Topic Models (I)"
+        },
+        { "href": "https://zenodo.org/record/8114601",
+          "desc": "Pre-trained Topic Models (II)"
+        } ]
     }
   ]
 }
