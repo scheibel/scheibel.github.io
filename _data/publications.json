@@ -1166,6 +1166,9 @@
 
       "thumbnail" : "publications/2023-vis-evaluation-tm-dr.png",
       "downloads" : [
+        { "href": "https://doi.org/10.48550/arXiv.2307.11770",
+          "desc": "Preprint"
+        },
         { "href": "https://github.com/hpicgs/Topic-Models-and-Dimensionality-Reduction-Benchmark",
           "desc": "Github Project"
         },
