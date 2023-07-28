@@ -14,6 +14,14 @@
       { "course" : "Computer Graphics I",
         "type"   : "Lecture (B.Sc.)",
         "role"   : "Co-Lecturer"
+      },
+      { "course" : "3D Computer Graphics: Extending the Three.js Framework",
+        "type"   : "Project Seminar (B.Sc.)",
+        "role"   : "Seminar Lead and Tutor"
+      },
+      { "course" : "Explainable AI by Visual Analytics",
+        "type"   : "Project Seminar (M.Sc.)",
+        "role"   : "Tutor"
       } ],
     "upcoming": true
   },
