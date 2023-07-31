@@ -723,7 +723,7 @@
       "date"      : "2022-09-16",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Jürgen Döllner", "Matthias Trapp" ],
       "published" : "Journal of Visualization",
-      "articletype" : "Article",
+      "articletype" : "Full Paper",
       
       "caption"   : {
         "en" : "Software maps provide a general-purpose interactive user interface and information display in software analytics. This paper classifies software maps as a containment-based treemap embedded into a 3D attribute space and introduces respective terminology. It provides a comprehensive overview of advanced visual metaphors and techniques, each suitable for interactive visual analytics tasks. The metaphors and techniques are briefly described, located within a visualization pipeline model, and considered within a software map design space. The general expressiveness and applicability of visual variables are detailed and discussed. Consequent applications and use cases w.r.t. different types of software system data and software engineering data are discussed, arguing for versatile use of software maps in visual software analytics.",
@@ -773,7 +773,7 @@
       "date"      : "2022-10-03",
       "authors"   : [ "Daniel Limberger", "Willy Scheibel", "Jan van Diecken", "Jürgen Döllner" ],
       "published" : "Journal of Visualization",
-      "articletype" : "Article",
+      "articletype" : "Full Paper",
       
       "caption"   : {
         "en" : "Treemaps depict tree-structured data while maintaining flexibility in mapping data to different visual variables. This work explores how changes in data mapped to color can be represented with rectangular 2.5D treemaps using procedural texture patterns. The patterns are designed to function for both static images and interactive visualizations with animated transitions. During rendering, the procedural texture patterns are superimposed onto the existing color mapping. We present a pattern catalog with seven exemplary patterns having different characteristics in representing the mapped data. This pattern catalog is implemented in a WebGL-based treemap rendering prototype and is evaluated using performance measurements and case studies on two software projects. As a result, this work extends the toolset of visual encodings for 2.5D treemaps by procedural texture patterns to represent changes in color. It serves as a starting point for user-centered evaluation.",
@@ -1157,7 +1157,7 @@
       "title"     : "Large-Scale Evaluation of Topic Models and Dimensionality Reduction Methods for 2D Text Spatialization",
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Willy Scheibel", "Matthias Trapp", "Rico Richter", "Jürgen Döllner", "Tobias Schreck" ],
       "published" : "Transactions on Visualization and Computer Graphics, 28th Conference on Visualization (VIS '23)",
-      "articletype" : "Article",
+      "articletype" : "Full Paper",
       "pending"   : true,
       
       "caption"   : {
