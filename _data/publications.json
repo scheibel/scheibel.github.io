@@ -1094,7 +1094,7 @@
       "articletype" : "Extended Abstract",
       
       "caption"   : {
-        "en" : "",
+        "en" : "Quali-quantitative methods provide ways for interrogating Convolutional Neural Networks (CNN). For it, we propose a dashboard using a quali-quantitative method based on quantitative metrics and saliency maps. By those means, a user can discover patterns during the training of a CNN. With this, they can adapt the training hyperparameters of the model, obtaining a CNN that learned patterns desired by the user. Furthermore, they neglect CNNs which learned undesirable patterns. This improves users' agency over the model training process.",
         "de" : "" },
 
       "thumbnail" : "publications/2023-eurovis-saliencnn.png",
@@ -1124,7 +1124,7 @@
       "articletype" : "Extended Abstract",
       
       "caption"   : {
-        "en" : "",
+        "en" : "The Hilbert and Moore treemap layout algorithms are based on the space-filling Hilbert and Moore curves, respectively, to map tree-structured datasets to a 2D treemap layout. Considering multiple snapshots of a time-variant dataset, one of the design goals for Hilbert and Moore treemaps is layout stability, i.e., low changes in the layout for low changes in the underlying tree-structured data. For this, their underlying space-filling curve is expected to be continuous across all nodes and hierarchy levels, which has to be considered throughout the layouting process. We propose optimizations to subdivision templates, their orientation, and discuss the continuity of the underlying space-filling curve. We show real-world examples of Hilbert and Moore treemaps for small and large datasets with continuous space-filling curves, allowing for improved layout stability.",
         "de" : "" },
 
       "thumbnail" : "publications/2023-eurovis-hilbertmoorecontinuous.png",
@@ -1178,6 +1178,42 @@
         { "href": "https://zenodo.org/record/8114601",
           "desc": "Pre-trained Topic Models (II)"
         } ]
+    },
+    
+    
+    { "key"       : "2023-uncover",
+      "bibtex"    : "lbscsd2023-uncover.bib",
+      "date"      : "2023-11-13",
+      "title"     : "unCover: Identifying AI Generated News Articles by Linguistic Analysis and Visualization",
+      "authors"   : [ "Lucas Liebe", "Jannis Baum", "Tilman Schütze", "Tim Cech", "Willy Scheibel", "Jürgen Döllner" ],
+      "published" : "Proceedings of the 15th International Conference on Knowledge Discovery and Information Retrieval",
+      "articletype" : "Full Paper",
+      "pending"   : true,
+      
+      "caption"   : {
+        "en" : "Text synthesis tools are becoming increasingly popular and better at mimicking human language. In trustsensitive decisions, such as plagiarism and fraud detection, identifying AI-generated texts poses larger difficulties: decisions need to be made explainable to ensure trust and accountability. To support users in identifying AI-generated texts, we propose the tool UNCOVER. The tool analyses texts through three explainable linguistic approaches: Stylometric writing style analysis, topic modeling, and entity recognition. The result of the tool is a decision and visualizations on the analysis results. We evaluate the tool on news articles by means of accuracy of the decision and an expert study with 13 participants. The final prediction is based on classification of stylometric and evolving topic analysis. It achieved an accuracy of 70.4 % and a weighted F1-score of 85.6 %. The participants preferred to base their assessment on the prediction and the topic graph. However, they found the entity recognition to be an ineffective indicator. Moreover, five participants highlighted the explainable aspects of UNCOVER and overall the participants achieved 69 % true classifications. Eight participants expressed interest to continue using unCover for identifying AI-generated texts.",
+        "de" : "" },
+
+      "thumbnail" : "publications/2023-kdir-uncover.png",
+      "downloads" : []
+    },
+    
+    
+    { "key"       : "2023-counterfactuals",
+      "bibtex"    : "btwd2023-counterfactuals.bib",
+      "date"      : "2023-11-13",
+      "title"     : "Visual Counterfactual Explanations Using Semantic Part Locations",
+      "authors"   : [ "Florence Böttger", "Tim Cech", "Willy Scheibel", "Jürgen Döllner" ],
+      "published" : "Proceedings of the 15th International Conference on Knowledge Discovery and Information Retrieval",
+      "articletype" : "Full Paper",
+      "pending"   : true,
+      
+      "caption"   : {
+        "en" : "As machine learning models are becoming more widespread and see use in high-stake decisions, the explainability of these decisions is getting more relevant. One approach for explainability are counterfactual explanations. They are defined as changes to a data point such that it appears as a different class. Their close connection to the original dataset aids their explainability. However, existing methods of creating counterfacual explanations often rely on other machine learning models, which adds an additional layer of opacity to the explanations. We propose additions to an established pipeline for creating visual counterfacual explanations by using an inherently explainable algorithm that does not rely on external models. Using annotated semantic part locations, we replace parts of the counterfactual creation process. We evaluate the approach on the CUB-200-2011 dataset. Our approach outperforms the previous results: we improve (1) the average number of edits by 0.1 edits, (2) the key point accuracy of editing within any semantic parts of the image by an average of at least 7 percentage points, and (3) the key point accuracy of editing the same semantic parts by at least 17 percentage points.",
+        "de" : "" },
+
+      "thumbnail" : "publications/2023-kdir-counterfactuals.png",
+      "downloads" : []
     }
   ]
 }
