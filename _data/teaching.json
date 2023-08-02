@@ -19,9 +19,13 @@
         "type"   : "Project Seminar (B.Sc.)",
         "role"   : "Seminar Lead and Tutor"
       },
-      { "course" : "Explainable AI by Visual Analytics",
+      { "course" : "Explaining and Visualizing AI",
         "type"   : "Project Seminar (M.Sc.)",
         "role"   : "Tutor"
+      },
+      { "course" : "Digital Inventory and Visualization of Forests",
+        "type"   : "Project (B.Sc.)",
+        "role"   : "Supervisor"
       } ],
     "upcoming": true
   },
