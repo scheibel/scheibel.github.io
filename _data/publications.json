@@ -1165,6 +1165,12 @@
         "de" : "" },
 
       "thumbnail" : "publications/2023-vis-evaluation-tm-dr.png",
+      "stamps": [
+        {
+          "icon": "logos/replicabilitystamp.png",
+          "href": "https://www.replicabilitystamp.org/index.html#https-github-com-hpicgs-topic-models-and-dimensionality-reduction-benchmark"
+        }
+      ],
       "downloads" : [
         { "href": "https://doi.org/10.48550/arXiv.2307.11770",
           "desc": "Preprint"
