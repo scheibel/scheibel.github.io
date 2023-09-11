@@ -24,7 +24,7 @@
   <div class="col-12 col-sm-9{% if p.pending %} text-muted{% endif %}">
     {% if p.articletype %}<span class="text-muted">{{ p.articletype }}</span>{% endif %}
     {% if p.stamps %}
-    {% for stamp in p.stamps %}<a class="ml-1" href="{{ stamp.href }}"><img src="/img/{{ stamp.icon }}" style="height: 1.1rem;" /></a>{% endfor %}
+    {% for stamp in p.stamps %}<a class="ml-1" href="{{ stamp.href }}" style="vertical-align: text-bottom;"><img src="/img/{{ stamp.icon }}" style="height: 1.1rem;" /></a>{% endfor %}
     {% endif %}
     <h4>{{ p.title | escape }}</h4>
     <p>
