@@ -1048,24 +1048,6 @@
     },
     
     
-    { "key"       : "2023-attentionvisualization",
-      "bibtex"    : "kjfsd2023-attentionvisualization.bib",
-      "date"      : "2023-07-03",
-      "title"     : "Insights from Attention: New Approaches to Visualizing Transformer Model Output",
-      "authors"   : [ "Raphael Kunert", "Adrian Jobst", "Andreas Fricke", "Willy Scheibel", "Jürgen Döllner" ],
-      "published" : "23rd International Conference on Computational Science and its Applications (ICCSA '23)",
-      "articletype" : "Short Paper",
-      "pending": true,
-      
-      "caption"   : {
-        "en" : "Recent advancements in language models, particularly those based on the Transformer architecture, have led to remarkable achievements in natural language processing. However, the increasing complexity and size of these models pose significant challenges for understanding their behavior and decision-making processes. In this work, we propose a set of new attention visualization techniques that address these challenges by improving model explainability and interpretability. The key improvements include new layouts that better handle the large number of tokens present in prompt and answer scenarios, making long distance attention relationships more comprehensible. Our techniques have the potential to enable researchers and practitioners to better understand the decision-making processes of large language models and identify potential sources of bias or errors. While detailed user studies and evaluations are outside the scope of this work, we discuss potential use cases for our visualization techniques and present directions for future research.",
-        "de" : "" },
-
-      "thumbnail" : "publications/2023-iccsa-attentionvisualization.png",
-      "downloads" : []
-    },
-    
-    
     { "key"       : "2023-githubembedded",
       "bibtex"    : "sblad2023-githubembedded.bib",
       "date"      : "2023-07-03",
