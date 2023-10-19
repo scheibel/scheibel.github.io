@@ -54,55 +54,59 @@
         {
           "en": "IT-Systems Engineering (Bachelor's Program)",
           "de": "IT-Systems Engineering (Bachelorstudiengang)",
-	  "url": {
-	    "en": "https://hpi.de/en/studies/before-the-study/degree-programs/bachelor.html",
-	    "de": "https://hpi.de/studium/vor-dem-studium/studienangebote/bachelor.html",
-	  }
+          "url": {
+            "en": "https://hpi.de/en/studies/before-the-study/degree-programs/bachelor.html",
+            "de": "https://hpi.de/studium/vor-dem-studium/studienangebote/bachelor.html",
+          }
         },
         {
           "en": "IT-Systems Engineering (Master's Program)",
           "de": "IT-Systems Engineering (Masterstudiengang)",
-	  "url": {
-	    "en": "https://hpi.de/en/studies/before-the-study/degree-programs/master/it-systems-engineering.html",
-	    "de": "https://hpi.de/studium/vor-dem-studium/studienangebote/master/it-systems-engineering.html",
-	  }
+          "url": {
+            "en": "https://hpi.de/en/studies/before-the-study/degree-programs/master/it-systems-engineering.html",
+            "de": "https://hpi.de/studium/vor-dem-studium/studienangebote/master/it-systems-engineering.html",
+          }
         },
         {
           "en": "Data Engineering (Master's Program)",
           "de": "Data Engineering (Masterstudiengang)",
-	  "url": {
-	    "en": "https://hpi.de/en/studies/before-the-study/degree-programs/master/data-engineering.html",
-	    "de": "https://hpi.de/studium/vor-dem-studium/studienangebote/master/data-engineering.html",
-	  }
+          "url": {
+            "en": "https://hpi.de/en/studies/before-the-study/degree-programs/master/data-engineering.html",
+            "de": "https://hpi.de/studium/vor-dem-studium/studienangebote/master/data-engineering.html",
+          }
         },
         {
           "en": "Digital Health (Master's Program)",
           "de": "Digital Health (Masterstudiengang)",
-	  "url": {
-	    "en": "https://hpi.de/en/studies/before-the-study/degree-programs/master/master-digital-health.html",
-	    "de": "https://hpi.de/studium/vor-dem-studium/studienangebote/master/digital-health.html",
-	  }
+          "url": {
+            "en": "https://hpi.de/en/studies/before-the-study/degree-programs/master/master-digital-health.html",
+            "de": "https://hpi.de/studium/vor-dem-studium/studienangebote/master/digital-health.html",
+          }
         },
         {
           "en": "Cybersecurity (Master's Program)",
           "de": "Cybersecurity (Masterstudiengang)",
-	  "url": {
-	    "en": "https://hpi.de/en/studies/before-the-study/degree-programs/master/cybersecurity.html",
-	    "de": "https://hpi.de/studium/vor-dem-studium/studienangebote/master/cybersecurity.html",
-	  }
+          "url": {
+            "en": "https://hpi.de/en/studies/before-the-study/degree-programs/master/cybersecurity.html",
+            "de": "https://hpi.de/studium/vor-dem-studium/studienangebote/master/cybersecurity.html",
+          }
         },
         {
           "en": "Software Systems Engineering (Master's Program)",
           "de": "Software Systems Engineering (Masterstudiengang)",
-	  "url": {
-	    "en": "https://hpi.de/en/studies/before-your-studies/degree-programs/master/software-systems-engineering.html",
-	    "de": "https://hpi.de/studium/vor-dem-studium/studienangebote/master/software-systems-engineering.html",
-	  }
+          "url": {
+            "en": "https://hpi.de/en/studies/before-your-studies/degree-programs/master/software-systems-engineering.html",
+            "de": "https://hpi.de/studium/vor-dem-studium/studienangebote/master/software-systems-engineering.html",
+          }
         },
-	{
-	  "en": "Study Program Reaccreditation (B.Sc. ITSE, M.Sc. ITSE)",
-	  "de": "Studiengangsreakkreditierung (B.Sc. ITSE, M.Sc. ITSE)"
-	}
+        {
+          "en": "Computer Science (Multi-Track Master's Program)",
+          "de": "Computer Science (Multi-Track Masterstudiengang)",
+        },
+        {
+          "en": "Study Program Reaccreditation (B.Sc. ITSE, M.Sc. ITSE)",
+          "de": "Studiengangsreakkreditierung (B.Sc. ITSE, M.Sc. ITSE)"
+        }
       ]
     },
     {

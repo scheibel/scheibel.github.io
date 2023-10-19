@@ -47,6 +47,42 @@
     },
     {
       "title": {
+        "en": "Program Committee",
+        "de": "Programmkomittee"
+      },
+      "institution": {
+        "en": "IEEE International Conference on Mining Software Repositories (MSR)",
+        "de": "IEEE Internationale Konferenz über Mining Software Repositories (MSR)"
+      },
+      "role": {
+        "en": "Technical Program",
+        "de": "Technisches Programm"
+      },
+      "since" : 2023,
+      "until" : 2024,
+      "logo" : "logos/vinci_logo.png",
+    },
+    {
+      "title": {
+        "en": "Reviewer",
+        "de": "Gutachter"
+      },
+      "institution": {
+        "en": "EG",
+        "de": "EG"
+      },
+      "since" : 2023,
+      "until" : 2023,
+      "logo" : "logos/eg_logo.png",
+      "projects": [
+        {
+          "en": "European Conference on Visualization (EuroVis)",
+          "de": "European Conference on Visualization (EuroVis)"
+        }
+      ]
+    },
+    {
+      "title": {
         "en": "Reviewer",
         "de": "Gutachter"
       },
@@ -79,25 +115,6 @@
         {
           "en": "VISSOFT",
           "de": "VISSOFT"
-        }
-      ]
-    },
-    {
-      "title": {
-        "en": "Reviewer",
-        "de": "Gutachter"
-      },
-      "institution": {
-        "en": "EG",
-        "de": "EG"
-      },
-      "since" : 2023,
-      "until" : 2023,
-      "logo" : "logos/eg_logo.png",
-      "projects": [
-        {
-          "en": "European Conference on Visualization (EuroVis)",
-          "de": "European Conference on Visualization (EuroVis)"
         }
       ]
     },
