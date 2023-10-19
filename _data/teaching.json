@@ -22,12 +22,8 @@
       { "course" : "Explaining and Visualizing AI",
         "type"   : "Project Seminar (M.Sc.)",
         "role"   : "Tutor"
-      },
-      { "course" : "Digital Inventory and Visualization of Forests",
-        "type"   : "Project (B.Sc.)",
-        "role"   : "Supervisor"
       } ],
-    "upcoming": true
+    "upcoming": false
   },
   { "term" : "2023 : Summer Term",
     "courses" : [
