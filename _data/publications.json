@@ -1137,7 +1137,7 @@
       "bibtex"    : "acstrds2023-evaluation-tm-dr.bib",
       "date"      : "2023-10-22",
       "title"     : "Large-Scale Evaluation of Topic Models and Dimensionality Reduction Methods for 2D Text Spatialization",
-      "authors"   : [ "Daniel Atzberger", "Tim Cech", "Willy Scheibel", "Matthias Trapp", "Rico Richter", "Jürgen Döllner", "Tobias Schreck" ],
+      "authors"   : [ "Daniel Atzberger", "Tim Cech", "Matthias Trapp", "Rico Richter", "Willy Scheibel", "Jürgen Döllner", "Tobias Schreck" ],
       "published" : "Transactions on Visualization and Computer Graphics, 28th Conference on Visualization (VIS '23)",
       "articletype" : "Full Paper",
       "pending"   : true,
@@ -1160,6 +1160,9 @@
         },
         { "href": "https://doi.org/10.48550/arXiv.2307.11770",
           "desc": "Preprint"
+        },
+        { "href": "https://www.researchgate.net/profile/Willy-Scheibel/publication/374951742/inline/jsViewer/65393bf21d6e8a70704e46ca?pdfJsDownload=1",
+          "desc": "Slides"
         },
         { "href": "https://github.com/hpicgs/Topic-Models-and-Dimensionality-Reduction-Benchmark",
           "desc": "Github Project"
