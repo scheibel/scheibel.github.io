@@ -1140,7 +1140,7 @@
       "authors"   : [ "Daniel Atzberger", "Tim Cech", "Matthias Trapp", "Rico Richter", "Willy Scheibel", "Jürgen Döllner", "Tobias Schreck" ],
       "published" : "Transactions on Visualization and Computer Graphics, 28th Conference on Visualization (VIS '23)",
       "articletype" : "Full Paper",
-      "pending"   : true,
+      "pending"   : false,
       "doi"       : "10.1109/TVCG.2023.3326569",
       
       "caption"   : {
