@@ -1235,6 +1235,46 @@
         { "href": "https://www.researchgate.net/profile/Willy-Scheibel/publication/374952266/inline/jsViewer/65605b81ce88b870310804f1?pdfJsDownload=1",
           "desc": "Author Version"
         } ]
+    },
+    
+    
+    { "key"       : "2024-object-maps",
+      "bibtex"    : "tsd2024-object-maps.bib",
+      "date"      : "2024-02-27",
+      "title"     : "Bringing Objects to Life: Supporting Program Comprehension through Animated 2.5D Object Maps from Program Traces",
+      "authors"   : [ "Christoph Thiede", "Willy Scheibel", "Jürgen Döllner" ],
+      "published" : "15th International Conference on Information Visualization Theory and Applications (IVAPP '24)",
+      "articletype" : "Short Paper",
+      
+      "caption"   : {
+        "en" : "Program comprehension is a key activity in software development. Several visualization approaches such as software maps have been proposed to support programmers in exploring the architecture of software systems. However, for the exploration of program behavior, programmers still rely on traditional code browsing and debugging tools to build a mental model of a system’s behavior. We propose a novel approach to visualizing program behavior through animated 2.5D object maps that depict particular objects and their interactions from a program trace. We describe our implementation and evaluate it for different program traces through an experience report and performance measurements. Our results indicate that our approach can benefit program comprehension tasks, but further research is needed to improve scalability and usability.",
+        "de" : "" },
+
+      "thumbnail" : "publications/2024-ivapp-object-maps.png",
+      "downloads" : [
+        { "href"  : "https://github.com/LinqLover/trace4d",
+          "desc"  : "Github Project"
+        } ]
+    },
+    
+    
+    { "key"       : "2024-topic-model-influence",
+      "bibtex"    : "acsds2024-topic-model-influence.bib",
+      "date"      : "2024-02-27",
+      "title"     : "Quantifying Topic Model Influence on Text Layouts based on Dimensionality Reductions",
+      "authors"   : [ "Daniel Atzberger", "Tim Chech", "Willy Scheibel", "Jürgen Döllner", "Tobias Schreck" ],
+      "published" : "15th International Conference on Information Visualization Theory and Applications (IVAPP '24)",
+      "articletype" : "Full Paper",
+      
+      "caption"   : {
+        "en" : "Text spatializations for text corpora often rely on two-dimensional scatter plots generated from topic models and dimensionality reductions. Topic models are unsupervised learning algorithms that identify clusters, so-called topics, within a corpus, representing the underlying concepts. Furthermore, topic models transform documents into vectors, capturing their association with topics. A subsequent dimensionality reduction creates a two-dimensional scatter plot, illustrating semantic similarity between the documents. A recent study by Atzberger et al. has shown that topic models are beneficial for generating two-dimensional layouts. However, in their study, the hyperparameters of the topic models are fixed, and thus the study does not analyze the impact of the topic models’ quality on the resulting layout. Following the methodology of Atzberger et al., we present a comprehensive benchmark comprising (1) text corpora, (2) layout algorithms based on topic models and dimensionality reductions, (3) quality metrics for assessing topic models, and (4) metrics for evaluating two-dimensional layouts’ accuracy and cluster separation. Our study involves an exhaustive evaluation of numerous parameter configurations, yielding a dataset that quantifies the quality of each dataset-layout algorithm combination. Through a rigorous analysis of this dataset, we derive practical guidelines for effectively employing topic models in text spatializations. As a main result, we conclude that the quality of a topic model measured by coherence is positively correlated to the layout quality in the case of Latent Semantic Indexing and Non-Negative Matrix Factorization.",
+        "de" : "" },
+
+      "thumbnail" : "publications/2024-ivapp-object-maps.png",
+      "downloads" : [
+        { "href"  : "https://doi.org/10.5281/zenodo.10040858",
+          "desc"  : "Experiments and Results"
+        } ]
     }
   ]
 }
