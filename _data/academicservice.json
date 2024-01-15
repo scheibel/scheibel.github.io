@@ -10,12 +10,12 @@
   
   "since" : {
     "en" : "since",
-    "de" : "seit",
+    "de" : "seit"
   },
   
   "until" : {
     "en" : "until",
-    "de" : "bis",
+    "de" : "bis"
   },
 
   "services": [
@@ -40,7 +40,7 @@
         {
           "en": "Pacific Visualization Symposium (PacificVis)",
           "de": "Pacific Visualization Symposium (PacificVis)"
-        },
+        }
       ],
       "since" : 2021,
       "logo" : "logos/ieee_cs_logo.jpeg"
@@ -60,7 +60,7 @@
       },
       "since" : 2023,
       "until" : 2024,
-      "logo" : "logos/msr_logo.png",
+      "logo" : "logos/msr_logo.png"
     },
     {
       "title": {
@@ -72,7 +72,6 @@
         "de": "EG"
       },
       "since" : 2023,
-      "until" : 2023,
       "logo" : "logos/eg_logo.png",
       "projects": [
         {
@@ -131,7 +130,7 @@
         {
           "en": "Information Sciences (INS)",
           "de": "Information Sciences (INS)"
-        },
+        }
       ],
       "since" : 2021,
       "until" : 2021,
@@ -163,6 +162,6 @@
 	  }
         }
       ]
-    },
+    }
   ]
 }
