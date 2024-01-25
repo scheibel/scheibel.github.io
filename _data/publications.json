@@ -1269,7 +1269,8 @@
       "authors"   : [ "Willy Scheibel", "Jasper Blum", "Franziska Lauterbach", "Daniel Atzberger", "Jürgen Döllner" ],
       "published" : "MDPI Computers",
       "articletype" : "Full Paper",
-      "pending": true,
+      "pending"   : false,
+      "doi"       : "10.3390/computers13020033",
       
       "caption"   : {
         "en" : "Readily available software analysis and analytics tools are often operated within external services, where the measured software analysis data is kept internally and no external access to the data is available. We propose an approach to integrate visual software analysis on the GitHub platform by leveraging GitHub Actions and the GitHub API, covering both analysis and visualization. The process is to perform software analysis for each commit, e.g., static source code complexity metrics, and augment the commit by the resulting data, stored as git objects within the same repository. We show that this approach is feasible by integrating it into 64 open source TypeScript projects. Further, we analyze the impact on Continuous Integration (CI) run time and repository storage. The stored software analysis data is externally accessible to allow for visualization tools, such as software maps. The effort to integrate our approach is limited to enabling the analysis component within the a project's CI on GitHub and embed an HTML snippet into the project's website for visualization. This enables a large amount of projects to have access to software analysis as well as provide means to communicate the current status of a project.",
@@ -1277,7 +1278,13 @@
 
       "thumbnail" : "publications/2024-computers-githubembedded.png",
       "downloads" : [ {
-        "href"  : "https://hpicgs.github.io/github-software-analytics-embedding/",
+        "href": "https://doi.org/10.3390/computers13020033",
+        "desc": "Publisher Record"
+      },
+      { "href": "https://www.researchgate.net/profile/Willy-Scheibel/publication/377444142/inline/jsViewer/65b22be16c7ad06ab428627b?pdfJsDownload=1",
+        "desc": "Author Version"
+      },
+      { "href"  : "https://hpicgs.github.io/github-software-analytics-embedding/",
         "desc"  : "Prototype"
       },
       { "href"  : "https://github.com/hpicgs/github-software-analytics-embedding/",
