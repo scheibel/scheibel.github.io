@@ -45,11 +45,7 @@
     {% if p.pending %}<p>In press</p>{% endif %}
     {% if p.downloads.size > 0 %}<p>
       {% for download in p.downloads %}
-        {% if download.href && download.href != "" %}
-          <a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}">{{ download.desc | escape }}</a>
-        {% else %}
-          <span class="text-muted">{{ download.desc | escape }}</span>
-        {% endif %}{% if download != p.downloads.last %}, {% endif %}
+        {% if download.href && download.href != "" %}<a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}">{{ download.desc | escape }}</a>{% else %}<span class="text-muted">{{ download.desc | escape }}</span>{% endif %}{% if download != p.downloads.last %}, {% endif %}
       {% endfor %}
     </p>{% endif %}
     {% if p.bibtex %}
