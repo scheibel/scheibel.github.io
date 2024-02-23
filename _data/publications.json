@@ -1234,7 +1234,22 @@
         "de" : "" },
 
       "thumbnail" : "publications/2024-ivapp-object-maps.png",
-      "downloads" : [
+      "downloads" : [{
+          "href": "",
+          "desc": "Publisher Record"
+        },
+        { "href": "",
+          "desc": "Author Version"
+        },
+        { "href": "",
+          "desc": "Slides"
+        },
+        { "href": "https://www.researchgate.net/profile/Willy-Scheibel/publication/377983193/inline/jsViewer/65c1fe6e34bbff5ba7efa030?pdfJsDownload=1",
+          "desc": "Poster"
+        },
+        { "href"  : "https://linqlover.github.io/trace4d/",
+          "desc"  : "Prototype"
+        },
         { "href"  : "https://github.com/LinqLover/trace4d",
           "desc"  : "Github Project"
         } ]
@@ -1255,7 +1270,16 @@
         "de" : "" },
 
       "thumbnail" : "publications/2024-ivapp-topic-model-influence.png",
-      "downloads" : [
+      "downloads" : [ {
+          "href": "",
+          "desc": "Publisher Record"
+        },
+        { "href": "",
+          "desc": "Author Version"
+        },
+        { "href": "",
+          "desc": "Slides"
+        },
         { "href"  : "https://doi.org/10.5281/zenodo.10040858",
           "desc"  : "Experiments and Results"
         } ]
@@ -1279,18 +1303,18 @@
 
       "thumbnail" : "publications/2024-computers-githubembedded.png",
       "downloads" : [ {
-        "href": "https://doi.org/10.3390/computers13020033",
-        "desc": "Publisher Record"
-      },
-      { "href": "https://www.researchgate.net/profile/Willy-Scheibel/publication/377444142/inline/jsViewer/65b22be16c7ad06ab428627b?pdfJsDownload=1",
-        "desc": "Author Version"
-      },
-      { "href"  : "https://hpicgs.github.io/github-software-analytics-embedding/",
-        "desc"  : "Prototype"
-      },
-      { "href"  : "https://github.com/hpicgs/github-software-analytics-embedding/",
-        "desc"  : "Github Project"
-      } ]
+          "href": "https://doi.org/10.3390/computers13020033",
+          "desc": "Publisher Record"
+        },
+        { "href": "https://www.researchgate.net/profile/Willy-Scheibel/publication/377444142/inline/jsViewer/65b22be16c7ad06ab428627b?pdfJsDownload=1",
+          "desc": "Author Version"
+        },
+        { "href"  : "https://hpicgs.github.io/github-software-analytics-embedding/",
+          "desc"  : "Prototype"
+        },
+        { "href"  : "https://github.com/hpicgs/github-software-analytics-embedding/",
+          "desc"  : "Github Project"
+        } ]
     },
     
     
@@ -1308,7 +1332,16 @@
         "de" : "" },
 
       "thumbnail" : "publications/2024-jnem-athena.png",
-      "downloads" : []
+      "downloads" : [ {
+          "href": "",
+          "desc": "Publisher Record"
+        },
+        { "href": "",
+          "desc": "Author Version"
+        },
+        { "href"  : "https://doi.org/10.5281/zenodo.10600373",
+          "desc"  : "Data"
+        } ]
     }
   ]
 }

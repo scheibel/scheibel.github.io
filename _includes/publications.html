@@ -31,12 +31,12 @@
         {% for author in p.authors %}{% if p.authors.size >= 2 and author == p.authors.last %}and {% endif %}{{ author }}{% if p.authors.size > 2 and author != p.authors.last %},{% endif %} {% endfor %}
         <br>
 	      {% if p.note %}<span class="text-muted">{{ p.note }}</span><br>{% endif %}
-        <span class="text-muted">{{ p.published }}{% if p.lead_note %}, {{ p.lead_note }}{% endif %}</span>
+        <span class="text-muted">{{ p.published }}</span>
         <br />
         <span>
           {% if p.bibtex %}<a data-toggle="modal" href="#bibtex-{{ p.key }}">BibTeX</a>{% else %}BibTex pending{% endif %}
           {% if p.caption[page.lang] %}, <a data-toggle="collapse" href="#abstract-{{ p.key }}" role="button">{{ site.data.publications.abstract.[page.lang] }}</a>{% endif %}
-          {% if p.doi %}, <a href="https://doi.org/{{ p.doi }}">DOI:{{ p.doi }}</a>{% endif %}
+          {% if p.doi %}, <a href="https://doi.org/{{ p.doi }}"><span style="font-variant: small-caps;">doi</span>:{{ p.doi }}</a>{% endif %}
         </span>
     </p>
     <p class="collapse" id="abstract-{{ p.key }}">
@@ -44,7 +44,14 @@
     </p>
     {% if p.pending %}<p>In press</p>{% endif %}
     {% if p.downloads.size > 0 %}<p>
-      {% for download in p.downloads %}<a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}">{{ download.desc | escape }}</a>{% if download != p.downloads.last %}, {% endif %}{% endfor %}
+      {% for download in p.downloads %}
+        {% if download.href %}
+          <a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}">{{ download.desc | escape }}</a>
+        {% else %}
+          <span class="text-muted">{{ download.desc | escape }}</span>
+        {% endif %}
+        {% if download != p.downloads.last %}, {% endif %}
+      {% endfor %}
     </p>{% endif %}
     {% if p.bibtex %}
     <div class="modal fade" id="bibtex-{{ p.key }}" tabindex="-1" role="dialog" aria-labelledby="bibtex-{{ p.key }}" aria-hidden="true">
