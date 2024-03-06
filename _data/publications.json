@@ -1236,6 +1236,7 @@
 
       "thumbnail" : "publications/2024-ivapp-object-maps.png",
       "downloads" : [{
+          "href": "10.5220/0012393900003660",
           "desc": "Publisher Record"
         },
         { "href": "https://www.researchgate.net/profile/Willy-Scheibel/publication/376650904/inline/jsViewer/65de1e5ec3b52a1170fc2ffe?pdfJsDownload=1",
@@ -1273,6 +1274,7 @@
 
       "thumbnail" : "publications/2024-ivapp-topic-model-influence.png",
       "downloads" : [ {
+          "href": "10.5220/0012391100003660",
           "desc": "Publisher Record"
         },
         { "href": "https://www.researchgate.net/profile/Willy-Scheibel/publication/378701396/inline/jsViewer/65e85a5bc3b52a11701aca51?pdfJsDownload=1",
