@@ -1323,13 +1323,13 @@
     
     { "key"       : "2024-athena",
       "bibtex"    : "havsdb2024-athena.bib",
-      "date"      : "2024-02-23",
+      "date"      : "2024-03-27",
       "title"     : "Athena: Smart Order Routing on Centralized Crypto Exchanges using a Unified Order Book",
       "authors"   : [ "Robert Henker", "Daniel Atzberger", "Jan Ole Vollmer", "Willy Scheibel", "Jürgen Döllner", "Markus Bick" ],
       "published" : "Wiley International Journal of Network Management",
       "articletype" : "Full Paper",
       "doi"       : "10.1002/nem.2266",
-      "pending"   : true,
+      "pending"   : false,
       
       "caption"   : {
         "en" : "Most cryptocurrency spot trading occurs on centralized crypto exchanges, where offers for buying and selling are organized via an order book. In liquid markets, the price achieved for buying and selling deviates only slightly from the assumed reference price, i.e., trading is associated with low implicit costs. However, compared to traditional finance crypto markets are still illiquid and consequently the reduction of implicit costs is crucial for any trading strategy and of high interest, especially for institutional investors. This paper describes the design and implementation of Athena, a system that automatically splits orders across multiple exchanges to minimize implicit costs. For this purpose, order books are collected from several centralized crypto exchanges and merged into an internal unified order book. In addition to price and quantity, the entries in the unified order book are enriched with information about the exchange. This enables a smart order routing algorithm to split an order into several slices and execute these on several exchanges to reduce implicit costs and achieve a better price.",
@@ -1337,9 +1337,11 @@
 
       "thumbnail" : "publications/2024-jnem-athena.png",
       "downloads" : [ {
-          "desc": "Publisher Record"
+          "desc": "Publisher Record",
+          "href": "https://doi.org/10.1002/nem.2266"
         },
-        { "desc": "Author Version"
+        { "desc": "Author Version",
+          "href": "https://www.researchgate.net/profile/Willy-Scheibel/publication/379309357/inline/jsViewer/6603d7fb49de030f4cc95436?pdfJsDownload=1"
         },
         { "href"  : "https://doi.org/10.5281/zenodo.10600373",
           "desc"  : "Data"
