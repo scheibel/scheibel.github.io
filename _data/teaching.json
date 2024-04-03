@@ -9,6 +9,18 @@
   },
 
   "terms" : [
+  { "term" : "2024 : Summer Term",
+    "courses" : [
+      { "course" : "Computer Graphics II",
+        "type"   : "Lecture (B.Sc.)",
+        "role"   : "Co-Lecturer"
+      },
+      { "course" : "Visual Analytics for Hierarchical, Multi-dimensional, and XAI Data",
+        "type"   : "Project Seminar (M.Sc.)",
+        "role"   : "Seminar Lead and Tutor"
+      } ],
+    "upcoming": true
+  },
   { "term" : "2023/24 : Winter Term",
     "courses" : [
       { "course" : "Computer Graphics I",
@@ -18,10 +30,6 @@
       { "course" : "3D Computer Graphics: Extending the Three.js Framework",
         "type"   : "Project Seminar (B.Sc.)",
         "role"   : "Seminar Lead and Tutor"
-      },
-      { "course" : "Explaining and Visualizing AI",
-        "type"   : "Project Seminar (M.Sc.)",
-        "role"   : "Tutor"
       } ],
     "upcoming": false
   },
