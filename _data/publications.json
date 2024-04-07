@@ -1362,7 +1362,7 @@
         "en" : "In 2016, BitMEX introduced a novel type of crypto derivates: Perpetual Swaps, i.e., futures with an infinite term. Perpetual swaps provide a new strategic risk management tool for cryptocurrencies due to their custody-free nature, high leverage, and funding mechanism, but there has been little quantitative analysis on the their benefits. In this paper, we introduce a trading strategy that combines a Quanto Perpetual Swap with a spot position to benefit from the funding mechanism. We compare our strategy with a long-only investment in the underlying cryptocurrency and a similar strategy based on Linear Perpetual Swaps to evaluate their performances in a large-scale backtest covering the years 2021 and 2022. Our analysis shows that our strategy generates positive returns in bullish market phases of the underlying with lower volatility.",
         "de" : "" },
 
-      "thumbnail" : "publications/2024-cryptoex-perpetual-swaps",
+      "thumbnail" : "publications/2024-cryptoex-perpetual-swaps.png",
       "downloads" : [ {
           "desc": "Publisher Record"
         },
