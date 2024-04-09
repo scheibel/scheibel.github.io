@@ -76,7 +76,11 @@
       "projects": [
         {
           "en": "European Conference on Visualization (EuroVis)",
-          "de": "European Conference on Visualization (EuroVis)"
+          "de": "Europäische Konferenz über Visualisierung (EuroVis)"
+        },
+        {
+          "en": "International EuroVis Workshop on Visual Analytics (EuroVA)",
+          "de": "Internationaler EuroVis Workshop über Visual Analytics (EuroVA)"
         }
       ]
     },
