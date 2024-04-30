@@ -5,6 +5,10 @@
     "short": {
       "en": "Teaching",
       "de": "Lehre"
+    },
+    "results": {
+      "en": "Results",
+      "de": "Ergebnisse"
     }
   },
 
@@ -14,12 +18,8 @@
       { "course" : "Computer Graphics II",
         "type"   : "Lecture (B.Sc.)",
         "role"   : "Co-Lecturer"
-      },
-      { "course" : "Visual Analytics for Hierarchical, Multi-dimensional, and XAI Data",
-        "type"   : "Project Seminar (M.Sc.)",
-        "role"   : "Seminar Lead and Tutor"
       } ],
-    "upcoming": true
+    "upcoming": false
   },
   { "term" : "2023/24 : Winter Term",
     "courses" : [
@@ -29,7 +29,8 @@
       },
       { "course" : "3D Computer Graphics: Extending the Three.js Framework",
         "type"   : "Project Seminar (B.Sc.)",
-        "role"   : "Seminar Lead and Tutor"
+        "role"   : "Seminar Lead and Tutor",
+        "results": "https://hpicgs.github.io/seminar-extending-threejs-2023/"
       } ],
     "upcoming": false
   },
