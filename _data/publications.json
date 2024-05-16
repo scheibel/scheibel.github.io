@@ -1430,6 +1430,7 @@
       "authors"   : [ "Ole Wegen", "Willy Scheibel", "Matthias Trapp", "Rico Richter", "Jürgen Döllner" ],
       "published" : "Transactions on Visualization and Computer Graphics",
       "articletype" : "Survey Paper",
+      "doi"       : "10.1109/TVCG.2024.3402610",
       "pending"   : true,
       
       "caption"   : {
@@ -1438,7 +1439,8 @@
 
       "thumbnail" : "publications/2024-tvcg-point-cloud-npr.png",
       "downloads" : [
-        { "desc": "Publisher Record"
+        { "desc": "Publisher Record",
+          "href": "https://doi.org/10.1109/TVCG.2024.3402610"
         },
         { "desc": "Preprint"
         } ]
