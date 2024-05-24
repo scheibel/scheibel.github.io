@@ -1379,6 +1379,7 @@
       "published" : "26th EG Conference on Visualization (EuroVis '24)",
       "articletype" : "Extended Abstract",
       "pending"   : true,
+      "doi"       : "10.2312/evp.20241075",
       
       "caption"   : {
         "en" : "Machine Learning models underlie a trade-off between accurracy and explainability. Given a trained, complex model, we contribute a dashboard that supports the process to derive more explainable models, here: Fast-and-Frugal Trees, with further introspection using feature importances and spurious correlation analyses. The dashboard further allows to iterate over the feature selection and assess the trees' performance in comparison to the complex model.",
@@ -1386,7 +1387,8 @@
 
       "thumbnail" : "publications/2024-eurovis-fisc.png",
       "downloads" : [
-        { "desc"  : "Publisher Record"
+        { "desc"  : "Publisher Record",
+          "href"  : "https://doi.org/10.2312/evp.20241075"
         },
         { "desc"  : "Author Version"
         },
@@ -1405,6 +1407,7 @@
       "published" : "26th EG Conference on Visualization (EuroVis '24)",
       "articletype" : "Extended Abstract",
       "pending"   : true,
+      "doi"       : "10.2312/evp.20241085",
       
       "caption"   : {
         "en" : "Dimensionality Reduction (DR) techniques are used for projecting high-dimensional data onto a two-dimensional plane. One subclass of DR techniques are such techniques that utilize landmarks. Landmarks are a subset of the original data space that are projected by a slow and more precise technique. The other data points are then placed in relation to these landmarks with respect to their distance in the high-dimensional space. We propose a technique to refine the placement of the landmarks by a human user. We test two different techniques for unprojecting the movement of the low-dimensional landmarks into the high-dimensional data space. We showcase that such a movement can increase certain quality metrics while decreasing others. Therefore, users may use our technique to challenge their understanding of the high-dimensional data space.",
@@ -1412,7 +1415,8 @@
 
       "thumbnail" : "publications/2024-eurovis-lmds.png",
       "downloads" : [
-        { "desc"  : "Publisher Record"
+        { "desc"  : "Publisher Record",
+          "href"  : "https://doi.org/10.2312/evp.20241085"
         },
         { "desc"  : "Author Version"
         },
