@@ -1390,11 +1390,14 @@
         { "desc"  : "Publisher Record",
           "href"  : "https://doi.org/10.2312/evp.20241075"
         },
-        { "desc"  : "Author Version"
+        { "desc"  : "Author Version",
+          "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/380076157/inline/jsViewer/662a47709d2a69723f6483a0?pdfJsDownload=1"
         },
-        { "desc"  : "Supplemental Material"
+        { "desc"  : "Supplemental Material",
+          "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/380076439/data/662a481506ea3d0b740baa5a/Cech-2024-FISC-Supplemental-Material.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoicHVibGljYXRpb24iLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19"
         },
-	      { "desc"  : "Poster"
+	      { "desc"  : "Poster",
+          "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/380076169/inline/jsViewer/662a492708aa54017abf751d?pdfJsDownload=1"
         } ]
     },
     
@@ -1418,11 +1421,14 @@
         { "desc"  : "Publisher Record",
           "href"  : "https://doi.org/10.2312/evp.20241085"
         },
-        { "desc"  : "Author Version"
+        { "desc"  : "Author Version",
+          "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/380076459/inline/jsViewer/662a4a929d2a69723f64853d?pdfJsDownload=1"
         },
-        { "desc"  : "Supplemental Material"
+        { "desc"  : "Supplemental Material",
+          "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/380094325/data/662a55e506ea3d0b740bb695/Cech-2024-LMDS-Supplemental-Material.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoicHVibGljYXRpb24iLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19"
         },
-	      { "desc"  : "Poster"
+	      { "desc"  : "Poster",
+          "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/380094475/inline/jsViewer/662a546706ea3d0b740bb4bd?pdfJsDownload=1"
         } ]
     },
     
