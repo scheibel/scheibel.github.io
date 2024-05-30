@@ -1378,7 +1378,7 @@
       "authors"   : [ "Tim Cech", "Erik Kohlros", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "26th EG Conference on Visualization (EuroVis '24)",
       "articletype" : "Extended Abstract",
-      "pending"   : true,
+      "pending"   : false,
       "doi"       : "10.2312/evp.20241075",
       
       "caption"   : {
@@ -1409,7 +1409,7 @@
       "authors"   : [ "Tim Cech", "Christian Raue", "Frederic Sadrieh", "Willy Scheibel", "Jürgen Döllner" ],
       "published" : "26th EG Conference on Visualization (EuroVis '24)",
       "articletype" : "Extended Abstract",
-      "pending"   : true,
+      "pending"   : false,
       "doi"       : "10.2312/evp.20241085",
       
       "caption"   : {
