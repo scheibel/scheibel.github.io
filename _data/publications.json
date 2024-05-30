@@ -1435,7 +1435,6 @@
       "published" : "Transactions on Visualization and Computer Graphics",
       "articletype" : "Survey Paper",
       "doi"       : "10.1109/TVCG.2024.3402610",
-      "pending"   : true,
       
       "caption"   : {
         "en" : "Point clouds are widely used as a versatile representation of 3D entities and scenes for all scale domains and in a variety of application areas, serving as a fundamental data category to directly convey spatial features. However, due to point sparsity, lack of structure, irregular distribution, and acquisition-related inaccuracies, results of point cloud visualization are often subject to visual complexity and ambiguity. In this regard, non-photorealistic rendering can improve visual communication by reducing the cognitive effort required to understand an image or scene and by directing attention to important features. In the last 20 years, this has been demonstrated by various non-photorealistic rendering approaches that were proposed to target point clouds specifically. However, they do not use a common language or structure for assessment which complicates comparison and selection. Further, recent developments regarding point cloud characteristics and processing, such as massive data size or web-based rendering are rarely considered. To address these issues, we present a survey on non-photorealistic rendering approaches for point cloud visualization, providing an overview of the current state of research. We derive a structure for the assessment of approaches, proposing seven primary dimensions for the categorization regarding intended goals, data requirements, used techniques, and mode of operation. We then systematically assess corresponding approaches and utilize this classification to identify trends and research gaps, motivating future research in the development of effective non-photorealistic point cloud rendering methods.",
@@ -1446,7 +1445,8 @@
         { "desc": "Publisher Record",
           "href": "https://doi.org/10.1109/TVCG.2024.3402610"
         },
-        { "desc": "Preprint"
+        { "desc": "Preprint",
+          "href": "https://www.researchgate.net/profile/Ole-Wegen/publication/380937598/inline/jsViewer/6656d7040b0d28457461c8b6?pdfJsDownload=1"
         } ]
     }
   ]
