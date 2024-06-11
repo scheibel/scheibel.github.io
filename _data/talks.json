@@ -59,6 +59,7 @@
       "date"      : "2019-02-26 16:30:00",
       "title"     : "Rendering Procedural Textures for Visualization of Thematic Data in 3D Geovirtual Environments",
       "location"  : "IVAPP 2019, Prague, Czech Republic",
+      "downloads" : []
     },
     {
       "date"      : "2020-02-29 14:00:00",
@@ -99,6 +100,22 @@
           "desc"  : "Poster (Landscape, PDF)"
         }
       ]
+    },
+    {
+      "date"      : "2023-05-28 16:30:00",
+      "title"     : "Interactive Human-guided Dimensionality Reduction using Landmark Positioning",
+      "location"  : "EuroVis 2024, Odense, Denmark",
+      "downloads" : [
+        { "href"  : "https://www.researchgate.net/profile/Willy-Scheibel/publication/380094475/inline/jsViewer/662a546706ea3d0b740bb4bd?pdfJsDownload=1",
+          "desc"  : "Poster (Portrait, PDF)"
+        }
+      ]
+    },
+    {
+      "date"      : "2024-06-11 10:00:00",
+      "title"     : "Hierarchy Visualization and 2.5D Information Landscapes",
+      "location"  : "Visual Analytics 2024, Virtual Attendance at TU Graz, Austria",
+      "downloads" : []
     }
   ]
 }

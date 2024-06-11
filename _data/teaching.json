@@ -18,6 +18,10 @@
       { "course" : "Computer Graphics II",
         "type"   : "Lecture (B.Sc.)",
         "role"   : "Co-Lecturer"
+      },
+      { "course" : "Visual Analytics",
+        "type"   : "Lecture (M.Sc.)",
+        "role"   : "Guest Lecturer @ TU Graz"
       } ],
     "upcoming": false
   },
