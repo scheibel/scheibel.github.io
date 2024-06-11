@@ -21,7 +21,23 @@
   "committees": [
     {
       "title": {
-        "en": "Faculty Counsil",
+        "en": "Institute Council",
+        "de": "Institutsrat"
+      },
+      "institution": {
+        "en": "Hasso Plattner Institute",
+        "de": "Hasso-Plattner-Institut"
+      },
+      "role": {
+        "en": "Voting Member",
+        "de": "Stimmberechtigtes Mitglied"
+      },
+      "since" : 2024,
+      "logo" : "logos/hpi_logo.png"
+    },
+    {
+      "title": {
+        "en": "Faculty Council",
         "de": "Fakultätsrat"
       },
       "institution": {
