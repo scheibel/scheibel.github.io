@@ -1454,6 +1454,30 @@
         { "desc": "Preprint",
           "href": "https://www.researchgate.net/profile/Ole-Wegen/publication/380937598/inline/jsViewer/6656d7040b0d28457461c8b6?pdfJsDownload=1"
         } ]
+    },
+    
+    
+    { "key"       : "2024-standardness-fogs-meaning",
+      "bibtex"    : "cwarsd2024-standardness-fogs-meaning.bib",
+      "date"      : "2024-06-21",
+      "title"     : "Standardness Fogs Meaning: A Position Regarding the Informed Usage of Standard Datasets",
+      "authors"   : [ "Tim Cech", "Ole Wegen", "Daniel Atzberger", "Rico Richter", "Willy Scheibel", "Jürgen Döllner" ],
+      "published" : "arXiv CoRR Machine Learning (cs.LG); Human-Computer Interaction (cs.HC)",
+      "articletype" : "Preprint",
+      "doi"       : "10.48550/arXiv.2406.13552",
+      
+      "caption"   : {
+        "en" : "Standard datasets are frequently used to train and evaluate Machine Learning models. However, the assumed standardness of these datasets leads to a lack of in-depth discussion on how their labels match the derived categories for the respective use case. In other words, the standardness of the datasets seems to fog coherency and applicability, thus impeding the trust in Machine Learning models. We propose to adopt Grounded Theory and Hypotheses Testing through Visualization as methods to evaluate the match between use case, derived categories, and labels of standard datasets. To showcase the approach, we apply it to the 20 Newsgroups dataset and the MNIST dataset. For the 20 Newsgroups dataset, we demonstrate that the labels are imprecise. Therefore, we argue that neither a Machine Learning model can learn a meaningful abstraction of derived categories nor one can draw conclusions from achieving high accuracy. For the MNIST dataset, we demonstrate how the labels can be confirmed to be defined well. We conclude that a concept of standardness of a dataset implies that there is a match between use case, derived categories, and class labels, as in the case of the MNIST dataset. We argue that this is necessary to learn a meaningful abstraction and, thus, improve trust in the Machine Learning model. ",
+        "de" : "" },
+
+      "thumbnail" : "publications/2024-arxiv-standardness-fogs-meaning.png",
+      "downloads" : [
+        { "desc": "Record",
+          "href": "https://doi.org/10.48550/arXiv.2406.13552"
+        },
+        { "desc": "Preprint",
+          "href": "https://www.researchgate.net/publication/381580013/inline/jsViewer/6674f3ddd21e220d89c51365?pdfJsDownload=1"
+        } ]
     }
   ]
 }
