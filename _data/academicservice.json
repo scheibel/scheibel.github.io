@@ -94,6 +94,7 @@
         "de": "Internationales Symposium über Visual Information Communication und Interaction"
       },
       "since" : 2022,
+      "until" : 2023,
       "logo" : "logos/vinci_logo.png",
       "projects": [
         {
@@ -160,10 +161,10 @@
         {
           "en": "Proceedings VINCI 2021",
           "de": "Proceedings VINCI 2021",
-	  "url": {
-	    "en": "https://dl.acm.org/doi/proceedings/10.1145/3481549",
-	    "de": "https://dl.acm.org/doi/proceedings/10.1145/3481549",
-	  }
+	        "url": {
+            "en": "https://dl.acm.org/doi/proceedings/10.1145/3481549",
+            "de": "https://dl.acm.org/doi/proceedings/10.1145/3481549",
+          }
         }
       ]
     }
