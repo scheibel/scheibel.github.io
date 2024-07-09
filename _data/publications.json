@@ -607,7 +607,7 @@
       "articletype" : "Full Paper",
       
       "caption"   : {
-        "en" : "In the dependency graph of a software ecosystem, downstream dependencies are the nodes that depend on a package. Apart from end-user APIs, these dependencies make up the bulk of a library’s usage for most packages. Other than for upstream dependencies, tools that provide individual package developers with this kind of information rarely exist to date. This paper makes two contributions: (i) We propose an approach for gathering downstream dependencies of a single package efficiently and extracting usage samples from them using a static type analyzer. (ii) We present a tool that allows npm package developers to survey the aggregated usage data directly in their IDE in an interactive and context-sensitive way and that further supports them in understanding which packages use specific package members and why and how they use these members. This can help prioritize and steer development and uncover unexpected usage patterns, inappropriate member signatures, or misleading interface design. Our methods return over 8 000 dependencies for popular packages and process about 12 dependencies per minute while requiring about 500 MB memory in total and less than 30 MB storage per package, but tend to exclude unpopular dependencies. Usage sample extraction is very precise but not easily available for repositories with complex build configurations or metaprogramming patterns. We show that usage data from downstream dependency repositories is a promising and diverse source of information for mining software repositories and that our approach supports package developers in maintaining their APIs.",
+        "en" : "In the dependency graph of a software ecosystem, downstream dependencies are the nodes that depend on a package. Apart from end-user APIs, these dependencies make up the bulk of a library’s usage for most packages. Other than for upstream dependencies, tools that provide individual package developers with this kind of information rarely exist to date. This paper makes two contributions: (i) We propose an approach for gathering downstream dependencies of a single package efficiently and extracting usage samples from them using a static type analyzer. (ii) We present a tool that allows npm package developers to survey the aggregated usage data directly in their IDE in an interactive and context-sensitive way and that further supports them in understanding which packages use specific package members and why and how they use these members. This can help prioritize and steer development and uncover unexpected usage patterns, inappropriate member signatures, or misleading interface design. Our methods return over 8000 dependencies for popular packages and process about 12 dependencies per minute while requiring about 500 MB memory in total and less than 30 MB storage per package, but tend to exclude unpopular dependencies. Usage sample extraction is very precise but not easily available for repositories with complex build configurations or metaprogramming patterns. We show that usage data from downstream dependency repositories is a promising and diverse source of information for mining software repositories and that our approach supports package developers in maintaining their APIs.",
         "de" : "" },
 
       "thumbnail" : "publications/2022-enase-downstream-mining.png",
@@ -799,6 +799,7 @@
       "published" : "27th International Conference on 3D Web Technology (Web3D '22)",
       "note"      : "Best Paper Award",
       "articletype" : "Full Paper",
+      "doi": "10.1145/3564533.3564566",
       
       "caption"   : {
         "en" : "3D scatter plots depicting massive data suffer from occlusion, which makes it difficult to get an overview and perceive structure.  This paper presents a technique that facilitates the comprehension of heavily occluded 3D scatter plots. Data points are projected to axial planes, creating x-ray-like 2D views that support the user in analyzing the data's density and layout. We showcase our open-source web application with a hardware-accelerated rendering component written in WebGL. It allows for interactive interaction, filtering, and navigation with datasets up to hundreds of thousands of nodes. The implementation is detailed and discussed with respect to challenges posed by API and performance limitations.",
@@ -821,7 +822,6 @@
         { "href"  : "https://github.com/lukaswagner/vidi",
           "desc"  : "Github Project"
         } ],
-      "doi": "10.1145/3564533.3564566"
     },
     
     
@@ -986,7 +986,7 @@
       "doi"       : "10.1109/ICBC56567.2023.10174923",
       
       "caption"   : {
-        "en" : "Offers to buy and sell cryptocurrencies on exchanges are collected in an order book as pairs of amount and price provided with a timestamp. Contrary to tick data, which only reflects the last transaction price on an exchange, the order book reflects the market’s actual price information and the available volume. Until now, no system has been presented that can capture many different order books across several markets. This paper presents Hephaistos, a system for processing, harmonizing, and storing massive spot order book data from 22 centralized crypto exchanges and 55 currency pairs. After collecting the data, Hephaistos aggregates several order books in a so-called Unified Order Book, which is the foundation for a Smart Order Routing algorithm. As a result an order is splitted across several exchanges, which results in a better execution price. As component of a high-frequency trading system, Hephaistos captures 32 % of the total daily spot trading volume. We provide examples with data from two exchanges that show that the Smart Order Routing algorithm significantly reduces the slippage.",
+        "en" : "Offers to buy and sell cryptocurrencies on exchanges are collected in an order book as pairs of amount and price provided with a timestamp. Contrary to tick data, which only reflects the last transaction price on an exchange, the order book reflects the market’s actual price information and the available volume. Until now, no system has been presented that can capture many different order books across several markets. This paper presents Hephaistos, a system for processing, harmonizing, and storing massive spot order book data from 22 centralized crypto exchanges and 55 currency pairs. After collecting the data, Hephaistos aggregates several order books in a so-called Unified Order Book, which is the foundation for a Smart Order Routing algorithm. As a result an order is splitted across several exchanges, which results in a better execution price. As component of a high-frequency trading system, Hephaistos captures 32% of the total daily spot trading volume. We provide examples with data from two exchanges that show that the Smart Order Routing algorithm significantly reduces the slippage.",
         "de" : "" },
 
       "thumbnail" : "publications/2023-cryptoex-hephaistos.png",
@@ -1126,7 +1126,7 @@
       "doi"       : "10.1109/TVCG.2023.3326569",
       
       "caption"   : {
-        "en" : "Topic models are a class of unsupervised learning algorithms for detecting the semantic structure within a text corpus. Together with a subsequent dimensionality reduction algorithm, topic models can be used for deriving spatializations for text corpora as two-dimensional scatter plots, reflecting semantic similarity between the documents and supporting corpus analysis. Although the choice of the topic model, the dimensionality reduction, and their underlying hyperparameters significantly impact the resulting layout, it is unknown which particular combinations result in high-quality layouts with respect to accuracy and perception metrics. To investigate the effectiveness of topic models and dimensionality reduction methods for the spatialization of corpora as two-dimensional scatter plots (or basis for landscape-type visualizations), we present a large-scale, benchmark-based computational evaluation. Our evaluation consists of (1) a set of corpora, (2) a set of layout algorithms that are combinations of topic models and dimensionality reductions, and (3) quality metrics for quantifying the resulting layout. The corpora are given as document-term matrices, and each document is assigned to a thematic class. The chosen metrics quantify the preservation of local and global properties and the perceptual effectiveness of the two-dimensional scatter plots. By evaluating the benchmark on a computing cluster, we derived a multivariate dataset with over 45 000 individual layouts and corresponding quality metrics. Based on the results, we propose guidelines for the effective design of text spatializations that are based on topic models and dimensionality reductions. As a main result, we show that interpretable topic models are beneficial for capturing the structure of text corpora. We furthermore recommend the use of t-SNE as a subsequent dimensionality reduction.",
+        "en" : "Topic models are a class of unsupervised learning algorithms for detecting the semantic structure within a text corpus. Together with a subsequent dimensionality reduction algorithm, topic models can be used for deriving spatializations for text corpora as two-dimensional scatter plots, reflecting semantic similarity between the documents and supporting corpus analysis. Although the choice of the topic model, the dimensionality reduction, and their underlying hyperparameters significantly impact the resulting layout, it is unknown which particular combinations result in high-quality layouts with respect to accuracy and perception metrics. To investigate the effectiveness of topic models and dimensionality reduction methods for the spatialization of corpora as two-dimensional scatter plots (or basis for landscape-type visualizations), we present a large-scale, benchmark-based computational evaluation. Our evaluation consists of (1) a set of corpora, (2) a set of layout algorithms that are combinations of topic models and dimensionality reductions, and (3) quality metrics for quantifying the resulting layout. The corpora are given as document-term matrices, and each document is assigned to a thematic class. The chosen metrics quantify the preservation of local and global properties and the perceptual effectiveness of the two-dimensional scatter plots. By evaluating the benchmark on a computing cluster, we derived a multivariate dataset with over 45000 individual layouts and corresponding quality metrics. Based on the results, we propose guidelines for the effective design of text spatializations that are based on topic models and dimensionality reductions. As a main result, we show that interpretable topic models are beneficial for capturing the structure of text corpora. We furthermore recommend the use of t-SNE as a subsequent dimensionality reduction.",
         "de" : "" },
 
       "thumbnail" : "publications/2023-vis-evaluation-tm-dr.png",
@@ -1170,7 +1170,7 @@
       "doi"       : "10.5220/0012163300003598",
       
       "caption"   : {
-        "en" : "Text synthesis tools are becoming increasingly popular and better at mimicking human language. In trustsensitive decisions, such as plagiarism and fraud detection, identifying AI-generated texts poses larger difficulties: decisions need to be made explainable to ensure trust and accountability. To support users in identifying AI-generated texts, we propose the tool UNCOVER. The tool analyses texts through three explainable linguistic approaches: Stylometric writing style analysis, topic modeling, and entity recognition. The result of the tool is a decision and visualizations on the analysis results. We evaluate the tool on news articles by means of accuracy of the decision and an expert study with 13 participants. The final prediction is based on classification of stylometric and evolving topic analysis. It achieved an accuracy of 70.4 % and a weighted F1-score of 85.6 %. The participants preferred to base their assessment on the prediction and the topic graph. However, they found the entity recognition to be an ineffective indicator. Moreover, five participants highlighted the explainable aspects of UNCOVER and overall the participants achieved 69 % true classifications. Eight participants expressed interest to continue using unCover for identifying AI-generated texts.",
+        "en" : "Text synthesis tools are becoming increasingly popular and better at mimicking human language. In trustsensitive decisions, such as plagiarism and fraud detection, identifying AI-generated texts poses larger difficulties: decisions need to be made explainable to ensure trust and accountability. To support users in identifying AI-generated texts, we propose the tool UNCOVER. The tool analyses texts through three explainable linguistic approaches: Stylometric writing style analysis, topic modeling, and entity recognition. The result of the tool is a decision and visualizations on the analysis results. We evaluate the tool on news articles by means of accuracy of the decision and an expert study with 13 participants. The final prediction is based on classification of stylometric and evolving topic analysis. It achieved an accuracy of 70.4% and a weighted F1-score of 85.6%. The participants preferred to base their assessment on the prediction and the topic graph. However, they found the entity recognition to be an ineffective indicator. Moreover, five participants highlighted the explainable aspects of UNCOVER and overall the participants achieved 69% true classifications. Eight participants expressed interest to continue using unCover for identifying AI-generated texts.",
         "de" : "" },
 
       "thumbnail" : "publications/2023-kdir-uncover.png",
@@ -1478,6 +1478,78 @@
         { "desc": "Preprint",
           "href": "https://www.researchgate.net/publication/381580013/inline/jsViewer/6674f3ddd21e220d89c51365?pdfJsDownload=1"
         } ]
+    },
+    
+    
+    { "key"       : "2024-uncover-extended",
+      "bibtex"    : "lbcsd2024-uncover-extended.bib",
+      "date"      : "2024-08-01",
+      "title"     : "Detecting and Comparing LLM Capabilities to Human Writers through Linguistic Analysis",
+      "authors"   : [ "Lucas Liebe", "Jannis Baum", "Tim Cech", "Willy Scheibel", "Jürgen Döllner" ],
+      "published" : "Preprint",
+      "articletype" : "Full Paper",
+      "pending"   : true,
+      
+      "caption"   : {
+        "en" : "The capabilities of Large Language Models (LLMs) to synthesize texts that imitate human language have increased rapidly. While many people adopt this technology, the potential harm caused through texts synthesized by machines is not fully assessed. Factual errors due to model hallucinations are especially impactful in media like news articles, which serves an important function in society. Therefore, users require support in detecting LLM-generation to decrease risks posed by machine text synthesis. For this purpose, we propose the tool unCover based on explainable linguistic analysis. The tools analyzes texts through stylometric writing style analysis for grammatical information and topic modeling for semantic information. Its stylometry is based on character, word and syntactic trigrams. By inspecting the proposed techniques, the differences of LLM-generation can be uncovered. These findings are used to explain how text synthesis can be detected. unCovers result is presented as a classification and visualization of the analysis. The final classification achieved an accuracy of 77.56% and a weighted F1-score of 86.51%. This is comparable to state-of-the-art products that detect LLMs while remaining technically explainable. German news articles are classified 1with an accuracy of 66.45%. The visualization supports the decision of the tool and can help users navigate complex texts. Through the promising results, unCover addresses challenges posed by AI content with new solutions. This is a step towards safely integrating LLMs into various areas of society.",
+        "de" : "" },
+
+      "thumbnail" : "publications/2024-sncs-uncover-extended.png",
+      "downloads" : [
+        { "desc": "Publisher Record"
+        },
+        { "desc": "Author Version"
+        } ]
+    },
+    
+    
+    { "key"       : "2024-counterfactuals-extended",
+      "bibtex"    : "btwd2024-counterfactuals-extended.bib",
+      "date"      : "2024-08-01",
+      "title"     : "An Approach and Evaluation of Visual Counterfactual Explanations Using Semantic Parts Metadata",
+      "authors"   : [ "Florence Böttger", "Tim Cech", "Willy Scheibel", "Jürgen Döllner" ],
+      "published" : "Preprint",
+      "articletype" : "Full Paper",
+      "pending"   : true,
+      
+      "caption"   : {
+        "en" : "Counterfactual explanations are widely used to explain black-box models, with some approaches generating counterfactuals as a set of edits between two images. However, such explanations often do not guarantee coherence between the edits. We expand on an existing counterfactual creation approach by using semantic parts metadata that contains the locations of keypoints in the image. Using this metadata, we encourage counterfactuals that edit a given semantic part with other instances of that part. In a series of computational experiments on the CUB-200-2011 dataset, we determine that the proposed approach (1) decreases the number of edits by 0.1, (2) increases the keypoint accuracy of editing between two keypoints by at least 7.3 pp, and (3) increases the keypoint accuracy of editing between the same keypoint by at least 17.7 pp. In order to evaluate the impact of the generated explanations on human perception, we perform a user study where participants are aided by the explanations in a task of distinguishing two classes. This user study found that the proposed approach performs worse than the existing one w.r.t. human perception, with a loss in accuracy of at least 6.7 pp and up to 31.3 pp. Based on the mismatch between the computational experiments and the user study’s results, we present a critical discussion on the choice of metrics as well as the design of the experiments.",
+        "de" : "" },
+
+      "thumbnail" : "publications/2024-sncs-counterfactuals-extended.png",
+      "downloads" : [
+        { "desc": "Publisher Record"
+        },
+        { "desc": "Author Version"
+        } ],
+    },
+    
+    
+    { "key"       : "2024-instanced-glyph-rendering",
+      "bibtex"    : "sasd2024-instanced-glyph-rendering.bib",
+      "title"     : "Instanced Rendering of Parameterized 3D Glyphs with Adaptive Level-of-Detail using three.js",
+      "date"      : "2024-09-25",
+      "authors"   : [ "Sandro Steeger", "Daniel Atzberger", "Willy Scheibel", "Jürgen Döllner" ],
+      "published" : "29th International Conference on 3D Web Technology (Web3D '24)",
+      "articletype" : "Full Paper",
+      "pending"   : true,
+      
+      "caption"   : {
+        "en" : "This paper contributes an optimized web-based rendering approach and implementation for parameterized meshes used as 3D glyphs for information visualization. The approach is based on geometry instancing in three.js with dynamic mesh selection and data-driven parameterization of the meshes. As an application example, we demonstrate a visualization prototype of a 2.5D information landscape that allows for exploration of source code modules of a software system. To this end, each data point is represented by a 3Dglyph selected from a glyph atlas according to its type and level-of-detail. We benchmark the approach against a straight-forward baseline implementation using regular three.js meshes by evaluating the overall run-time performance. For this, we used real-world datasets and synthetic larger variants with up to 50000 data points. The proposed approach achieves up to a 3000% higher median FPS count on laptop and desktop-class hardware and allows us to visualize up to 1 300% larger datasets interactively compared to the baseline implementation. This indicates that instanced rendering of parameterized meshes allows to provide interactive visualization using 3D glyphs for datasets of the next order of magnitude.",
+        "de" : "" },
+
+      "thumbnail" : "publications/2024-web3d-instanced-glyph-rendering.png",
+      "downloads" : [
+        { "desc"  : "Publisher Record"
+        },
+        { "desc"  : "Author Version"
+        },
+        { "desc"  : "Slides"
+        },
+        { "desc"  : "Demo"
+        },
+        { "desc"  : "Github Project"
+        } ],
     }
   ]
 }
