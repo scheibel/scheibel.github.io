@@ -5,7 +5,7 @@ mixin academicservice(service)
       .col-8.offset-2.d-sm-none.mb-3
         img.img-fluid.mx-auto(src="/content/images/"+service.logo, alt="Logo of "+service.institution)
       .w-100.d-sm-none
-    .col-2.offset-0.text-end 
+    .col-2.offset-0.text-end
       if service.until
         if service.since == service.until
           | in #{service.until}
