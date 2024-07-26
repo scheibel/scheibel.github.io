@@ -1,0 +1,54 @@
+heading: Academic Service
+short: Academic Service
+services:
+- title: Reviewer
+  institution: IEEE Computer Society / VGTC
+  projects:
+  - Transactions for Visualization and Computer Graphics (TVCG)
+  - Visualization Conference (VIS)
+  - Pacific Visualization Symposium (PacificVis)
+  since: 2021
+  logo: logos/ieee_cs_logo.jpeg
+- title: Program Committee
+  institution: IEEE International Conference on Mining Software Repositories (MSR)
+  role: Technical Program
+  since: 2023
+  until: 2024
+  logo: logos/msr_logo.png
+- title: Reviewer
+  institution: EG
+  since: 2023
+  logo: logos/eg_logo.png
+  projects:
+  - European Conference on Visualization (EuroVis)
+  - International EuroVis Workshop on Visual Analytics (EuroVA)
+- title: Reviewer
+  institution: International Symposium on Visual Information Communication and Interaction
+  since: 2022
+  until: 2023
+  logo: logos/vinci_logo.png
+  projects:
+  - VINCI
+- title: Reviewer
+  institution: IEEE Working Conference on Software Visualization
+  since: 2022
+  until: 2022
+  logo: logos/vissoft_logo.png
+  projects:
+  - VISSOFT
+- title: Reviewer
+  institution: Elsevier
+  projects:
+  - Information Sciences (INS)
+  since: 2021
+  until: 2021
+  logo: logos/elsevier_logo.png
+- title: Organization Committee
+  institution: 'International Symposium on Visual Information Communication and Interaction: VINCI 2021'
+  role: Publication Chair
+  since: 2021
+  until: 2021
+  logo: logos/vinci_logo.png
+  projects:
+  - name: Proceedings VINCI 2021
+    url: https://dl.acm.org/doi/proceedings/10.1145/3481549

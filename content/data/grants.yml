@@ -1,0 +1,23 @@
+heading: Scholarships & Grants
+short: Scholarships
+grants:
+- title: HPI Award Best Master Graduate 2014
+  note: Awarded for graduation with top grades and subsequent doctoral studies at HPI.
+  url:
+    title: Press Release
+    href: https://hpi.de/en/press-releases/2014/traumnote-10-fuer-17-hpi-absolventen-glueckwuensche-von-festredner-doepfner.html
+  since: 2014
+  until: 2014
+  logo: logos/hpi_logo.jpg
+- title: HPI Scholarship for Doctoral Studies
+  since: 2014
+  until: 2014
+  logo: logos/hpi_logo.jpg
+- title: DDSA Scholarship for the VCG '23 Workshop
+  note: 2nd International Workshop on Visualization and Visual Computing, Aarhus, DK
+  url:
+    title: Workshop Website
+    href: https://vis-au.github.io/workshops/
+  since: 2023
+  until: 2023
+  logo: logos/ddsa_logo.png

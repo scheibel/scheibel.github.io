@@ -1,0 +1,44 @@
+
+mixin academicservice(service)
+  .row
+    if service.logo
+      .col-8.offset-2.d-sm-none.mb-3
+        img.img-fluid.mx-auto(src="/content/images/"+service.logo, alt="Logo of "+service.institution)
+      .w-100.d-sm-none
+    .col-2.offset-0.text-end 
+      if service.until
+        if service.since == service.until
+          | in #{service.until}
+        else
+            | #{service.since}<wbr>–#{service.until}
+      else
+        | since #{service.since}
+    .col-10.col-sm-7
+      p #{service.title}
+        if service.role
+          span.text-muted , #{service.role}
+      p.text-muted #{service.institution}
+      if service.projects && service.projects.length > 0
+        ul.list-unstyled
+          each p in service.projects
+            li
+              if p.url
+                a(href=p.url) #{p.name}
+              else
+                | #{p}
+    if service.logo
+      .d-none.d-sm-block.col-sm-3
+        img.img-fluid.mx-auto(src="/content/images/"+service.logo, alt="Logo of "+service.institution)
+
+mixin academicservices(services)
+  ul.list-group.list-group-flush
+    each service in services
+      li.list-group-item
+        +academicservice(service)
+
+mixin academicservice_card(academicservice)
+  .card
+    .card-header
+      h3 Academic Service
+    //- .card-body
+    +academicservices(academicservice.services)

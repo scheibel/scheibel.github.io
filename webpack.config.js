@@ -167,6 +167,9 @@ module.exports = function (env, argv) {
 
     const data = {
         context: getYAMLDictSync('context.yml'),
+        academicservice: getYAMLDictSync('academicservice.yml'),
+        committeework: getYAMLDictSync('committeework.yml'),
+        grants: getYAMLDictSync('grants.yml'),
         news: collectNewsSync(newsFiles),
         bibliography: createBibliographyFromBibFilesSync(bibFiles)
     };

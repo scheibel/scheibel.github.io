@@ -3,11 +3,10 @@ VERSION:3.0
 N:Scheibel;Willy;;;
 FN:Willy Scheibel
 ADR;TYPE=home:;;Donaustr. 1;Ludwigsfelde;;14974;Germany
-TITLE:Graphics Systems Engineer
+TITLE:Graphics Systems Researcher
 EMAIL;TYPE=personal;PREF=1:willyscheibel@gmx.de
 EMAIL;TYPE=work:willy.scheibel@hpi.de
 EMAIL;TYPE=work:willy.scheibel@cginternals.de
 URL;TYPE=personal:https://www.willyscheibel.de
-URL;TYPE=work:https://www.cginternals.com
 URL;TYPE=work:https://www.hpi.de
 END:VCARD

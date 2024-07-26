@@ -1,25 +1,65 @@
 extends /template/defaultcontent.pug
 
-include /partials/news_list.pug
+include /content/partials/profiles.pug
+include /content/partials/introduction.pug
+include /content/partials/news.pug
+include /content/partials/contact.pug
+include /content/partials/scholarships.pug
+include /content/partials/projects.pug
+include /content/partials/presentations.pug
+include /content/partials/committees.pug
+include /content/partials/academicservice.pug
+include /content/partials/teaching.pug
+include /content/partials/publications.pug
 
 block variables
-  - var PageName = "Home"
+  - var PageName = "#{context.name}"
   - var PageID = "index"
   -
     var news_keys = Object.keys(news);
     news_keys.sort();
     news_keys.reverse();
-    news_keys.length = Math.min(news_keys.length, 10);
+    news_keys.length = Math.min(news_keys.length, 5);
+
 
 block navbar
   include partials/navbar
 
+
 block footer
   include partials/footer
 
-block content
-  .card
-    .card-header
-      h3 Research Group for #{context.group}
-    .card-body
-      //- content
+
+block content 
+  if 1
+    +publications_card()
+  
+  if 0
+    +teaching_card()
+
+  if academicservice.services.length > 0
+    +academicservice_card(academicservice)
+
+  if 0
+    +committees_card()
+
+  if 0
+    +presentations_card()
+
+  if 0
+    +projects_card()
+
+  if 0
+    +scholarships_card()
+  
+  if 0
+    +contact_card()
+
+block sidecontent
+  +introduction_card(context)
+
+  if news_keys.length > 0
+    +news_card(news_keys, news)
+
+  if context.profiles.length > 0
+    +profiles_card(context.profiles)

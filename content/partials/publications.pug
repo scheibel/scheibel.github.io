@@ -1,0 +1,10 @@
+
+mixin publications_card()
+  .card
+    .card-header
+      h3 Selected Publications 
+    .card-body
+      //- content
+    .card-footer.text-end
+      - var nav_item = NavItems.find((element, index, array) => { return element.key === 'publications' });
+      a(href=nav_item.url) View All

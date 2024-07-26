@@ -6,7 +6,7 @@
 // 2. Include any default variable overrides here
 
 // $primary: #6cbb23 !default;
-// $primary: #4e8aad !default;
+$primary: #4e8aad !default;
 
 $enable-flex: true;
 // $enable-rounded: false !default;
@@ -55,6 +55,12 @@ $aspect-ratios: ("1x1": 100%,
 // 8. Add additional custom code here
 @import "bootstrap-icons/font/bootstrap-icons.scss";
 
+// Font Awesome
+
+$fa-font-path: 'thirdparty/fontawesome-free-6.6.0-web/webfonts';
+@import "thirdparty/fontawesome-free-6.6.0-web/scss/fontawesome.scss";
+@import "thirdparty/fontawesome-free-6.6.0-web/scss/brands.scss";
+
 // common
 
 p {
@@ -62,9 +68,9 @@ p {
   // @hyphenation-resource
 }
 
-.row {
-  margin-top: 2rem;
-}
+// .row {
+//   margin-top: 2rem;
+// }
 
 .text-justify {
   text-align: justify;

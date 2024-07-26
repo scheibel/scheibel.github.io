@@ -1,17 +1,16 @@
 block PrimaryNavigation
   -
     var NavItems = [
-      {'url':'/index.html','title':'Home', 'key': 'index'},
-      {'url':'/publications.html','title':'Publications','key':'publications'},
-      {'url':'/projects.html','title':'Projects','key':'projects'},
-      {'disabled':true,'url':'/news.html','title':'News','key':'news'},
-      {'disabled':true,'url':'/people.html','title':'People','key':'people'},
-      {'disabled':true,'url':'/teaching.html','title':'Teaching','key':'teaching'}
+      { 'url':'/publications.html', 'title':'Publications', 'key':'publications' },
+      { 'url':'/teaching.html', 'title':'Teaching', 'key':'teaching' },
+      { 'url':'/projects.html', 'title':'Projects', 'key':'projects' },
+      { 'url':'/news.html', 'title':'News', 'key':'news' },
+      { 'disabled': true, 'url':'https://www.scheibel.dev','title':'Open Source','key':'open-source'},
     ];
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light
   .container
-    a.navbar-brand(href="/") #{context.group_short}
+    a.navbar-brand(href="/") #{context.name}
     button.navbar-toggler(type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
       span.navbar-toggler-icon
     .collapse.navbar-collapse#navbarSupportedContent

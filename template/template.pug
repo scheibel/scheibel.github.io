@@ -1,5 +1,5 @@
 block variables
-  - var PageName = "Home"
+  - var PageName = "#{context.name}"
   - var PageID = "index"
 
 doctype html
@@ -14,6 +14,8 @@ html(lang="en")
       .row
         .col-12.col-md-8
           block content
+        .col-12.col-md-4 
+          block sidecontent
 
     section#footer.container
       include /partials/footer
