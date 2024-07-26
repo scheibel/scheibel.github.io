@@ -1,0 +1,18 @@
+extends /template/defaultcontent.pug
+
+include /partials/news_list.pug
+
+block variables
+  - var PageName = "News"
+  - var PageID = "news"
+  -
+    var news_keys = Object.keys(news);
+    news_keys.sort();
+    news_keys.reverse();
+
+block content
+  .card
+    .card-header
+      h3 News
+    //-.card-body
+    +news_list(news_keys, news)

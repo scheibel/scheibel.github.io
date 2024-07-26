@@ -1,0 +1,21 @@
+block variables
+  - var PageName = "Home"
+  - var PageID = "index"
+
+doctype html
+html(lang="en")
+  include /partials/head
+
+  body#page-top(data-spy = 'scroll')
+    section#navbar
+      block navbar
+
+    section.container#content
+      .row
+        .col-12.col-md-8
+          block content
+
+    section#footer.container
+      include /partials/footer
+
+  include /partials/scripts

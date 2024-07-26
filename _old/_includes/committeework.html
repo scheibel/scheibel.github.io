@@ -1,0 +1,40 @@
+<div class="row justify-content-center">
+  <h1>{{ site.data.committeework.heading.[page.lang] | escape }}</h1>
+</div>
+
+{% assign committees = site.data.committeework.committees %}
+{% for c in committees %}
+  <div class="row">
+    {% if c.logo %}
+    <div class="col-8 offset-2 d-sm-none mb-3">
+      <img class="img-fluid center-block" src="/img/{{ c.logo }}" alt="Logo of {{ c.institution[page.lang] }}">
+    </div>
+    <div class="w-100 d-sm-none"></div>
+    {% endif %}
+    <div class="col-2 offset-0 text-right">
+      {% if c.until %}
+        {% if c.since == c.until %}
+          in {{ c.until }}
+        {% else %}
+          {{ c.since }}<wbr>–{{ c.until }}
+        {% endif %}
+      {% else %}
+        {{ site.data.committeework.since[page.lang] }} {{ c.since }}
+      {% endif %}
+    </div>
+    <div class="col-10 col-sm-7">
+      <p>{{ c.title[page.lang] }}{% if c.role %}<span class="text-muted">, {{ c.role[page.lang] }}</span>{% endif %}</p>
+      <p class="text-muted">{{ c.institution[page.lang] }}</p>
+      {% if c.projects.size > 0 %}<ul class="list-unstyled">
+        {% for p in c.projects %}
+          <li>{% if p.url %}<a href="{{ p.url[page.lang] }}">{% endif %}{{ p[page.lang] }}{% if p.url %}</a>{% endif %}</li>
+        {% endfor %}
+      </ul>{% endif %}
+    </div>
+    <div class="d-none d-sm-block col-sm-3">
+      {% if c.logo %}
+      <img class="img-fluid center-block" src="/img/{{ c.logo }}" alt="Logo of {{ c.institution[page.lang] }}">
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}

@@ -1,0 +1,37 @@
+<div class="row justify-content-center">
+  <h1>{{ site.data.grants.heading.[page.lang] | escape }}</h1>
+</div>
+
+{% assign grants = site.data.grants.grants %}
+{% for g in grants reversed %}
+  {% if g.ignore %}{% else %}
+    <div class="row grant">{% if g.logo %}
+      <div class="col-8 offset-2 d-sm-none mb-3">
+        <img class="img-fluid center-block" src="/img/{{ g.logo }}" alt="Logo">
+      </div>
+      <div class="w-100 d-sm-none"></div>
+      {% endif %}
+      <div class="col-2 offset-0 text-right">
+        {% if g.until %}
+          {% if g.since == g.until %}
+            in {{ g.until }}
+          {% else %}
+            {{ g.since }}<wbr>–{{ g.until }}
+          {% endif %}
+        {% else %}
+          {{ site.data.grants.since[page.lang] }} {{ g.since }}
+        {% endif %}
+      </div>
+      <div class="col-10 col-sm-7">
+        <p>{{ g.title[page.lang] }}</p>
+        {% if g.note.en %}<p class="text-muted">{{ g.note[page.lang] }}</p>{% endif %}
+        {% if g.url.href %}<a href="{{ g.url.href }}">{{ g.url.title.[page.lang] }}</a>{% endif %}
+      </div>
+      <div class="d-none d-sm-block col-sm-3">
+        {% if g.logo %}
+        <img class="img-fluid center-block" src="/img/{{ g.logo }}" alt="Logo">
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
