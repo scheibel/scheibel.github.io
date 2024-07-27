@@ -182,6 +182,17 @@ module.exports = function (env, argv) {
 
     bibFiles.forEach(addBibFilesToEntries);
 
+    const bibliography = createBibliographyFromBibFilesSync(bibFiles);
+
+    var publications = getYAMLDictSync('publications.yml');
+    publications.publications.forEach((publication) => {
+        const bibkey = path.basename(publication.bibtex, '.bib');
+
+        if (bibkey in bibliography) {
+            publication.bibentry = bibliography[bibkey].content;
+        }
+    });
+
     const data = {
         context: getYAMLDictSync('context.yml'),
         academicservice: getYAMLDictSync('academicservice.yml'),
@@ -189,11 +200,11 @@ module.exports = function (env, argv) {
         grants: getYAMLDictSync('grants.yml'),
         profiles: getYAMLDictSync('profiles.yml'),
         projects: getYAMLDictSync('projects.yml'),
-        publications: getYAMLDictSync('publications.yml'),
+        publications: publications,
         teaching: getYAMLDictSync('teaching.yml'),
         presentations: getYAMLDictSync('presentations.yml'),
         news: collectNewsSync(newsFiles),
-        bibliography: createBibliographyFromBibFilesSync(bibFiles)
+        bibliography: bibliography
     };
 
     return {

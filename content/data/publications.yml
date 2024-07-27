@@ -32,7 +32,6 @@ publications:
     software system of a monitored open-source project that are hard to detect
     with traditional hierarchy visualizations.
   thumbnail: publications/2014-thesis-evocells.png
-  publication: 'https://www.researchgate.net/profile/Willy_Scheibel/publication/331399809'
   downloads:
     - href: >-
         https://www.researchgate.net/profile/Willy_Scheibel/publication/331399809/inline/jsViewer/5c77be7692851c695046e78a?pdfJsDownload=1
@@ -2329,7 +2328,7 @@ publications:
   thumbnail: publications/2024-vis-stability.png
   downloads:
     - desc: Publisher Record
-    - desc: Perprint
+    - desc: Preprint
     - desc: Slides
     - desc: Github Project
       href: >-

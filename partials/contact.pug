@@ -6,20 +6,21 @@ mixin contact_card(context)
     .card-body
       if context.emails.length > 0
         .row 
-          .col-2.offset-0.text-end
+          .col-2.text-end
             span Email
           .col-10
-            ul.list-inline
+            ul.list-inline.mb-0
               li.list-inline-item
                   a(href="mailto:"+context.emails.at(0)) #{context.emails.at(0)}
-          if context.emails.length > 1
-            .col-2.text-end
-              span Alernatives
-            .col-10
-              ul.list-inline
-                each email in context.emails.slice(1) 
-                  li.list-inline-item
-                    a(href="mailto:"+email) #{email}
+      if context.emails.length > 1
+        .row 
+          .col-2.text-end
+            span Alernatives
+          .col-10
+            ul.list-inline.mb-0
+              each email in context.emails.slice(1) 
+                li.list-inline-item
+                  a(href="mailto:"+email) #{email}
       if context.phone
         .row 
           .col-2.text-end

@@ -20,22 +20,18 @@ block variables
     news_keys.sort();
     news_keys.reverse();
     news_keys.length = Math.min(news_keys.length, 5);
+  -
+    var selected_publications = publications.publications.filter((element) => element.highlight);
 
 
 block additionalscripts
   script(type="text/javascript", src="https://publons.com/mashlets?el=badgeCont200&rid=AAF-5883-2021&size=small")
 
 
-block navbar
-  include /partials/navbar
-  .row.mb-4
-
-
 block content
 
-  - var publications_filter = [];
-  if publications_filter.length > 0
-    +publications_card(publications_filter, publications)
+  if selected_publications.length > 0
+    +publications_card(selected_publications, publications)
   
   if teaching.terms.length > 0
     +teaching_card(teaching)
