@@ -5,17 +5,17 @@ mixin publication(publication)
     if (authors.length > 2) { authors[authors.length-1] = " and "+authors[authors.length-1]; }
   .row
     .col-12.offset-0.col-sm-3
-      .thumbnail(style=publication.pending ? "filter: grayscale(100%);":"")
+      .thumbnail.mt-1(style=publication.pending ? "filter: grayscale(100%);":"")
         img.img-fluid.center-block(src="images/"+publication.thumbnail, alt="Thumbnail of "+publication.title)
     .col-12.col-sm-9(class=publication.pending ? "text-muted" : "")
       if publication.articletype
         span.text-muted #{publication.articletype}
-      if publication.stamps
-        each stamp in publication.stamps
-          a.ml-1(href=stamp.href, style="vertical-align: text-bottom;")
-            | &nbsp;
-            img(src="images/"+stamp.icon, style="height: 1.1rem;")
       h5 #{publication.title}
+        if publication.stamps
+          each stamp in publication.stamps
+            a.ml-1(href=stamp.href, style="vertical-align: text-bottom;")
+              | &nbsp;
+              img(src="images/"+stamp.icon, style="height: 1.1rem;")
       span #{authors.join(', ')}
       if publication.note
         br
@@ -49,13 +49,13 @@ mixin publication(publication)
   ul.list-inline.text-end
     if publication.downloads
       each download in publication.downloads
-        li.list-inline-item.fs-6
+        li.list-inline-item
           if download.href
             a(href=download.href)
               | #{download.desc}
           else
             span.text-muted #{download.desc}
-    li.list-inline-item.fs-6
+    li.list-inline-item
       a(href="/publications/"+publication.bibtex.replace(".bib", ".html"))
         | Details
 

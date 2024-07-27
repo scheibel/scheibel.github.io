@@ -1,28 +1,46 @@
 block PrimaryNavigation
   -
-    var NavItems = [
+    var NavItemsLeft = [
       { 'url':'/publications.html', 'title':publications.short, 'key':'publications' },
       { 'url':'/teaching.html', 'title':teaching.short, 'key':'teaching' },
       { 'url':'/projects.html', 'title':projects.short, 'key':'projects' },
       { 'url':'/news.html', 'title':'News', 'key':'news' },
+    ];
+    var NavItemsRight = [
+      { 'disabled': true, 'url':'https://www.hpi.de','title':'HPI','key':'hpi'},
+      { 'disabled': true, 'url':'http://www.hpi3d.de','title':'CGS','key':'cgs'},
       { 'disabled': true, 'url':'https://www.varg.dev','title':'VARG','key':'varg'},
       { 'disabled': true, 'url':'https://www.scheibel.dev','title':'Open Source','key':'open-source'},
     ];
+    var NavItems = NavItemsLeft.concat(NavItemsRight);
 
-nav.navbar.navbar-expand-lg.navbar-light.bg-light
-  .container
-    a.navbar-brand(href="/") #{context.name}
-    button.navbar-toggler(type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
-      span.navbar-toggler-icon
-    .collapse.navbar-collapse#navbarSupportedContent
-      .navbar-nav
-        each page,i in NavItems
-          if page.disabled
-            a.nav-link.disabled= page.title
-          else
-            if PageID === page.key
-              a.nav-link(class="active", href=page.url)
-                = page.title
+.container
+  nav.navbar.navbar-expand-lg
+    .container-fluid
+      a.navbar-brand(href="/") #{context.name}
+      button.navbar-toggler(type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+        span.navbar-toggler-icon
+      .collapse.navbar-collapse#navbarSupportedContent
+        .navbar-nav
+          each page,i in NavItemsLeft
+            if page.disabled
+              a.nav-link.disabled= page.title
             else
-              a.nav-link(href=page.url)
-                = page.title
+              if PageID === page.key
+                a.nav-link(class="active", href=page.url)
+                  = page.title
+              else
+                a.nav-link(href=page.url)
+                  = page.title
+      .d-flex
+        .navbar-nav
+          each page,i in NavItemsRight
+            if page.disabled
+              a.nav-link.disabled= page.title
+            else
+              if PageID === page.key
+                a.nav-link(class="active", href=page.url)
+                  = page.title
+              else
+                a.nav-link(href=page.url)
+                  = page.title
