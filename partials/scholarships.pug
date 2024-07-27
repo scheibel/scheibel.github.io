@@ -32,8 +32,7 @@ mixin scholarships(grants)
 
 mixin scholarships_card(grants)
   .card
-    .card-header
-      h3 #{grants.heading}
+    h3.card-header #{grants.heading}
     //- .card-body
       //- content
     +scholarships(grants.grants)

@@ -38,7 +38,6 @@ mixin committees(committees)
 
 mixin committees_card(committeework)
   .card
-    .card-header
-      h3 #{committeework.heading}
+    h3.card-header #{committeework.heading}
     //- .card-body
     +committees(committeework.committees)

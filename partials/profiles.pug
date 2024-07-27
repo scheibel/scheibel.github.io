@@ -12,7 +12,6 @@ mixin profiles(profiles)
 
 mixin profiles_card(profiles)
   .card 
-    .card-header 
-      h4 #{profiles.heading}
+    h4.card-header #{profiles.heading}
     .card-body 
       +profiles(profiles.profiles)

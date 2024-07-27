@@ -9,11 +9,10 @@ mixin latest_news(news_keys, news_entries)
     //-   span.text-muted [content deliberately omitted]
 
 mixin news_card(news_keys, news_entries)
-  .card 
-    .card-header 
-      h4 News
-    .card-body 
-      +latest_news(news_keys, news_entries)
+  .card  
+    h4.card-header News
+    //- .card-body 
+    +latest_news(news_keys, news_entries)
     .card-footer.text-end
       - var nav_item = NavItems.find((element, index, array) => { return element.key === 'news' });
       a(href=nav_item.url) View All
