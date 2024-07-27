@@ -1,16 +1,16 @@
 extends /template/defaultcontent.pug
 
-include /content/partials/profiles.pug
-include /content/partials/introduction.pug
-include /content/partials/news.pug
-include /content/partials/contact.pug
-include /content/partials/scholarships.pug
-include /content/partials/projects.pug
-include /content/partials/presentations.pug
-include /content/partials/committees.pug
-include /content/partials/academicservice.pug
-include /content/partials/teaching.pug
-include /content/partials/publications.pug
+include /partials/profiles.pug
+include /partials/introduction.pug
+include /partials/news.pug
+include /partials/contact.pug
+include /partials/scholarships.pug
+include /partials/projects.pug
+include /partials/presentations.pug
+include /partials/committees.pug
+include /partials/academicservice.pug
+include /partials/teaching.pug
+include /partials/publications.pug
 
 block variables
   - var PageName = "#{context.name}"
@@ -22,13 +22,13 @@ block variables
     news_keys.length = Math.min(news_keys.length, 5);
 
 
+block additionalscripts
+  script(type="text/javascript", src="https://publons.com/mashlets?el=badgeCont200&rid=AAF-5883-2021&size=small")
+
+
 block navbar
-  include partials/navbar
+  include /partials/navbar
   .row.mb-4
-
-
-block footer
-  include partials/footer
 
 
 block content
