@@ -1,35 +1,10 @@
 domain: 'www.willyscheibel.de'
 name: 'Willy Scheibel'
 description: 'Personal website of Willy Scheibel, a Graphics Systems Engineer and Visualization Researcher. It enlists his publications, projects, talks, teachings, and contact information.'
-vcard: '/vcard.vcf'
+vcard: 'vcard.vcf'
 emails:
   - 'willyscheibel@gmx.de'
   - 'willy.scheibel@hpi.de'
   - 'willy.scheibel@cginternals.de'
 phone: '+49 1577 412 9542'
-profiles:
-  - name: GitHub
-    href: 'https://github.com/scheibel'
-    icon: fa-github
-  - name: ResearchGate
-    href: 'https://www.researchgate.net/profile/Willy_Scheibel'
-    icon: fa-researchgate
-  - name: ORCID
-    href: 'https://orcid.org/0000-0002-7885-9857'
-    icon: fa-orcid
-  - name: Publons
-    href: 'https://publons.com/researcher/4237998/willy-scheibel/'
-    nativeCode: <span id="badgeCont200"></span>
-  - name: LinkedIn
-    href: 'https://www.linkedin.com/in/willyscheibel'
-    icon: fa-linkedin
-  - name: Google Scholar
-    href: 'https://scholar.google.com/citations?user=SBLqi_QAAAAJ&hl=en'
-    icon: fa-google-scholar
-  - name: Twitter
-    href: 'https://twitter.com/willyscheibel'
-    icon: fa-twitter
-  - name: Medium
-    href: 'https://medium.com/@willy.scheibel'
-    icon: fa-medium
 picture: 'willy-scheibel-feb-2016.png'

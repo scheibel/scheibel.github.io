@@ -98,7 +98,7 @@ const createBibliographyFromBibFilesSync = (filenames) => {
     const entries = {};
     filenames.forEach((filename) => {
         const entry = fs.readFileSync(filename, 'utf8');
-        const relativeFilename = path.relative(path.join(__dirname, 'content'), filename);
+        const relativeFilename = path.relative(path.join(__dirname, 'content', 'publications'), filename);
         const parsed_path = path.parse(relativeFilename);
         const path_elements = parsed_path.dir.split('/');
         path_elements.push(parsed_path.name);
@@ -154,22 +154,44 @@ module.exports = function (env, argv) {
 
     const entries = {};
 
-    const pugFiles = glob.sync(path.join(__dirname, 'content/', '**/*.pug'));
-
-    pugFiles.forEach((pugFile) => {
+    const addPugFilesToEntries = (pugFile) => {
         const filename = path.relative(path.join(__dirname, 'content'), pugFile);
         const key = path.join(path.dirname(filename), path.basename(filename, '.pug'));
         entries[key] = pugFile;
-    });
+    };
+
+    const addBibFilesToEntries = (bibFile) => {
+        const filename = path.relative(path.join(__dirname, 'content'), bibFile);
+        const key = path.join(path.dirname(filename), path.basename(filename));
+        entries[key] = bibFile;
+    };
+
+    entries["vcard.vcf"] = path.join(__dirname, 'content/', "vcard.vcf");
+
+    const pugFiles = glob.sync(path.join(__dirname, 'content/', '*.pug'));
+    pugFiles.forEach(addPugFilesToEntries);
+
+    const publicationsPugFiles = glob.sync(path.join(__dirname, 'content/publications/', '**/*.pug'));
+    publicationsPugFiles.forEach(addPugFilesToEntries);
+
+    const newsPugFiles = glob.sync(path.join(__dirname, 'content/news/', '**/*.pug'));
+    newsPugFiles.forEach(addPugFilesToEntries);
 
     const bibFiles = glob.sync(path.join(__dirname, 'content/publications/', '**/*.bib'));
     const newsFiles = glob.sync(path.join(__dirname, 'content/news/', '**/*.json'));
+
+    bibFiles.forEach(addBibFilesToEntries);
 
     const data = {
         context: getYAMLDictSync('context.yml'),
         academicservice: getYAMLDictSync('academicservice.yml'),
         committeework: getYAMLDictSync('committeework.yml'),
         grants: getYAMLDictSync('grants.yml'),
+        profiles: getYAMLDictSync('profiles.yml'),
+        projects: getYAMLDictSync('projects.yml'),
+        publications: getYAMLDictSync('publications.yml'),
+        teaching: getYAMLDictSync('teaching.yml'),
+        presentations: getYAMLDictSync('presentations.yml'),
         news: collectNewsSync(newsFiles),
         bibliography: createBibliographyFromBibFilesSync(bibFiles)
     };
@@ -248,7 +270,14 @@ module.exports = function (env, argv) {
                     generator: {
                         filename: 'publications/[name][ext][query]'
                     }
-                }
+                },
+                {
+                    test: /\.vcf$/,
+                    type: 'asset/resource',
+                    generator: {
+                        filename: '[name][ext][query]'
+                    }
+                },
             ],
         },
         optimization: {

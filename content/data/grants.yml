@@ -4,7 +4,7 @@ grants:
 - title: HPI Award Best Master Graduate 2014
   note: Awarded for graduation with top grades and subsequent doctoral studies at HPI.
   url:
-    title: Press Release
+    name: Press Release
     href: https://hpi.de/en/press-releases/2014/traumnote-10-fuer-17-hpi-absolventen-glueckwuensche-von-festredner-doepfner.html
   since: 2014
   until: 2014
@@ -16,7 +16,7 @@ grants:
 - title: DDSA Scholarship for the VCG '23 Workshop
   note: 2nd International Workshop on Visualization and Visual Computing, Aarhus, DK
   url:
-    title: Workshop Website
+    name: Workshop Website
     href: https://vis-au.github.io/workshops/
   since: 2023
   until: 2023

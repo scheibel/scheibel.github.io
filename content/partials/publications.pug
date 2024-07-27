@@ -1,8 +1,8 @@
 
-mixin publications_card()
+mixin publications_card(selected_keys, publications)
   .card
     .card-header
-      h3 Selected Publications 
+      h3 Selected #{publications.heading}
     .card-body
       //- content
     .card-footer.text-end

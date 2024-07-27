@@ -24,42 +24,44 @@ block variables
 
 block navbar
   include partials/navbar
+  .row.mb-4
 
 
 block footer
   include partials/footer
 
 
-block content 
-  if 1
-    +publications_card()
+block content
+
+  - var publications_filter = [];
+  if publications_filter.length > 0
+    +publications_card(publications_filter, publications)
   
-  if 0
-    +teaching_card()
+  if teaching.semesters.length > 0
+    +teaching_card(teaching)
 
   if academicservice.services.length > 0
     +academicservice_card(academicservice)
 
-  if 0
-    +committees_card()
+  if committeework.committees.length > 0
+    +committees_card(committeework)
 
-  if 0
-    +presentations_card()
+  if presentations.presentations.length > 0
+    +presentations_card(presentations)
 
-  if 0
-    +projects_card()
+  if projects.projects.length > 0
+    +projects_card(projects)
 
-  if 0
-    +scholarships_card()
+  if grants.grants.length > 0
+    +scholarships_card(grants)
   
-  if 0
-    +contact_card()
+  +contact_card(context)
 
 block sidecontent
   +introduction_card(context)
-
+  
   if news_keys.length > 0
     +news_card(news_keys, news)
 
-  if context.profiles.length > 0
-    +profiles_card(context.profiles)
+  if profiles.profiles.length > 0
+    +profiles_card(profiles)

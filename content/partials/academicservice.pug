@@ -3,7 +3,7 @@ mixin academicservice(service)
   .row
     if service.logo
       .col-8.offset-2.d-sm-none.mb-3
-        img.img-fluid.mx-auto(src="/content/images/"+service.logo, alt="Logo of "+service.institution)
+        img.img-fluid.mx-auto(src="@root/images/"+service.logo, alt="Logo of "+service.institution)
       .w-100.d-sm-none
     .col-2.offset-0.text-end
       if service.until
@@ -28,7 +28,7 @@ mixin academicservice(service)
                 | #{p}
     if service.logo
       .d-none.d-sm-block.col-sm-3
-        img.img-fluid.mx-auto(src="/content/images/"+service.logo, alt="Logo of "+service.institution)
+        img.img-fluid.mx-auto(src="@root/images/"+service.logo, alt="Logo of "+service.institution)
 
 mixin academicservices(services)
   ul.list-group.list-group-flush
@@ -39,6 +39,6 @@ mixin academicservices(services)
 mixin academicservice_card(academicservice)
   .card
     .card-header
-      h3 Academic Service
+      h3 #{academicservice.heading}
     //- .card-body
     +academicservices(academicservice.services)

@@ -1,7 +1,39 @@
 
-mixin scholarships_card()
+mixin scholarship(scholarship)
+  .row
+    if scholarship.logo
+      .col-8.offset-2.d-sm-none.mb-3
+        img.img-fluid.mx-auto(src="@root/images/"+scholarship.logo, alt="Logo of "+scholarship.institution)
+      .w-100.d-sm-none
+    .col-2.offset-0.text-end
+      if scholarship.until
+        if scholarship.since == scholarship.until
+          | in #{scholarship.until}
+        else
+            | #{scholarship.since}<wbr>–#{scholarship.until}
+      else
+        | since #{scholarship.since}
+    .col-10.col-sm-7
+      p #{scholarship.title}
+      p.text-muted #{scholarship.institution}
+      if scholarship.note
+        p.text-muted #{scholarship.note}
+      if scholarship.url && scholarship.url.href
+        a(href=scholarship.url.href) #{scholarship.url.name}
+    if scholarship.logo
+      .d-none.d-sm-block.col-sm-3
+        img.img-fluid.mx-auto(src="@root/images/"+scholarship.logo, alt="Logo of "+scholarship.institution)
+
+mixin scholarships(grants)
+  ul.list-group.list-group-flush
+    each grant in grants
+      li.list-group-item
+        +scholarship(grant)
+
+mixin scholarships_card(grants)
   .card
     .card-header
-      h3 Scholarships &amp; Grants
-    .card-body
+      h3 #{grants.heading}
+    //- .card-body
       //- content
+    +scholarships(grants.grants)
