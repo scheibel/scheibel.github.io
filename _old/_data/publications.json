@@ -821,7 +821,7 @@
         },
         { "href"  : "https://github.com/lukaswagner/vidi",
           "desc"  : "Github Project"
-        } ],
+        } ]
     },
     
     
@@ -1521,7 +1521,7 @@
         { "desc": "Publisher Record"
         },
         { "desc": "Author Version"
-        } ],
+        } ]
     },
     
     
@@ -1549,7 +1549,7 @@
         { "desc"  : "Demo"
         },
         { "desc"  : "Github Project"
-        } ],
+        } ]
     },
     
     
@@ -1576,7 +1576,7 @@
         },
         { "desc"  : "Github Project",
           "href"  : "https://github.com/hpicgs/Topic-Models-and-Dimensionality-Reduction-Sensitivity-Study"
-        } ],
+        } ]
     }
   ]
 }

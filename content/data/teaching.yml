@@ -1,3 +1,213 @@
 heading: Teaching
 short: Teaching
-semesters: []
+terms:
+- term: '2024 : Summer Term'
+  courses:
+    - course: Computer Graphics II
+      type: Lecture (B.Sc.)
+      role: Co-Lecturer
+    - course: Visual Analytics
+      type: Lecture (M.Sc.)
+      role: Guest Lecturer @ TU Graz
+  upcoming: false
+- term: '2023/24 : Winter Term'
+  courses:
+    - course: Computer Graphics I
+      type: Lecture (B.Sc.)
+      role: Co-Lecturer
+    - course: '3D Computer Graphics: Extending the Three.js Framework'
+      type: Project Seminar (B.Sc.)
+      role: Seminar Lead and Tutor
+      results: 'https://hpicgs.github.io/seminar-extending-threejs-2023/'
+  upcoming: false
+- term: '2023 : Summer Term'
+  courses:
+    - course: Computer Graphics II
+      type: Lecture (B.Sc.)
+      role: Co-Lecturer
+    - course: 'Methods & Techniques for Visual Analytics '
+      type: Project Seminar (M.Sc.)
+      role: Seminar Lead and Tutor
+  upcoming: false
+- term: '2022/23 : Winter Term'
+  courses:
+    - course: Computer Graphics I
+      type: Lecture (B.Sc.)
+      role: Co-Lecturer
+    - course: Explainable AI by Visual Analytics
+      type: Project Seminar (M.Sc.)
+      role: Tutor
+  upcoming: false
+- term: '2022 : Summer Term'
+  courses:
+    - course: Computer Graphics II
+      type: Lecture (B.Sc.)
+      role: Co-Lecturer
+    - course: Advanced Techniques for Analysis and Visualization of Software Data
+      type: Project Seminar (M.Sc.)
+      role: Seminar Lead and Tutor
+    - course: Programming Techniques II
+      type: Lecture (B.Sc.)
+      role: Co-Lecturer
+  upcoming: false
+- term: '2021/22 : Winter Term'
+  courses:
+    - course: Computer Graphics I
+      type: Lecture (B.Sc.)
+      role: Co-Lecturer
+    - course: Introduction to Data Visualization
+      type: Lecture (M.Sc.)
+      role: Tutor
+    - course: >-
+        Design and Construction of AI-based Interactive Systems with a 'Dark
+        Side of AI'
+      type: Project Seminar (B.Sc.)
+      role: Seminar Lead and Tutor
+    - course: Advanced Techniques for Visual Analytics of Highdimensional Data
+      type: Project Seminar (M.Sc.)
+      role: Tutor
+  upcoming: false
+- term: '2021 : Summer Term'
+  courses:
+    - course: Systems Engineering and Data Processing with C++
+      type: Lecture (M.Sc.)
+      role: Lecturer and Tutor
+    - course: Software Mining and Applications
+      type: Seminar (M.Sc.)
+      role: Seminar Lead and Tutor
+    - course: Visualization and Analysis of Mulitidimensional Data
+      type: Seminar (M.Sc.)
+      role: Tutor
+  upcoming: false
+- term: '2020/21 : Winter Term'
+  courses:
+    - course: Computer Graphics I
+      type: Lecture (B.Sc.)
+      role: Co-Lecturer
+    - course: Programing User Interfaces
+      type: Lecture (B.Sc.)
+      role: Co-Lecturer and Tutor
+    - course: Analysis and Visualization of Similarities of Software Systems
+      type: Project (M.Sc.)
+      role: Supervisor
+- term: '2020 : Summer Term'
+  courses:
+    - course: Computer Graphics II
+      type: Lecture (B.Sc.)
+      role: Co-Lecturer
+    - course: Analysis and Visualization of Software Data
+      type: Seminar (M.Sc.)
+      role: Seminar Lead and Tutor
+    - course: Visual Analytics on Multi-dimensional Data using Topic Maps
+      type: Project (M.Sc.)
+      role: Supervisor
+- term: '2019/20 : Winter Term'
+  courses:
+    - course: Game Programming
+      type: Seminar (B.Sc.)
+      role: Seminar Lead and Tutor
+    - course: Selected Topics in Visual Analytics
+      type: Seminar (M.Sc.)
+      role: Tutor
+    - course: Selected Topics in Data Analytics
+      type: Seminar (M.Sc.)
+      role: Tutor
+- term: '2019 : Summer Term'
+  courses:
+    - course: Fundamentals of Software Analytics
+      type: Lecture (M.Sc.)
+      role: Co-Lecturer and Tutor
+- term: '2018/19 : Winter Term'
+  courses:
+    - course: Introduction to Software Analytics
+      type: Lecture (BA/MA)
+      role: Co-Lecturer and Tutor
+    - course: Visualization Algorithms & Techniques
+      type: Seminar (M.Sc.)
+      role: Tutor
+- term: '2018 : Summer Term'
+  courses:
+    - course: Gameprogramming
+      type: Project Seminar (B.Sc.)
+      role: Seminar Lead and Tutor
+- term: '2017/18 : Winter Term'
+  courses:
+    - course: Advanced Development in C++
+      type: Project Seminar (M.Sc.)
+      role: Seminar Lead and Tutor
+- term: '2017 : Summer Term'
+  courses:
+    - course: Advanced Information Visualization
+      type: Seminar (M.Sc.)
+      role: Tutor
+- term: '2016/17 : Winter Term'
+  courses:
+    - course: Advanced Programming in C++
+      type: Lecture (M.Sc.)
+      role: Co-Lecturer and Tutor
+    - course: Methods and Techniques of Information Visualization
+      type: Seminar (M.Sc.)
+      role: Tutor
+    - course: Real-time Monitoring of Massive Filesystems
+      type: Project (M.Sc.)
+      role: Supervisor
+- term: '2016 : Summer Term'
+  courses:
+    - course: Computergraphics II
+      type: Lecture (B.Sc.)
+      role: Tutor
+    - course: Methods and Techniques of Software Visualization
+      type: Seminar (M.Sc.)
+      role: Tutor
+    - course: Massive Information Mining for Software Analytics
+      type: Project (B.Sc.)
+      role: Supervisor
+- term: '2015/16 : Winter Term'
+  courses:
+    - course: Computergraphics I
+      type: Lecture (B.Sc.)
+      role: Tutor
+    - course: Systems Engineering for Software Analytics
+      type: Seminar (M.Sc.)
+      role: Tutor
+- term: '2015 : Summer Term'
+  courses:
+    - course: Computergraphics I
+      type: Lecture (B.Sc.)
+      role: Tutor
+    - course: Visual Software Analytics
+      type: Seminar (M.Sc.)
+      role: Tutor
+    - course: Programming of Computer Graphics Techniques using C++ and OpenGL
+      type: Seminar (B.Sc.)
+      role: Tutor and Co-Lecturer
+    - course: Software Analytics
+      type: Project (B.Sc.)
+      role: Supervisor
+- term: '2014/15 : Winter Term'
+  courses:
+    - course: Computergraphics II
+      type: Lecture (B.Sc.)
+      role: Tutor
+    - course: Visualization for Interactive Software Analytics
+      type: Seminar (M.Sc.)
+      role: Tutor
+    - course: Automated Visual Software Analytics
+      type: OpenHPI Course
+      role: Tutor
+    - course: Software Analytics
+      type: Project (B.Sc.)
+      role: Supervisor
+- term: '2014 : Summer Term'
+  courses:
+    - course: Information Visualization
+      type: Seminar (M.Sc.)
+      role: Co-Tutor
+    - course: Graphics Programming using OpenGL and C++
+      type: Seminar (B.Sc.)
+      role: Co-Tutor and Co-Lecturer
+- term: '2013/14 : Winter Term'
+  courses:
+    - course: Software Analysis and Visualization
+      type: Seminar (M.Sc.)
+      role: Co-Tutor

@@ -37,7 +37,7 @@ block content
   if publications_filter.length > 0
     +publications_card(publications_filter, publications)
   
-  if teaching.semesters.length > 0
+  if teaching.terms.length > 0
     +teaching_card(teaching)
 
   if academicservice.services.length > 0
@@ -46,7 +46,7 @@ block content
   if committeework.committees.length > 0
     +committees_card(committeework)
 
-  if presentations.presentations.length > 0
+  if presentations.talks.length > 0
     +presentations_card(presentations)
 
   if projects.projects.length > 0
