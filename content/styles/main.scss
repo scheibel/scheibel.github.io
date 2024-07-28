@@ -62,6 +62,16 @@ $fa-font-path: 'thirdparty/fontawesome-free-6.6.0-web/webfonts';
 @import "thirdparty/fontawesome-free-6.6.0-web/scss/fontawesome.scss";
 @import "thirdparty/fontawesome-free-6.6.0-web/scss/brands.scss";
 
+// $used-icons: (
+//   github: $fa-var-github,
+// );
+
+// @each $name, $content in $used-icons {
+//   .#{$fa-css-prefix}-#{$name}:before {
+//     content: fa-content($content);
+//   }
+// }
+
 // common
 
 p {

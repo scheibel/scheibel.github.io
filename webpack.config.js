@@ -216,9 +216,10 @@ module.exports = function (env, argv) {
         entry: entries,
         plugins: [
             new PugPlugin(),
-            new FontminPlugin({
-                glyphs: chars()
-            }),
+            // No FontminPlugin because of Fontawesome
+            // new FontminPlugin({
+            //     autodetect: true,
+            // }),
             new CompressionPlugin({
                 minRatio: 0.9
             }),
