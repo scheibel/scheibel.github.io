@@ -8,6 +8,7 @@ const PugPlugin = require('pug-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const FontminPlugin = require('fontmin-webpack');
+const CopyPlugin = require("copy-webpack-plugin");
 
 const Bibliography = require('bibliography');
 const StringValue = require('bibliography/internal/bibtex/field_value/StringValue').default;
@@ -221,6 +222,14 @@ module.exports = function (env, argv) {
             new CompressionPlugin({
                 minRatio: 0.9
             }),
+            new CopyPlugin({
+                patterns: [
+                    {
+                      from: path.join(__dirname, 'content/', "CNAME"),
+                      to: ".",
+                    }
+                ],
+            })
         ],
         resolve: {
             alias: {
