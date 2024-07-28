@@ -59,7 +59,7 @@ mixin projects(projects)
 mixin projects_card(projects)
   - var selected_projects = projects.projects.filter((project) => project.priority >= 4)
   .card
-    h3.card-header #{projects.heading}
+    h4.card-header #{projects.heading}
     //- .card-body
       //- content
     +projects(selected_projects)

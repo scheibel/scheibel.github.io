@@ -38,6 +38,6 @@ mixin academicservices(services)
 
 mixin academicservice_card(academicservice)
   .card
-    h3.card-header #{academicservice.heading}
+    h4.card-header #{academicservice.heading}
     //- .card-body
     +academicservices(academicservice.services)

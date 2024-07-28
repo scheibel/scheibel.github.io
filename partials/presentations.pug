@@ -27,7 +27,7 @@ mixin presentations(talks)
 
 mixin presentations_card(presentations)
   .card
-    h3.card-header #{presentations.heading}
+    h4.card-header #{presentations.heading}
     //- .card-body
     +presentations(presentations.talks)
   

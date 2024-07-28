@@ -75,7 +75,7 @@ mixin publications(publications)
 
 mixin publications_card(selected_publications, publications)
   .card
-    h3.card-header Selected #{publications.heading}
+    h4.card-header Selected #{publications.heading}
     //-.card-body
     +publications(selected_publications.reverse())
     .card-footer.text-end
