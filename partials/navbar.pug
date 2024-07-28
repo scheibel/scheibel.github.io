@@ -22,7 +22,7 @@ block PrimaryNavigation
         span.navbar-toggler-icon
       .collapse.navbar-collapse#navbarSupportedContent
         .navbar-nav
-          each page,i in NavItemsLeft
+          each page in NavItemsLeft
             if page.disabled
               a.nav-link.disabled= page.title
             else
@@ -34,7 +34,7 @@ block PrimaryNavigation
                   = page.title
       .d-flex
         .navbar-nav
-          each page,i in NavItemsRight
+          each page in NavItemsRight
             if page.disabled
               a.nav-link.disabled= page.title
             else

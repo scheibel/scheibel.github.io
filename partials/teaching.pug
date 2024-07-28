@@ -23,4 +23,7 @@ mixin teaching_card(teaching)
       +terms(teaching.terms)
     .card-footer.text-end
       - var nav_item = NavItems.find((element, index, array) => { return element.key === 'teaching' });
-      a(href=nav_item.url) View All
+      if nav_item.disabled
+        a.text-muted View All
+      else
+        a(href=nav_item.url) View All

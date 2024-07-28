@@ -35,4 +35,4 @@ mixin scholarships_card(grants)
     h3.card-header #{grants.heading}
     //- .card-body
       //- content
-    +scholarships(grants.grants)
+    +scholarships(grants.grants.reverse())

@@ -80,4 +80,7 @@ mixin publications_card(selected_publications, publications)
     +publications(selected_publications.reverse())
     .card-footer.text-end
       - var nav_item = NavItems.find((element, index, array) => { return element.key === 'publications' });
-      a(href=nav_item.url) View All
+      if nav_item.disabled
+        a.text-muted View All
+      else
+        a(href=nav_item.url) View All

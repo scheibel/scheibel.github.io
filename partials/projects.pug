@@ -1,10 +1,71 @@
+//- <div class="row project">
+//-   <div class="col-12 offset-0 col-sm-3 offset-sm-0">
+//-     {% assign thumbnail_src = p.thumbnail %}
+//-     {% assign thumbnail_alt = p.title %}
+//-     {% assign thumbnail_flickr = p.flickr %}
+//-     {% if p.thumbnail %}{% include thumbnail.html %}{% endif %}
+//-   </div>
+//-   <div class="col-5 offset-0 col-sm-3">
+//-     <h4>{{ p.title | escape }}</h4>
+//-     {% if p.role or p.type or p.homepage or p.sourcecode %}<p>
+//-       {% if p.role %}{{ site.data.projects.role[page.lang] }}: {{ p.role }}{% endif %}
+//-       {% if p.role and p.type %}<br />{% endif %}
+//-       {% if p.type %}{{ site.data.projects.type[page.lang] }}: {{ p.type }}{% endif %}
+//-       {% if (p.role or p.type) and (p.homepage or p.sourcecode) %}<br />{% endif %}
+//-       {% if p.homepage %}<a href="{{ p.homepage }}">{{ site.data.projects.homepage[page.lang] }}</a>{% endif %}
+//-       {% if p.homepage and p.sourcecode %}, {% endif %}
+//-       {% if p.sourcecode %}<a href="{{ p.sourcecode }}">{{ site.data.projects.sourcecode[page.lang] }}</a>{% endif %}
+//-     </p>{% endif %}
+//-   </div>
+//-   <div class="col-7 offset-0 col-sm-6">
+//-     <p>
+//-       {{ p.caption.[page.lang] }}
+//-     </p>
+//-   </div>
+//- </div>
+
+mixin project(project)
+  .row 
+    .col-12.offset-0.col-sm-3.offset-sm-0
+      if project.thumbnail
+        .thumbnail.mt-1
+          img.img-fluid.center-block(src="images/"+project.thumbnail, alt="Thumbnail of "+project.title)
+    .col-5.offset-0.col-sm-3
+      h4 #{project.title}
+      if project.role || project.type || project.homepage || project.sourcecode
+        p
+          if project.role
+            | Role: #{project.role}
+            br
+          if project.type
+            | Type: #{project.type}
+            br
+          if project.homepage
+            a(href=project.homepage) Homepage
+          if project.sourcecode
+            if project.homepage
+              | ,
+              |
+            a(href=project.sourcecode) Source Code
+    .col-7.offset-0.col-sm-6
+      p #{project.caption}
+
+mixin projects(projects)
+  ul.list-group.list-group-flush
+    each project in projects
+      li.list-group-item
+        +project(project)
 
 mixin projects_card(projects)
+  - var selected_projects = projects.projects.filter((project) => project.priority >= 4)
   .card
     h3.card-header #{projects.heading}
-    .card-body
+    //- .card-body
       //- content
+    +projects(selected_projects)
     .card-footer.text-end
       - var nav_item = NavItems.find((element, index, array) => { return element.key === 'projects' });
-      a(href=nav_item.url) View All
-  
+      if nav_item.disabled
+        a.text-muted View All
+      else
+        a(href=nav_item.url) View All
