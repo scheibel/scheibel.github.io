@@ -255,7 +255,7 @@ module.exports = function (env, argv) {
                     test: /\.(eot|otf|ttf|woff|woff2)$/,
                     type: 'asset/resource',
                     generator: {
-                        filename: 'fonts/[name][ext][query]'
+                        filename: '[name][ext][query]'
                     }
                 },
                 {
