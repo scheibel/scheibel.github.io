@@ -13,13 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Initialize Node.js environment
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
       - name: Check out code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: src
       - name: Check out deploy branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: deploy
           path: deploy
