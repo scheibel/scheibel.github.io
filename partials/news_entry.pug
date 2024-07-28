@@ -6,7 +6,7 @@ mixin news_entry(key, entry)
     p
       | #{entry.abstract}
     if (entry.hasOwnProperty("detailpage") && entry.detailpage) || entry.url
-    ul.list-inline.text-end
-      li.list-inline-item
-        a(href="/news/"+(entry.url?entry.url:key)+".html")
-          | Full Article
+      ul.list-inline.text-end
+        li.list-inline-item.ms-4
+          a(href="/news/"+(entry.url?entry.url:key)+".html")
+            | Full Article

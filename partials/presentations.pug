@@ -12,7 +12,7 @@ mixin presentation(talk)
         p
           ul.list-inline.text-end
             each download in talk.downloads
-              li.list-inline-item
+              li.list-inline-item.ms-4
                 if download.href
                   a(href=download.href)
                     | #{download.desc}

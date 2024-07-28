@@ -36,15 +36,15 @@ mixin publication(publication)
       br
       ul.list-inline
         if publication.bibtex && publication.bibentry
-          li.list-inline-item
+          li.list-inline-item.me-4
             a(data-bs-toggle="collapse", href="#bibtex-"+publication.key, role="button", aria-expanded="false", aria-controls="bibtex-"+publication.key) BibTeX
         else 
-          li.list-inline-item BibTeX Pending
+          li.list-inline-item.me-4 BibTeX Pending
         if publication.caption
-          li.list-inline-item
+          li.list-inline-item.me-4
             a(data-bs-toggle="collapse", href="#abstract-"+publication.key, role="button", aria-expanded="false", aria-controls="abstract-"+publication.key) Abstract
         if publication.doi
-          li.list-inline-item
+          li.list-inline-item.me-4
             a(href="https://doi.org/"+publication.doi)
               span.text-sc &nbsp;doi:
               | #{publication.doi}
@@ -57,13 +57,13 @@ mixin publication(publication)
   ul.list-inline.text-end
     if publication.downloads
       each download in publication.downloads
-        li.list-inline-item
+        li.list-inline-item.ms-4
           if download.href
             a(href=download.href)
               | #{download.desc}
           else
             span.text-muted #{download.desc}
-    li.list-inline-item
+    li.list-inline-item.ms-4
       a(href="/publications/"+publication.bibtex.replace(".bib", ".html"))
         | Details
 

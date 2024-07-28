@@ -10,13 +10,13 @@ mixin bibliography_citation(key, content)
   
   ul.list-inline.text-end
     if content.parsedContent.doi
-      li.list-inline-item
+      li.list-inline-item.ms-4
         a(href="https://doi.org/"+content.parsedContent.doi)
           | DOI
     if content.parsedContent.url
-      li.list-inline-item
+      li.list-inline-item.ms-4
         a(href=content.parsedContent.url)
           | Download
-    li.list-inline-item
+    li.list-inline-item.ms-4
       a(href="/publications/"+key+".html")
         | Details

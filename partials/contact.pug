@@ -9,7 +9,7 @@ mixin contact_card(context)
             span Email
           .col-10
             ul.list-inline.mb-0
-              li.list-inline-item
+              li.list-inline-item.me-4
                   a(href="mailto:"+context.emails.at(0)) #{context.emails.at(0)}
       if context.emails.length > 1
         .row 
@@ -18,7 +18,7 @@ mixin contact_card(context)
           .col-10
             ul.list-inline.mb-0
               each email in context.emails.slice(1) 
-                li.list-inline-item
+                li.list-inline-item.me-4
                   a(href="mailto:"+email) #{email}
       if context.phone
         .row 
