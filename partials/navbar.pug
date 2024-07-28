@@ -14,13 +14,12 @@ block PrimaryNavigation
     ];
     var NavItems = NavItemsLeft.concat(NavItemsRight);
 
-.container
-  nav.navbar.navbar-expand-lg
-    .container-fluid
+  .container
+    nav.navbar.navbar-expand-lg
       a.navbar-brand(href="/") #{context.name}
-      button.navbar-toggler(type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+      button.navbar-toggler(type="button" data-bs-toggle="collapse" data-bs-target=".collapsing-navbar" aria-controls="collapsing-navbar" aria-expanded="false" aria-label="Toggle navigation")
         span.navbar-toggler-icon
-      .collapse.navbar-collapse#navbarSupportedContent
+      .collapse.navbar-collapse.collapsing-navbar
         .navbar-nav
           each page in NavItemsLeft
             if page.disabled
@@ -32,8 +31,7 @@ block PrimaryNavigation
               else
                 a.nav-link(href=page.url)
                   = page.title
-      .d-flex
-        .navbar-nav
+        .navbar-nav.ms-auto
           each page in NavItemsRight
             if page.disabled
               a.nav-link.disabled= page.title
