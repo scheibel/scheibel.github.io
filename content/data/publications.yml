@@ -2329,6 +2329,7 @@ publications:
   downloads:
     - desc: Publisher Record
     - desc: Preprint
+      href: https://doi.org/10.48550/arXiv.2407.17876
     - desc: Slides
     - desc: Github Project
       href: >-
