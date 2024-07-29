@@ -1,0 +1,12 @@
+
+mixin introduction_card(info)
+  .card 
+    .figure.mx-auto
+      img.figure-img.img-fluid.rounded(src="@root/images/"+info.picture, alt="portrait")
+    .card-body 
+      p.lead Hi, I'm #{info.name}, a Graphics Systems Engineer and Visualization Researcher.
+      p
+        | I'm designing, developing, implementing, and maintaining interactive computer graphics techniques and systems.
+        | As a PhD student in the #[a(href="http://www.hpi3d.de/") Computer Graphics Systems group] at the #[a(href="https://www.hpi.de/") Hasso Plattner Institute],
+        | I study, teach, supervise, and publish in the fields of massive, multivariate data visualization, as well as programming and computer graphics fundamentals.
+        //- | As a co-founder of CG Internals, I offer graphics engineering related products, services, and solutions to the industry.

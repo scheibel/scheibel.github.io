@@ -1,0 +1,18 @@
+
+include /partials/news_entry.pug
+
+mixin latest_news(news_keys, news_entries)
+  ul.list-group.list-group-flush
+    each news_key in news_keys
+      +news_entry(news_key, news_entries[news_key])
+    //- li.list-group-item
+    //-   span.text-muted [content deliberately omitted]
+
+mixin news_card(news_keys, news_entries)
+  .card  
+    h5.card-header News
+    //- .card-body 
+    +latest_news(news_keys, news_entries)
+    .card-footer.text-end
+      - var nav_item = NavItems.find((element, index, array) => { return element.key === 'news' });
+      a(href=nav_item.url) View All

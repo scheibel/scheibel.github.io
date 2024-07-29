@@ -1,0 +1,43 @@
+
+mixin committee(committee)
+  .row
+    if committee.logo
+      .col-8.offset-2.d-sm-none.mb-3
+        img.img-fluid.mx-auto(src="@root/images/"+committee.logo, alt="Logo of "+committee.institution)
+      .w-100.d-sm-none
+    .col-2.offset-0.text-end
+      if committee.until
+        if committee.since == committee.until
+          | in #{committee.until}
+        else
+            | #{committee.since}<wbr>–#{committee.until}
+      else
+        | since #{committee.since}
+    .col-10.col-sm-7
+      p #{committee.title}
+        if committee.role
+          span.text-muted , #{committee.role}
+      p.text-muted #{committee.institution}
+      if committee.projects && committee.projects.length > 0
+        ul.list-unstyled
+          each p in committee.projects
+            li
+              if p.url
+                a(href=p.url) #{p.name}
+              else
+                | #{p}
+    if committee.logo
+      .d-none.d-sm-block.col-sm-3
+        img.img-fluid.mx-auto(src="@root/images/"+committee.logo, alt="Logo of "+committee.institution)
+
+mixin committees(committees)
+  ul.list-group.list-group-flush
+    each committee in committees
+      li.list-group-item
+        +committee(committee)
+
+mixin committees_card(committeework)
+  .card
+    h4.card-header #{committeework.heading}
+    //- .card-body
+    +committees(committeework.committees)

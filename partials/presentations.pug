@@ -1,0 +1,33 @@
+
+mixin presentation(talk)
+  - var date = new Date(Date.parse(talk.date)).toLocaleDateString()
+  .row(class=talk.upcoming ? "text-muted": "")
+    .col-3.offset-0.col-md-2.text-end #{date}
+    .col-9.col-md-10
+      p 
+        | #{talk.title}
+        <br>
+        span.text-muted #{talk.location}
+      if talk.downloads
+        p
+          ul.list-inline.text-end
+            each download in talk.downloads
+              li.list-inline-item.ms-4
+                if download.href
+                  a(href=download.href)
+                    | #{download.desc}
+                else
+                  span.text-muted #{download.desc}
+
+mixin presentations(talks)
+  ul.list-group.list-group-flush
+    each talk in talks.reverse()
+      li.list-group-item
+        +presentation(talk)
+
+mixin presentations_card(presentations)
+  .card
+    h4.card-header #{presentations.heading}
+    //- .card-body
+    +presentations(presentations.talks)
+  

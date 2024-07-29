@@ -1,0 +1,17 @@
+
+mixin profiles(profiles)
+  ul.list-inline.mb-0
+    each profile in profiles
+      li.list-inline-item.me-4
+        a(href=profile.href)
+          if profile.nativeCode
+            | !{profile.nativeCode}
+          else if profile.icon 
+            i.fa-brands(class=profile.icon) 
+          | &nbsp;#{profile.name}
+
+mixin profiles_card(profiles)
+  .card 
+    h5.card-header #{profiles.heading}
+    .card-body 
+      +profiles(profiles.profiles)

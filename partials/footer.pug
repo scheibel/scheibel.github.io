@@ -1,0 +1,12 @@
+
+footer
+  - const today = new Date();
+  .container
+    .row.text-center
+      .col-12
+        p.mt-5.mb-1
+          | &copy; 2016&thinsp;&ndash;&thinsp;#{today.getFullYear()}
+          | #{context.name}
+        p
+          | This website is hosted on #[a(href="https://pages.github.com/") GitHub Pages] for free.
+          | #[a(href="https://help.github.com/articles/github-privacy-statement/") Data privacy statement].

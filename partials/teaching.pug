@@ -1,0 +1,29 @@
+
+mixin term(term, index)
+  .col-8.offset-2.text-center.col-md-6.offset-md-0(class=(term.upcoming?' text-muted' : '')+((index%2)==0 ? 'text-md-end': 'text-md-start'))
+    h4 #{term.term}
+    each course in term.courses 
+      p 
+        | #{course.course}
+        br
+        span.text-muted #{course.type}, #{course.role}
+        if course.results
+          br
+          a(href=course.results) Results
+
+mixin terms(terms)
+  .row
+    each term, i in terms 
+      +term(term, i)
+
+mixin teaching_card(teaching)
+  .card
+    h4.card-header #{teaching.heading}
+    .card-body
+      +terms(teaching.terms)
+    .card-footer.text-end
+      - var nav_item = NavItems.find((element, index, array) => { return element.key === 'teaching' });
+      if nav_item.disabled
+        a.text-muted View All
+      else
+        a(href=nav_item.url) View All

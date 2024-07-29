@@ -1,0 +1,53 @@
+heading: Committee Work
+short: Committees
+committees:
+- title: Institute Council
+  institution: Hasso Plattner Institute
+  role: Voting Member
+  since: 2024
+  logo: logos/hpi_logo.jpg
+- title: Faculty Council
+  institution: Digital Engineering Faculty (Hasso Plattner Institute and University of Potsdam)
+  role: Voting Member
+  since: 2017
+  logo: logos/def_logo.png
+- title: Study Commission
+  institution: Digital Engineering Faculty (Hasso Plattner Institute and University of Potsdam)
+  role: Voting Member
+  since: 2017
+  logo: logos/def_logo.png
+  projects:
+  - name: IT-Systems Engineering (Bachelor's Program)
+    url: https://hpi.de/en/studies/before-the-study/degree-programs/bachelor.html
+  - name: IT-Systems Engineering (Master's Program)
+    url: https://hpi.de/en/studies/before-the-study/degree-programs/master/it-systems-engineering.html
+  - name: Data Engineering (Master's Program)
+    url: https://hpi.de/en/studies/before-the-study/degree-programs/master/data-engineering.html
+  - name: Digital Health (Master's Program)
+    url: https://hpi.de/en/studies/before-the-study/degree-programs/master/master-digital-health.html
+  - name: Cybersecurity (Master's Program)
+    url: https://hpi.de/en/studies/before-the-study/degree-programs/master/cybersecurity.html
+  - name: Software Systems Engineering (Master's Program)
+    url: https://hpi.de/en/studies/before-your-studies/degree-programs/master/software-systems-engineering.html
+  - Computer Science (Multi-Track Master's Program)
+  - Study Program Reaccreditation (B.Sc. ITSE, M.Sc. ITSE)
+- title:  Working Group for the Principles in Teaching
+  institution: University of Potsdam
+  role: Voting Member
+  since: 2018
+  until: 2019
+  logo: logos/up_logo.jpg
+  projects:
+  - name: Mission Statement for Teaching and Learning
+    url: https://www.uni-potsdam.de/en/zfq/ueber-das-zfq/mission-statement-for-teaching-and-learning-at-the-university-of-potsdam
+- title: Founding Committee
+  institution: Digital Engineering Faculty, designated (Hasso Plattner Institute and University of Potsdam)
+  role: Voting Member
+  since: 2017
+  until: 2017
+  logo: logos/hpi_logo.jpg
+- title: School Conference
+  institution: Zweite Neue Grundschule Ludwigsfelde
+  role: Chairman
+  since: 2021
+  logo: logos/2ngs_logo.jpg

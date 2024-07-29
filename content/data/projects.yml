@@ -1,0 +1,286 @@
+heading: Projects
+short: Projects
+projects:
+- title: glbinding
+  date: '2014-05-02'
+  status: ongoing
+  thumbnail: projects/glbinding-logo.png
+  role: Maintainer
+  type: OpenGL Library
+  priority: 5
+  caption: >-
+    A C++ binding for the OpenGL API, generated using the gl.xml
+    specification.
+  homepage: 'https://glbinding.org'
+  sourcecode: 'https://github.com/cginternals/glbinding'
+  downloads: []
+- title: globjects
+  date: '2013-05-07'
+  status: ongoing
+  thumbnail: projects/globjects-logo.png
+  role: Maintainer
+  type: OpenGL Library
+  priority: 5
+  caption: >-
+    A cross-platform C++ wrapper for OpenGL API objects.
+  homepage: 'https://globjects.org'
+  sourcecode: 'https://github.com/cginternals/globjects'
+  downloads: []
+- title: cmake-init
+  date: '2015-01-01'
+  status: ongoing
+  role: Maintainer
+  priority: 5
+  type: Project Template
+  thumbnail: projects/cmake-init-logo.png
+  caption: >-
+    Template for reliable, cross-platform C++ project setup using cmake.
+  homepage: 'https://cmake-init.org'
+  sourcecode: 'https://github.com/cginternals/cmake-init'
+  downloads: []
+- title: cpplocate
+  date: '2015-01-01'
+  status: ongoing
+  role: Maintainer
+  type: Utility Library
+  priority: 4
+  thumbnail: projects/cpplocate-logo.png
+  caption: >-
+    Cross-platform C++ library providing tools for applications to locate
+    themselves, their data assets as well as dependent modules.
+  homepage: 'https://cpplocate.org'
+  sourcecode: 'https://github.com/cginternals/cpplocate'
+  downloads: []
+- title: cppassist
+  date: '2015-01-01'
+  status: paused
+  role: Maintainer
+  type: Utility Library
+  priority: 4
+  thumbnail: projects/cppassist-logo.png
+  caption: >-
+    C++ sanctuary for small but powerful and frequently required, stand
+    alone features.
+  homepage: 'https://cppassist.org'
+  sourcecode: 'https://github.com/cginternals/cppassist'
+  downloads: []
+- title: cppexpose
+  date: '2015-01-01'
+  status: paused
+  role: Maintainer
+  type: Utility Library
+  priority: 4
+  thumbnail: projects/cppexpose-logo.png
+  caption: C++ library for type introspection, reflection, and scripting interface.
+  homepage: 'https://cppexpose.org'
+  sourcecode: 'https://github.com/cginternals/cppexpose'
+  downloads: []
+- title: cppfs
+  date: '2015-01-01'
+  status: ongoing
+  role: Contributor
+  type: Utility Library
+  priority: 3
+  thumbnail: projects/cppfs-logo.png
+  caption: Cross-platform C++ file system library supporting multiple backends.
+  homepage: 'https://cppfilesystem.org'
+  sourcecode: 'https://github.com/cginternals/cppfs'
+  downloads: []
+- title: gloperate
+  date: '2015-01-01'
+  status: paused
+  role: Maintainer
+  type: OpenGL Framework
+  priority: 3
+  thumbnail: projects/gloperate-logo.png
+  caption: >-
+    C++ library for defining and controlling modern GPU rendering/processing
+    operations.
+  sourcecode: 'https://github.com/cginternals/gloperate'
+  downloads: []
+- title: webgl-operate
+  date: '2015-01-01'
+  status: ongoing
+  type: WebGL Framework
+  priority: 2
+  role: Contributor
+  thumbnail: projects/webgl-operate-logo.png
+  caption: A TypeScript based WebGL rendering framework.
+  homepage: 'https://webgl-operate.org'
+  sourcecode: 'https://github.com/cginternals/webgl-operate'
+  downloads: []
+- title: qmltoolbox
+  date: '2015-01-01'
+  status: ongoing
+  type: Utility Library
+  priority: 2
+  role: Contributor
+  caption: QML item library for cross-platform graphics applications.
+  sourcecode: 'https://github.com/cginternals/qmltoolbox'
+  downloads: []
+- title: openll
+  date: '2015-01-01'
+  status: ongoing
+  priority: 4
+  role: Maintainer
+  type: Research Project
+  caption: >-
+    Open Label Library – API specification and reference implementations for
+    glyph rendering in 2D and 3D graphics environments.
+  homepage: 'https://openll.org'
+  sourcecode: 'https://github.com/cginternals/openll-cpp'
+  downloads:
+    - desc: API Draft
+      href: 'https://github.com/scheibel/openll-api'
+- title: HiViSer
+  date: '2015-01-01'
+  status: ongoing
+  priority: 4
+  role: Maintainer
+  type: Research Project
+  caption: >-
+    A Web API specification for the management and provisioning of
+    tree-structured data and their visualization using information
+    visualization techniques.
+  homepage: 'https://hiviser.varg.dev'
+  downloads: []
+- title: glesbinding
+  date: '2015-01-01'
+  status: ongoing
+  priority: 3
+  role: Maintainer
+  type: OpenGL ES Library
+  caption: >-
+    A C++ binding for the OpenGL ES API, generated using the gl.xml
+    specification.
+  homepage: 'https://globjects.org'
+  sourcecode: 'https://github.com/cginternals/glesbinding'
+  downloads: []
+- title: glscbinding
+  date: '2015-01-01'
+  status: ongoing
+  priority: 3
+  role: Maintainer
+  type: OpenGL SC Library
+  caption: >-
+    A C++ binding for the OpenGL SC API, generated using the gl.xml
+    specification.
+  sourcecode: 'https://github.com/cginternals/glscbinding'
+  downloads: []
+- title: eglbinding
+  date: '2015-01-01'
+  status: ongoing
+  type: EGL Library
+  priority: 3
+  role: Maintainer
+  caption: >-
+    A C++ binding for the EGL API, generated using the egl.xml
+    specification.
+  sourcecode: 'https://github.com/cginternals/eglbinding'
+  downloads: []
+- title: khrbinding-generator
+  date: '2015-01-01'
+  status: ongoing
+  type: Utility Tools
+  priority: 3
+  role: Maintainer
+  caption: >-
+    A Python generator for the Khronos APIs OpenGL, OpenGL ES, OpenGL SC,
+    and EGL.
+  sourcecode: 'https://github.com/cginternals/khrbinding-generator'
+  downloads: []
+- title: Unified Memory Demo
+  date: '2015-01-01'
+  status: ongoing
+  priority: 4
+  role: Maintainer
+  type: Demo
+  thumbnail: projects/unifiedmemory-logo.png
+  caption: Unified Memory Heterogenous Computing Showcase.
+  sourcecode: 'https://github.com/cginternals/unifiedmemory-demo'
+  downloads: []
+- title: Attributed Vertex Clouds Demo
+  date: '2015-01-01'
+  status: ongoing
+  type: Demo
+  priority: 4
+  role: Maintainer
+  thumbnail: projects/attributedvertexclouds-logo.jpg
+  caption: >-
+    Demo to the Article "Attributed Vertex Clouds" from GPU Zen: Advanced
+    Rendering Techniques
+  sourcecode: 'https://github.com/scheibel/attributedvertexclouds'
+  downloads: []
+- title: glkernel
+  date: '2015-01-01'
+  status: ongoing
+  type: Math Library
+  priority: 4
+  role: Maintainer
+  thumbnail: projects/glkernel-logo.png
+  caption: C++ library for pre-computing noise, and random sample kernels.
+  sourcecode: 'https://github.com/cginternals/glkernel'
+  downloads: []
+- title: Tasteful Server
+  date: '2015-01-01'
+  status: ongoing
+  type: Web Framework
+  priority: 1
+  role: Maintainer
+  caption: A multithreaded web server written in C++ (using Qt)
+  sourcecode: 'https://github.com/scheibel/tastefulserver'
+  downloads: []
+- title: Tasteful Framework
+  date: '2015-01-01'
+  status: ongoing
+  type: Web Framework
+  priority: 1
+  role: Maintainer
+  caption: >-
+    A framework to create web application servers written in C++ based on
+    the Tasteful Server.
+  sourcecode: 'https://github.com/scheibel/tasteful-framework'
+  downloads: []
+- title: glm
+  date: '2015-01-01'
+  status: ongoing
+  priority: 1
+  role: One-time Contributor
+  type: Math Library
+  thumbnail: projects/glm-logo.png
+  caption: C++ library for OpenGL Mathematics.
+  homepage: 'https://glm.g-truc.net/'
+  sourcecode: 'https://github.com/g-truc/glm'
+  downloads: []
+- title: Widelands
+  date: '2015-01-01'
+  status: ongoing
+  priority: 1
+  type: Video Game
+  role: One-time Contributor
+  caption: >-
+    A free, Settlers II inspired, open source real-time strategy game with
+    singleplayer campaigns and a multiplayer mode.
+  homepage: 'https://www.widelands.org/'
+  downloads: []
+- title: CG Internals PPA
+  date: '2015-01-01'
+  status: ongoing
+  priority: 3
+  type: Binary Package Archive
+  role: Maintainer
+  caption: The Ubuntu Package Archive for the Open Source software of CG Internals.
+  homepage: 'https://launchpad.net/~cginternals/+archive/ubuntu/ppa'
+  downloads:
+    - desc: Backports PPA
+      href: 'https://launchpad.net/~cginternals/+archive/ubuntu/backports-ppa'
+- title: HPI Schul-Cloud
+  date: '2019-07-01'
+  status: ongoing
+  thumbnail: projects/schulcloud-logo.png
+  priority: 3
+  type: Service
+  role: Contributor
+  caption: HPI Schul-Cloud Core Server.
+  sourcecode: 'https://github.com/schul-cloud/schulcloud-server'
+  downloads: []

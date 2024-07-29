@@ -1,0 +1,34 @@
+
+mixin contact_card(context)
+  .card
+    h4.card-header Contact
+    .card-body
+      if context.emails.length > 0
+        .row 
+          .col-2.text-end
+            span Email
+          .col-10
+            ul.list-inline.mb-0
+              li.list-inline-item.me-4
+                  a(href="mailto:"+context.emails.at(0)) #{context.emails.at(0)}
+      if context.emails.length > 1
+        .row 
+          .col-2.text-end
+            span Alernatives
+          .col-10
+            ul.list-inline.mb-0
+              each email in context.emails.slice(1) 
+                li.list-inline-item.me-4
+                  a(href="mailto:"+email) #{email}
+      if context.phone
+        .row 
+          .col-2.text-end
+            span Phone
+          .col-10
+            span !{context.phone.replaceAll(' ', '&thinsp;')}
+      if context.vcard
+        .row 
+          .col-2.text-end
+            span vCard
+          .col-10
+            a(href="/"+context.vcard) Download

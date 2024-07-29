@@ -1,0 +1,44 @@
+block PrimaryNavigation
+  -
+    var NavItemsLeft = [
+      { 'url':'/publications.html', 'title': 'All '+publications.short, 'key':'publications' },
+      { 'disabled': true, 'url':'/teaching.html', 'title':teaching.short, 'key':'teaching' },
+      { 'disabled': true, 'url':'/projects.html', 'title':projects.short, 'key':'projects' },
+      { 'disabled': true, 'url':'/news.html', 'title':'News', 'key':'news' },
+    ];
+    var NavItemsRight = [
+      { 'disabled': true, 'url':'https://www.hpi.de','title':'HPI','key':'hpi'},
+      { 'disabled': true, 'url':'http://www.hpi3d.de','title':'CGS','key':'cgs'},
+      { 'disabled': true, 'url':'https://www.varg.dev','title':'VARG','key':'varg'},
+      { 'disabled': true, 'url':'https://www.scheibel.dev','title':'Open Source','key':'open-source'},
+    ];
+    var NavItems = NavItemsLeft.concat(NavItemsRight);
+
+  .container
+    nav.navbar.navbar-expand-lg
+      a.navbar-brand(href="/") #{context.name}
+      button.navbar-toggler(type="button" data-bs-toggle="collapse" data-bs-target=".collapsing-navbar" aria-controls="collapsing-navbar" aria-expanded="false" aria-label="Toggle navigation")
+        span.navbar-toggler-icon
+      .collapse.navbar-collapse.collapsing-navbar
+        .navbar-nav
+          each page in NavItemsLeft
+            if page.disabled
+              a.nav-link.disabled= page.title
+            else
+              if PageID === page.key
+                a.nav-link(class="active", href=page.url)
+                  = page.title
+              else
+                a.nav-link(href=page.url)
+                  = page.title
+        .navbar-nav.ms-auto
+          each page in NavItemsRight
+            if page.disabled
+              a.nav-link.disabled= page.title
+            else
+              if PageID === page.key
+                a.nav-link(class="active", href=page.url)
+                  = page.title
+              else
+                a.nav-link(href=page.url)
+                  = page.title

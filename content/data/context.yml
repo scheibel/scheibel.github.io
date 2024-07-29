@@ -1,0 +1,10 @@
+domain: 'www.willyscheibel.de'
+name: 'Willy Scheibel'
+description: 'Personal website of Willy Scheibel, a Graphics Systems Engineer and Visualization Researcher. It enlists his publications, projects, talks, teachings, and contact information.'
+vcard: 'vcard.vcf'
+emails:
+  - 'willyscheibel@gmx.de'
+  - 'willy.scheibel@hpi.de'
+  - 'willy.scheibel@cginternals.de'
+phone: '+49 1577 412 9542'
+picture: 'willy-scheibel-feb-2016.png'

@@ -1,0 +1,63 @@
+extends /template/defaultcontent.pug
+
+include /partials/profiles.pug
+include /partials/introduction.pug
+include /partials/news.pug
+include /partials/contact.pug
+include /partials/scholarships.pug
+include /partials/projects.pug
+include /partials/presentations.pug
+include /partials/committees.pug
+include /partials/academicservice.pug
+include /partials/teaching.pug
+include /partials/publications.pug
+
+block variables
+  - var PageName = "#{context.name}"
+  - var PageID = "index"
+  -
+    var news_keys = Object.keys(news);
+    news_keys.sort();
+    news_keys.reverse();
+    news_keys.length = Math.min(news_keys.length, 5);
+  -
+    var selected_publications = publications.publications.filter((element) => element.highlight);
+
+
+block additionalscripts
+  script(type="text/javascript", src="https://publons.com/mashlets?el=badgeCont200&rid=AAF-5883-2021&size=small")
+
+
+block content
+
+  if selected_publications.length > 0
+    +publications_card(selected_publications, publications)
+  
+  if teaching.terms.length > 0
+    +teaching_card(teaching)
+
+  if academicservice.services.length > 0
+    +academicservice_card(academicservice)
+
+  if committeework.committees.length > 0
+    +committees_card(committeework)
+
+  if presentations.talks.length > 0
+    +presentations_card(presentations)
+
+  if projects.projects.length > 0
+    +projects_card(projects)
+
+  if grants.grants.length > 0
+    +scholarships_card(grants)
+  
+  +contact_card(context)
+
+block sidecontent
+  +introduction_card(context)
+  
+  if news_keys.length > 0
+    +news_card(news_keys, news)
+
+  if profiles.profiles.length > 0
+    +profiles_card(profiles)
