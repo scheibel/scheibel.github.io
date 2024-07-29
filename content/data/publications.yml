@@ -1609,8 +1609,8 @@ publications:
       desc: Source Code
     - href: 'https://github.com/varg-dev/hilbert-moore-treemap-layouts-prototype'
       desc: Github Project
-- key: 2023-evaluation-tm-dr
-  bibtex: acstrds2023-evaluation-tm-dr.bib
+- key: 2024-evaluation-tm-dr
+  bibtex: acstrds2024-evaluation-tm-dr.bib
   date: '2023-10-22'
   title: >-
     Large-Scale Evaluation of Topic Models and Dimensionality Reduction Methods
@@ -1625,7 +1625,7 @@ publications:
     - Tobias Schreck
   published: >-
     Transactions on Visualization and Computer Graphics, 28th Conference on
-    Visualization (VIS '23)
+    Visualization and Visual Analytics (VIS '23)
   articletype: Full Paper
   highlight: true
   pending: false
@@ -1658,7 +1658,7 @@ publications:
     topic models are beneficial for capturing the structure of text corpora.
     We furthermore recommend the use of t-SNE as a subsequent dimensionality
     reduction.
-  thumbnail: publications/2023-vis-evaluation-tm-dr.png
+  thumbnail: publications/2024-vis-evaluation-tm-dr.png
   stamps:
     - icon: logos/replicabilitystamp.png
       href: >-
@@ -2287,8 +2287,8 @@ publications:
     - desc: Slides
     - desc: Demo
     - desc: Github Project
-- key: 2024-dr-sensitivity-analysis
-  bibtex: acsdbs2024-dr-sensitivity-analysis.bib
+- key: 2025-dr-sensitivity-analysis
+  bibtex: acsdbs2025-dr-sensitivity-analysis.bib
   title: >-
     A Large-Scale Sensitivity Analysis on Latent Embeddings and Dimensionality
     Reductions for Text Spatializations
@@ -2302,7 +2302,7 @@ publications:
     - Tobias Schreck
   published: >-
     Transactions on Visualization and Computer Graphics, 29th Conference on
-    Visualization (VIS '24)
+    Visualization and Visual Analytics (VIS '24)
   articletype: Full Paper
   highlight: true
   pending: true
@@ -2327,7 +2327,7 @@ publications:
     hyperparameter settings. We provide our implementation as a Git repository at
     https://github.com/hpicgs/Topic-Models-and-Dimensionality-Reduction-Sensitivity-Study and
     results as Zenodo archive at https://doi.org/10.5281/zenodo.12772898.
-  thumbnail: publications/2024-vis-stability.png
+  thumbnail: publications/2025-vis-stability.png
   downloads:
     - desc: Publisher Record
     - desc: Preprint
