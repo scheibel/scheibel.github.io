@@ -1,3 +1,32 @@
+mixin _orcid_author(author)
+  if author in coauthors
+    a(href="https://orcid.org/"+coauthors[author].orcid)
+      i.fa-brands.fa-orcid.orcid-color
+      | &thinsp;
+      | #{author}
+  else
+    | #{author}
+
+mixin _publication_authors(publication)
+  if publication.authors.length > 2
+    each author, i in publication.authors
+      if i < publication.authors.length - 1
+        +_orcid_author(author)
+        | ,
+        |
+      else
+        | and 
+        |
+        +_orcid_author(author)
+  else if publication.authors.length > 1
+    +_orcid_author(publication.authors[0])
+    |
+    | and
+    | 
+    +_orcid_author(publication.authors[1])
+  else
+    +_orcid_author(publication.authors[0])
+
 mixin publication(publication)
   - var year = publication.date.split('-').shift();
   .row
@@ -14,17 +43,7 @@ mixin publication(publication)
               | &nbsp;
               img(src="images/"+stamp.icon, style="height: 1.1rem;")
       span
-        if publication.authors.length > 2
-          each author, i in publication.authors
-            if i < publication.authors.length - 1
-              | #{author},
-              |
-            else
-              | and #{author}
-        else if publication.authors.length > 1
-          | #{publication.authors[0]} and #{publication.authors[1]}
-        else
-          | #{publication.authors[0]}
+        +_publication_authors(publication)
       if publication.note
         br
         span.text-muted #{publication.note}
