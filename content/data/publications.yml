@@ -2259,6 +2259,7 @@ publications:
     - Jürgen Döllner
   published: 29th International Conference on 3D Web Technology (Web3D '24)
   articletype: Full Paper
+  doi: 10.1145/3665318.3677171
   pending: true
   caption: >-
     This paper contributes an optimized web-based rendering approach and
