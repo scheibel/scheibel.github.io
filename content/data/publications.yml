@@ -2283,10 +2283,47 @@ publications:
   thumbnail: publications/2024-web3d-instanced-glyph-rendering.png
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.1145/3665318.3677171
     - desc: Author Version
     - desc: Slides
     - desc: Demo
+      href: https://varg-dev.github.io/SoftwareMap/
     - desc: Github Project
+      href: https://github.com/varg-dev/SoftwareMap
+    - desc: Performance Measurements
+      href: https://doi.org/10.5281/zenodo.12797370
+- key: 2024-scatterplot-filtering
+  bibtex: ajsd2024-scatterplot-filtering.bib
+  title: >-
+    Exploring High-Dimensional Data by Pointwise Filtering of Low-Dimensional Embeddings
+  date: '2024-09-12'
+  authors:
+    - Daniel Atzberger
+    - Adrian Jobst
+    - Willy Scheibel
+    - Jürgen Döllner
+  published: >-
+     42nd Conference on Computer Graphics & Visual Computing (CGVC '24)
+  articletype: Short Paper
+  pending: true
+  caption: >-
+    Dimensionality reductions are a class of unsupervised learning algorithms that aim
+    to find a lower-dimensional embedding for a high-dimensional dataset while preserving
+    local and global structures. By representing a high-dimensional dataset as a
+    two-dimensional scatterplot, a user can explore structures within the dataset.
+    However, dimensionality reductions inherit distortions that might result in false
+    deductions. This work presents a visualization approach that combines a
+    two-dimensional scatterplot derived from a dimensionality reduction with two pointwise
+    filtering possibilities. Each point is associated with two pointwise metrics that
+    quantify the correctness of its neighborhood and similarity to surrounding data points.
+    By setting threshold for these two metrics, the user is supported in several
+    scatterplot analytics tasks, e.g., class separation and outlier detection. We apply
+    our visualization to a text corpus to detect interesting data points visually and
+    discuss the findings.
+  thumbnail: publications/2024-cgvc-scatterplot-filtering.png
+  downloads:
+    - desc: Publisher Record
+    - desc: Slides
 - key: 2025-dr-sensitivity-analysis
   bibtex: acsdbs2025-dr-sensitivity-analysis.bib
   title: >-
