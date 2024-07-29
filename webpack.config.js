@@ -38,6 +38,12 @@ const renderAuthors = (authorField) => {
     return names.join(", ");
 }
 
+const renderTitle = (title) => {
+    return title
+        .replace('\\&', '&')
+        .replace('--', '–');
+}
+
 const renderPages = (pagesField) => {
     return "0&endash;0";
 }
@@ -48,7 +54,7 @@ const augmentBibliographyEntry = (entry) => {
         augmentedEntry.author = renderAuthors(augmentedEntry.fields.author);
     }
     if (augmentedEntry.fields.title) {
-        augmentedEntry.title = augmentedEntry.fields.title._unicode;
+        augmentedEntry.title = renderTitle(augmentedEntry.fields.title._unicode);
     }
     if (augmentedEntry.fields.journal) {
         augmentedEntry.journal = augmentedEntry.fields.journal._unicode;
