@@ -1,6 +1,4 @@
-extends template.pug
-
-include /partials/bibliography_entry.pug
+extends defaultcontent.pug
 
 block variables
   - var PageName = "Publications"
@@ -12,9 +10,33 @@ block content
   
   - var bibentry = bibliography[bibkey] || {};
 
-  block bibliographyentry
-    +bibliography_entry(bibkey, bibentry)
-  
+  block bibliographyoverview
+    .card
+      .card-header.d-flex
+        span Article
+        if bibentry.parsedContent.url
+          span.ms-auto
+            a(href=bibentry.parsedContent.url)
+              i.bi.bi-download
+      .card-body
+        h6.card-title.text-muted
+          | #{bibentry.parsedContent.author}
+        h4.card-subtitle
+          | #{bibentry.parsedContent.title}
+        dl.row
+          dt.col-sm-2 Authors
+          dd.col-sm-10 #{bibentry.parsedContent.author}
+          dt.col-sm-2 Title
+          dd.col-sm-10 #{bibentry.parsedContent.title}
+          dt.col-sm-2 Year
+          dd.col-sm-10 #{bibentry.parsedContent.year}
+          if bibentry.parsedContent.doi
+            dt.col-sm-2 DOI
+            dd.col-sm-10
+              a(href="https://doi.org/"+bibentry.parsedContent.doi) #{bibentry.parsedContent.doi}
+          dt.col-sm-2.text-muted [...]
+          dd.col-sm-10.text-muted [content deliberately omitted]
+    
   block publicationscontent
     
   block bibtexentry
