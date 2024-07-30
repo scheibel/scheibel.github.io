@@ -1,9 +1,9 @@
 mixin _orcid_author(author)
   if author in coauthors
     a(href="https://orcid.org/"+coauthors[author].orcid)
-      i.fa-brands.fa-orcid.orcid-color
-      | &thinsp;
       | #{author}
+      | &thinsp;
+      i.fa-brands.fa-orcid.orcid-color
   else
     | #{author}
 
