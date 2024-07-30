@@ -1623,9 +1623,13 @@ publications:
     - Willy Scheibel
     - Jürgen Döllner
     - Tobias Schreck
-  published: >-
-    Transactions on Visualization and Computer Graphics, 28th Conference on
-    Visualization and Visual Analytics (VIS '23)
+  published:
+    - venue: 28th {} Conference on Visualization and Visual Analytics
+      short: VIS '23
+      publisher: IEEE
+    - venue: Transactions on Visualization and Computer Graphics
+      short: TVCG
+      publisher: IEEE
   articletype: Full Paper
   highlight: true
   pending: false
@@ -2337,9 +2341,13 @@ publications:
     - Jürgen Döllner
     - Michael Behrisch
     - Tobias Schreck
-  published: >-
-    Transactions on Visualization and Computer Graphics, 29th Conference on
-    Visualization and Visual Analytics (VIS '24)
+  published:
+    - venue: 29th {} Conference on Visualization and Visual Analytics
+      short: VIS '24
+      publisher: IEEE
+    - venue: Transactions on Visualization and Computer Graphics
+      short: TVCG
+      publisher: IEEE
   articletype: Full Paper
   highlight: true
   pending: true

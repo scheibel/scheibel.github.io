@@ -6,9 +6,9 @@ block variables
   - var PageName = "Publications"
   - var PageID = "publications"
   -
-    var publications = publications.publications.slice(0);
+    var publications_entries = publications.publications.slice(0);
 
-    publications.sort((p1, p2) => {
+    publications_entries.sort((p1, p2) => {
       if (p1.date > p2.date) {
         return -1;
       } else if (p1.date < p2.date) {
@@ -23,7 +23,7 @@ block variables
     });
 
     var publications_by_year = {};
-    for (var p of publications) {
+    for (var p of publications_entries) {
       const year = p.date.split('-')[0];
       publications_by_year[year] ||= [];
       publications_by_year[year].push(p);

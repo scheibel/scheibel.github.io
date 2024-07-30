@@ -27,6 +27,27 @@ mixin _publication_authors(publication)
   else
     +_orcid_author(publication.authors[0])
 
+mixin _venues(publication)
+  if publication.published[0] && publication.published[0].venue
+    each published, i in publication.published
+      - var venue = published.venue
+      if published.publisher && venue.includes('{}')
+        | #{venue.replace('{}', published.publisher)}
+      else if published.publisher
+        | #{published.publisher} #{published.venue}
+      else if venue.includes('{}')
+        | #{venue.replace('{}', '')}
+      else
+        | #{published.venue}
+      if published.short 
+        |
+        | (#{published.short})
+      if i + 1 < publication.published.length
+        | ,
+        |
+  else
+    | #{publication.published}
+
 mixin publication(publication)
   - var year = publication.date.split('-').shift();
   .row
@@ -48,7 +69,8 @@ mixin publication(publication)
         br
         span.text-muted #{publication.note}
       br
-      span.text-muted #{publication.published}
+      span.text-muted
+        +_venues(publication)
       if publication.pending
         br
         span In Press
