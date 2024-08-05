@@ -453,7 +453,10 @@ publications:
     - Daniel Limberger
     - Matthias Trapp
     - Jürgen Döllner
-  published: 25th International Conference on 3D Web Technology (Web3D '20)
+  published:
+    - venue: 25th International Conference on 3D Web Technology
+      short: Web3D '20
+      publisher: ACM
   articletype: Extended Abstract
   caption: >-
     This paper presents a rendering framework for the visualization of massive
@@ -487,9 +490,11 @@ publications:
     - Daniel Limberger
     - Matthias Trapp
     - Jürgen Döllner
-  published: >-
-    13th International Symposium on Visual Information Communication and
-    Interaction (VINCI '20)
+  published:
+    - venue: 13th International Symposium on Visual Information Communication and
+    Interaction
+      short: VINCI '20
+      publisher: ACM
   articletype: Full Paper
   highlight: true
   caption: >-
@@ -524,9 +529,11 @@ publications:
     - Willy Scheibel
     - Daniel Limberger
     - Jürgen Döllner
-  published: >-
-    13th International Symposium on Visual Information Communication and
-    Interaction (VINCI '20)
+  published:
+    - venue: 13th International Symposium on Visual Information Communication and
+    Interaction
+      short: VINCI '20
+      publisher: ACM
   articletype: Full Paper
   highlight: true
   caption: >-
@@ -564,9 +571,11 @@ publications:
     - Willy Scheibel
     - Daniel Limberger
     - Jürgen Döllner
-  published: >-
-    12th International Conference on Information Visualization Theory and
-    Applications (IVAPP '21)
+  published:
+    - venue: 12th International Conference on Information Visualization Theory and
+    Applications
+      short: IVAPP '21
+      publisher: SciTePress
   note: Candidate for Best Student Paper
   articletype: Full Paper
   caption: >-
@@ -609,7 +618,10 @@ publications:
     - Christopher Weyand
     - Joseph Bethge
     - Jürgen Döllner
-  published: 23rd EG Conference on Visualization (EuroVis '21)
+  published:
+    - venue: 23rd EG Conference on Visualization
+      short: EuroVis '21
+      publisher: EG
   articletype: Short Paper
   highlight: true
   caption: >-
@@ -652,9 +664,11 @@ publications:
     - Willy Scheibel
     - Jan van Dieken
     - Jürgen Döllner
-  published: >-
-    14th International Symposium on Visual Information Communication and
-    Interaction (VINCI '21)
+  published:
+    - venue: 14th International Symposium on Visual Information Communication and
+    Interaction
+      short: VINCI '21
+      publisher: ACM
   articletype: Short Paper
   caption: >-
     This work investigates the extent to which animated procedural texture
@@ -691,9 +705,11 @@ publications:
     - Daniel Limberger
     - Willy Scheibel
     - Jürgen Döllner
-  published: >-
-    14th International Symposium on Visual Information Communication and
-    Interaction (VINCI '21)
+  published:
+    - venue: 14th International Symposium on Visual Information Communication and
+    Interaction
+      short: VINCI '21
+      publisher: ACM
   articletype: Short Paper
   caption: >-
     Personal, long-term investment products, especially ones for retirement
@@ -727,9 +743,11 @@ publications:
     - Willy Scheibel
     - Daniel Limberger
     - Jürgen Döllner
-  published: >-
-    14th International Symposium on Visual Information Communication and
-    Interaction (VINCI '21)
+  published:
+    - venue: 14th International Symposium on Visual Information Communication and
+    Interaction
+      short: VINCI '21
+      publisher: ACM
   articletype: Extended Abstract
   caption: >-
     Software visualization uses metaphors to depict software and software
@@ -767,9 +785,11 @@ publications:
     - Daniel Limberger
     - Matthias Trapp
     - Jürgen Döllner
-  published: >-
-    13th International Conference on Information Visualization Theory and
-    Applications (IVAPP '22)
+  published:
+    - venue: 13th International Conference on Information Visualization Theory and
+    Applications
+      short: IVAPP '22
+      publisher: SciTePress
   articletype: Short Paper
   caption: >-
     In order to detect software risks at an early stage, various software
@@ -815,9 +835,11 @@ publications:
     - Daniel Limberger
     - Matthias Trapp
     - Jürgen Döllner
-  published: >-
-    17th International Conference on Evaluation of Novel Approaches to Software
-    Engineering (ENASE '22)
+  published:
+    - venue: 17th International Conference on Evaluation of Novel Approaches to Software
+    Engineering
+      short: ENASE '22
+      publisher: SciTePress
   note: Best Student Paper Award
   highlight: true
   articletype: Full Paper
@@ -864,9 +886,11 @@ publications:
     - Willy Scheibel
     - Daniel Limberger
     - Jürgen Döllner
-  published: >-
-    17th International Conference on Evaluation of Novel Approaches to Software
-    Engineering (ENASE '22)
+  published:
+    - venue: 17th International Conference on Evaluation of Novel Approaches to Software
+    Engineering
+      short: ENASE '22
+      publisher: SciTePress
   note: Candidate for Best Student Paper
   articletype: Full Paper
   caption: >-
@@ -913,9 +937,11 @@ publications:
     - Fabian Heseding
     - Willy Scheibel
     - Jürgen Döllner
-  published: >-
-    19th International Conference on Mining Software Repositories – Data and
-    Tool Showcase Track (MSR '22)
+  published:
+    - venue: 19th International Conference on Mining Software Repositories – Data and
+    Tool Showcase Track
+      short: MSR '22
+      publisher: ACM
   articletype: Short Paper
   highlight: true
   caption: >-
@@ -961,9 +987,10 @@ publications:
     - Willy Scheibel
     - Matthias Trapp
     - Jürgen Döllner
-  published: >-
-    22th International Conference on Computational Science and Its Applications
-    (ICCSA '22)
+  published:
+    - venue: 22th International Conference on Computational Science and Its Applications
+      short: ICCSA '22
+      publisher: Springer
   articletype: Full Paper
   caption: >-
     The number of publicly accessible software repositories on online
@@ -1005,9 +1032,11 @@ publications:
     - Daniel Limberger
     - Matthias Trapp
     - Jürgen Döllner
-  published: >-
-    15th International Symposium on Visual Information Communication and
-    Interaction (VINCI '22)
+  published:
+    - venue: 15th International Symposium on Visual Information Communication and
+    Interaction
+      short: VINCI '22
+      publisher: ACM
   articletype: Extended Abstract
   caption: ''
   thumbnail: publications/2022-vinci-topicmodel-benchmark.png
@@ -1030,7 +1059,10 @@ publications:
     - Willy Scheibel
     - Jürgen Döllner
     - Matthias Trapp
-  published: Journal of Visualization
+  published:
+    - venue: Journal of Visualization
+      short: JoVi
+      publisher: Springer
   articletype: Full Paper
   highlight: true
   caption: >-
@@ -1065,9 +1097,11 @@ publications:
     - Willy Scheibel
     - Matthias Trapp
     - Jürgen Döllner
-  published: >-
-    22nd International Working Conference on Source Code Analysis and
-    Manipulation (SCAM '22)
+  published:
+    - venue: 22nd International Working Conference on Source Code Analysis and
+    Manipulation
+      short: SCAM '22
+      publisher: IEEE
   articletype: Short Paper
   caption: >-
     The number of software projects developed collaboratively on social coding
@@ -1114,7 +1148,10 @@ publications:
     - Willy Scheibel
     - Jan van Diecken
     - Jürgen Döllner
-  published: Journal of Visualization
+  published:
+    - venue: Journal of Visualization
+      short: JoVi
+      publisher: Springer
   highlight: true
   articletype: Full Paper
   caption: >-
@@ -1151,7 +1188,10 @@ publications:
     - Daniel Limberger
     - Willy Scheibel
     - Jürgen Döllner
-  published: 27th International Conference on 3D Web Technology (Web3D '22)
+  published:
+    - venue: 27th International Conference on 3D Web Technology
+      short: Web3D '22
+      publisher: ACM
   note: Best Paper Award
   highlight: true
   articletype: Full Paper
@@ -1192,9 +1232,10 @@ publications:
     - Willy Scheibel
     - Daniel Limberger
     - Jürgen Döllner
-  published: >-
-    VISIGRAPP 2021: Computer Vision, Imaging and Computer Graphics Theory and
-    Applications
+  published:
+    - venue: 'VISIGRAPP 2021: Computer Vision, Imaging and Computer Graphics Theory and Applications'
+      short: VISIGRAPP 2021
+      publisher: Springer
   articletype: Chapter
   highlight: true
   caption: >-
@@ -1231,7 +1272,10 @@ publications:
     - Willy Scheibel
     - Matthias Trapp
     - Jürgen Döllner
-  published: 'ENASE 2022: Evaluation of Novel Approaches to Software Engineering'
+  published:
+    - venue: 'ENASE 2022: Evaluation of Novel Approaches to Software Engineering'
+      short: ENASE 2022
+      publisher: Springer
   articletype: Chapter
   caption: >-
     During the software development process, occurring problems are collected
@@ -1276,9 +1320,11 @@ publications:
     - Willy Scheibel
     - Rico Richter
     - Jürgen Döllner
-  published: >-
-    14th International Conference on Information Visualization Theory and
-    Applications (IVAPP '23)
+  published:
+    - venue: 14th International Conference on Information Visualization Theory and
+    Applications
+      short: IVAPP '23
+      publisher: SciTePress
   doi: 10.5220/0011699700003417
   articletype: Short Paper
   caption: >-
@@ -1321,7 +1367,10 @@ publications:
     - Willy Scheibel
     - Sanjay Misra
     - Jürgen Döllner
-  published: 15th International Conference on Software Quality (SWQD '23)
+  published:
+    - venue: 15th International Conference on Software Quality
+      short: SWQD '23
+      publisher: Springer
   doi: 10.1007/978-3-031-31488-9_3
   articletype: Full Paper
   caption: >-
@@ -1363,9 +1412,11 @@ publications:
     - Willy Scheibel
     - Rico Richter
     - Jürgen Döllner
-  published: >-
-    18th International Conference on Evaluation of Novel Approaches to Software
-    Engineering (ENASE '23)
+  published:
+    - venue: 18th International Conference on Evaluation of Novel Approaches to Software
+    Engineering
+      short: ENASE '23
+      publisher: SciTePress
   doi: 10.5220/0011858500003464
   articletype: Short Paper
   caption: >-
@@ -1405,7 +1456,10 @@ publications:
     - Daniel Atzberger
     - Willy Scheibel
     - Jürgen Döllner
-  published: 5th International Conference on Blockchain and Cryptocurrency (ICBC '23)
+  published:
+    - venue: 5th International Conference on Blockchain and Cryptocurrency
+      short: ICBC '23
+      publisher: IEEE
   articletype: Short Paper
   doi: 10.1109/ICBC56567.2023.10174954
   caption: >-
@@ -1440,7 +1494,10 @@ publications:
     - Willy Scheibel
     - Jürgen Döllner
     - Markus Bick
-  published: 1st International Workshop on Cryptocurrency Exchanges (CryptoEx '23)
+  published:
+    - venue: 1st International Workshop on Cryptocurrency Exchanges
+      short: CryptoEx '23
+      publisher: IEEE
   articletype: Full Paper
   doi: 10.1109/ICBC56567.2023.10174923
   caption: >-
@@ -1479,7 +1536,10 @@ publications:
     - Robert Henker
     - Willy Scheibel
     - Jürgen Döllner
-  published: 1st International Workshop on Cryptocurrency Exchanges (CryptoEx '23)
+  published:
+    - venue: 1st International Workshop on Cryptocurrency Exchanges
+      short: CryptoEx '23
+      publisher: IEEE
   articletype: Short Paper
   doi: 10.1109/ICBC56567.2023.10174944
   caption: >-
@@ -1516,7 +1576,10 @@ publications:
     - Jan Ole Vollmer
     - Willy Scheibel
     - Jürgen Döllner
-  published: 1st International Workshop on Cryptocurrency Exchanges (CryptoEx '23)
+  published:
+    - venue: 1st International Workshop on Cryptocurrency Exchanges
+      short: CryptoEx '23
+      publisher: IEEE
   articletype: Full Paper
   doi: 10.1109/ICBC56567.2023.10174905
   caption: >-
@@ -1556,7 +1619,10 @@ publications:
     - Furkan Simsek
     - Willy Scheibel
     - Jürgen Döllner
-  published: 25th EG Conference on Visualization (EuroVis '23)
+  published:
+    - venue: 25th {} Conference on Visualization
+      short: EuroVis '23
+      publisher: EG
   doi: 10.2312/evp20231054
   articletype: Extended Abstract
   caption: >-
@@ -1588,7 +1654,10 @@ publications:
   authors:
     - Willy Scheibel
     - Jürgen Döllner
-  published: 25th EG Conference on Visualization (EuroVis '23)
+  published:
+    - venue: 25th {} Conference on Visualization
+      short: EuroVis '23
+      publisher: EG
   doi: 10.2312/evp20231060
   articletype: Extended Abstract
   caption:
@@ -1708,9 +1777,11 @@ publications:
     - Tim Cech
     - Willy Scheibel
     - Jürgen Döllner
-  published: >-
-    Proceedings of the 15th International Conference on Knowledge Discovery and
+  published:
+    - venue: 15th International Conference on Knowledge Discovery and
     Information Retrieval
+      short: KDIR '23
+      publisher: SciTePress
   articletype: Full Paper
   note: Candidate for Best Paper
   pending: false
@@ -1758,9 +1829,11 @@ publications:
     - Tim Cech
     - Willy Scheibel
     - Jürgen Döllner
-  published: >-
-    Proceedings of the 15th International Conference on Knowledge Discovery and
+  published:
+    - venue: 15th International Conference on Knowledge Discovery and
     Information Retrieval
+      short: KDIR '23
+      publisher: SciTePress
   articletype: Full Paper
   note: Best Student Paper Award
   pending: false
@@ -1801,9 +1874,11 @@ publications:
     - Christoph Thiede
     - Willy Scheibel
     - Jürgen Döllner
-  published: >-
-    15th International Conference on Information Visualization Theory and
-    Applications (IVAPP '24)
+  published:
+    - venue: 15th International Conference on Information Visualization Theory and
+    Applications
+      short: IVAPP '23
+      publisher: SciTePress
   articletype: Short Paper
   pending: false
   doi: 10.5220/0012393900003660
@@ -1849,9 +1924,11 @@ publications:
     - Willy Scheibel
     - Jürgen Döllner
     - Tobias Schreck
-  published: >-
-    15th International Conference on Information Visualization Theory and
-    Applications (IVAPP '24)
+  published:
+    - venue: 15th International Conference on Information Visualization Theory and
+    Applications
+      short: IVAPP '23
+      publisher: SciTePress
   articletype: Full Paper
   pending: false
   highlight: true
@@ -1904,7 +1981,9 @@ publications:
     - Franziska Lauterbach
     - Daniel Atzberger
     - Jürgen Döllner
-  published: MDPI Computers
+  published:
+    - venue: Computers
+      publisher: MDPI
   articletype: Full Paper
   pending: false
   doi: 10.3390/computers13020033
@@ -1953,7 +2032,10 @@ publications:
     - Willy Scheibel
     - Jürgen Döllner
     - Markus Bick
-  published: Wiley International Journal of Network Management
+  published:
+    - venue: International Journal of Network Management
+      short: JNEM
+      publisher: Wiley
   articletype: Full Paper
   doi: 10.1002/nem.2266
   pending: false
@@ -1994,7 +2076,10 @@ publications:
     - Willy Scheibel
     - Jürgen Döllner
     - William Knottenbelt
-  published: 2nd IEEE International Workshop on Cryptocurrency Exchanges (CryptoEx 2024)
+  published:
+    - venue: 2nd International Workshop on Cryptocurrency Exchanges
+      short: CryptoEx '24
+      publisher: IEEE
   articletype: Short Paper
   pending: true
   caption: >-
@@ -2025,7 +2110,10 @@ publications:
     - Erik Kohlros
     - Willy Scheibel
     - Jürgen Döllner
-  published: 26th EG Conference on Visualization (EuroVis '24)
+  published:
+    - venue: 26th {} Conference on Visualization
+      short: EuroVis '24
+      publisher: EG
   articletype: Extended Abstract
   pending: false
   doi: 10.2312/evp.20241075
@@ -2060,7 +2148,10 @@ publications:
     - Frederic Sadrieh
     - Willy Scheibel
     - Jürgen Döllner
-  published: 26th EG Conference on Visualization (EuroVis '24)
+  published:
+    - venue: 26th {} Conference on Visualization
+      short: EuroVis '24
+      publisher: EG
   articletype: Extended Abstract
   pending: false
   doi: 10.2312/evp.20241085
@@ -2102,7 +2193,10 @@ publications:
     - Matthias Trapp
     - Rico Richter
     - Jürgen Döllner
-  published: Transactions on Visualization and Computer Graphics
+  published:
+    - venue: Transactions on Visualization and Computer Graphics
+      short: TVCG
+      publisher: IEEE
   articletype: Survey Paper
   doi: 10.1109/TVCG.2024.3402610
   highlight: true
@@ -2151,7 +2245,9 @@ publications:
     - Rico Richter
     - Willy Scheibel
     - Jürgen Döllner
-  published: arXiv CoRR Machine Learning (cs.LG); Human-Computer Interaction (cs.HC)
+  published:
+    - venue: Machine Learning (cs.LG); Human-Computer Interaction (cs.HC)
+      publisher: arXiv CoRR
   articletype: Preprint
   doi: 10.48550/arXiv.2406.13552
   caption: >-
@@ -2274,7 +2370,10 @@ publications:
     - Daniel Atzberger
     - Willy Scheibel
     - Jürgen Döllner
-  published: 29th International Conference on 3D Web Technology (Web3D '24)
+  published:
+    - venue: 29th International Conference on 3D Web Technology
+      short: Web3D '24
+      publisher: ACM
   articletype: Full Paper
   doi: 10.1145/3665318.3677171
   pending: true
@@ -2319,8 +2418,10 @@ publications:
     - Adrian Jobst
     - Willy Scheibel
     - Jürgen Döllner
-  published: >-
-     42nd Conference on Computer Graphics & Visual Computing (CGVC '24)
+  published:
+    - venue: 42nd Conference on Computer Graphics & Visual Computing
+      short: CGVC '24
+      publisher: EG
   articletype: Short Paper
   pending: true
   caption: >-
