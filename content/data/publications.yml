@@ -2214,9 +2214,10 @@ publications:
   downloads:
     - desc: Publisher Record
       href: 'https://doi.org/10.1109/TVCG.2024.3402610'
-    - desc: Preprint
+    - desc: Author Version
       href: >-
         https://www.researchgate.net/profile/Ole-Wegen/publication/380937598/inline/jsViewer/6656d7040b0d28457461c8b6?pdfJsDownload=1
+    - desc: Slides
 - key: 2024-standardness-fogs-meaning
   bibtex: cwarsd2024-standardness-fogs-meaning.bib
   date: '2024-06-21'
