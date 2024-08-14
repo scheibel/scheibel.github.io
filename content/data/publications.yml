@@ -2179,6 +2179,9 @@ publications:
     - venue: Transactions on Visualization and Computer Graphics
       short: TVCG
       publisher: IEEE
+    - venue: 29th {} Conference on Visualization and Visual Analytics
+      short: VIS '24
+      publisher: IEEE
   articletype: Survey Paper
   doi: 10.1109/TVCG.2024.3402610
   highlight: true
