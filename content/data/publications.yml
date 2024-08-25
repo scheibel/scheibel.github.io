@@ -2063,7 +2063,8 @@ publications:
       short: CryptoEx '24
       publisher: IEEE
   articletype: Short Paper
-  pending: true
+  doi: 10.1109/ICBC59979.2024.10634346
+  pending: false
   caption: >-
     In 2016, BitMEX introduced a novel type of crypto derivates: Perpetual
     Swaps, i.e., futures with an infinite term. Perpetual swaps provide a new
