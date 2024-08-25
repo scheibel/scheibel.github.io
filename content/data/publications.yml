@@ -2081,6 +2081,7 @@ publications:
   thumbnail: publications/2024-cryptoex-perpetual-swaps.png
   downloads:
     - desc: Publisher Record
+      href: 'https://doi.org/10.1109/ICBC59979.2024.10634346'
     - desc: Author Version
 - key: 2024-fisc
   bibtex: cksd2024-fisc.bib
