@@ -2487,7 +2487,7 @@ publications:
       href: https://doi.org/10.5281/zenodo.12772898
 
 - key: 2024-topic-model-influence-extended
-  bibtex: acsds2024-topic-model-influence-extended.bib
+  bibtex: atzberger2024-topic-model-influence-extended.bib
   date: '2024-12-15'
   title: >-
     Evaluating Text Embeddings for Two-Dimensional Text Corpora Representations
