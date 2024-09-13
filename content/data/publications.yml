@@ -2411,7 +2411,8 @@ publications:
       short: CGVC '24
       publisher: EG
   articletype: Short Paper
-  pending: true
+  doi: 10.2312/cgvc.20241224
+  pending: false
   caption: >-
     Dimensionality reductions are a class of unsupervised learning algorithms that aim
     to find a lower-dimensional embedding for a high-dimensional dataset while preserving
@@ -2429,6 +2430,7 @@ publications:
   thumbnail: publications/2024-cgvc-scatterplot-filtering.png
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.2312/cgvc.20241224
     - desc: Slides
 - key: 2025-dr-sensitivity-analysis
   bibtex: acsdbs2025-dr-sensitivity-analysis.bib
