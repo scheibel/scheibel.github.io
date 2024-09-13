@@ -2269,8 +2269,7 @@ publications:
   bibtex: lbcsd2024-uncover-extended.bib
   date: '2024-08-01'
   title: >-
-    Detecting and Comparing LLM Capabilities to Human Writers through Linguistic
-    Analysis
+    Detecting and Comparing LLM Capabilities to Human Writers through LinguisticAnalysis
   authors:
     - Lucas Liebe
     - Jannis Baum
@@ -2280,6 +2279,7 @@ publications:
   published: Preprint
   articletype: Full Paper
   pending: true
+  disabled: true
   caption: >-
     The capabilities of Large Language Models (LLMs) to synthesize texts that
     imitate human language have increased rapidly. While many people adopt
@@ -2312,8 +2312,7 @@ publications:
   bibtex: btwd2024-counterfactuals-extended.bib
   date: '2024-08-01'
   title: >-
-    An Approach and Evaluation of Visual Counterfactual Explanations Using
-    Semantic Parts Metadata
+    An Approach and Evaluation of Visual Counterfactual Explanations Using Semantic Parts Metadata
   authors:
     - Florence Böttger
     - Tim Cech
@@ -2322,6 +2321,7 @@ publications:
   published: Preprint
   articletype: Full Paper
   pending: true
+  disabled: true
   caption: >-
     Counterfactual explanations are widely used to explain black-box models,
     with some approaches generating counterfactuals as a set of edits between
@@ -2503,6 +2503,7 @@ publications:
   published: Preprint
   articletype: Full Paper
   pending: true
+  disabled: true
   caption: >-
     Several text corpus visualizations utilize a map-like metaphor, where the layout reflects
     the semantic similarity between documents. The underlying two-dimensional scatterplots

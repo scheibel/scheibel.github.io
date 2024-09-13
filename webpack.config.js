@@ -192,6 +192,11 @@ module.exports = function (env, argv) {
     const bibliography = createBibliographyFromBibFilesSync(bibFiles);
 
     var publications = getYAMLDictSync('publications.yml');
+
+    publications = publications.filter((publication) => {
+        return !publication.disabled;
+    });
+
     publications.publications.forEach((publication) => {
         const bibkey = path.basename(publication.bibtex, '.bib');
 
