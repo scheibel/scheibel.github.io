@@ -193,7 +193,7 @@ module.exports = function (env, argv) {
 
     var publications = getYAMLDictSync('publications.yml');
 
-    publications = publications.filter((publication) => {
+    publications.publications = publications.publications.filter((publication) => {
         return !publication.disabled;
     });
 
