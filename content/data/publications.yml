@@ -2455,7 +2455,7 @@ publications:
   articletype: Full Paper
   doi: 10.1109/TVCG.2024.3456308
   highlight: true
-  pending: true
+  pending: false
   caption: >-
     The semantic similarity between documents of a text corpus can be visualized using
     map-like metaphors based on two-dimensional scatterplot layouts. These layouts result
@@ -2480,6 +2480,7 @@ publications:
   thumbnail: publications/2025-vis-stability.png
   downloads:
     - desc: Publisher Record
+      href: htts://doi.org/10.1109/TVCG.2024.3456308
     - desc: Preprint
       href: https://doi.org/10.48550/arXiv.2407.17876
     - desc: Slides
