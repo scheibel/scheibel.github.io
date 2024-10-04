@@ -1,6 +1,18 @@
 heading: Teaching
 short: Teaching
 terms:
+- term: '2024/25 : Winter Term'
+  courses:
+    - course: Computer Graphics I
+      type: Lecture (B.Sc.)
+      role: Co-Lecturer
+    - course: Video Interpretation and Summarization
+      type: Project (B.Sc.)
+      role: Supervisor
+    - course: Video Interpretation and Summarization
+      type: Project (M.Sc.)
+      role: Supervisor
+  upcoming: false
 - term: '2024 : Summer Term'
   courses:
     - course: Computer Graphics II
