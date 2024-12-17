@@ -1679,7 +1679,7 @@ publications:
       desc: Github Project
 - key: 2024-evaluation-tm-dr
   bibtex: acstrds2024-evaluation-tm-dr.bib
-  date: '2023-10-22'
+  date: '2023-10-23'
   title: >-
     Large-Scale Evaluation of Topic Models and Dimensionality Reduction Methods
     for 2D Text Spatialization
@@ -1909,7 +1909,7 @@ publications:
     - Tobias Schreck
   published:
     - venue: 15th International Conference on Information Visualization Theory and Applications
-      short: IVAPP '23
+      short: IVAPP '24
       publisher: SciTePress
   articletype: Full Paper
   pending: false
@@ -2437,7 +2437,7 @@ publications:
   title: >-
     A Large-Scale Sensitivity Analysis on Latent Embeddings and Dimensionality
     Reductions for Text Spatializations
-  date: '2024-10-18'
+  date: '2024-09-17'
   authors:
     - Daniel Atzberger
     - Tim Cech
@@ -2526,3 +2526,38 @@ publications:
   downloads:
     - desc: Publisher Record
     - desc: Author Version
+- key: 2025-llm-treemaps
+  bibtex: jasds2025-llm-treemaps.bib
+  date: '2025-02-26'
+  title: "Delphi: A Natural Language Interface for 2.5D Treemap Visualization of Source Code"
+  authors:
+    - Adrian Jobst
+    - Daniel Atzberger
+    - Willy Scheibel
+    - Jürgen Döllner
+    - Tobias Schreck
+  published:
+    - venue: 16th International Conference on Information Visualization Theory and Applications
+      short: IVAPP '25
+      publisher: SciTePress
+  articletype: Short Paper
+  pending: true
+  highlight: false
+  caption: >-
+    Modern software development projects are characterized by large teams of developers, diverse technology
+    stacks, and systematic workflows. This inherent complexity makes it difficult for stakeholders to maintain an
+    overview of the project and its evolution. Software Visualization concerns generating data-driven geometric
+    representations of specific aspects of software systems to provide insights and enable exploration. However,
+    effective utilization of these specialized visualizations requires expertise in visualization theory and software
+    development. This paper presents Delphi, the first system that combines a Natural Language Interface backed
+    by a Large Language Model with a 2.5D treemap as software visualization technique. Delphi modifies the
+    visual mapping to answer questions related to the software project, highlights objects, and provides explanations
+    for the user. We demonstrate our system's workflow through a use case study involving a mid-sized TypeScript
+    project, showing how Delphi facilitates exploration. Our findings indicate that Delphi enhances the exploration
+    process's efficiency and broadens accessibility for a wider range of users. We release our source code as open
+    source at https://github.com/hpicgs/llm-treemaps, with our prototype hosted on https://hpicgs.github.io/llm-treemaps.
+  thumbnail: publications/2025-ivapp-llm-treemaps.png
+  downloads:
+    - desc: Publisher Record
+    - desc: Author Version
+    - desc: Slides
