@@ -22,6 +22,7 @@ services:
   projects:
   - European Conference on Visualization (EuroVis)
   - International EuroVis Workshop on Visual Analytics (EuroVA)
+  - Computer Graphics Forum (CGF)
 - title: Reviewer
   institution: International Symposium on Visual Information Communication and Interaction
   since: 2022
@@ -40,8 +41,8 @@ services:
   institution: Elsevier
   projects:
   - Information Sciences (INS)
+  - Computers & Graphics (CAG)
   since: 2021
-  until: 2021
   logo: logos/elsevier_logo.png
 - title: Organization Committee
   institution: 'International Symposium on Visual Information Communication and Interaction: VINCI 2021'
