@@ -1,6 +1,12 @@
 heading: Academic Service
 short: Academic Service
 services:
+- title: Program Committee
+  institution: EG
+  since: 2025
+  logo: logos/eg_logo.png
+  projects:
+  - International EuroVis Workshop on Visual Analytics (EuroVA)
 - title: Reviewer
   institution: IEEE Computer Society / VGTC
   projects:
