@@ -2528,6 +2528,7 @@ publications:
   downloads:
     - desc: Publisher Record
     - desc: Author Version
+
 - key: 2025-llm-treemaps
   bibtex: jasds2025-llm-treemaps.bib
   date: '2025-02-26'
@@ -2559,6 +2560,96 @@ publications:
     process's efficiency and broadens accessibility for a wider range of users. We release our source code as open
     source at https://github.com/hpicgs/llm-treemaps, with our prototype hosted on https://hpicgs.github.io/llm-treemaps.
   thumbnail: publications/2025-ivapp-llm-treemaps.png
+  downloads:
+    - desc: Publisher Record
+    - desc: Author Version
+    - desc: Slides
+
+- key: 2025-apchis-lod
+  bibtex: tbajsls2025-apchis-lod.bib
+  date: '2025-03-24'
+  title: "A User-Centric Adaption Model for Document Visualizations with Different Levels of Detail within a Consumer Health Information System"
+  authors:
+    - Mariia Tytarenko
+    - Christian Wolfgang Burtscher
+    - Daniel Atzberger
+    - Adrian Jobst
+    - Willy Scheibel
+    - Stefan Lengauer
+    - Tobias Schreck
+  published:
+    - venue: 1st Workshop on Intelligent and Interactive Health User Interfaces
+      short: HealthIUI '25
+      publisher: ACM
+  articletype: Short Paper
+  pending: true
+  highlight: false
+  caption: >-
+    After receiving a diagnosis, patients often seek detailed information about causes, treatments, and consequences through health information materials such as websites and brochures.
+    However, navigating these resources and finding specific information on their diagnosis and ways to respond, can be time-consuming and challenging.
+    Text visualizations can help users access relevant information, but typically require knowledge of health literacy and visualization concepts.
+    To address this, we propose a user-centric adaptation model for visualizations with varying Levels of Detail (LoD) in healt-related text visualizations to enhance users' ability to explore health information materials.
+    The initial LoD is personalized based on a user's visualization literacy, assessed during and onboarding phase. Heuristics derived from interaction metrics, such as dwelling time and mouse clicks, guide subsequent LoD adaptations, enabling the system to respond dynamically to user behavior.
+    This combined approach balances user-driven customization with system-driven adaptability, potentially improving engagement, accessibility, and comprehension.
+    Our work establishes a foundation for future research on adaptive LoD visualizations tailored to individual abilities and preferences in health information systems.
+  thumbnail: publications/2025-healthiui-apchis-lod.png
+  downloads:
+    - desc: Publisher Record
+
+- key: 2025-llm-treemaps-sensitivity
+  bibtex: ajtsds2025-llm-treemaps-sensitivity.bib
+  date: '2025-04-28'
+  title: "Analyzing the Sensitivity of Prompt Engineering Techniques in Natural Language Interfaces for 2.5D Software Visualization"
+  authors:
+    - Daniel Atzberger
+    - Adrian Jobst
+    - Mariia Tytarenko
+    - Willy Scheibel
+    - Jürgen Döllner
+    - Tobias Schreck
+  published:
+    - venue: 2nd Workshop on Prompt Engineering for Pre-Trained Language Models
+      short: PromptEng '25
+      publisher: ACM
+  articletype: Short Paper
+  pending: true
+  highlight: false
+  caption: >-
+    Natural Language Interfaces (NLIs) backed by Large Language Models (LLMs) are used to interact with visualizations through natural language queries.
+    Using the specific example of 2.5D treemaps, the Delphi tool was recently presented, introducing an interactive 2.5D visualization with an accompanying chat interface, where the LLM can react to user input and adapt the visualization at its own discretion.
+    While Delphi has demonstrated effectiveness, the authors have not included an evaluation of the LLM's performance with respect to its prompt and specific task types.
+    In this study, we systematically evaluate the impact of prompt engineering on Delphi's ability to answer factual questions related to data and visualization.
+    Specifically, we investigate the effect of the Chain-of-Thought prompting technique by employing a questionnaire comprising 40 questions across ten low-level analytic tasks.
+    Our findings aim to refine prompt design methodologies and enhance the usability and effectiveness of NLIs in advanced visualization systems.
+  thumbnail: publications/2025-prompteng-llm-treemaps-sensitivity.png
+  downloads:
+    - desc: Publisher Record
+    - desc: Author Version
+    - desc: Slides
+
+- key: 2025-llm-vis-grammars
+  bibtex: ajtsds2025-llm-vis-grammars.bib
+  date: '2025-04-28'
+  title: "A Concept for Integrating an LLM-Based Natural Language Interface for Visualizations Grammars"
+  authors:
+    - Adrian Jobst
+    - Daniel Atzberger
+    - Mariia Tytarenko
+    - Willy Scheibel
+    - Jürgen Döllner
+    - Tobias Schreck
+  published:
+    - venue: 2nd Workshop on Prompt Engineering for Pre-Trained Language Models
+      short: PromptEng '25
+      publisher: ACM
+  articletype: Extended Abstract
+  pending: true
+  highlight: false
+  caption: >-
+    In this paper, we propose a natural language interface visualization framework leveraging visualization grammar to balance the flexibility and stability of generated visualizations.
+    Our system employs a JSON schema for visualization specification and an instruction prompt with semantically distinct sections for task context, visualizations, datasets, and control mechanisms.
+    This design enables robust state management, live prompt adjustments, ensures clarity, consistency, and reusability in visualization generation.
+  thumbnail: publications/2025-prompteng-llm-vis-grammars.png
   downloads:
     - desc: Publisher Record
     - desc: Author Version

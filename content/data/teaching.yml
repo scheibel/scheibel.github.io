@@ -1,6 +1,18 @@
 heading: Teaching
 short: Teaching
 terms:
+- term: '2025 : Summer Term'
+  courses:
+    - course: Computer Graphics II
+      type: Lecture (B.Sc.)
+      role: Co-Lecturer
+    - course: Video Interpretation and Summarization
+      type: Project (B.Sc.)
+      role: Supervisor
+    - course: Multimodal LLMs for Spatial Understanding
+      type: Project (M.Sc.)
+      role: Supervisor
+  upcoming: true
 - term: '2024/25 : Winter Term'
   courses:
     - course: Computer Graphics I
