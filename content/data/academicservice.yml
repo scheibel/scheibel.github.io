@@ -48,6 +48,7 @@ services:
   projects:
   - Information Sciences (INS)
   - Computers & Graphics (CAG)
+  - Knowledge-based Systems (KNOSYS)
   since: 2021
   logo: logos/elsevier_logo.png
 - title: Organization Committee
