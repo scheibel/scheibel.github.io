@@ -2612,6 +2612,7 @@ publications:
       short: PromptEng '25
       publisher: ACM
   articletype: Short Paper
+  doi: '10.1145/3701716.3717813'
   pending: true
   highlight: false
   caption: >-
@@ -2643,6 +2644,7 @@ publications:
       short: PromptEng '25
       publisher: ACM
   articletype: Extended Abstract
+  doi: '10.1145/3701716.3717812'
   pending: true
   highlight: false
   caption: >-
