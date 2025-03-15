@@ -2544,7 +2544,8 @@ publications:
       short: IVAPP '25
       publisher: SciTePress
   articletype: Short Paper
-  pending: true
+  pending: false
+  doi: 10.5220/0013119600003912
   highlight: false
   caption: >-
     Modern software development projects are characterized by large teams of developers, diverse technology
