@@ -2659,12 +2659,13 @@ publications:
     - desc: Slides
 
 - key: 2025-option-tick-data-deribit
-  bibtex: ahvsd2025-option-tick-data-deribit.bib
+  bibtex: ahhvsd2025-option-tick-data-deribit.bib
   date: '2025-06-05'
   title: "A Low-Latency System for Collecting Massive Crypto Option Tick Data from Deribit"
   authors:
     - Daniel Atzberger
     - Robert Henker
+    - André Holdschick
     - Jan Ole Vollmer
     - Willy Scheibel
     - Jürgen Döllner
