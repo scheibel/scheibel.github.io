@@ -2657,3 +2657,35 @@ publications:
     - desc: Publisher Record
     - desc: Author Version
     - desc: Slides
+
+- key: 2025-option-tick-data-deribit
+  bibtex: ahvsd2025-option-tick-data-deribit.bib
+  date: '2025-06-05'
+  title: "A Low-Latency System for Collecting Massive Crypto Option Tick Data from Deribit"
+  authors:
+    - Daniel Atzberger
+    - Robert Henker
+    - Jan Ole Vollmer
+    - Willy Scheibel
+    - Jürgen Döllner
+  published:
+    - venue: 8th Crypto Valley Conference
+      short: CVC '25
+      publisher: IEEE
+  articletype: Short Paper
+  pending: true
+  highlight: false
+  caption: >-
+    As cryptocurrency markets mature, options on cryptocurrencies are gaining increasing importance.
+    Deribit has emerged as the dominant exchange for crypto options, accounting for the majority
+    of trading volume. To facilitate backtesting and market analysis, access to high-quality
+    historical data is essential. In this paper, we introduce a low-latency system for collecting
+    massive volumes of tick data together with the best bid and best ask from Deribit. Tick data,
+    which capture every price change with precise timestamps, provide granular insights into market
+    microstructure and trading dynamics. We detail the technical aspects of our data collection system
+    and demonstrate its capabilities through a case study analyzing the implied volatility and bid-ask
+    spreads of Bitcoin/USD options around the 2024 U.S. presidential election.
+  thumbnail: publications/2025-cvc-option-tick-data-deribit.png
+  downloads:
+    - desc: Publisher Record
+    - desc: Author Version
