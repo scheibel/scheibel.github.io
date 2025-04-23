@@ -9,10 +9,7 @@ terms:
     - course: Video Interpretation and Summarization
       type: Project (B.Sc.)
       role: Supervisor
-    - course: Multimodal LLMs for Spatial Understanding
-      type: Project (M.Sc.)
-      role: Supervisor
-  upcoming: true
+  upcoming: false
 - term: '2024/25 : Winter Term'
   courses:
     - course: Computer Graphics I
