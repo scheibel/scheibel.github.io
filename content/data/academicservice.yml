@@ -2,6 +2,12 @@ heading: Academic Service
 short: Academic Service
 services:
 - title: Program Committee
+  institution: IEEE Computer Society / VGTC
+  projects:
+  - Visualization Conference – Short Papers (VIS)
+  since: 2025
+  logo: logos/ieee_cs_logo.jpeg
+- title: Program Committee
   institution: EG
   since: 2025
   logo: logos/eg_logo.png
