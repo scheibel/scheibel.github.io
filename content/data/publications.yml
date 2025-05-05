@@ -2271,7 +2271,7 @@ publications:
   bibtex: lbcsd2024-uncover-extended.bib
   date: '2024-08-01'
   title: >-
-    Detecting and Comparing LLM Capabilities to Human Writers through LinguisticAnalysis
+    Detecting and Comparing LLM Capabilities to Human Writers through Linguistic Analysis
   authors:
     - Lucas Liebe
     - Jannis Baum
@@ -2366,7 +2366,7 @@ publications:
       publisher: ACM
   articletype: Full Paper
   doi: 10.1145/3665318.3677171
-  pending: true
+  pending: false
   caption: >-
     This paper contributes an optimized web-based rendering approach and
     implementation for parameterized meshes used as 3D glyphs for information
@@ -2583,7 +2583,7 @@ publications:
       short: HealthIUI '25
       publisher: ACM
   articletype: Short Paper
-  pending: true
+  pending: false
   highlight: false
   caption: >-
     After receiving a diagnosis, patients often seek detailed information about causes, treatments, and consequences through health information materials such as websites and brochures.
@@ -2614,7 +2614,7 @@ publications:
       publisher: ACM
   articletype: Short Paper
   doi: '10.1145/3701716.3717813'
-  pending: true
+  pending: false
   highlight: false
   caption: >-
     Natural Language Interfaces (NLIs) backed by Large Language Models (LLMs) are used to interact with visualizations through natural language queries.
@@ -2646,7 +2646,7 @@ publications:
       publisher: ACM
   articletype: Extended Abstract
   doi: '10.1145/3701716.3717812'
-  pending: true
+  pending: false
   highlight: false
   caption: >-
     In this paper, we propose a natural language interface visualization framework leveraging visualization grammar to balance the flexibility and stability of generated visualizations.
