@@ -30,6 +30,11 @@ services:
   - International EuroVis Workshop on Visual Analytics (EuroVA)
   - Computer Graphics Forum (CGF)
 - title: Reviewer
+  institution: PeerJ Computer Science
+  since: 2025
+  until: 2025
+  logo: logos/peerj_computer_science.jpg
+- title: Reviewer
   institution: BMC Bioinformatics
   since: 2025
   until: 2025
