@@ -2704,7 +2704,7 @@ publications:
       short: EuroVis '25
       publisher: EG
   articletype: Extended Abstract
-  pending: true
+  doi: '10.2312/evp.20251140'
   highlight: false
   caption: >-
     In order to visualize multivariate data, it is often necessary to reduce their dimensionality. Visualizations based on
@@ -2730,7 +2730,7 @@ publications:
       short: EuroVis '25
       publisher: EG
   articletype: Extended Abstract
-  pending: true
+  doi: '10.2312/evp.20251138'
   highlight: false
   caption: >-
     Communication networks are a type of graph that occurs in different areas such as robotic, Internet of Things, and
@@ -2762,7 +2762,7 @@ publications:
       short: EuroVis '25
       publisher: EG
   articletype: Extended Abstract
-  pending: true
+  doi: '10.2312/evp.20251134'
   highlight: false
   caption: >-
     Large Language Models (LLMs) are increasingly integrated into Natural Language Interfaces (NLIs)
