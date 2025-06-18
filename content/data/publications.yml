@@ -2492,39 +2492,39 @@ publications:
     - desc: Results
       href: https://doi.org/10.5281/zenodo.12772898
 
-- key: 2024-topic-model-influence-extended
-  bibtex: atzberger2024-topic-model-influence-extended.bib
-  date: '2024-12-15'
+- key: 2025-topic-model-influence-extended
+  bibtex: atzberger2025-topic-model-influence-extended.bib
+  date: '2025-06-18'
   title: >-
     Evaluating Text Embeddings for Two-Dimensional Text Corpora Representations
   authors:
     - Daniel Atzberger
-    - Tim Cech
+    - Tim Barz-Cech
     - Willy Scheibel
     - Jürgen Döllner
     - Tobias Schreck
-  published: Preprint
+  published:
+    - venue: '{} Information Visualization'
+      short: IVI
+      publisher: SAGE
   articletype: Full Paper
   pending: true
-  disabled: true
   caption: >-
-    Several text corpus visualizations utilize a map-like metaphor, where the layout reflects
-    the semantic similarity between documents. The underlying two-dimensional scatterplots
-    are created by combining a latent embedding with a subsequent dimensionality reduction.
-    In this work, we analyze the impact of embedding quality on layout quality, focusing on
-    accuracy and class separation. We introduce a benchmark B = (D, L, QE , QDR) consisting of
-    a collection of text corpora D, a set of layout algorithms L that combine text embeddings
-    with dimensionality reductions, quality metrics QE for evaluating text embeddings, and
-    quality metrics QDR for assessing accuracy and class separation. We generate a multivariate
-    dataset by evaluating this benchmark, which we further analyze in a statistical analysis.
-    Our results indicate that, for Latent Semantic Indexing combined with tf-idf weighting and
-    t-distributed Stochastic Neighbor Embedding, coherence plays a significant role in
-    determining the accuracy of the layout. Additionally, our findings reveal that embeddings
-    do not enhance class separation in the two-dimensional scatterplot representation. As main
-    result, we provide more fine-grained guidelines for effectively utilizing text embeddings
-    and dimensionality reduction techniques to generate two-dimensional scatterplot
-    representations of text corpora.
-  thumbnail: publications/2024-sncs-topic-model-influence-extended.png
+    Several text corpus visualizations utilize a map-like metaphor, where the layout reflects the semantic similarity between
+    documents. The underlying two-dimensional scatterplots are created by combining a latent embedding with a subsequent
+    dimensionality reduction. In this work, we analyze the impact of embedding quality on layout quality. We evaluate the
+    accuracy of the layout, specifically the preservation of local and global structures of the text corpus in its two-dimensional
+    representation. Additionally, we assess class separation, focusing on the effectiveness of distinguishing classes within
+    the two-dimensional space. We introduce a benchmark B = (D, L, QE , QDR) consisting of a collection of text corpora
+    D, a set of layout algorithms L that combine text embeddings with dimensionality reductions, quality metrics QE for
+    evaluating text embeddings, and quality metrics QDR for assessing accuracy and class separation. We generate a
+    multivariate dataset by evaluating this benchmark, which we further analyze in a descriptive analysis. Our
+    results indicate that, for Latent Semantic Indexing combined with tf-idf weighting and t-distributed Stochastic Neighbor
+    Embedding, coherence plays a substantial role in determining the accuracy of the layout. Additionally, our
+    findings reveal that embeddings do not enhance class separation in the two-dimensional scatterplot representation. As
+    main result, we provide more fine-grained guidelines for effectively utilizing text embeddings and dimensionality reduction
+    techniques to generate two-dimensional scatterplot representations of text corpora reflecting semantic similarity.
+  thumbnail: publications/2025-ivi-topic-model-influence-extended.png
   downloads:
     - desc: Publisher Record
     - desc: Author Version
