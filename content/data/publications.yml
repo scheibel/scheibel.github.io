@@ -2509,6 +2509,7 @@ publications:
       publisher: SAGE
   articletype: Full Paper
   pending: true
+  highlight: true
   caption: >-
     Several text corpus visualizations utilize a map-like metaphor, where the layout reflects the semantic similarity between
     documents. The underlying two-dimensional scatterplots are created by combining a latent embedding with a subsequent
