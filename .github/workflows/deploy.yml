@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Initialize Node.js environment
         uses: actions/setup-node@v4
+        with:
+          node-version: 24
       - name: Check out code
         uses: actions/checkout@v4
         with:
