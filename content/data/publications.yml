@@ -2349,6 +2349,7 @@ publications:
   downloads:
     - desc: Publisher Record
     - desc: Author Version
+
 - key: 2024-instanced-glyph-rendering
   bibtex: sasd2024-instanced-glyph-rendering.bib
   title: >-
@@ -2398,6 +2399,7 @@ publications:
       href: https://github.com/varg-dev/SoftwareMap
     - desc: Performance Measurements
       href: https://doi.org/10.5281/zenodo.12797370
+
 - key: 2024-scatterplot-filtering
   bibtex: ajsd2024-scatterplot-filtering.bib
   title: >-
@@ -2507,8 +2509,9 @@ publications:
     - venue: '{} Information Visualization'
       short: IVI
       publisher: SAGE
+  doi: 10.1177/14738716251355650
   articletype: Full Paper
-  pending: true
+  pending: false
   highlight: true
   caption: >-
     Several text corpus visualizations utilize a map-like metaphor, where the layout reflects the semantic similarity between
@@ -2528,6 +2531,7 @@ publications:
   thumbnail: publications/2025-ivi-topic-model-influence-extended.png
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.1177/14738716251355650
     - desc: Author Version
 
 - key: 2025-llm-treemaps
@@ -2564,6 +2568,7 @@ publications:
   thumbnail: publications/2025-ivapp-llm-treemaps.png
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.5220/0013119600003912
     - desc: Author Version
     - desc: Slides
 
@@ -2582,7 +2587,7 @@ publications:
   published:
     - venue: 1st Workshop on Intelligent and Interactive Health User Interfaces
       short: HealthIUI '25
-      publisher: ACM
+      publisher: CEUR-WS
   articletype: Short Paper
   pending: false
   highlight: false
@@ -2597,6 +2602,7 @@ publications:
   thumbnail: publications/2025-healthiui-apchis-lod.png
   downloads:
     - desc: Publisher Record
+      href: https://ceur-ws.org/Vol-3957/HealthIUI-paper13.pdf
 
 - key: 2025-llm-treemaps-sensitivity
   bibtex: ajtsds2025-llm-treemaps-sensitivity.bib
@@ -2627,6 +2633,7 @@ publications:
   thumbnail: publications/2025-prompteng-llm-treemaps-sensitivity.png
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.1145/3701716.3717813
     - desc: Author Version
     - desc: Slides
 
@@ -2656,6 +2663,7 @@ publications:
   thumbnail: publications/2025-prompteng-llm-vis-grammars.png
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.1145/3701716.3717812
     - desc: Author Version
     - desc: Slides
 
@@ -2716,6 +2724,7 @@ publications:
   thumbnail: publications/2025-eurovis-task-taxonomies-dust-and-magnet.png
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.2312/evp.20251140
     - desc: Author Version
 
 - key: 2025-graph-evaluation-system
@@ -2747,6 +2756,7 @@ publications:
   thumbnail: publications/2025-eurovis-graph-evaluation-system.png
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.2312/evp.20251138
     - desc: Author Version
 
 - key: 2025-llm-evaluation-system
@@ -2776,4 +2786,39 @@ publications:
   thumbnail: publications/2025-eurovis-llm-evaluation-system.png
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.2312/evp.20251134
     - desc: Author Version
+
+- key: 2025-column-based-parsing
+  bibtex: sd2025-column-based-parsing.bib
+  title: >-
+    Parallelized Tabular Data Loading using Web Workers for Hardware-accelerated Visualization Rendering
+  date: '2025-09-08'
+  authors:
+    - Willy Scheibel
+    - Jürgen Döllner
+  published:
+    - venue: 30th International Conference on 3D Web Technology
+      short: Web3D '25
+      publisher: ACM
+  articletype: Full Paper
+  pending: true
+  caption: >-
+    Interactive web-based 3D visualization of large tabular datasets requires efficient loading to ensure
+    quick access, responsiveness, and interactivity. Current web technologies, in particular JavaScript-based
+    CSV parsers, face significant performance bottlenecks due to JavaScript's inherent single-threaded nature
+    and inefficient data handling mechanisms. To overcome these limitations, this paper presents a
+    multithreaded loading and parsing approach for tabular data leveraging Web Workers and the Streams API.
+    Our method partitions input data into manageable batches to be processed in parallel, significantly
+    reducing parsing time. Furthermore, the parsed data is directly stored in ArrayBuffers, enabling direct
+    and efficient transfer to GPU memory using WebGL or WebGPU, which is critical for visualizing large
+    datasets. We evaluate our parser against state-of-the-art parsers, demonstrating substantial performance
+    gains -- specifically, parsing a dataset of 10 million rows significantly faster than the fastest
+    state-of-the-art parsers for the web. Our approach can be applied as a robust and scalable solution
+    tailored for real-time, web-based 3D information and data visualization such as scatter plots, treemaps,
+    and information landscapes.
+  thumbnail: publications/2025-web3d-column-based-parsing.png
+  downloads:
+    - desc: Publisher Record
+    - desc: Author Version
+    - desc: Slides
