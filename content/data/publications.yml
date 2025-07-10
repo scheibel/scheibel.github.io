@@ -2683,7 +2683,8 @@ publications:
       short: CVC '25
       publisher: IEEE
   articletype: Short Paper
-  pending: true
+  doi: 10.1109/CVC65719.2025.00013
+  pending: false
   highlight: false
   caption: >-
     As cryptocurrency markets mature, options on cryptocurrencies are gaining increasing importance.
