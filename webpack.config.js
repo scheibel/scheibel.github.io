@@ -7,7 +7,7 @@ const webpack = require('webpack');
 const PugPlugin = require('pug-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-const FontminPlugin = require('fontmin-webpack');
+// const FontminPlugin = require('fontmin-webpack');
 const CopyPlugin = require("copy-webpack-plugin");
 
 const Bibliography = require('bibliography');
