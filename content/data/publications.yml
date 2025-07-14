@@ -2803,6 +2803,7 @@ publications:
       short: Web3D '25
       publisher: ACM
   articletype: Full Paper
+  doi: 10.1145/3746237.3746306
   pending: true
   caption: >-
     Interactive web-based 3D visualization of large tabular datasets requires efficient loading to ensure
@@ -2821,5 +2822,6 @@ publications:
   thumbnail: publications/2025-web3d-column-based-parsing.png
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.1145/3746237.3746306
     - desc: Author Version
     - desc: Slides
