@@ -45,14 +45,14 @@ services:
   since: 2025
   until: 2025
   logo: logos/bmc_bioinformatics_logo.jpg
-- title: Reviewer
+- title: Program Committee, Reviewer
   institution: International Symposium on Visual Information Communication and Interaction
   since: 2022
   until: 2025
   logo: logos/vinci_logo.png
   projects:
   - VINCI
-- title: Reviewer
+- title: Program Committee, Reviewer
   institution: IEEE Working Conference on Software Visualization
   since: 2022
   until: 2022
