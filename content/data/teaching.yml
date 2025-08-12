@@ -1,6 +1,12 @@
 heading: Teaching
 short: Teaching
 terms:
+- term: '2025/26 : Winter Term'
+  courses:
+    - course: Computer Graphics I
+      type: Lecture (B.Sc.)
+      role: Co-Lecturer
+  upcoming: true
 - term: '2025 : Summer Term'
   courses:
     - course: Computer Graphics II
@@ -9,6 +15,9 @@ terms:
     - course: Video Interpretation and Summarization
       type: Project (B.Sc.)
       role: Supervisor
+    - course: Visual Analytics
+      type: Lecture (M.Sc.)
+      role: Guest Speaker @ TU Graz
   upcoming: false
 - term: '2024/25 : Winter Term'
   courses:
