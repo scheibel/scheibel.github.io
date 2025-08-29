@@ -2804,7 +2804,7 @@ publications:
       publisher: ACM
   articletype: Full Paper
   doi: 10.1145/3746237.3746306
-  pending: true
+  pending: false
   caption: >-
     Interactive web-based 3D visualization of large tabular datasets requires efficient loading to ensure
     quick access, responsiveness, and interactivity. Current web technologies, in particular JavaScript-based

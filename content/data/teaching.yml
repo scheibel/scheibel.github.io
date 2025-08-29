@@ -6,7 +6,7 @@ terms:
     - course: Computer Graphics I
       type: Lecture (B.Sc.)
       role: Co-Lecturer
-  upcoming: true
+  upcoming: false
 - term: '2025 : Summer Term'
   courses:
     - course: Computer Graphics II
