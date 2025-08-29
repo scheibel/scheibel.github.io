@@ -2,6 +2,49 @@ extends /template/defaultcontent.pug
 
 include /partials/publications_entry.pug
 
+mixin publications_progress(publications_entries)
+  -
+    var per_type = {
+      all: publications_entries.length,
+      journal: publications_entries.filter((entry) => entry.articletype === 'Journal Article').length,
+      full: publications_entries.filter((entry) => entry.articletype === 'Full Paper').length,
+      short: publications_entries.filter((entry) => entry.articletype === 'Short Paper' || entry.articletype === 'Position Paper').length,
+      extendedabstract: publications_entries.filter((entry) => entry.articletype === 'Extended Abstract').length,
+      chapter: publications_entries.filter((entry) => entry.articletype === 'Chapter').length
+    };
+    per_type.misc = per_type.all - per_type.journal - per_type.full - per_type.short - per_type.extendedabstract;
+  div.progress
+    div.progress-bar.bg-success(style="width: "+(100*per_type.journal/per_type.all)+"%;")
+      if per_type.journal/per_type.all > 0.05
+        =per_type.journal
+      if per_type.journal/per_type.all > 0.1
+        | 
+        | Journal Articles
+    div.progress-bar.bg-primary(style="width: "+(100*per_type.full/per_type.all)+"%;")
+      if per_type.full/per_type.all > 0.05
+        = per_type.full
+      if per_type.full/per_type.all > 0.1
+        | 
+        | Full Papers
+    div.progress-bar.bg-warning(style="width: "+(100*per_type.short/per_type.all)+"%;")
+      if per_type.short/per_type.all > 0.05
+        = per_type.short
+      if per_type.short/per_type.all > 0.1
+        | 
+        | Short Papers
+    div.progress-bar.bg-danger(style="width: "+(100*per_type.extendedabstract/per_type.all)+"%;")
+      if per_type.extendedabstract/per_type.all > 0.05
+        = per_type.extendedabstract
+      if per_type.extendedabstract/per_type.all > 0.1
+        | 
+        | Extended Abstracts
+    div.progress-bar.bg-secondary(style="width: "+(100*per_type.misc/per_type.all)+"%;")
+      if per_type.misc/per_type.all > 0.05
+        = per_type.misc
+      if per_type.misc/per_type.all > 0.1
+        | 
+        | Misc
+
 block variables
   - var PageName = "Publications"
   - var PageID = "publications"
@@ -34,9 +77,11 @@ block variables
 
 block content
   .card
-    h4.card-header Publications 
+    h4.card-header
+      span Publications
     .card-body
-      ul.list-inline.mb-0
+      +publications_progress(publications_entries)
+      ul.list-inline.mb-0.mt-2
         li.list-inline-item.me-4
           | Jump to year:
         each year in years
@@ -45,10 +90,14 @@ block content
 
   each year in years
     .card(id=year)
-      .card-header.d-flex
-        span #{year}
-        span.ms-auto
-          a(href="#top") top
+      .card-header
+        +publications_progress(publications_by_year[year])
+        .d-flex.mt-2
+          h6
+            | #{year}
+            | 
+          span.ms-auto
+            a(href="#top") top
       //-.card-body
       ul.list-group.list-group-flush
         each publication in publications_by_year[year]
