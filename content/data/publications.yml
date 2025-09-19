@@ -2699,6 +2699,7 @@ publications:
   thumbnail: publications/2025-cvc-option-tick-data-deribit.png
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.1109/CVC65719.2025.00013
     - desc: Author Version
 
 - key: 2025-task-taxonomies-dust-and-magnet
