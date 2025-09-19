@@ -2828,8 +2828,8 @@ publications:
 
 
 
-- key: 2025-column-based-parsing
-  bibtex: sd2025-column-based-parsing.bib
+- key: jasds2025-llm-trustworthiness
+  bibtex: jasds2025-llm-trustworthiness.bib
   title: >-
     Integrating Natural Language Interfaces into Data Visualizations with Trustworthiness Scores
   date: '2025-11-03'
