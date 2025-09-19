@@ -65,6 +65,7 @@ services:
   - Information Sciences (INS)
   - Computers & Graphics (CAG)
   - Knowledge-based Systems (KNOSYS)
+  - Computer Languages (COLA)
   since: 2021
   logo: logos/elsevier_logo.png
 - title: Organization Committee

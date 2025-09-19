@@ -2825,3 +2825,42 @@ publications:
       href: https://doi.org/10.1145/3746237.3746306
     - desc: Author Version
     - desc: Slides
+
+
+
+- key: 2025-column-based-parsing
+  bibtex: sd2025-column-based-parsing.bib
+  title: >-
+    Integrating Natural Language Interfaces into Data Visualizations with Trustworthiness Scores
+  date: '2025-11-03'
+  authors:
+    - Adrian Jobst
+    - Daniel Atzberger
+    - Willy Scheibel
+    - Jürgen Döllner
+    - Tobias Schreck
+  published:
+    - venue: 1st Workshop on GenAI, Agents, and the Future of VIS
+      short: VISxGenAI '25
+  articletype: Short Paper
+  pending: true
+  caption: >-
+    We present a framework for integrating Natural Language Interfaces (NLIs) backed by
+    Large Language Models (LLMs) into data visualizations to enhance accessibility for
+    users with limited visualization literacy. Given a visualization specified in a
+    structured JSON schema and its underlying data, the framework enables users to
+    interact through natural language queries. The LLM interprets the query, decides
+    whether to respond in text or modify the visualization by updating the specification,
+    and generates answers by writing and executing code that analyzes the data. To enhance
+    the reliability, the framework assigns a trustworthiness score to each response,
+    derived from the LLM's performance on comparable tasks from the revised Visualization
+    Literacy Assessment Test (Mini-VLAT). Our implementation supports both OpenAI and local
+    models. We further discuss the pros and cons of these two alternatives concerning their
+    use in NLIs. Our framework is intended for visualization designers working with charts
+    of moderate complexity, such as those used in data journalism or embedded in websites,
+    e.g., in our examples we included a Candlestick Chart for showing price movements of
+    stocks.
+  thumbnail: publications/2025-visxgenai-nlis-trustworthiness.png
+  downloads:
+    - desc: Author Version
+    - desc: Poster
