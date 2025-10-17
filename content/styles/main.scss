@@ -80,6 +80,10 @@ p {
   // @hyphenation-resource
 }
 
+p:last-child {
+  margin-bottom: 0 !important;
+}
+
 // .row {
 //   margin-top: 2rem;
 // }
