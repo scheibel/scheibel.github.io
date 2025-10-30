@@ -2865,3 +2865,44 @@ publications:
   downloads:
     - desc: Author Version
     - desc: Poster
+
+
+
+- key: wsd2026-smolvlm-parking-occupancy
+  bibtex: wsd2026-smolvlm-parking-occupancy.bib
+  title: >-
+    Benchmarking SmolVLM for Parking Occupancy Detection
+  date: '2026-01-29'
+  authors:
+    - Jobin Idiculla Wattasseril
+    - Willy Scheibel
+    - Jürgen Döllner
+  published:
+    - venue: 32nd International Conference on Multimedia Modeling
+      short: MMM '26
+      publisher: Springer
+  articletype: Full Paper
+  pending: true
+  caption: >-
+    Parking occupancy detection plays a critical role in optimizing urban spaces
+    by enabling dynamic resource allocation and reducing traffic congestion.
+    While prior approaches relying on lightweight architectures offer fast
+    inference, their task-specific designs necessitate architectural modifications
+    for new applications, limiting adaptability. Multimodal Large Language Models
+    (MLLMs) have emerged as versatile alternatives, with efficient variants now
+    deployable on edge devices. This paper presents the first benchmark of an
+    existing efficient MLLM, SmolVLM, for the task of parking occupancy detection.
+    We systematically evaluate the model's feasibility in a zero-shot setting,
+    along with parameter-efficient fine-tuned variants across different model
+    sizes and user/system prompt configurations, and further assess its ability
+    for cross-dataset generalization. Experiments on two benchmark datasets,
+    PKLot and CNRPark+EXT, demonstrate that our approach exhibits strong in-domain
+    and cross-dataset performance, and either compete with or surpass prior
+    task-specific architectures, despite training on significantly lesser data
+    (91% reduction for PKLot; 40% reduction for CNRPark+EXT).
+  thumbnail: publications/2026-mmm-smolvlm-parking-occupancy.png
+  downloads:
+    - desc: Publisher Record
+    - desc: Author Version
+    - desc: Replication Package
+      href: https://osf.io/kdhe5?view_only=72e17f288d2f471eb4deb464d177a50c
