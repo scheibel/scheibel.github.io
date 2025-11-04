@@ -111,6 +111,8 @@ const createBibliographyFromBibFilesSync = (filenames) => {
         path_elements.push(parsed_path.name);
         path_elements.shift();
         const key = path_elements.join("/");
+        console.log(`Parse BibTeX entry:`);
+        console.log(entry);
         const parsed = Bibliography.parseString(entry);
 
         const bibliographyRawEntry = parsed.rawEntries[Object.keys(parsed.rawEntries)[0]];

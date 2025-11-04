@@ -2925,6 +2925,7 @@ publications:
       publisher: Elsevier
   articletype: Journal Article
   pending: true
+  highlight: true
   caption: >-
     Multi-temporal point clouds, which capture the same acquisition area at different points in time,
     enable change analysis and forecasting across various disciplines. Publicly available datasets
