@@ -2906,3 +2906,48 @@ publications:
     - desc: Author Version
     - desc: Replication Package
       href: https://osf.io/kdhe5?view_only=72e17f288d2f471eb4deb464d177a50c
+
+
+
+- key: wsrd2026-multitemporal-dataset-survey
+  bibtex: wsrd2026-multitemporal-dataset-survey.bib
+  title: >-
+    A Survey of Publicly Available Multi-Temporal Point Cloud Datasets
+  date: '2026-01-01'
+  authors:
+    - Ole Wegen
+    - Willy Scheibel
+    - Rico Richter
+    - Jürgen Döllner
+  published:
+    - venue: ISPRS Journal of Photogrammetry and Remote Sensing
+      short: ISPRS P&RS
+      publisher: Elsevier
+  articletype: Journal Article
+  pending: true
+  caption: >-
+    Multi-temporal point clouds, which capture the same acquisition area at different points in time,
+    enable change analysis and forecasting across various disciplines. Publicly available datasets
+    play an important role in the development and evaluation of such approaches by enhancing
+    comparability and reducing the effort required for data acquisition and preparation. However,
+    identifying suitable datasets, assessing their characteristics, and comparing them with similar
+    ones remains challenging and tedious due to the lack of a centralized distribution and
+    documentation platform. In this paper, we provide a comprehensive overview of publicly available
+    multi-temporal point cloud datasets. We evaluate each dataset across 30 different characteristics,
+    grouped into six categories, and highlight current gaps and future challenges. Our analysis shows
+    that, although many datasets are accompanied by extensive documentation, unclear usage terms and
+    unreliable data hosting can limit their accessibility and adoption. In addition to clear
+    correlations between application domains, acquisition methods, and captured scene types, there is
+    also some overlap in point cloud requirements across domains. However, inconsistencies in file
+    formats, data representations, and labeling practices hinder cross-domain and cross-application
+    reuse. In the context of machine learning, we observe a positive trend toward more labeled
+    datasets. Nevertheless, gaps remain due to limited coverage of natural environments and poor
+    geographic diversity. Although there are already many positive examples of accessible datasets,
+    future dataset publications would benefit from standardized review processes and a stronger focus
+    on accessibility and usability across application areas.
+  thumbnail: publications/2026-isprs-multitemporal-dataset-survey.jpg
+  downloads:
+    - desc: Publisher Record
+    - desc: Author Version
+    - desc: Companion Website
+      href: https://hpicgs.github.io/multi-temporal-point-cloud-datasets-survey/
