@@ -2924,7 +2924,8 @@ publications:
       short: ISPRS P&RS
       publisher: Elsevier
   articletype: Journal Article
-  pending: true
+  pending: false
+  doi: 10.1016/j.isprsjprs.2025.11.003
   highlight: true
   caption: >-
     Multi-temporal point clouds, which capture the same acquisition area at different points in time,
@@ -2949,6 +2950,7 @@ publications:
   thumbnail: publications/2026-isprs-multitemporal-dataset-survey.jpg
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.1016/j.isprsjprs.2025.11.003
     - desc: Author Version
     - desc: Companion Website
       href: https://hpicgs.github.io/multi-temporal-point-cloud-datasets-survey/
