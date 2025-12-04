@@ -2844,7 +2844,7 @@ publications:
     - venue: 1st Workshop on GenAI, Agents, and the Future of VIS
       short: VISxGenAI '25
   articletype: Short Paper
-  pending: true
+  pending: false
   caption: >-
     We present a framework for integrating Natural Language Interfaces (NLIs) backed by
     Large Language Models (LLMs) into data visualizations to enhance accessibility for
@@ -2863,6 +2863,8 @@ publications:
     stocks.
   thumbnail: publications/2025-visxgenai-nlis-trustworthiness.png
   downloads:
+    - desc: Workshop Version
+      href: https://visxgenai.github.io/subs-2025/6449/6449-doc.pdf
     - desc: Author Version
     - desc: Poster
 
