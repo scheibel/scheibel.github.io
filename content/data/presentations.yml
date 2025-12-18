@@ -80,3 +80,19 @@ talks:
   title: Hierarchy Visualization and 2.5D Information Landscapes
   location: 'Visual Analytics 2024, Virtual Attendance at TU Graz, Austria'
   downloads: []
+- date: '2025-05-27 10:00:00'
+  title: Hierarchy Visualization and 2.5D Information Landscapes
+  location: 'Visual Analytics 2025, Virtual Attendance at TU Graz, Austria'
+  downloads: []
+- date: '2025-06-03 16:00:00'
+  title: A Graph Layout Evaluation System for Communication Graphs
+  location: 'EuroVis 2025, Luxembourg'
+  downloads: []
+- date: '2025-06-03 16:00:00'
+  title: Towards a Software Framework for Evaluating the Visualization Literacy of Large Language Models
+  location: 'EuroVis 2025, Luxembourg'
+  downloads: []
+- date: '2025-11-05 16:00:00'
+  title: Integrating Natural Language Interfaces into Data Visualizations with Trustworthiness Scores
+  location: 'EuroVis 2025, Luxembourg'
+  downloads: []

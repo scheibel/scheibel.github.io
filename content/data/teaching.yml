@@ -1,6 +1,15 @@
 heading: Teaching
 short: Teaching
 terms:
+- term: '2026 : Summer Term'
+  courses:
+    - course: Computer Graphics II
+      type: Lecture (B.Sc.)
+      role: Co-Lecturer
+    - course: Interactive Computer Graphics
+      type: Project Seminar (B.Sc.)
+      role: Seminar Lead and Tutor
+  upcoming: true
 - term: '2025/26 : Winter Term'
   courses:
     - course: Computer Graphics I

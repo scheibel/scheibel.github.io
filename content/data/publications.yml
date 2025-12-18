@@ -1609,7 +1609,7 @@ publications:
     - venue: 25th {} Conference on Visualization
       short: EuroVis '23
       publisher: EG
-  doi: 10.2312/evp20231054
+  doi: 10.2312/evp.20231054
   articletype: Extended Abstract
   caption: >-
     Quali-quantitative methods provide ways for interrogating Convolutional
@@ -1622,7 +1622,7 @@ publications:
     agency over the model training process.
   thumbnail: publications/2023-eurovis-saliencnn.png
   downloads:
-    - href: 'https://doi.org/10.2312/evp20231054'
+    - href: 'https://doi.org/10.2312/evp.20231054'
       desc: Publisher Record
     - href: >-
         https://www.researchgate.net/profile/Willy-Scheibel/publication/370772987/inline/jsViewer/64aeb586b9ed6874a5153869?pdfJsDownload=1
@@ -1644,7 +1644,7 @@ publications:
     - venue: 25th {} Conference on Visualization
       short: EuroVis '23
       publisher: EG
-  doi: 10.2312/evp20231060
+  doi: 10.2312/evp.20231060
   articletype: Extended Abstract
   caption:
     The Hilbert and Moore treemap layout algorithms are based on the
@@ -1662,7 +1662,7 @@ publications:
     curves, allowing for improved layout stability.
   thumbnail: publications/2023-eurovis-hilbertmoorecontinuous.png
   downloads:
-    - href: 'https://doi.org/10.2312/evp20231060'
+    - href: 'https://doi.org/10.2312/evp.20231060'
       desc: Publisher Record
     - href: >-
         https://www.researchgate.net/profile/Willy-Scheibel/publication/370769807/inline/jsViewer/646246fe434e26474feb0bcd?pdfJsDownload=1
@@ -2222,11 +2222,13 @@ publications:
     - desc: Slides
       href: >-
         https://www.researchgate.net/profile/Ole-Wegen/publication/385851136/inline/jsViewer/673741e168de5e5a3077e6c9?pdfJsDownload=1
-- key: 2024-standardness-fogs-meaning
-  bibtex: cwarsd2024-standardness-fogs-meaning.bib
+
+
+- key: 2024-standardness-clouds-meaning
+  bibtex: cwarsd2024-standardness-clouds-meaning.bib
   date: '2024-06-21'
   title: >-
-    Standardness Fogs Meaning: A Position Regarding the Informed Usage of
+    Standardness Clouds Meaning: A Position Regarding the Informed Usage of
     Standard Datasets
   authors:
     - Tim Cech
@@ -2262,11 +2264,13 @@ publications:
     improve trust in the Machine Learning model.
   thumbnail: publications/2024-arxiv-standardness-fogs-meaning.png
   downloads:
-    - desc: Record
+    - desc: Preprint Record
       href: 'https://doi.org/10.48550/arXiv.2406.13552'
-    - desc: Preprint
+    - desc: Author Version
       href: >-
         https://www.researchgate.net/publication/381580013/inline/jsViewer/6674f3ddd21e220d89c51365?pdfJsDownload=1
+
+
 - key: 2024-uncover-extended
   bibtex: lbcsd2024-uncover-extended.bib
   date: '2024-08-01'
@@ -2435,7 +2439,10 @@ publications:
   downloads:
     - desc: Publisher Record
       href: https://doi.org/10.2312/cgvc.20241224
+    - desc: Author Version
     - desc: Slides
+
+
 - key: 2025-dr-sensitivity-analysis
   bibtex: acsdbs2025-dr-sensitivity-analysis.bib
   title: >-
@@ -2570,7 +2577,7 @@ publications:
     - desc: Publisher Record
       href: https://doi.org/10.5220/0013119600003912
     - desc: Author Version
-    - desc: Slides
+    - desc: Poster
 
 - key: 2025-apchis-lod
   bibtex: tbajsls2025-apchis-lod.bib
@@ -2728,6 +2735,7 @@ publications:
     - desc: Publisher Record
       href: https://doi.org/10.2312/evp.20251140
     - desc: Author Version
+    - desc: Poster
 
 - key: 2025-graph-evaluation-system
   bibtex: ssd2025-graph-evaluation-system.bib
@@ -2760,6 +2768,7 @@ publications:
     - desc: Publisher Record
       href: https://doi.org/10.2312/evp.20251138
     - desc: Author Version
+    - desc: Poster
 
 - key: 2025-llm-evaluation-system
   bibtex: jasd2025-llm-evaluation-system.bib
@@ -2790,6 +2799,7 @@ publications:
     - desc: Publisher Record
       href: https://doi.org/10.2312/evp.20251134
     - desc: Author Version
+    - desc: Poster
 
 - key: 2025-column-based-parsing
   bibtex: sd2025-column-based-parsing.bib

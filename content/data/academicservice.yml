@@ -48,7 +48,6 @@ services:
 - title: Program Committee, Reviewer
   institution: International Symposium on Visual Information Communication and Interaction
   since: 2022
-  until: 2025
   logo: logos/vinci_logo.png
   projects:
   - VINCI
