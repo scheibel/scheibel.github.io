@@ -2966,3 +2966,46 @@ publications:
     - desc: Author Version
     - desc: Companion Website
       href: https://hpicgs.github.io/multi-temporal-point-cloud-datasets-survey/
+
+
+- key: dwsucr2025-urban-space-analysis
+  bibtex: dwsucr2025-urban-space-analysis.bib
+  title: >-
+    Design of an Intelligent System for Analyzing Urban Public Spaces Based on Feature Vector Abstraction
+  date: '2025-11-24'
+  authors:
+    - Jürgen Döllner
+    - Jobin Idiculla Wattasseril
+    - Willy Scheibel
+    - Daniel Ullmann
+    - Jose Carvajal
+    - Martin Reiter
+  published:
+    - venue: 15th International Conference on Electronics, Communications and Networks
+      short: CECNet '25
+      publisher: IOS Press
+  articletype: Full Paper
+  pending: false
+  doi: 10.3233/FAIA251517
+  highlight: false
+  caption: >-
+    Public spaces in cities are increasingly confronted with competing, intertwined uses, for example due to
+    increasing vehicle traffic combined with a lack of parking spaces or constantly changing obstacles for
+    pedestrian and vehicle traffic—which poses complex challenges for politics, administration, economy, and
+    society as a whole. Our project aims strategically to address these challenges, particularly in the
+    context of smart city initiatives, by developing an AI-based analysis and monitoring system for urban
+    public spaces that classifies spatial events based on high-dimensional feature spaces. For given cameras,
+    we extract content-related features from the image sequences using image analysis and store the results
+    in the form of feature vector sequences. The interpretation and prediction of a camera's observations is
+    based on a qualified cluster structure in the corresponding high-dimensional feature space, which is
+    created by dimension reduction. During operation, only feature vectors are sent to a server, ensuring a
+    high level of data protection and reducing data bandwidth requirements. If the system detects relevant
+    events, activities such as requesting the corresponding video sequence can be triggered. The approach
+    enables the long-term analysis of phenomena such as parking space occupancy, people occupancy, traffic
+    density, and the detection of unusual events. It forms the basis for a generic tool for urban planners as
+    well as authorities to analyze and visualize the dynamics of public spaces in cities.
+  thumbnail: publications/2025-cecnet-urban-space-analysis.png
+  downloads:
+    - desc: Publisher Record
+      href: https://doi.org/10.3233/FAIA251517
+    - desc: Author Version
