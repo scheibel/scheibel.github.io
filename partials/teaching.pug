@@ -1,6 +1,6 @@
 
 mixin term(term, index)
-  .col-8.offset-2.text-center.col-md-6.offset-md-0(class=(term.upcoming?' text-muted' : '')+((index%2)==0 ? ' text-md-end': ' text-md-start'))
+  .col-8.offset-2.text-center.col-md-6.offset-md-0.mb-2(class=(term.upcoming?' text-muted' : '')+((index%2)==0 ? ' text-md-end': ' text-md-start'))
     h4 #{term.term}
     each course in term.courses 
       p 
