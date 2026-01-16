@@ -3009,3 +3009,36 @@ publications:
     - desc: Publisher Record
       href: https://doi.org/10.3233/FAIA251517
     - desc: Author Version
+
+
+- key: 2026-llm-vis-evaluation
+  bibtex: jasds2026-llm-vis-evaluation.bib
+  date: '2026-03-09'
+  title: "Evaluating Large Language Model Integration into Natural Language Interfaces for Visualizations with Available Input Data"
+  authors:
+    - Adrian Jobst
+    - Daniel Atzberger
+    - Willy Scheibel
+    - Jürgen Döllner
+    - Tobias Schreck
+  published:
+    - venue: 21st International Conference on Computer Graphics, Interaction and Visualization Theory and Applications
+      short: GRIVAPP '26
+      publisher: SciTePress
+  articletype: Short Paper
+  pending: true
+  highlight: false
+  caption: >-
+    We evaluate an approach for integrating Large Language Models (LLMs) into NLIs in cases where the underlying data is available. Thereby,
+    the LLM is provided with an instruction prompt that defines the context and a visualization specification that formalizes the visual
+    mapping.We compare this integration with approaches that rely on Multimodal LLMs (MLLMs) using the Visualization Literacy Assessment
+    Test (VLAT) as test benchmark and further assess its performance with customized questionnaires that include questions with and without
+    visual references and textual, as well as visual outputs. Our results demonstrate the effectiveness of our alternative approach and the
+    superior performance compared to pure MLLM-based approaches. We further provide an implementation that serves as a blueprint for
+    practitioners that aim to integrate LLMs into NLIs. The implementation is publicly available under
+    https://github.com/hpicgs/lumos-visualization-llm-nli.
+  thumbnail: publications/2026-grivapp-llm-vis-evaluation.png
+  downloads:
+    - desc: Publisher Record
+    - desc: Author Version
+    - desc: Presentation
