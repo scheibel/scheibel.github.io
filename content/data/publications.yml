@@ -2501,8 +2501,8 @@ publications:
     - desc: Results
       href: https://doi.org/10.5281/zenodo.12772898
 
-- key: 2025-topic-model-influence-extended
-  bibtex: atzberger2025-topic-model-influence-extended.bib
+- key: 2026-topic-model-influence-extended
+  bibtex: atzberger2026-topic-model-influence-extended.bib
   date: '2025-06-18'
   title: >-
     Evaluating Text Embeddings for Two-Dimensional Text Corpora Representations
@@ -2520,6 +2520,7 @@ publications:
   articletype: Journal Article
   pending: false
   highlight: true
+  note: Issue Cover
   caption: >-
     Several text corpus visualizations utilize a map-like metaphor, where the layout reflects the semantic similarity between
     documents. The underlying two-dimensional scatterplots are created by combining a latent embedding with a subsequent
@@ -3019,6 +3020,7 @@ publications:
     - Adrian Jobst
     - Daniel Atzberger
     - Willy Scheibel
+    - Mariia Tytarenko
     - Jürgen Döllner
     - Tobias Schreck
   published:
