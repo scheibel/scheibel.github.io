@@ -3044,3 +3044,35 @@ publications:
     - desc: Publisher Record
     - desc: Author Version
     - desc: Presentation
+
+
+
+- key: wsd2026-vigator-summarization
+  bibtex: wsd2026-vigator-summarization.bib
+  title: >-
+    ViGATOR: Explainable Graph-based Video RAG and Summarization
+  date: '2026-05-21'
+  authors:
+    - Jobin Idiculla Wattasseril
+    - Willy Scheibel
+    - Jürgen Döllner
+  published:
+    - venue: Proceedings of the 2026 Computer Vision Conference
+      short: CVC '26
+      publisher: Springer
+  articletype: Full Paper
+  pending: true
+  caption: >-
+    The proliferation of video data necessitates intelligent systems capable of complex, content-based retrieval
+    and summarization. Videos are strongly structured in time, however, their semantic structure is largely implicit
+    and only indirectly accessible. This complexity, along with temporal dynamics, makes indexing and summarization
+    particularly challenging. This paper introduces ViGATOR, a framework that leverages pre-trained foundation models
+    to construct a temporal knowledge graph from video content, capturing objects, their attributes, and interactions
+    over time. This structured representation enables natural language querying, where user questions are translated
+    into graph queries. A key advantage of our approach is its inherent explainability, as the system provides not
+    only answers but also natural language rationales detailing the inference path. A case study on a real-world
+    surveillance video demonstrates the system's effectiveness in handling complex temporal and relational queries.
+  thumbnail: publications/2026-cvc-vigator-summarization.png
+  downloads:
+    - desc: Publisher Record
+    - desc: Author Version
