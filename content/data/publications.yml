@@ -765,6 +765,9 @@ publications:
         https://www.researchgate.net/profile/Willy-Scheibel/publication/365824584/inline/jsViewer/63f5c8dc0d98a97717ab6258?pdfJsDownload=1
       desc: Slides
   doi: 10.1145/3481549.3481573
+
+
+
 - key: 2022-knowhowmap
   bibtex: acjsltd2022-knowhowmap.bib
   title: >-
@@ -3057,7 +3060,7 @@ publications:
     - Willy Scheibel
     - Jürgen Döllner
   published:
-    - venue: Proceedings of the 2026 Computer Vision Conference
+    - venue: 2026 Computer Vision Conference
       short: CVC '26
       publisher: Springer
   articletype: Full Paper
@@ -3073,6 +3076,42 @@ publications:
     only answers but also natural language rationales detailing the inference path. A case study on a real-world
     surveillance video demonstrates the system's effectiveness in handling complex temporal and relational queries.
   thumbnail: publications/2026-cvc-vigator-summarization.png
+  downloads:
+    - desc: Publisher Record
+    - desc: Author Version
+
+
+
+- key: jatsds2026-llm-vlat-prompt-engineering
+  bibtex: jatsds2026-llm-vlat-prompt-engineering.bib
+  title: >-
+    Evaluating the Impact of Prompt Engineering Techniques on the Visualization Literacy of Large Language Models
+  date: '2026-02-06'
+  authors:
+    - Adrian Jobst
+    - Daniel Atzberger
+    - Mariia Tytarenko
+    - Willy Scheibel
+    - Jürgen Döllner
+    - Tobias Schreck
+  published:
+    - venue: 2026 IEEE Pacific Visualization Conference
+      short: PacificVis '26
+      publisher: IEEE
+  articletype: Short Paper
+  pending: true
+  caption: >-
+    Large Language Models (LLMs) are increasingly integrated into Natural Language Interfaces (NLIs) for
+    visualizations. When the data underlying a visualization is available along with a visualization
+    specification, LLMs can answer user questions directly, without needing to extract visual features
+    from the rendered chart. In this setting, the context, tasks, and reasoning guidelines are provided
+    to the model via an instruction prompt. We evaluate the performance of GPT models on the
+    Visualization Literacy Assessment Test (VLAT), examining how different instruction prompts affect
+    their responses. Thereby, the prompts incorporate various prompt engineering techniques designed to
+    guide reasoning. Our results demonstrate the potential of LLMs to answer questions about baseline
+    visualizations with available input data. Furthermore, we provide insights into how prompt design
+    influences the performance in this scenario. The implementation is publicly available under https://github.com/hpicgs/lumos-visualization-llm-nli.
+  thumbnail: publications/2026-pacificvis-llm-vlat-prompt-engineering.png
   downloads:
     - desc: Publisher Record
     - desc: Author Version
