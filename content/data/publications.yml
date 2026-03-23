@@ -3016,7 +3016,7 @@ publications:
 
 
 - key: 2026-llm-vis-evaluation
-  bibtex: jasds2026-llm-vis-evaluation.bib
+  bibtex: jastds2026-llm-vis-evaluation.bib
   date: '2026-03-09'
   title: "Evaluating Large Language Model Integration into Natural Language Interfaces for Visualizations with Available Input Data"
   authors:
@@ -3031,7 +3031,8 @@ publications:
       short: GRIVAPP '26
       publisher: SciTePress
   articletype: Short Paper
-  pending: true
+  pending: false
+  doi: 10.5220/0014628600004728
   highlight: false
   caption: >-
     We evaluate an approach for integrating Large Language Models (LLMs) into NLIs in cases where the underlying data is available. Thereby,
@@ -3095,7 +3096,7 @@ publications:
     - Jürgen Döllner
     - Tobias Schreck
   published:
-    - venue: 2026 IEEE Pacific Visualization Conference
+    - venue: 2026 {} Pacific Visualization Conference
       short: PacificVis '26
       publisher: IEEE
   articletype: Short Paper
