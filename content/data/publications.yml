@@ -2898,7 +2898,8 @@ publications:
       short: MMM '26
       publisher: Springer
   articletype: Full Paper
-  pending: true
+  doi: 10.1007/978-981-95-6950-2_12
+  pending: false
   caption: >-
     Parking occupancy detection plays a critical role in optimizing urban spaces
     by enabling dynamic resource allocation and reducing traffic congestion.
@@ -2919,6 +2920,7 @@ publications:
   thumbnail: publications/2026-mmm-smolvlm-parking-occupancy.png
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.1007/978-981-95-6950-2_12
     - desc: Author Version
     - desc: Replication Package
       href: https://osf.io/kdhe5?view_only=72e17f288d2f471eb4deb464d177a50c
@@ -3046,6 +3048,7 @@ publications:
   thumbnail: publications/2026-grivapp-llm-vis-evaluation.png
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.5220/0014628600004728
     - desc: Author Version
     - desc: Presentation
 
