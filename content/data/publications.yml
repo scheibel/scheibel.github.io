@@ -3119,3 +3119,34 @@ publications:
   downloads:
     - desc: Publisher Record
     - desc: Author Version
+
+
+
+- key: wsrd2026-multitemporal-point-cloud-rendering
+  bibtex: wsrd2026-multitemporal-point-cloud-rendering.bib
+  title: Out-of-Core Rendering of Multi-Temporal Point Clouds
+  date: '2026-06-08'
+  authors:
+    - Ole Wegen
+    - Willy Scheibel
+    - Rico Richter
+    - Jürgen Döllner
+  published:
+    - venue: 2026 Eurographics Symposium on Parallel Graphics and Visualization
+      short: EGPGV '26
+      publisher: EG
+  articletype: Full Paper
+  pending: true
+  caption: >-
+    Point clouds are an important category of spatial data, commonly acquired from real-world environments via laser scanning or photogrammetry.
+    To enable interactive exploration and domain-specific visualization of large point clouds that exceed main memory capacity, out-of-core rendering techniques are commonly employed.
+    These combine external memory management with level-of-detail approaches by organizing point clouds into chunks of different resolutions that are dynamically loaded from secondary storage based on the virtual viewpoint.
+    A specific and increasingly relevant class of point cloud data is multi-temporal point clouds, which capture the same scene at different points in time.
+    However, existing out-of-core rendering approaches for point clouds are primarily optimized for spatial navigation and do not adequately support temporal exploration in multi-temporal point clouds.
+    To address this limitation, we propose an out-of-core rendering approach specifically tailored to multi-temporal point clouds that explicitly accounts for the tradeoff between spatial and temporal exploration.
+    Beyond determining which point cloud chunks of a hierarchical level-of-detail structure to render in each frame, we compute per-chunk priorities that enable prefetching, perceptually informed loading orders, and more effective memory eviction.
+    The proposed parameterizable prioritization integrates both spatial and temporal aspects, allowing flexible control over the balance between the two.
+  thumbnail: publications/2026-egpgv-multitemporal-point-cloud-rendering.png
+  downloads:
+    - desc: Publisher Record
+    - desc: Author Version
