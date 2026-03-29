@@ -2274,21 +2274,20 @@ publications:
         https://www.researchgate.net/publication/381580013/inline/jsViewer/6674f3ddd21e220d89c51365?pdfJsDownload=1
 
 
-- key: 2024-uncover-extended
-  bibtex: lbcsd2024-uncover-extended.bib
-  date: '2024-08-01'
+- key: 2026-uncover-extended
+  bibtex: lbcsd2026-uncover-extended.bib
+  date: '2026-06-01'
   title: >-
     Detecting and Comparing LLM Capabilities to Human Writers through Linguistic Analysis
   authors:
     - Lucas Liebe
     - Jannis Baum
-    - Tim Cech
+    - Tim Barz-Cech
     - Willy Scheibel
     - Jürgen Döllner
   published: Preprint
-  articletype: Full Paper
+  articletype: Journal Article
   pending: true
-  disabled: true
   caption: >-
     The capabilities of Large Language Models (LLMs) to synthesize texts that
     imitate human language have increased rapidly. While many people adopt
@@ -2313,24 +2312,26 @@ publications:
     the promising results, unCover addresses challenges posed by AI content
     with new solutions. This is a step towards safely integrating LLMs into
     various areas of society.
-  thumbnail: publications/2024-sncs-uncover-extended.png
+  thumbnail: publications/2026-sncs-uncover-extended.png
   downloads:
     - desc: Publisher Record
     - desc: Author Version
-- key: 2024-counterfactuals-extended
-  bibtex: btwd2024-counterfactuals-extended.bib
-  date: '2024-08-01'
+
+
+
+- key: 2026-counterfactuals-extended
+  bibtex: btwd2026-counterfactuals-extended.bib
+  date: '2026-06-01'
   title: >-
     An Approach and Evaluation of Visual Counterfactual Explanations Using Semantic Parts Metadata
   authors:
     - Florence Böttger
-    - Tim Cech
+    - Tim Barz-Cech
     - Willy Scheibel
     - Jürgen Döllner
   published: Preprint
-  articletype: Full Paper
+  articletype: Journal Article
   pending: true
-  disabled: true
   caption: >-
     Counterfactual explanations are widely used to explain black-box models,
     with some approaches generating counterfactuals as a set of edits between
@@ -2352,10 +2353,12 @@ publications:
     mismatch between the computational experiments and the user study's
     results, we present a critical discussion on the choice of metrics as well
     as the design of the experiments.
-  thumbnail: publications/2024-sncs-counterfactuals-extended.png
+  thumbnail: publications/2026-sncs-counterfactuals-extended.png
   downloads:
     - desc: Publisher Record
     - desc: Author Version
+
+
 
 - key: 2024-instanced-glyph-rendering
   bibtex: sasd2024-instanced-glyph-rendering.bib
