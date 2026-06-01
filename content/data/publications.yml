@@ -3143,7 +3143,7 @@ publications:
       short: EGPGV '26
       publisher: EG
   articletype: Full Paper
-  pending: true
+  doi: 10.2312/egpgv.20261002
   caption: >-
     Point clouds are an important category of spatial data, commonly acquired from real-world environments via laser scanning or photogrammetry.
     To enable interactive exploration and domain-specific visualization of large point clouds that exceed main memory capacity, out-of-core rendering techniques are commonly employed.
@@ -3156,6 +3156,7 @@ publications:
   thumbnail: publications/2026-egpgv-multitemporal-point-cloud-rendering.png
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.2312/egpgv.20261002
     - desc: Author Version
 
 
@@ -3174,7 +3175,7 @@ publications:
       short: CGVC '26
       publisher: EG
   articletype: Full Paper
-  pending: true
+  doi: 10.2312/cgvc.20261018
   caption: >-
     Message-passing communication networks are directed, cyclic multigraphs whose edges represent communication
     relations such as topics and channels. They are commonly visualized using node-link diagrams. However, their
@@ -3192,6 +3193,7 @@ publications:
   thumbnail: publications/2026-cgvc-viscom.png
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.2312/cgvc.20261018
     - desc: Author Version
     - desc: Slides
 
