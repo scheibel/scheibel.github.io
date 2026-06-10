@@ -2292,6 +2292,7 @@ publications:
   published: Preprint
   articletype: Journal Article
   pending: true
+  doi: 10.1007/s42979-026-05131-0
   caption: >-
     The capabilities of Large Language Models (LLMs) to synthesize texts that
     imitate human language have increased rapidly. While many people adopt
