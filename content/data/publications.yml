@@ -3237,3 +3237,36 @@ publications:
     - desc: Publisher Record
     - desc: Author Version
     - desc: Slides
+
+
+
+- key: 2026-analytical-magnets
+  bibtex: ds2026-analyticalmagnets.bib
+  date: '2026-07-28'
+  title: >-
+    Feature Space Exploration by Particle-Based Visualization Controlled by Analytical Magnets
+  authors:
+    - Jürgen Döllner
+    - Willy Scheibel
+  published:
+    - venue: 30th International Conference on Information Visualisation
+      short: iV '26
+      publisher: IEEE
+  articletype: Full Paper
+  pending: true
+  caption: >-
+    Interpreting high-dimensional feature spaces remains challenging when analysts need direct access to
+    semantically meaningful dimensions rather than transformed projections. We present analytical magnets,
+    a generalized extension of the Dust & Magnet metaphor in which magnets act as compositional operators
+    over feature vectors instead of simple attribute-bound attractors. This enables analysts to define and
+    interactively combine criteria such as logical-AND, logical-OR, similarity-based, variance-based, and
+    subvector-based attraction or repulsion. To improve legibility in dense particle layouts, we use a
+    two-stage placement strategy that separates analytical target computation from collision-aware local
+    relaxation. A case study on Rust repository data illustrates how analytical magnets support the
+    inspection of development hotspots, module-stability patterns, and structural and evolutionary file
+    profiles. Overall, analytical magnets provide an interpretable particle-based approach for interactive,
+    human-in-the-loop feature-space exploration.
+  thumbnail: publications/2026-iv-analytical-magnets.png
+  downloads:
+    - desc: Publisher Record
+    - desc: Author Version
