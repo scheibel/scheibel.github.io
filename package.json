@@ -32,5 +32,8 @@
         "start": "webpack serve --mode development",
         "build": "webpack build --mode production",
         "extract-bib": "node bib/extract.js"
+    },
+    "overrides": {
+        "browserslist": "4.28.2"
     }
 }
