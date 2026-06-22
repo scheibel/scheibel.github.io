@@ -3111,7 +3111,7 @@ publications:
       short: PacificVis '26
       publisher: IEEE
   articletype: Short Paper
-  pending: true
+  doi: 10.1109/PacificVis68791.2026.00020
   caption: >-
     Large Language Models (LLMs) are increasingly integrated into Natural Language Interfaces (NLIs) for
     visualizations. When the data underlying a visualization is available along with a visualization

@@ -96,3 +96,7 @@ talks:
   title: Integrating Natural Language Interfaces into Data Visualizations with Trustworthiness Scores
   location: 'EuroVis 2025, Luxembourg'
   downloads: []
+- date: '2026-06-12 10:00:00'
+  title: VisCom: Communication-Aware Graph Layout and Visual Abstraction for Message-Passing Communication Networks
+  location: 'EuroVis 2026, Nottingham, UK'
+  downloads: []
