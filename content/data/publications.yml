@@ -3270,3 +3270,41 @@ publications:
   downloads:
     - desc: Publisher Record
     - desc: Author Version
+
+
+
+- key: 2026-glyph-atlases
+  bibtex: ahsd2026-glyph-atlases.bib
+  date: '2026-08-01'
+  title: >-
+    Designing Metaphoric 3D Glyph Atlases for Web-based Information Landscapes
+  authors:
+    - Daniel Atzberger
+    - Friedrich Heine
+    - Willy Scheibel
+    - Jürgen Döllner
+  published:
+    - venue: '{} Computer Graphics and Applications'
+      short: CG&A
+      publisher: IEEE
+  articletype: Full Paper
+  pending: true
+  caption: >-
+    Metaphoric 3D glyphs offer a rich design space for visualizing multivariate data in
+    web-based information landscapes, but their effective use requires careful decisions
+    regarding perceptual design, metaphor selection, and scalable rendering. This article
+    presents a structured workflow for designing metaphoric 3D glyph atlases from reusable
+    3D assets. The workflow covers model collection, preprocessing into reusable glyph
+    components, parameterization of visual variables, and efficient browser-based rendering
+    using instanced Web3D techniques. To support these steps, we relate the workflow to
+    established concepts from glyph design, cartographic map-like visualization, and
+    metaphor theory, including the CARSE framework. We further discuss interaction
+    techniques for exploratory use and outline how semantic generalization can complement
+    level-of-detail methods when dense glyph populations cause clutter. Using software
+    analytics examples, we illustrate how information landscapes with metaphoric 3D glyphs
+    can support the exploration of patterns, neighborhoods, and outliers in complex
+    multivariate datasets.
+  thumbnail: publications/2026-cga-glyph-atlases.png
+  downloads:
+    - desc: Publisher Record
+    - desc: Author Version
