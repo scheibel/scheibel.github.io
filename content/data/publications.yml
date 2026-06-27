@@ -37,6 +37,9 @@ publications:
         https://www.researchgate.net/profile/Willy_Scheibel/publication/331399809/inline/jsViewer/5c77be7692851c695046e78a?pdfJsDownload=1
       desc: Document
   doi: 10.13140/RG.2.2.33837.33763
+
+
+
 - key: 2016-small-multiples
   bibtex: std2016-small-multiples.bib
   title: Interactive Revision Exploration using Small Multiples of Software Maps
@@ -80,6 +83,9 @@ publications:
         https://www.researchgate.net/profile/Willy_Scheibel/publication/331399594/inline/jsViewer/5c77b9d0458515831f75e227?pdfJsDownload=1
       desc: Poster (Landscape)
   doi: 10.5220/0005694401310138
+
+
+
 - key: 2016-decl3d-treemaps
   bibtex: lsld2016-decl3d-treemaps.bib
   title: Dynamic 2.5D Treemaps using Declarative 3D on the Web
@@ -123,6 +129,9 @@ publications:
     - href: 'http://cgcostume.github.io/web3d-treemaps/'
       desc: Demo
   doi: 10.1145/2945292.2945313
+
+
+
 - key: 2017-importance-based-aggregation
   bibtex: lshd2017-importance-based-aggregation.bib
   title: >-
@@ -163,6 +172,9 @@ publications:
         https://www.researchgate.net/profile/Daniel_Limberger/publication/331407406/inline/jsViewer/5c77deb8299bf1268d2c7c7b?pdfJsDownload=1
       desc: Slides
   doi: 10.5220/0006267501760185
+
+
+
 - key: 2017-attributed-vertex-clouds
   bibtex: sbtd2017-attributed-vertex-clouds.bib
   title: Attributed Vertex Clouds
@@ -174,7 +186,7 @@ publications:
     - Jürgen Döllner
   published: GPU Zen
   articletype: Chapter
-  highlight: true
+  highlight: false
   caption: >-
     In todays computer graphics applications, large 3D scenes are rendered
     which consist of polygonal geometries such as triangle meshes. Using
@@ -206,6 +218,9 @@ publications:
       desc: Author Version
     - href: 'https://github.com/hpicgs/attributedvertexclouds'
       desc: Github Project
+
+
+
 - key: 2017-mixed-projection-treemaps
   bibtex: lstd2017-mixed-projection-treemaps.bib
   title: 'Mixed-Projection Treemaps: A Novel Approach Mixing 2D and 2.5D Treemaps'
@@ -248,6 +263,9 @@ publications:
         https://www.researchgate.net/profile/Daniel_Limberger/publication/330106367/inline/jsViewer/5c77be80458515831f75e32b?pdfJsDownload=1
       desc: Slides
   doi: 10.1109/iV.2017.67
+
+
+
 - key: 2018-evocells
   bibtex: swd2018-evocells.bib
   title: EvoCells – A Treemap Layout Algorithm for Evolving Tree Data
@@ -282,6 +300,9 @@ publications:
         https://www.researchgate.net/profile/Willy_Scheibel/publication/331399914/inline/jsViewer/5c77bc00299bf1268d2b8178?pdfJsDownload=1
       desc: Slides
   doi: 10.5220/0006617102730280
+
+
+
 - key: 2019-hiviser
   bibtex: shd2019-hiviser.bib
   title: Design and Implementation of Web-Based Hierarchy Visualization Services
@@ -326,6 +347,9 @@ publications:
     - desc: Homepage
       href: 'https://hiviser.varg.dev'
   doi: 10.5220/0007693201410152
+
+
+
 - key: 2019-software-map-metaphors-and-techniques
   bibtex: lstd2019-software-map-metaphors-and-techniques.bib
   title: Advanced Visual Metaphors and Techniques for Software Maps
@@ -361,6 +385,9 @@ publications:
         https://www.researchgate.net/profile/Daniel_Limberger/publication/335062804/inline/jsViewer/5d883828a6fdcc8fd6106c95?pdfJsDownload=1
       desc: Author Version
   doi: 10.1145/3356422.3356444
+
+
+
 - key: 2020-modular-hiviser
   bibtex: shld2020-modular-hiviser.bib
   title: Visualization of Tree-structured Data using Web Service Composition
@@ -399,6 +426,9 @@ publications:
         https://www.researchgate.net/profile/Willy_Scheibel/publication/339362147/inline/jsViewer/5e5ccf0c4585152ce8ff8d73?pdfJsDownload=1
       desc: Author Version
   doi: 10.1007/978-3-030-41590-7_10
+
+
+
 - key: 2020-treemap-taxonomy
   bibtex: stld2020-treemap-taxonomy.bib
   title: A Taxonomy of Treemap Visualization Techniques
@@ -441,6 +471,9 @@ publications:
         https://www.researchgate.net/profile/Willy_Scheibel/publication/339617725/inline/jsViewer/5e5cd13ba6fdccbeba12bfea?pdfJsDownload=1
       desc: Slides
   doi: 10.5220/0009153902730280
+
+
+
 - key: 2020-scatterplot
   bibtex: wsltd2020-scatterplot.bib
   title: >-
@@ -480,6 +513,9 @@ publications:
     - href: 'https://varg.dev/web3d2020/'
       desc: Demo
   doi: 10.1145/3424616.3424730
+
+
+
 - key: 2020-treemap-evaluation
   bibtex: fsltd2020-treemap-evaluation.bib
   title: Survey on User Studies on the Effectiveness of Treemaps
@@ -520,6 +556,9 @@ publications:
     - href: 'https://varg-dev.github.io/treemap-studies'
       desc: Companion Website
   doi: 10.1145/3430036.3430054
+
+
+
 - key: 2020-treemap-layouts
   bibtex: sld2020-treemap-layouts.bib
   title: Survey of Treemap Layout Algorithms
@@ -555,6 +594,9 @@ publications:
         https://www.researchgate.net/profile/Willy_Scheibel/publication/348647547/inline/jsViewer/6008e45f299bf14088adae8b?pdfJsDownload=1
       desc: Slides
   doi: 10.1145/3430036.3430041
+
+
+
 - key: 2021-software-forest
   bibtex: achssld2021-software-forest.bib
   title: >-
@@ -604,6 +646,9 @@ publications:
     - href: 'https://varg.dev/trees/'
       desc: Demo
   doi: 10.5220/0010267601120122
+
+
+
 - key: 2021-hilbert-moore-performance
   bibtex: swbd2021-hilbertmooreperformance.bib
   title: >-
@@ -620,7 +665,7 @@ publications:
       short: EuroVis '21
       publisher: EG
   articletype: Short Paper
-  highlight: true
+  highlight: false
   caption: >-
     Hilbert and Moore treemaps are based on the same named space-filling
     curves to lay out tree-structured data for visualization. One main
@@ -650,6 +695,9 @@ publications:
     - href: 'https://github.com/varg-dev/hilbert-moore-treemap-layouts-prototype'
       desc: Github Project
   doi: 10.2312/evs.20211065
+
+
+
 - key: 2021-procedural-textures
   bibtex: lsdd2021-procedural-textures.bib
   title: >-
@@ -690,6 +738,9 @@ publications:
         https://www.researchgate.net/profile/Willy-Scheibel/publication/368690808/inline/jsViewer/63f5d26db1704f343f72e931?pdfJsDownload=1
       desc: Slides
   doi: 10.1145/3481549.3481570
+
+
+
 - key: 2021-etf-visualization
   bibtex: blsd2021-etf-visualization.bib
   title: >-
@@ -729,6 +780,9 @@ publications:
     - href: 'https://etf-vis.net/?apiKey=ew5r345z43'
       desc: Demo
   doi: 10.1145/3481549.3481568
+
+
+
 - key: 2021-softwaregalaxy
   bibtex: asld2021-softwaregalaxy.bib
   title: 'Software Galaxies: Displaying Coding Activities using a Galaxy Metaphor'
@@ -818,6 +872,9 @@ publications:
         https://www.researchgate.net/profile/Matthias-Trapp-2/publication/361585105/inline/jsViewer/62badc31056dae24e8e97d65?pdfJsDownload=1
       desc: Slides
   doi: 10.5220/0010991100003124
+
+
+
 - key: 2022-authortopicmodel
   bibtex: assltd2022-authortopicmodel.bib
   title: >-
@@ -870,6 +927,9 @@ publications:
         https://www.researchgate.net/profile/Willy-Scheibel/publication/365824562/inline/jsViewer/63f5c98f574950594534bad7?pdfJsDownload=1
       desc: Slides
   doi: 10.5220/0011045100003176
+
+
+
 - key: 2022-downstreamdependencies
   bibtex: tsld2022-downstreamdependencies.bib
   title: >-
@@ -923,6 +983,9 @@ publications:
     - href: 'https://doi.org/10.5281/zenodo.6338060'
       desc: Source Code Archive
   doi: 10.5220/0011093700003176
+
+
+
 - key: 2022-gitmining
   bibtex: hsd2022-gitmining.bib
   title: Tooling for Time- and Space-efficient git Repository Mining
@@ -936,7 +999,7 @@ publications:
       short: MSR '22
       publisher: ACM
   articletype: Short Paper
-  highlight: true
+  highlight: false
   caption: >-
     Software projects under version control grow with each commit,
     accumulating up to hundreds of thousands of commits per repository.
@@ -969,6 +1032,9 @@ publications:
     - href: 'https://doi.org/10.48550/arXiv.2205.01351'
       desc: Preprint
   doi: 10.1145/3524842.3528503
+
+
+
 - key: 2022-prometheus
   bibtex: jacstd2022-prometheus.bib
   title: Efficient GitHub Crawling using the GraphQL API
@@ -1014,6 +1080,9 @@ publications:
         https://www.researchgate.net/profile/Willy-Scheibel/publication/365824474/inline/jsViewer/63f5c66bb1704f343f72aad0?pdfJsDownload=1
       desc: Slides
   doi: 10.1007/978-3-031-10548-7_48
+
+
+
 - key: 2022-topicmodel-benchmark
   bibtex: acsldt2022-topicmap-benchmark.bib
   title: A Benchmark for the Use of Topic Models for Text Visualization Tasks
@@ -1042,6 +1111,9 @@ publications:
         https://www.researchgate.net/profile/Willy-Scheibel/publication/365824462/inline/jsViewer/63f5c6ba0cf1030a56417ef5?pdfJsDownload=1
       desc: Slides
   doi: 10.1145/3554944.3554961
+
+
+
 - key: 2022-configurationsoftwaremaps
   bibtex: lsdt2022-configurationsoftwaremaps.bib
   title: Visual Variables and Configuration of Software Maps
@@ -1078,6 +1150,9 @@ publications:
         https://www.researchgate.net/profile/Willy-Scheibel/publication/363174603/inline/jsViewer/63242c14873eca0c008f32bf?pdfJsDownload=1
       desc: Author Version
   doi: 10.1007/s12650-022-00868-1
+
+
+
 - key: 2022-codecv
   bibtex: ascstd2022-codecv.bib
   title: 'CodeCV: Mining Expertise of GitHub Users from Coding Activities'
@@ -1128,6 +1203,9 @@ publications:
         https://www.researchgate.net/profile/Willy-Scheibel/publication/365824568/inline/jsViewer/63f5c7100d98a97717ab52bf?pdfJsDownload=1
       desc: Slides
   doi: 10.1109/SCAM55253.2022.00021
+
+
+
 - key: 2022-procedural-texture-patterns
   bibtex: lsdd2022-procedural-texture-patterns.bib
   title: >-
@@ -1168,6 +1246,9 @@ publications:
         https://www.researchgate.net/publication/363174833/inline/jsViewer/633c3e00ff870c55cefe2861?pdfJsDownload=1
       desc: Author Version
   doi: 10.1007/s12650-022-00874-3
+
+
+
 - key: 2022-scatterplot-projections
   bibtex: wsld2022-scatterplot-projections.bib
   title: >-
@@ -1213,6 +1294,9 @@ publications:
       desc: Demo
     - href: 'https://github.com/lukaswagner/vidi'
       desc: Github Project
+
+
+
 - key: 2023-semantic-software-maps
   bibtex: acsld2023-semantic-software-maps.bib
   title: Visualization of Source Code Similarity using 2.5D Semantic Software Maps
@@ -1228,7 +1312,7 @@ publications:
       short: VISIGRAPP 2021
       publisher: Springer
   articletype: Chapter
-  highlight: true
+  highlight: false
   caption: >-
     For various program comprehension tasks, software visualization techniques
     can be beneficial by displaying aspects related to the behavior,
@@ -1253,6 +1337,9 @@ publications:
         https://www.researchgate.net/profile/Willy-Scheibel/publication/363175014/inline/jsViewer/63f5c7c4574950594534ab35?pdfJsDownload=1
       desc: Author Version
   doi: 10.1007/978-3-031-25477-2_8
+
+
+
 - key: 2023-probabilistic-models
   bibtex: assdt2023-probabilistic-models.bib
   title: Evaluating Probabilistic Topic Models for Bug Triaging Tasks
@@ -1299,6 +1386,9 @@ publications:
         https://www.researchgate.net/profile/Willy-Scheibel/publication/367351366/inline/jsViewer/64aeb3b4c41fb852dd6c5249?pdfJsDownload=1
       desc: Author Version
   doi: 10.1007/978-3-031-36597-3_3
+
+
+
 - key: 2023-evaluating-ssnp
   bibtex: casrd2023-evaluating-ssnp.bib
   date: '2023-02-19'
@@ -1347,6 +1437,9 @@ publications:
       desc: Slides
     - href: 'https://github.com/Oluwoye/DimensionReduction'
       desc: Github Project
+
+
+
 - key: 2023-defect-prediction
   bibtex: casmd2023-defect-prediction.bib
   date: '2023-05-23'
@@ -1392,6 +1485,9 @@ publications:
     - href: >-
         https://www.researchgate.net/profile/Willy-Scheibel/publication/370746953/inline/jsViewer/64aeb537c41fb852dd6c5365?pdfJsDownload=1
       desc: Author Version
+
+
+
 - key: 2023-log-outlier
   bibtex: acsd2023-log-outlier.bib
   date: '2023-04-24'
@@ -1434,6 +1530,9 @@ publications:
     - href: >-
         https://www.researchgate.net/profile/Willy-Scheibel/publication/368566654/inline/jsViewer/6446ab29d749e4340e34c51d?pdfJsDownload=1
       desc: Author Version
+
+
+
 - key: 2023-realestatetokenization
   bibtex: hasd2023-realestatetokenization.bib
   date: '2023-05-01'
@@ -1516,6 +1615,9 @@ publications:
     - href: >-
         https://www.researchgate.net/profile/Willy-Scheibel/publication/369588402/inline/jsViewer/645504735762c95ac37645b2?pdfJsDownload=1
       desc: Author Version
+
+
+
 - key: 2023-orderbookvis
   bibtex: jahsd2023-orderbookvis.bib
   date: '2023-05-01'
@@ -1555,6 +1657,9 @@ publications:
     - href: >-
         https://www.researchgate.net/profile/Willy-Scheibel/publication/369588558/inline/jsViewer/645504b297449a0e1a7da052?pdfJsDownload=1
       desc: Author Version
+
+
+
 - key: 2023-liquidityanalysis
   bibtex: jahvsd2023-liquidityanalysis.bib
   date: '2023-05-01'
@@ -1600,6 +1705,9 @@ publications:
     - href: >-
         https://www.researchgate.net/profile/Willy-Scheibel/publication/369588456/inline/jsViewer/6455049a97449a0e1a7da04c?pdfJsDownload=1
       desc: Author Version
+
+
+
 - key: 2023-saliencnn
   bibtex: cssd2023-saliencnn.bib
   date: '2023-06-12'
@@ -1639,6 +1747,9 @@ publications:
     - href: >-
         https://www.researchgate.net/profile/Willy-Scheibel/publication/372307685/inline/jsViewer/64aeb850c41fb852dd6c5641?pdfJsDownload=1
       desc: Poster
+
+
+
 - key: 2023-hilbertmoorecontinuous
   bibtex: sd2023-hilbertmoorecontinuous.bib
   date: '2023-06-12'
@@ -1683,6 +1794,9 @@ publications:
       desc: Source Code
     - href: 'https://github.com/varg-dev/hilbert-moore-treemap-layouts-prototype'
       desc: Github Project
+
+
+
 - key: 2024-evaluation-tm-dr
   bibtex: acstrds2024-evaluation-tm-dr.bib
   date: '2023-10-23'
@@ -1756,6 +1870,9 @@ publications:
       desc: Pre-trained Topic Models (I)
     - href: 'https://zenodo.org/record/8114601'
       desc: Pre-trained Topic Models (II)
+
+
+
 - key: 2023-uncover
   bibtex: lbscsd2023-uncover.bib
   date: '2023-11-13'
@@ -1811,6 +1928,9 @@ publications:
       desc: Demo
     - href: 'https://github.com/hpicgs/unCover'
       desc: Github Project
+
+
+
 - key: 2023-counterfactuals
   bibtex: btwd2023-counterfactuals.bib
   date: '2023-11-13'
@@ -1854,6 +1974,9 @@ publications:
     - href: >-
         https://www.researchgate.net/profile/Willy-Scheibel/publication/374952266/inline/jsViewer/65605b81ce88b870310804f1?pdfJsDownload=1
       desc: Author Version
+
+
+
 - key: 2024-object-maps
   bibtex: tsd2024-object-maps.bib
   date: '2024-02-27'
@@ -1901,6 +2024,9 @@ publications:
       desc: Prototype
     - href: 'https://github.com/LinqLover/trace4d'
       desc: Github Project
+
+
+
 - key: 2024-topic-model-influence
   bibtex: acsds2024-topic-model-influence.bib
   date: '2024-02-27'
@@ -1959,6 +2085,9 @@ publications:
       desc: Slides
     - href: 'https://doi.org/10.5281/zenodo.10040858'
       desc: Experiments and Results
+
+
+
 - key: 2024-githubembedded
   bibtex: sblad2024-githubembedded.bib
   date: '2024-01-17'
@@ -2007,6 +2136,9 @@ publications:
       desc: Prototype
     - href: 'https://github.com/hpicgs/github-software-analytics-embedding/'
       desc: Github Project
+
+
+
 - key: 2024-athena
   bibtex: havsdb2024-athena.bib
   date: '2024-03-27'
@@ -2054,6 +2186,9 @@ publications:
         https://www.researchgate.net/profile/Willy-Scheibel/publication/379309357/inline/jsViewer/6603d7fb49de030f4cc95436?pdfJsDownload=1
     - href: 'https://doi.org/10.5281/zenodo.10600373'
       desc: Data
+
+
+
 - key: 2024-perpetual-swaps
   bibtex: amhsdk2024-perpetual-swaps.bib
   date: '2024-05-31'
@@ -2090,6 +2225,9 @@ publications:
     - desc: Publisher Record
       href: 'https://doi.org/10.1109/ICBC59979.2024.10634346'
     - desc: Author Version
+
+
+
 - key: 2024-fisc
   bibtex: cksd2024-fisc.bib
   date: '2024-05-28'
@@ -2129,6 +2267,9 @@ publications:
     - desc: Poster
       href: >-
         https://www.researchgate.net/profile/Willy-Scheibel/publication/380076169/inline/jsViewer/662a492708aa54017abf751d?pdfJsDownload=1
+
+
+
 - key: 2024-lmds
   bibtex: crssd2024-lmds.bib
   date: '2024-05-28'
@@ -2172,6 +2313,9 @@ publications:
     - desc: Poster
       href: >-
         https://www.researchgate.net/profile/Willy-Scheibel/publication/380094475/inline/jsViewer/662a546706ea3d0b740bb4bd?pdfJsDownload=1
+
+
+
 - key: 2024-point-cloud-npr
   bibtex: wstrd2024-point-cloud-npr.bib
   date: '2024-05-07'
@@ -2231,6 +2375,7 @@ publications:
         https://www.researchgate.net/profile/Ole-Wegen/publication/385851136/inline/jsViewer/673741e168de5e5a3077e6c9?pdfJsDownload=1
 
 
+
 - key: 2024-standardness-clouds-meaning
   bibtex: cwarsd2024-standardness-clouds-meaning.bib
   date: '2024-06-21'
@@ -2276,6 +2421,7 @@ publications:
     - desc: Author Version
       href: >-
         https://www.researchgate.net/publication/381580013/inline/jsViewer/6674f3ddd21e220d89c51365?pdfJsDownload=1
+
 
 
 - key: 2026-uncover-extended
@@ -2415,6 +2561,8 @@ publications:
     - desc: Performance Measurements
       href: https://doi.org/10.5281/zenodo.12797370
 
+
+
 - key: 2024-scatterplot-filtering
   bibtex: ajsd2024-scatterplot-filtering.bib
   title: >-
@@ -2452,6 +2600,7 @@ publications:
       href: https://doi.org/10.2312/cgvc.20241224
     - desc: Author Version
     - desc: Slides
+
 
 
 - key: 2025-dr-sensitivity-analysis
@@ -2512,6 +2661,8 @@ publications:
     - desc: Results
       href: https://doi.org/10.5281/zenodo.12772898
 
+
+
 - key: 2026-topic-model-influence-extended
   bibtex: atzberger2026-topic-model-influence-extended.bib
   date: '2025-06-18'
@@ -2553,6 +2704,8 @@ publications:
       href: https://doi.org/10.1177/14738716251355650
     - desc: Author Version
 
+
+
 - key: 2025-llm-treemaps
   bibtex: jasds2025-llm-treemaps.bib
   date: '2025-02-26'
@@ -2591,6 +2744,8 @@ publications:
     - desc: Author Version
     - desc: Poster
 
+
+
 - key: 2025-apchis-lod
   bibtex: tbajsls2025-apchis-lod.bib
   date: '2025-03-24'
@@ -2622,6 +2777,8 @@ publications:
   downloads:
     - desc: Publisher Record
       href: https://ceur-ws.org/Vol-3957/HealthIUI-paper13.pdf
+
+
 
 - key: 2025-llm-treemaps-sensitivity
   bibtex: ajtsds2025-llm-treemaps-sensitivity.bib
@@ -2656,6 +2813,8 @@ publications:
     - desc: Author Version
     - desc: Slides
 
+
+
 - key: 2025-llm-vis-grammars
   bibtex: jatsds2025-llm-vis-grammars.bib
   date: '2025-04-28'
@@ -2685,6 +2844,8 @@ publications:
       href: https://doi.org/10.1145/3701716.3717812
     - desc: Author Version
     - desc: Slides
+
+
 
 - key: 2025-option-tick-data-deribit
   bibtex: ahhvsd2025-option-tick-data-deribit.bib
@@ -2721,6 +2882,8 @@ publications:
       href: https://doi.org/10.1109/CVC65719.2025.00013
     - desc: Author Version
 
+
+
 - key: 2025-task-taxonomies-dust-and-magnet
   bibtex: bsd2025-task-taxonomies-dust-and-magnet.bib
   date: '2025-06-03'
@@ -2748,6 +2911,8 @@ publications:
       href: https://doi.org/10.2312/evp.20251140
     - desc: Author Version
     - desc: Poster
+
+
 
 - key: 2025-graph-evaluation-system
   bibtex: ssd2025-graph-evaluation-system.bib
@@ -2782,6 +2947,8 @@ publications:
     - desc: Author Version
     - desc: Poster
 
+
+
 - key: 2025-llm-evaluation-system
   bibtex: jasd2025-llm-evaluation-system.bib
   date: '2025-06-03'
@@ -2812,6 +2979,8 @@ publications:
       href: https://doi.org/10.2312/evp.20251134
     - desc: Author Version
     - desc: Poster
+
+
 
 - key: 2025-column-based-parsing
   bibtex: sd2025-column-based-parsing.bib
@@ -2982,6 +3151,7 @@ publications:
       href: https://hpicgs.github.io/multi-temporal-point-cloud-datasets-survey/
 
 
+
 - key: dwsucr2025-urban-space-analysis
   bibtex: dwsucr2025-urban-space-analysis.bib
   title: >-
@@ -3023,6 +3193,7 @@ publications:
     - desc: Publisher Record
       href: https://doi.org/10.3233/FAIA251517
     - desc: Author Version
+
 
 
 - key: 2026-llm-vis-evaluation
@@ -3287,7 +3458,8 @@ publications:
     - venue: '{} Computer Graphics and Applications'
       short: CG&A
       publisher: IEEE
-  articletype: Full Paper
+  articletype: Magazine Article
+  highlight: true
   pending: true
   caption: >-
     Metaphoric 3D glyphs offer a rich design space for visualizing multivariate data in
