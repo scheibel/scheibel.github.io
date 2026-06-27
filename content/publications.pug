@@ -6,7 +6,7 @@ mixin publications_progress(publications_entries)
   -
     var per_type = {
       all: publications_entries.length,
-      journal: publications_entries.filter((entry) => entry.articletype === 'Journal Article').length,
+      journal: publications_entries.filter((entry) => entry.articletype === 'Journal Article' || entry.articletype === 'Magazine Article').length,
       full: publications_entries.filter((entry) => entry.articletype === 'Full Paper').length,
       short: publications_entries.filter((entry) => entry.articletype === 'Short Paper' || entry.articletype === 'Position Paper').length,
       extendedabstract: publications_entries.filter((entry) => entry.articletype === 'Extended Abstract').length,
