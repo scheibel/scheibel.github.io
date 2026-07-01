@@ -2435,9 +2435,11 @@ publications:
     - Tim Barz-Cech
     - Willy Scheibel
     - Jürgen Döllner
-  published: Preprint
+  published:
+    - venue: SN Computer Science
+      short: SNCS
+      publisher: Springer
   articletype: Journal Article
-  pending: true
   doi: 10.1007/s42979-026-05131-0
   caption: >-
     The capabilities of Large Language Models (LLMs) to synthesize texts that
@@ -2466,6 +2468,7 @@ publications:
   thumbnail: publications/2026-sncs-uncover-extended.png
   downloads:
     - desc: Publisher Record
+      doi: https://doi.org/10.1007/s42979-026-05131-0
     - desc: Author Version
 
 
