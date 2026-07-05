@@ -77,8 +77,12 @@ block variables
 
 block content
   .card
-    h4.card-header
+    h4.card-header.d-flex.align-items-center
       span Publications
+      span.ms-auto.fs-6
+        a(href="/publications/scheibel-bibliography.bib", download="scheibel-bibliography.bib")
+          i.bi.bi-download.me-2(aria-hidden="true")
+          | Download Bibliography
     .card-body
       +publications_progress(publications_entries)
       ul.list-inline.mb-0.mt-2

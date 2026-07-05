@@ -128,6 +128,21 @@ const createBibliographyFromBibFilesSync = (filenames) => {
     return entries;
 }
 
+const createBibliographyDownloadFromBibFilesSync = (filenames) => {
+    const entries = [];
+
+    filenames.slice().sort().forEach((filename) => {
+        const entry = fs.readFileSync(filename, 'utf8');
+        const parsed = Bibliography.parseString(entry);
+
+        for (const bibliographyRawEntry of parsed.rawEntries) {
+            entries.push(compileBibEntry(bibliographyRawEntry, [ 'url' ]));
+        }
+    });
+
+    return entries.join('\n');
+}
+
 const collectNewsSync = (filenames) => {
     const entries = {};
     filenames.forEach((filename) => {
@@ -192,6 +207,7 @@ module.exports = function (env, argv) {
     bibFiles.forEach(addBibFilesToEntries);
 
     const bibliography = createBibliographyFromBibFilesSync(bibFiles);
+    const bibliographyDownload = createBibliographyDownloadFromBibFilesSync(bibFiles);
 
     var publications = getYAMLDictSync('publications.yml');
 
@@ -230,6 +246,24 @@ module.exports = function (env, argv) {
         entry: entries,
         plugins: [
             new PugPlugin(),
+            {
+                apply(compiler) {
+                    compiler.hooks.thisCompilation.tap('BibliographyDownloadPlugin', (compilation) => {
+                        compilation.hooks.processAssets.tap(
+                            {
+                                name: 'BibliographyDownloadPlugin',
+                                stage: webpack.Compilation.PROCESS_ASSETS_STAGE_ADDITIONS,
+                            },
+                            () => {
+                                compilation.emitAsset(
+                                    'publications/scheibel-bibliography.bib',
+                                    new webpack.sources.RawSource(bibliographyDownload)
+                                );
+                            }
+                        );
+                    });
+                },
+            },
             // No FontminPlugin because of Fontawesome
             // new FontminPlugin({
             //     autodetect: true,
