@@ -1,15 +1,24 @@
 heading: Teaching
 short: Teaching
 terms:
+- term: '2026/27 : Winter Term'
+  courses:
+    - course: Computer Graphics I
+      type: Lecture (B.Sc.)
+      role: Co-Lecturer
+    - course: 3D Rendering and Computational Art
+      type: Project Seminar (M.Sc.)
+      role: Tutor
+  upcoming: true
 - term: '2026 : Summer Term'
   courses:
     - course: Computer Graphics II
       type: Lecture (B.Sc.)
       role: Co-Lecturer
-    - course: Interactive Computer Graphics
+    - course: 3D Rendering and Computational Art
       type: Project Seminar (B.Sc.)
-      role: Seminar Lead and Tutor
-  upcoming: true
+      role: Tutor
+  upcoming: false
 - term: '2025/26 : Winter Term'
   courses:
     - course: Computer Graphics I
