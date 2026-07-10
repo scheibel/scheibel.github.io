@@ -3464,7 +3464,6 @@ publications:
       publisher: IEEE
   articletype: Magazine Article
   highlight: true
-  pending: true
   doi: 10.1109/MCG.2026.3710273
   caption: >-
     Metaphoric 3D glyphs offer a rich design space for visualizing multivariate data in
