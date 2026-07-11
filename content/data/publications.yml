@@ -3483,4 +3483,4 @@ publications:
   thumbnail: publications/2026-cga-glyph-atlases.png
   downloads:
     - desc: Publisher Record
-    - desc: Author Version
+      href: https://doi.org/10.1109/MCG.2026.3710273

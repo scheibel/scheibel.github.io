@@ -31,6 +31,11 @@ committees:
     url: https://hpi.de/en/studies/before-your-studies/degree-programs/master/software-systems-engineering.html
   - Computer Science (Multi-Track Master's Program)
   - Study Program Reaccreditation (B.Sc. ITSE, M.Sc. ITSE)
+- title: PhD Representatives Council
+  institution: Digital Engineering Faculty (Hasso Plattner Institute and University of Potsdam)
+  role: Voting Member
+  since: 2026
+  logo: logos/def_logo.png
 - title:  Working Group for the Principles in Teaching
   institution: University of Potsdam
   role: Voting Member
