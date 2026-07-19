@@ -3250,7 +3250,7 @@ publications:
       short: CVC '26
       publisher: Springer
   articletype: Full Paper
-  pending: true
+  doi: 10.1007/978-3-032-26214-1_8
   caption: >-
     The proliferation of video data necessitates intelligent systems capable of complex, content-based retrieval
     and summarization. Videos are strongly structured in time, however, their semantic structure is largely implicit
