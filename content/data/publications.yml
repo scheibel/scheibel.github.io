@@ -3428,6 +3428,7 @@ publications:
       short: iV '26
       publisher: IEEE
   articletype: Full Paper
+  note: Best Paper Award
   pending: true
   caption: >-
     Interpreting high-dimensional feature spaces remains challenging when analysts need direct access to
@@ -3484,3 +3485,28 @@ publications:
   downloads:
     - desc: Publisher Record
       href: https://doi.org/10.1109/MCG.2026.3710273
+
+
+
+- key: 2026-webgpu-particle-layouting
+  bibtex: dcs2026-webgpu-particle-layouting.bib
+  title: >-
+    Parallelized Tabular Data Loading using Web Workers for Hardware-accelerated Visualization Rendering
+  date: '2026-10-15'
+  authors:
+    - Jürgen Döllner
+    - Jose Carvajal
+    - Willy Scheibel
+  published:
+    - venue: 31th International Conference on 3D Web Technology
+      short: Web3D '26
+      publisher: ACM
+  articletype: Full Paper
+  pending: true
+  caption: >-
+    ...
+  thumbnail: publications/2026-web3d-webgpu-particle-layouting.png
+  downloads:
+    - desc: Publisher Record
+    - desc: Author Version
+    - desc: Slides
