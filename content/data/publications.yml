@@ -3429,6 +3429,7 @@ publications:
       publisher: IEEE
   articletype: Full Paper
   note: Best Paper Award
+  highlight: true
   pending: true
   caption: >-
     Interpreting high-dimensional feature spaces remains challenging when analysts need direct access to
@@ -3491,7 +3492,7 @@ publications:
 - key: 2026-webgpu-particle-layouting
   bibtex: dcs2026-webgpu-particle-layouting.bib
   title: >-
-    Parallelized Tabular Data Loading using Web Workers for Hardware-accelerated Visualization Rendering
+    A WebGPU Processing Pipeline for Particle--Magnet Feature-Space Visualization
   date: '2026-10-15'
   authors:
     - Jürgen Döllner
