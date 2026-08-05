@@ -3490,20 +3490,21 @@ publications:
 
 
 - key: 2026-webgpu-particle-layouting
-  bibtex: dcs2026-webgpu-particle-layouting.bib
+  bibtex: dsc2026-webgpu-particle-layouting.bib
   title: >-
-    A WebGPU Processing Pipeline for Particle--Magnet Feature-Space Visualization
+    A WebGPU Processing Pipeline for Particle-Magnet Feature-Space Visualization
   date: '2026-10-15'
   authors:
     - Jürgen Döllner
-    - Jose Carvajal
     - Willy Scheibel
+    - Jose Carvajal
   published:
     - venue: 31th International Conference on 3D Web Technology
       short: Web3D '26
       publisher: ACM
   articletype: Short Paper
   pending: true
+  doi: 10.1145/3822516.3837796
   caption: >-
     ...
   thumbnail: publications/2026-web3d-webgpu-particle-layouting.png
