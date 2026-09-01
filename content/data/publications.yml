@@ -3512,3 +3512,48 @@ publications:
     - desc: Publisher Record
     - desc: Author Version
     - desc: Slides
+
+
+
+- key: 2026-trackletviz
+  bibtex: wsd2026-trackletviz.bib
+  title: 'TrackletViz: Visual Analytics for Tracklets of Security-Camera Footage'
+  date: '2026-11-01'
+  authors:
+    - Jobin Idiculla Wattasseril
+    - Willy Scheibel
+    - Jürgen Döllner
+  published:
+    - venue: 19th International Symposium on Visual Information Communication and Interaction
+      short: VINCI '26
+      publisher: ACM
+  articletype: Full Paper
+  pending: true
+  caption: ''
+  thumbnail: publications/2026-vinci-trackletviz.png
+  downloads:
+    - desc: Publisher Record
+
+
+
+- key: 2026-change-identification
+  bibtex: whsrbd2026-change-identification.bib
+  title: 'Quantitative Evaluation of Comparative Visualization Methods for Change Identification in Multi-Temporal Point Clouds'
+  date: '2026-11-01'
+  authors:
+    - Ole Wegen
+    - Lukas Heidisch
+    - Willy Scheibel
+    - Rico Richter
+    - Tim Barz-Cech
+    - Jürgen Döllner
+  published:
+    - venue: 19th International Symposium on Visual Information Communication and Interaction
+      short: VINCI '26
+      publisher: ACM
+  articletype: Full Paper
+  pending: true
+  caption: ''
+  thumbnail: publications/2026-vinci-change-identification.png
+  downloads:
+    - desc: Publisher Record
