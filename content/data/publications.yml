@@ -3529,10 +3529,28 @@ publications:
       publisher: ACM
   articletype: Full Paper
   pending: true
-  caption: ''
+  caption: >-
+    Security cameras produce far more footage than anyone can watch, and
+    analysts reviewing it often do not know in advance what to look for. We present
+    TrackletViz, a web-based visual analytics client for exploring
+    surveillance footage through the objects and scenes it contains. Given a video
+    indexed into object tracklets and fixed-duration clips, each embedded by a video
+    foundation model, projected to two dimensions, and clustered, TrackletViz
+    turns that representation into a navigable interface: a scalable embedding view
+    reveals semantic structure before any query is posed, coordinated spatial and
+    temporal views ground a selection in where and when it occurs, natural-language
+    retrieval locates specific activity, and a hybrid view relates scenes to the objects within them. 
+    We present the user interface and its features,
+    position it against prior surveillance and embedding-visualization systems
+    through a competitive analysis, and report a performance evaluation showing 
+    that its embedding view sustains interactive frame rates at millions of tracklets 
+    and that the interaction paths whose cost scales with the data remain responsive 
+    at scales corresponding to weeks of footage.'
   thumbnail: publications/2026-vinci-trackletviz.png
   downloads:
     - desc: Publisher Record
+    - desc: Demonstrator
+      href: https://osf.io/da8c6/overview?view_only=b9a91cb396b64160ab8dea68f2f1d9ae
 
 
 
@@ -3553,7 +3571,18 @@ publications:
       publisher: ACM
   articletype: Full Paper
   pending: true
-  caption: ''
+  caption: >-
+    Multi-temporal point clouds enable change analysis by capturing the same scene at different points in time. 
+    A common workflow is to first perform offline change detection and then visualize the detected differences. 
+    However, such preprocessing can be computationally expensive, depends on suitable parameter choices, and may be disproportionate when the goal is rapid visual inspection rather than precise change quantification. 
+    We therefore investigate preprocessing-free comparative visualization methods for change identification in multi-temporal point clouds.
+    Based on a task analysis using Gleicher's framework for visual comparison, we propose and compare three visualization designs: side-by-side, split view, and real-time depth-based change highlighting. 
+    We evaluate these methods against the common approach of visualizing precomputed changes in a controlled experiment with 20 participants. 
+    The results show high effectiveness in identifying changes across all methods.
+    While we observe slight tendencies toward lower efficiency for the split view and lower effectiveness for the side-by-side view, real-time change highlighting performs similarly to precomputed change visualization.
+    However, these differences are mostly not statistically significant.
+    Our findings suggest that real-time visual comparison can be a viable option for change identification when exact change quantification is not required. 
+    At the same time, the high overall performance indicates a ceiling effect, necessitating further studies to determine the limits of the approach.
   thumbnail: publications/2026-vinci-change-identification.png
   downloads:
     - desc: Publisher Record
