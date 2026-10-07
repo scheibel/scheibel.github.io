@@ -6,6 +6,9 @@ committees:
   role: Voting Member
   since: 2024
   logo: logos/hpi_logo.jpg
+  projects:
+  - Vice Chair (since 2026)
+  - Deputy Member of the Conciliation Board
 - title: Faculty Council
   institution: Digital Engineering Faculty (Hasso Plattner Institute and University of Potsdam)
   role: Voting Member
@@ -17,18 +20,12 @@ committees:
   since: 2017
   logo: logos/def_logo.png
   projects:
-  - name: IT-Systems Engineering (Bachelor's Program)
-    url: https://hpi.de/en/studies/before-the-study/degree-programs/bachelor.html
-  - name: IT-Systems Engineering (Master's Program)
-    url: https://hpi.de/en/studies/before-the-study/degree-programs/master/it-systems-engineering.html
-  - name: Data Engineering (Master's Program)
-    url: https://hpi.de/en/studies/before-the-study/degree-programs/master/data-engineering.html
-  - name: Digital Health (Master's Program)
-    url: https://hpi.de/en/studies/before-the-study/degree-programs/master/master-digital-health.html
-  - name: Cybersecurity (Master's Program)
-    url: https://hpi.de/en/studies/before-the-study/degree-programs/master/cybersecurity.html
-  - name: Software Systems Engineering (Master's Program)
-    url: https://hpi.de/en/studies/before-your-studies/degree-programs/master/software-systems-engineering.html
+  - IT-Systems Engineering (Bachelor's Program)
+  - IT-Systems Engineering (Master's Program)
+  - Data Engineering (Master's Program)
+  - Digital Health (Master's Program)
+  - Cybersecurity (Master's Program)
+  - Software Systems Engineering (Master's Program)
   - Computer Science (Multi-Track Master's Program)
   - Study Program Reaccreditation (B.Sc. ITSE, M.Sc. ITSE)
 - title: PhD Representatives Council
