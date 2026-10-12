@@ -3493,7 +3493,7 @@ publications:
   bibtex: dsc2026-webgpu-particle-layouting.bib
   title: >-
     A WebGPU Processing Pipeline for Particle-Magnet Feature-Space Visualization
-  date: '2026-10-15'
+  date: '2026-10-12'
   authors:
     - Jürgen Döllner
     - Willy Scheibel
@@ -3503,13 +3503,23 @@ publications:
       short: Web3D '26
       publisher: ACM
   articletype: Short Paper
-  pending: true
   doi: 10.1145/3822516.3837796
   caption: >-
-    ...
+    Browser-based feature-space visualization requires efficient processing of large particle
+    sets under interactive changes. We present a WebGPU processing pipeline for particle–magnet
+    visualization that keeps normalized features and derived representations GPU-resident.
+    The pipeline decomposes processing into affinity evaluation, filtering, particle positioning,
+    visual mapping, and rendering, while dependency-aware invalidation reuses unaffected
+    intermediate results and avoids per-particle CPU readback. We evaluate its performance using
+    synthetic dataset variants with different particle counts of a real-world dataset and report
+    update timings during magnet interaction. The dataset represents software mining data of the
+    Linux kernel software project. Our analysis demonstrates that the WebGPU pipeline scales for
+    the interactive use of particle-based feature-space visualization for up to a million of
+    particles.
   thumbnail: publications/2026-web3d-webgpu-particle-layouting.png
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.1145/3822516.3837796
     - desc: Author Version
     - desc: Slides
 
