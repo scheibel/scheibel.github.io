@@ -19,6 +19,7 @@
         "css-minimizer-webpack-plugin": "^7.0.2",
         "fira": "^1.0.0",
         "font-awesome": "^4.7.0",
+        "glob": "^7.2.3",
         "pug": "^3.0.3",
         "pug-plugin": "^6.0.0",
         "sass": "1.77.6",
