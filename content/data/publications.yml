@@ -2475,7 +2475,7 @@ publications:
 
 - key: 2026-counterfactuals-extended
   bibtex: btwd2026-counterfactuals-extended.bib
-  date: '2026-06-01'
+  date: '2026-10-30'
   title: >-
     An Approach and Evaluation of Visual Counterfactual Explanations Using Semantic Parts Metadata
   authors:
@@ -2483,8 +2483,10 @@ publications:
     - Tim Barz-Cech
     - Willy Scheibel
     - Jürgen Döllner
-  published: Preprint
-  articletype: Journal Article
+  published:
+    - venue: Machine Learning (cs.LG); Human-Computer Interaction (cs.HC)
+      publisher: arXiv CoRR
+  articletype: Preprint
   pending: true
   caption: >-
     Counterfactual explanations are widely used to explain black-box models,
@@ -3596,3 +3598,49 @@ publications:
   thumbnail: publications/2026-vinci-change-identification.png
   downloads:
     - desc: Publisher Record
+
+
+
+- key: wpsd2027-probing-surveillance-semantics
+  bibtex: wpsd2027-probing-surveillance-semantics.bib
+  title: >-
+    Probing Surveillance Semantics in Vision and Multimodal Language Representations
+  date: '2027-04-15'
+  authors:
+    - Jobin Idiculla Wattasseril
+    - Kirill Postnov
+    - Willy Scheibel
+    - Jürgen Döllner
+  published:
+    - venue: 2027 Computer Vision Conference
+      short: CVC '27
+      publisher: Springer
+  articletype: Full Paper
+  pending: true
+  caption: >-
+    Image and video representations support many surveillance applications,
+    yet their usefulness depends on which semantic properties can be recovered
+    from them. We study this question using a benchmark of 7,726 person-centric
+    video tracklets for 16 attributes, using an automated pipeline combining
+    person tracking, identity-switch filtering, and annotation by an ensemble
+    of multimodal language models, with human evaluation on small validation
+    subsets. Frozen representations from 10 visual and vision-language encoder
+    configurations and 16 multimodal language models are evaluated using linear,
+    multilayer perceptron, and nearest-neighbor probes. The analysis examines
+    attribute accessibility, impact of input modality, model scale, intermediate
+    layers and token pooling, comparison with zero-shot question answering, and
+    transfer to unseen source datasets. Joint multimodal representations
+    generally yield higher mean and maximum per-model peak probing scores than
+    standalone encoders, although this advantage is not consistent for minimum
+    peak scores. Learned probes outperform nearest-neighbor classification, while
+    model size shows no consistent relationship with probing performance.
+    Supervised probing usually exceeds zero-shot question answering, but both
+    model categories lose performance under cross-dataset evaluation. These
+    findings support the use of frozen representations for attribute prediction
+    while identifying limits associated with annotation noise, class imbalance,
+    and source-dependent correlations. Code for replicating our experiments is
+    available as open-source software at https://zenodo.org/records/23078217 .
+  thumbnail: publications/2027-cvc-probing-surveillance-semantics.png
+  downloads:
+    - desc: Publisher Record
+    - desc: Author Version
