@@ -3432,7 +3432,7 @@ publications:
   articletype: Full Paper
   note: Best Paper Award
   highlight: true
-  pending: true
+  doi: 10.23919/IVCPS00113.2026.00021
   caption: >-
     Interpreting high-dimensional feature spaces remains challenging when analysts need direct access to
     semantically meaningful dimensions rather than transformed projections. We present analytical magnets,
@@ -3448,6 +3448,7 @@ publications:
   thumbnail: publications/2026-iv-analytical-magnets.png
   downloads:
     - desc: Publisher Record
+      href: https://doi.org/10.23919/IVCPS00113.2026.00021
     - desc: Author Version
 
 
