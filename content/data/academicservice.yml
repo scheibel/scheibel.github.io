@@ -32,6 +32,7 @@ services:
   since: 2023
   logo: logos/eg_logo.png
   projects:
+  - European Conference on Computer Graphics (EuroGraphics)
   - European Conference on Visualization (EuroVis)
   - International EuroVis Workshop on Visual Analytics (EuroVA)
   - Computer Graphics Forum (CGF)

@@ -100,3 +100,9 @@ talks:
   title: 'VisCom: Communication-Aware Graph Layout and Visual Abstraction for Message-Passing Communication Networks'
   location: 'EuroVis 2026, Nottingham, UK'
   downloads: []
+- date: '2026-11-12 00:00:00'
+  title: Grafiken programmieren – Mit Mathematik zu Millionen Pixeln
+  location: 'Marie-Curie-Tag, Marie-Curie-Gymnasium'
+  downloads:
+    - href: 'https://github.com/scheibel/million-pixel-orchestra'
+      desc: Workshop Materials (GitHub)

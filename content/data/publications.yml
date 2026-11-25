@@ -3428,7 +3428,7 @@ publications:
   published:
     - venue: 30th International Conference on Information Visualisation
       short: iV '26
-      publisher: IEEE
+      publisher: GraphicsLink
   articletype: Full Paper
   note: Best Paper Award
   highlight: true
